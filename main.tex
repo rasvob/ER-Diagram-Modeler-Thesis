@@ -1,10 +1,8 @@
 % Nejprve uvedeme tridu dokumentu s volbami
 \documentclass[czech,bachelor,public,dept460,male,oneside]{diploma}
-% Dalsi doplnujici baliky maker
 \usepackage{subfig}		% makra pro "podobrazky" a "podtabulky"
 
 
-% Zadame pozadovane vstupy pro generovani titulnich stran.
 \ThesisAuthor{Radek Svoboda}
 
 \CzechThesisTitle{Nástroj pro modelování relační databáze}
@@ -13,11 +11,8 @@
 
 \SubmissionDate{28. dubna 2017}
 
-% Pokud nechceme nikomu dekovat makro zapoznamkujeme.
 \Thanks{Rád bych na tomto místě poděkoval vedoucímu mé bakalářské práce Ing. Petru Lukášovi za poskytnuté rady a čas strávený konzultacemi.}
 
-% Zadame cestu a jmeno souboru ci nekolika souboru s digitalizovanou podobou zadani prace.
-% Pokud toto makro zapoznamkujeme sazi se stranka s upozornenim.
 \ThesisAssignmentImagePath{Figures/Assignment}
 
 % Zadame soubor s digitalizovanou podobou prohlaseni autora zaverecne prace.
@@ -26,13 +21,13 @@
 %\AuthorDeclarationImageFile{Figures/AuthorDeclaration.jpg}
 
 
-\CzechAbstract{Tato bakalářská práce se zabývá návrhem a implementací softwarového nástroje pro návrh schématu relační databáze formou E-R diagramu. Nástroj umožní uživateli nejen tvorbu nových schémat databáze, ale také vizualizaci již existujících schémat a jejich následné modifikace prostřednictvím změn E-R diagramu v grafickém editoru. V první části se práce zabývá notací E-R diagramu a srovnáním již existujících nástrojů určených k tvorbě E-R diagramů. Druhá část se zaměřuje na návrh a implementaci jak grafického editoru, tak na problematiku synchronizace E-R diagramu s existujícím relačním schématem.}
+\CzechAbstract{Tato bakalářská práce se zabývá návrhem a implementací softwarového nástroje pro návrh schématu relační databáze formou ER diagramu. Nástroj umožní uživateli nejen tvorbu nových schémat databáze, ale také vizualizaci již existujících schémat a jejich následné modifikace prostřednictvím změn ER diagramu v grafickém editoru. V první části se práce zabývá notací ER diagramu a srovnáním již existujících nástrojů určených k tvorbě ER diagramů. Druhá část se zaměřuje na návrh a implementaci jak grafického editoru, tak na problematiku synchronizace ER diagramu s existujícím relačním schématem.}
 
-\CzechKeywords{relační databáze, E-R diagram, relační schéma, CASE nástroj}
+\CzechKeywords{relační databáze, ER diagram, relační schéma, CASE nástroj}
 
-\EnglishAbstract{This thesis describes design and implementation of software tool for relational database schema design in form of an E-R diagram. Tool is not limited only for creation of new database schemas, but it also provides visualization of already existing schemas and their subsequent modifications through changing E-R diagram in graphic editor. The first part deals with E-R diagram notation and the comparison of existing tools for the creation of E-R diagrams. The second part focuses on the design and implementation of both the graphical editor, and on the synchronization of E-R diagram with existing relational schema.}
+\EnglishAbstract{This thesis describes design and implementation of software tool for relational database schema design in form of an ER diagram. Tool is not limited only for creation of new database schemas, but it also provides visualization of already existing schemas and their subsequent modifications through changing ER diagram in graphic editor. The first part deals with ER diagram notation and the comparison of existing tools for the creation of ER diagrams. The second part focuses on the design and implementation of both the graphical editor, and on the synchronization of ER diagram with existing relational schema.}
 
-\EnglishKeywords{relational database, E-R diagram, relational schema, CASE tool}
+\EnglishKeywords{relational database, ER diagram, relational schema, CASE tool}
 
 \AddAcronym{SQL}{Structured Query Language}
 \AddAcronym{DDL}{Data Definition Language}
@@ -41,39 +36,41 @@
 \AddAcronym{DBMS}{Database Management System}
 
 
-% Zacatek dokumentu
 \begin{document}
 
-% Nechame vysazet titulni strany.
 \MakeTitlePages
 
 % Pokud mame v zaverecne praci vypisy kodu, jinak odstranit.
 \lstlistoflistings
 
-% A nasleduje text zaverecne prace.
 \section{Úvod}
-Strukturované uložení dat je dnes jednou ze základních potřeb většiny vyvíjených aplikací. S rostoucím množstvím uchovávaných dat a potřebou jejich analýzy už dávno není dostačující prosté uložení do souboru. Na tyto potřeby reagují, dnes ve velké míře používané, relační databáze. Před samotným uložením dat je nutné definovat jejich strukturu, konkrétně relační model. Dnešní svět se velmi rychle vyvíjí, tedy mění, a tyto změny často vyvolají potřebu upravit datový model tak, aby co nejlépe reflektoval modelovanou realitu. Právě pro tuto činnost jsou dnes stále častěji používané CASE nástroje, které umožňují, nejen, snadnou změnu datového modelu prostřednictvím grafického uživatelského rozhraní bez nutnosti psaní vlastních DDL skriptů.
+Strukturované uložení dat je dnes jednou ze základních potřeb většiny vyvíjených aplikací. S rostoucím množstvím uchovávaných dat a potřebou jejich analýzy už dávno není dostačující prosté uložení do souboru. Na tyto potřeby reagují, dnes ve velké míře používané, relační databáze. Před samotným uložením dat je nutné definovat jejich strukturu, konkrétně relační model. Dnešní svět se velmi rychle vyvíjí, tedy mění, a tyto změny často vyvolají potřebu upravit datový model tak, aby co nejlépe reflektoval modelovanou realitu. Právě pro tuto činnost jsou dnes stále častěji používané CASE~nástroje, které umožňují, nejen, snadnou změnu datového modelu prostřednictvím grafického uživatelského rozhraní bez nutnosti psaní vlastních DDL skriptů.
 
-Vyvíjená aplikace slouží pro návrh a aktualizace schématu relační databáze, konkrétně podporuje DBMS Microsoft SQL Server a Oracle Database, z toho důvodu je první kapitola věnována popisu notace E-R diagramu, který se používá pro vizualizaci vztahů mezi entitami v relačním schématu nejčastěji. Další kapitola se zaměřuje na srovnání možností již existujících nástrojů pro tvorbu E-R diagramu. V následující kapitole je popsán návrh a implementace grafického editoru E-R diagramu, včetně algoritmů pro vyhledávání cest při vizualizaci vztahů a porovnání jejich výkonosti. Poslední kapitola se zabývá synchronizací mezi E-R diagramem a relačním schématem, zejména spoluprací použitých návrhových vzorů pro dosažení požadované funkcionality pro oba, dříve zmíněné, systémy řízení báze dat.
+Vyvíjená aplikace slouží pro návrh a aktualizace schématu relační databáze, konkrétně podporuje DBMS Microsoft SQL~Server a Oracle~Database, z toho důvodu je první kapitola věnována popisu notace ER diagramu, který se používá pro vizualizaci vztahů mezi entitami v relačním schématu nejčastěji. Další kapitola se zaměřuje na srovnání možností již existujících nástrojů pro tvorbu ER diagramu. V následující kapitole je popsán návrh a implementace grafického editoru ER diagramu, včetně algoritmů pro vyhledávání cest při vizualizaci vztahů a porovnání jejich výkonosti. Poslední kapitola se zabývá synchronizací mezi ER diagramem a relačním schématem, zejména spoluprací použitých návrhových vzorů pro dosažení požadované funkcionality pro oba, dříve zmíněné, systémy řízení báze dat.
 
-\section{Popis notace E-R diagramu}
+% Zdroje:
+% https://www.lucidchart.com/pages/er-diagrams
+% http://dbedu.cs.vsb.cz/SubPages/OpenFile.aspx?file=book/dbcb.pdf
+\section{Popis notace ER diagramu}
 
 \section{Popis a srovnání stávajících CASE nástrojů pro modelování relačních databází}
 
-\section{Návrh a implementace grafického editoru E-R diagramů}
+\section{Návrh a implementace grafického editoru ER diagramů}
 
-\section{Návrh a implementace synchronizace E-R diagramů s relačním schématem}
+\section{Návrh a implementace synchronizace ER diagramů s relačním schématem}
 
 \section{Závěr}
 
 \newpage
 
+% TODO: Dopsat zdroje - vždy nad kapitolou
 \begin{thebibliography}{99}
 	\bibitem{ferda} Ferda Marvenec: Kdesi cosi.
 \end{thebibliography}
 
 
 \appendix
+% TODO: Linky na knihovny z GitHubu
 \section{Použité knihovny třetích stran}
 \begin{itemize}
 	\item MetroLib
