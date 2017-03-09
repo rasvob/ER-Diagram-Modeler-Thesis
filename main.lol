@@ -1,2 +1,2 @@
-\contentsline {lstlisting}{\numberline {1}Program Hello world v jazyce C++}{23}{lstlisting.1}
-\contentsline {lstlisting}{\numberline {2}Program Hello world v jazyce Pascal}{23}{lstlisting.2}
+\contentsline {lstlisting}{\numberline {1}Program Hello world v jazyce C++}{21}{lstlisting.1}
+\contentsline {lstlisting}{\numberline {2}Program Hello world v jazyce Pascal}{21}{lstlisting.2}
