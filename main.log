@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  9 MAR 2017 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  9 MAR 2017 20:05
 entering extended mode
 **./main.tex
 (main.tex
@@ -1674,36 +1674,36 @@ Package pdftex.def Info: Figures/Assignment1.jpg used on input line 41.
 ] [12
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 77.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 79.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 77.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 79.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 77.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 79.
  [13
 
 ] [14
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
  [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
 (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2E497351C70AA9DC16B50568AD03AAE4;2318.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
  16676 strings out of 493333
@@ -1720,7 +1720,7 @@ bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy10.pfb>
-Output written on main.pdf (15 pages, 853534 bytes).
+Output written on main.pdf (15 pages, 853766 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
