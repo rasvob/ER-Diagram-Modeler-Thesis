@@ -11,8 +11,8 @@
 \contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru E-R diagram\IeC {\r u}}{19}{section.4}
 \contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace E-R diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{19}{section.5}
 \contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{19}{section.6}
-\contentsline {section}{Literatura}{19}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{19}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{21}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{23}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{25}{appendix.C}
+\contentsline {section}{Literatura}{21}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{21}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{23}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{25}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{27}{appendix.C}
