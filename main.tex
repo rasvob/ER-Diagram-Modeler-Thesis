@@ -53,14 +53,18 @@ Vyvíjená aplikace slouží pro návrh a aktualizace schématu relační datab�
 % https://www.lucidchart.com/pages/er-diagrams
 % http://dbedu.cs.vsb.cz/SubPages/OpenFile.aspx?file=book/dbcb.pdf
 % https://en.wikipedia.org/wiki/Data_structure_diagram
+% https://en.wikipedia.org/wiki/Data_dictionary
 \section{Popis notace ER diagramu}
 V kontextu relačních databázi jsou ER diagramy nejběžnějším způsobem vizualizace entit vyskytujících se v databázi a jejich vzájemných vztahů. V průběhu let vznikla celá řada notací, které se liší nejčastěji použitými grafickými symboly pro znázornění jak entit, tak kardinality a povinnosti vztahů.
 
 Dodnes nepředstavuje žádná z notací standard v oblasti modelování databází, což je nejvíce patrné na celé řadě CASE nástrojů, které používají mnohdy svou vlastní notaci či dokonce kombinaci symbolů z několika různých notací.
 
 	\subsection{Historie}
-	Za předchůdce ER diagramu jsou považovány diagramy datových struktur (DSD), které rovněž slouží k zachycení entit, vztahů mezi nimi včetně vztažených omezení. 
+	Za předchůdce ER diagramu jsou považovány diagramy datových struktur (DSD), které rovněž slouží k zachycení entit, vztahů mezi nimi včetně vztažených omezení. Cílem DSD je graficky znázornit dekompozici složitých entit na jednotlivé elementy, k zachycení struktury dat se předpokládalo použití tzv. datových slovníků, které se dají zjednodušeně popsat jako množiny tabulek obsahující metadata, z tohoto principu vychází i systémové katalogy moderních DBMS.
 	
+	Největším rozdílem mezi DSD a ERD, opomineme-li grafickou podobu, je fakt, že DSD se zaměřuje na vztahy mezi jednotlivými elementy entit, zatímco ERD řeší vztahy mezi samotnými entitami.
+	
+	Speciálním typem DSD je Bachmanův diagram, který slouží k vytvoření relačního datového modelu bez ohledu na způsob fyzického uložení dat v systému. Tento diagram měl patrně největší vliv na pozdější vznik ER diagramu, který publikoval Peter Chen roku 1976.
 	\subsection{Využití ER diagramu}
 	
 	\subsection{Prvky ER diagramu}
