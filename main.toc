@@ -13,14 +13,6 @@
 \contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru E-R diagram\IeC {\r u}}{23}{section.4}
 \contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace E-R diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{23}{section.5}
 \contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{23}{section.6}
-\contentsline {section}{\numberline {7}Anal\IeC {\'y}za probl\IeC {\'e}mu}{23}{section.7}
-\contentsline {subsection}{\numberline {7.1}D\IeC {\r u}le\IeC {\v z}it\IeC {\'\i } sezonn\IeC {\'\i } za \IeC {\'u}sp\IeC {\v e}ch}{24}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Bojovat v\IeC {\'y}hodu z\IeC {\'a}\IeC {\v r}iv\IeC {\v e} i Nobel}{26}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Hovoru s\IeC {\'a}gy d\IeC {\'a} nebyly}{26}{subsubsection.7.2.1}
-\contentsline {section}{\numberline {8}Pravideln\IeC {\'y}mi ovce dosavadn\IeC {\'\i }}{29}{section.8}
-\contentsline {subsection}{\numberline {8.1}T\IeC {\'y}mem nenavrt\IeC {\'a}vat vkusn\IeC {\'e} uhersk\IeC {\'e}}{29}{subsection.8.1}
-\contentsline {section}{\numberline {9}Z\IeC {\'a}v\IeC {\v e}r}{31}{section.9}
-\contentsline {section}{Literatura}{33}{section.9}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{33}{section.9}
-\contentsline {section}{\numberline {A}Pln\IeC {\'e} tkv\IeC {\'\i } drah pokles pr\IeC {\r u}b\IeC {\v e}hu}{35}{appendix.A}
-\contentsline {section}{\numberline {B}Pouze obr\IeC {\'a}zek}{37}{appendix.B}
+\contentsline {section}{Literatura}{23}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{23}{section.6}
+\contentsline {section}{\numberline {A}Pouze obr\IeC {\'a}zek}{25}{appendix.A}
