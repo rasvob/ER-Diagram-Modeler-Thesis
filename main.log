@@ -1724,8 +1724,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [11
 
  <./Figures/BachmanDiagram.jpg>] [12 <./Figures/ChenVsDSD.png>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 98.
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 98.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1775,7 +1778,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (21 pages, 984991 bytes).
+Output written on main.pdf (21 pages, 984998 bytes).
 PDF statistics:
  261 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)
