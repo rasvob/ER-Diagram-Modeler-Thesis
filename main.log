@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 17:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -1704,14 +1704,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] [10
 
 ]
-<Figures/BachmanDiagram.jpg, id=162, 829.0975pt x 408.52625pt>
+<Figures/BachmanDiagram.jpg, id=164, 829.0975pt x 408.52625pt>
 File: Figures/BachmanDiagram.jpg Graphic file (type jpg)
 
 <use Figures/BachmanDiagram.jpg>
 Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 68.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
 
-<Figures/ChenVsDSD.png, id=164, 381.67593pt x 277.78781pt>
+<Figures/ChenVsDSD.png, id=166, 381.67593pt x 277.78781pt>
 File: Figures/ChenVsDSD.png Graphic file (type png)
 
 <use Figures/ChenVsDSD.png>
@@ -1732,14 +1732,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 99.
 
-<Figures/ChenEntities.png, id=176, 373.395pt x 91.84312pt>
+<Figures/ChenEntities.png, id=178, 373.395pt x 91.84312pt>
 File: Figures/ChenEntities.png Graphic file (type png)
 
 <use Figures/ChenEntities.png>
 Package pdftex.def Info: Figures/ChenEntities.png used on input line 108.
 (pdftex.def)             Requested size: 295.90588pt x 72.78648pt.
  [13 <./Figures/ChenEntities.png>]
-<Figures/TernaryRelationship.png, id=187, 569.87906pt x 289.83281pt>
+<Figures/TernaryRelationship.png, id=189, 569.87906pt x 289.83281pt>
 File: Figures/TernaryRelationship.png Graphic file (type png)
 
 <use Figures/TernaryRelationship.png>
@@ -1762,17 +1762,17 @@ Package pdftex.def Info: Figures/TernaryRelationship.png used on input line 126
 ] [21
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
  [22
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 15273C3E94D6C207035CF6E2B1A21732;3199.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  ) 
 Here is how much of TeX's memory you used:
  16811 strings out of 493333
@@ -1790,9 +1790,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (22 pages, 1003371 bytes).
+Output written on main.pdf (22 pages, 1003882 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
+ 276 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
