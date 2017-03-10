@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 16:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -1710,24 +1710,35 @@ File: Figures/BachmanDiagram.jpg Graphic file (type jpg)
 <use Figures/BachmanDiagram.jpg>
 Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 68.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
- [11
 
- <./Figures/BachmanDiagram.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 91.
+<Figures/ChenVsDSD.png, id=160, 381.67593pt x 277.78781pt>
+File: Figures/ChenVsDSD.png Graphic file (type png)
+
+<use Figures/ChenVsDSD.png>
+Package pdftex.def Info: Figures/ChenVsDSD.png used on input line 78.
+(pdftex.def)             Requested size: 341.43307pt x 248.51044pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11
+
+ <./Figures/BachmanDiagram.jpg>] [12 <./Figures/ChenVsDSD.png>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 98.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 91.
- [12] [13] [14
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 98.
+ [13] [14
 
 ] [15
 
-]
-[16
+] [16
 
-] [17
+]
+[17
 
 ] [18
 
@@ -1736,23 +1747,23 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 ] [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
  [21
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 15273C3E94D6C207035CF6E2B1A21732;3199.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 16790 strings out of 493333
- 235769 string characters out of 3139195
- 344688 words of memory out of 3000000
- 20013 multiletter control sequences out of 15000+200000
+ 16796 strings out of 493333
+ 235901 string characters out of 3139195
+ 343688 words of memory out of 3000000
+ 20017 multiletter control sequences out of 15000+200000
  49083 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,50p,897b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1764,9 +1775,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (21 pages, 965334 bytes).
+Output written on main.pdf (21 pages, 984716 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

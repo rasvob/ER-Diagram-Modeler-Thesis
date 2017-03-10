@@ -10,8 +10,8 @@
 \contentsline {section}{\numberline {2}Popis notace ER diagramu}{11}{section.2}
 \contentsline {subsection}{\numberline {2.1}Historie}{11}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Vyu\IeC {\v z}it\IeC {\'\i } ER diagramu}{12}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Prvky ER diagramu}{12}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Entitn\IeC {\'\i } typ}{12}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3}Prvky ER diagramu}{13}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Entitn\IeC {\'\i } typ}{13}{subsubsection.2.3.1}
 \contentsline {subsection}{\numberline {2.4}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{13}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{13}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}D\IeC {\v e}di\IeC {\v c}nost}{13}{subsection.2.6}
