@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 21:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -1739,12 +1739,12 @@ File: Figures/ChenEntities.png Graphic file (type png)
 Package pdftex.def Info: Figures/ChenEntities.png used on input line 108.
 (pdftex.def)             Requested size: 295.90588pt x 72.78648pt.
  [13 <./Figures/ChenEntities.png>]
-<Figures/TernaryRelationship.png, id=193, 569.87906pt x 289.83281pt>
-File: Figures/TernaryRelationship.png Graphic file (type png)
+<Figures/TernaryRelationship2.jpg, id=193, 569.87906pt x 289.83281pt>
+File: Figures/TernaryRelationship2.jpg Graphic file (type jpg)
 
-<use Figures/TernaryRelationship.png>
-Package pdftex.def Info: Figures/TernaryRelationship.png used on input line 128
-.
+<use Figures/TernaryRelationship2.jpg>
+Package pdftex.def Info: Figures/TernaryRelationship2.jpg used on input line 12
+8.
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
 
 <Figures/ChenRelationships.png, id=194, 301.8778pt x 137.7647pt>
@@ -1753,8 +1753,8 @@ File: Figures/ChenRelationships.png Graphic file (type png)
 <use Figures/ChenRelationships.png>
 Package pdftex.def Info: Figures/ChenRelationships.png used on input line 136.
 (pdftex.def)             Requested size: 295.90588pt x 135.04pt.
- [14 <./Figures/TernaryRelationship.png> <./Figures/ChenRelationships.png>]
-<Figures/ChenAttr.png, id=201, 363.60844pt x 88.83188pt>
+ [14 <./Figures/TernaryRelationship2.jpg> <./Figures/ChenRelationships.png>]
+<Figures/ChenAttr.png, id=200, 363.60844pt x 88.83188pt>
 File: Figures/ChenAttr.png Graphic file (type png)
 
 <use Figures/ChenAttr.png>
@@ -1790,7 +1790,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
  16824 strings out of 493333
- 236581 string characters out of 3139195
+ 236586 string characters out of 3139195
  343688 words of memory out of 3000000
  20033 multiletter control sequences out of 15000+200000
  49083 words of font info for 37 fonts, out of 3000000 for 9000
@@ -1804,9 +1804,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (23 pages, 1025317 bytes).
+Output written on main.pdf (23 pages, 1050088 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
+ 287 PDF objects out of 1000 (max. 8388607)
  52 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
