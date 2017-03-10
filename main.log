@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 18:01
 entering extended mode
 **./main.tex
 (main.tex
@@ -1743,7 +1743,7 @@ Package pdftex.def Info: Figures/ChenEntities.png used on input line 108.
 File: Figures/TernaryRelationship.png Graphic file (type png)
 
 <use Figures/TernaryRelationship.png>
-Package pdftex.def Info: Figures/TernaryRelationship.png used on input line 126
+Package pdftex.def Info: Figures/TernaryRelationship.png used on input line 129
 .
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
  [14 <./Figures/TernaryRelationship.png>]
@@ -1762,22 +1762,22 @@ Package pdftex.def Info: Figures/TernaryRelationship.png used on input line 126
 ] [21
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
  [22
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 15273C3E94D6C207035CF6E2B1A21732;3199.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
  16811 strings out of 493333
  236275 string characters out of 3139195
- 344688 words of memory out of 3000000
+ 343688 words of memory out of 3000000
  20025 multiletter control sequences out of 15000+200000
  49083 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1790,7 +1790,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (22 pages, 1012226 bytes).
+Output written on main.pdf (22 pages, 1012572 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
