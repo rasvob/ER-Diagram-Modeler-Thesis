@@ -75,7 +75,10 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\subsection{Využití ER diagramu}
 	Nejčastější použití ER diagramu představuje tvorba nových relačních schémat při návrhu databází, ale rozhodně se nejedná o jedinou oblast využití. Tvorba ER diagramu velmi často stojí na počátku vývoje mnoha informačních systému, protože relační databáze jsou obvykle primárním datovým zdrojem těchto systému pro uložení dat transakčního charakteru. 
 	
-	ER diagramy umožňují zachytit vztahy a omezení entit v problémové doméně, proto jsou používány nejen při návrhu datové vrstvy, ale i v dalších fázích softwarového procesu. Doménový model aplikace je často ovlivněn právě ER diagramem relační databáze, protože na základě jejich odlišností jsme schopni odhadnout trivialitu objektově-relačního mapování. Triviality tohoto mapování je často zásadní pro volbu vhodného návrhového vzoru pro implementaci vrstvy přístupu k datovému zdroji.
+	ER diagramy umožňují zachytit vztahy a omezení entit v problémové doméně, proto jsou používány nejen při návrhu datové vrstvy, ale i v dalších fázích softwarového procesu. Doménový model aplikace je často ovlivněn právě ER diagramem relační databáze, protože na základě jejich odlišností jsme schopni odhadnout trivialitu objektově-relačního mapování. Trivialita tohoto mapování je často zásadní pro volbu vhodného návrhového vzoru pro implementaci vrstvy přístupu k datovému zdroji.
+	
+	Dalším velmi častým použitím ER diagramu je vizualizace již existujících schémat databáze, protože právě grafické znázornění schématu je ideální pro snadné odhalení logických chyb, které mají za následek omezené možnosti aplikace, v některých případech i propady výkonu při netriviálních dotazech pro získání dat. 
+	Vizualizace existujících schémat nemusí být použitá pouze pro odhalení chyb, ale také při situaci, kdy došlo ke změně některých business procesu. Tyto změny často vyvolají nutnost přizpůsobit relační model změnám, ER diagram je tedy vhodný prostředek nejen k analýze stávajícího schématu pro návrh změn, ale také pro provádění těchto změn použitím CASE nástrojů.
 	
 	\subsection{Prvky ER diagramu}
 	
