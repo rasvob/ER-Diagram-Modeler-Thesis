@@ -177,8 +177,28 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	Označení atributů lze kombinovat, např. \textit{jednohodnotový odvozený atribut}
 	
 	\subsection{Kategorie modelů}
-	Podle úrovně abstrakce rozlišujeme tři typy datových modelů, které využíváme při návrhu databázového schématu. Nejvyšší úroveň abstrakce nabízí konceptuální model, který zachycuje pouze entity a vztahy mezi nimi, je nejméně detailní. Více detailů nabízí logický model, poskytuje nižší úroveň abstrakce, ale stále je nezávislý na použitém DMBS. Posledním typem je fyzický model, ten vychází z logického modelu, nicméně se může v mnoha ohledech lišit, protože jeho cílem je obsáhnout dostatečný počet technických detailů pro implementaci databáze. 
-	Rozdíly mezi logickým a fyzickým modelem způsobuje fakt, že fyzický model je vytvářen s ohledem na konkrétní použitou technologii, proto i v případě, že zvolíme relační databázi, se mohou pro různé DMBS fyzické modely více či méně lišit.
+	Podle úrovně abstrakce rozlišujeme tři typy datových modelů, které využíváme při návrhu databázového schématu. Nejvyšší úroveň abstrakce nabízí konceptuální model, který zachycuje pouze entity a vztahy mezi nimi, je nejméně detailní. Více detailů nabízí logický model, poskytuje nižší úroveň abstrakce, ale stále je nezávislý na použitém DMBS. Posledním typem je fyzický model, ten vychází z logického modelu, nicméně se může v mnoha ohledech lišit, protože jeho cílem je obsáhnout dostatečný počet technických detailů pro implementaci databáze. Rozdíly mezi logickým a fyzickým modelem způsobuje fakt, že fyzický model je vytvářen s ohledem na konkrétní použitou technologii, proto i v případě, že zvolíme relační databázi, se mohou pro různé DMBS fyzické modely více či méně lišit. Přehledné shrnutí rozdílů mezi modely nabízí tabulka \ref{tab:modelTypes}
+	
+	\begin{table}[!h]
+		\centering
+		\caption{Rozdíly mezi modely}
+		\label{tab:modelTypes}
+		\begin{tabular}{c c c c}
+			\toprule
+			Modelovaná vlastnost & Konceptuální & Logický & Fyzický \\
+			\midrule
+			Názvy entit \\
+			Vztahy \\
+			Atributy \\
+			Primární klíče \\
+			Cizí klíče \\
+			Názvy tabulek \\
+			Názvy sloupců \\
+			Datové typy sloupců \\
+			\midrule
+		\end{tabular}
+		
+	\end{table}
 	
 	\subsection{Rozdíly notací}
 	Stejně jako se vyvíjely....
