@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 16:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -1704,14 +1704,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] [10
 
 ]
-<Figures/BachmanDiagram.jpg, id=158, 829.0975pt x 408.52625pt>
+<Figures/BachmanDiagram.jpg, id=160, 829.0975pt x 408.52625pt>
 File: Figures/BachmanDiagram.jpg Graphic file (type jpg)
 
 <use Figures/BachmanDiagram.jpg>
 Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 68.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
 
-<Figures/ChenVsDSD.png, id=160, 381.67593pt x 277.78781pt>
+<Figures/ChenVsDSD.png, id=162, 381.67593pt x 277.78781pt>
 File: Figures/ChenVsDSD.png Graphic file (type png)
 
 <use Figures/ChenVsDSD.png>
@@ -1775,9 +1775,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (21 pages, 984716 bytes).
+Output written on main.pdf (21 pages, 984995 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
+ 261 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
