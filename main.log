@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  10 MAR 2017 16:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -1754,21 +1754,21 @@ Package pdftex.def Info: Figures/ChenEntities.png used on input line 108.
 ] [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
  [21
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 15273C3E94D6C207035CF6E2B1A21732;3199.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 16802 strings out of 493333
- 236048 string characters out of 3139195
+ 16804 strings out of 493333
+ 236086 string characters out of 3139195
  343688 words of memory out of 3000000
  20021 multiletter control sequences out of 15000+200000
  49083 words of font info for 37 fonts, out of 3000000 for 9000
@@ -1782,9 +1782,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (21 pages, 991692 bytes).
+Output written on main.pdf (21 pages, 992088 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
