@@ -1777,17 +1777,17 @@ Package pdftex.def Info: Figures/ChenAttr.png used on input line 173.
 ] [23
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
  [24
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7C7AE1415AE0F358B5C54754492CFFD8;3341.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
  16827 strings out of 493333
@@ -1805,7 +1805,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (24 pages, 1047644 bytes).
+Output written on main.pdf (24 pages, 1052962 bytes).
 PDF statistics:
  296 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
