@@ -110,6 +110,22 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\end{figure}
 
 	\subsubsection{Vztah}
+	Vztah slouží k vyjádření asociace mezi entitními typy, obecně vyjadřují informace, které nelze vyjádřit pouhými entitními typy, např. student \textit{studuje} předmět, novinář \textit{napsal} článek. Označuje se slovesem.
+	
+	Vztahy dělíme podle počtu entit, které se v nich vyskytují na vztahy:
+	
+	\begin{itemize}
+		\item \textbf{Unární} - ve vztahu vystupuje pouze jedna entita, ta je ve vztahu sama se sebou, např. zaměstnanec \textit{je nadřízeným} jiného zaměstnance
+		\item \textbf{Binární} - vztah mezi dvěma entitami, např. zaměstnanec \textit{je vedoucím} oddělení
+		\item \textbf{Ternární} - vztah mezi třemi entitami najednou, např. učitel \textit{doporučuje} knihu třídě
+		\item \textbf{N-ární} - vztah mezi \textit{n} entitami zároveň
+	\end{itemize}
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.65\textwidth]{Figures/TernaryRelationship}
+		\caption{Příklad ternárního vztahu}
+	\end{figure}
 	
 	\subsubsection{Atribut}
 	
