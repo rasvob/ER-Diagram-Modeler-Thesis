@@ -55,6 +55,7 @@ Vyvíjená aplikace slouží pro návrh a aktualizace schématu relační datab�
 % https://en.wikipedia.org/wiki/Data_structure_diagram
 % https://en.wikipedia.org/wiki/Data_dictionary
 % https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning
+% http://www.cci.drexel.edu/faculty/song/publications/p_Jcse-erd.PDF
 \section{Popis notace ER diagramu}
 V kontextu relačních databázi jsou ER diagramy nejběžnějším způsobem vizualizace entit vyskytujících se v databázi a jejich vzájemných vztahů. V průběhu let vznikla celá řada notací, které se liší nejčastěji použitými grafickými symboly pro znázornění jak entit, tak kardinality a povinnosti vztahů.
 
@@ -175,7 +176,11 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	
 	Označení atributů lze kombinovat, např. \textit{jednohodnotový odvozený atribut}
 	
+	\subsection{Kategorie modelů}
+	Podle úrovně abstrakce rozlišujeme tři typy datových modelů, které využíváme při návrhu databázového schématu. Nejvyšší úroveň abstrakce nabízí konceptuální model, který zachycuje pouze entity a vztahy mezi nimi, je nejméně detailní. Více detailů nabízí logický model, poskytuje nižší úroveň abstrakce, ale stále je nezávislý na použitém DMBS. Posledním typem je fyzický model, ten vychází z logického modelu, nicméně se může v mnoha ohledech lišit, protože jeho cílem je obsáhnout dostatečný počet technických detailů pro implementaci databáze. Rozdíly mezi logickým a fyzickým modelem způsobuje fakt, že fyzický model je vytvářen s ohledem na konkrétní použitou technologii, proto i v případě, že zvolíme relační databázi, se mohou pro různé DMBS fyzické modely více či méně lišit.
+	
 	\subsection{Rozdíly notací}
+	Stejně jako se vyvíjely....
 	
 	\subsection{Nejčastěji používané notace} % TODO: Obrázky notací
 	

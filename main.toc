@@ -14,17 +14,18 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Entitn\IeC {\'\i } typ}{13}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Vztah}{13}{subsubsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3}Atribut}{15}{subsubsection.2.3.3}
-\contentsline {subsection}{\numberline {2.4}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{15}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{15}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}D\IeC {\v e}di\IeC {\v c}nost}{15}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Omezen\IeC {\'\i } ER diagramu}{15}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Shrnut\IeC {\'\i }}{15}{subsection.2.8}
-\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{16}{section.3}
-\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{17}{section.4}
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{18}{section.5}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{19}{section.6}
-\contentsline {section}{Literatura}{20}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{20}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{21}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{22}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{23}{appendix.C}
+\contentsline {subsection}{\numberline {2.4}Kategorie model\IeC {\r u}}{15}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{16}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{16}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}D\IeC {\v e}di\IeC {\v c}nost}{16}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Omezen\IeC {\'\i } ER diagramu}{16}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{16}{subsection.2.9}
+\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{17}{section.3}
+\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{18}{section.4}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{19}{section.5}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{20}{section.6}
+\contentsline {section}{Literatura}{21}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{21}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{22}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{23}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{24}{appendix.C}
