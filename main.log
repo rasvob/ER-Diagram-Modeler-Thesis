@@ -1712,27 +1712,26 @@ Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 70.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
  [11
 
- <./Figures/BachmanDiagram.jpg>] [12]
-[13] [14
-
-] [15
-
-] [16
-
-] [17
-
-] [18
-
-]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 133.
-
+ <./Figures/BachmanDiagram.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 92.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 133.
- [19
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 92.
+ [12] [13] [14
+
+] [15
+
+]
+[16
+
+] [17
+
+] [18
+
+] [19
 
 ] [20
 
@@ -1750,24 +1749,24 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 16793 strings out of 493333
- 235791 string characters out of 3139195
+ 16790 strings out of 493333
+ 235769 string characters out of 3139195
  344688 words of memory out of 3000000
- 20014 multiletter control sequences out of 15000+200000
+ 20013 multiletter control sequences out of 15000+200000
  49083 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,50p,897b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on main.pdf (21 pages, 965460 bytes).
+Output written on main.pdf (21 pages, 965315 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
