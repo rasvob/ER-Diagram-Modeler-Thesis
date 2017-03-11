@@ -72,7 +72,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/BachmanDiagram}
-		\caption{Bachmanův diagram}
+		\caption{Bachmanův diagram \cite{wikiDsd}}
 	\end{figure}
 	
 	Speciálním typem DSD je Bachmanův diagram, který slouží k vytvoření relačního datového modelu bez ohledu na způsob fyzického uložení dat v systému. Tento diagram měl patrně největší vliv na pozdější vznik ER diagramu, který publikoval Peter Chen roku 1976 \cite{chenERD}.
@@ -82,7 +82,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/ChenVsDSD}
-		\caption{Srovnání DSD a ERD (Chenova notace) \\ a) Data structure diagram b) ER diagram}
+		\caption{Srovnání DSD a ERD (Chenova notace) \\ a) Data structure diagram b) ER diagram \cite{chenERD}}
 	\end{figure}
 	
 	\subsection{Využití ER diagramu}
@@ -112,7 +112,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.65\textwidth]{Figures/ChenEntities}
-		\caption{Znázornění entit podle Chenovy notace}
+		\caption{Znázornění entit podle Chenovy notace \cite{erdSymbols}}
 	\end{figure}
 
 	\subsubsection{Vztah}
@@ -140,7 +140,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.65\textwidth]{Figures/ChenRelationships}
-		\caption{Znázornění vztahů podle Chenovy notace}
+		\caption{Znázornění vztahů podle Chenovy notace \cite{erdSymbols}}
 	\end{figure}
 
 	Vztahy dále dělíme podle kardinality, která udává kolikrát může instance entitního typu být ve vztahu s instancí jiného entitního typu, pro binární typ vztahu  rozlišujeme následující typy kardinality:
@@ -176,7 +176,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.65\textwidth]{Figures/ChenAttr}
-		\caption{Znázornění atributů podle Chenovy notace}
+		\caption{Znázornění atributů podle Chenovy notace \cite{erdSymbols}}
 	\end{figure}
 	
 	Označení atributů lze kombinovat, např. \textit{jednohodnotový odvozený atribut}
@@ -229,9 +229,14 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	
 	Jednotlivé notace se neliší vyjádřením kardinality a povinnosti pouze graficky, případně textově, ale také tím, na které straně je informace vyjádřena. Rozlišujeme proto dva styly zápisu, první z nich se označuje jako look here, druhý jako look across \cite{compErNotations}. 
 	
-	Pokud modelujeme situaci, ve které jeden zaměstnanec pracuje v právě jednom oddělení a oddělení může mít několik zaměstnanců, v look across notaci zapíšeme 1 na stranu oddělení a N na stranu zaměstnance. Pro notaci look here tomu bude přesně naopak, tedy 1 zapíšeme na stranu zaměstnance a N na stranu oddělení. To, na které straně je vyjádřena kardinalita a povinnost nemusí být pro notaci jednotné, Chenova notace používá look across přístup pro vyjádření kardinality, ale povinnost vyjadřuje stylem look here.
+	Pokud modelujeme situaci, ve které jeden zaměstnanec pracuje v právě jednom oddělení a oddělení může mít několik zaměstnanců, v look across notaci zapíšeme 1 na stranu oddělení a N na stranu zaměstnance. Pro notaci look here tomu bude přesně naopak, tedy 1 zapíšeme na stranu zaměstnance a N na stranu oddělení. To, na které straně je vyjádřena kardinalita a povinnost nemusí být pro notaci jednotné, Chenova notace používá look across přístup pro vyjádření kardinality, ale povinnost vyjadřuje stylem look here, oproti tomu u notace Min-Max se obvykle dodržuje pouze jeden způsob pro kardinalitu i povinnost.
 	
 	\subsection{Nejčastěji používané notace} % TODO: Obrázky notací
+	Jak už bylo zmíněno, notací existuje celá řada. Jednotlivé notace se v mnoha směrech liší, v následující kapitole jsou vybrané notace popsány, včetně příkladu, kdy je modelovaná situace
+	
+	\subsubsection{Chenova notace}
+	\subsubsection{Crow's foot notace}
+	\subsubsection{Min-Max notace}
 	
 	\subsection{Dědičnost} %TODO: Zachycení dědičnosti v ER - vzory
 	
@@ -262,6 +267,9 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\bibitem{compErNotations} SONG, Il-Yeol, Mary EVANS a E.K. PARK. \textit{A Comparative Analysis of Entity-Relationship Diagrams} [online]. [cit. 2017-03-11]. Dostupné z: http://www.cci.drexel.edu/faculty/song/publications/p{\_}Jcse-erd.PDF
 	
 	\bibitem{bachmanDsd} BACHMAN, C. W. \textit{Data structure diagrams} [online]. [cit. 2017-03-11]. Dostupné z: http://www.minet.uni-jena.de/dbis/lehre/ws2005/dbs1/Bachman-DataStructureDiagrams.pdf
+	
+	\bibitem{wikiDsd} Data structure diagram. In: \textit{Wikipedia: the free encyclopedia} [online]. San Francisco (CA): Wikimedia Foundation, 2001- [cit. 2017-03-11]. Dostupné z: https://en.wikipedia.org/wiki/Data{\_}structure{\_}diagram
+	
 	
 	\bibitem{whatIsERD}Lucidchart. \textit{What is an Entity Relationship Diagram} [online]. [cit. 2017-03-10]. Dostupné z: https://www.lucidchart.com/pages/er-diagrams
 	
