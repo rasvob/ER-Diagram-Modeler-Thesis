@@ -23,18 +23,18 @@
 \contentsline {subsection}{\numberline {2.7}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{19}{subsection.2.7}
 \contentsline {subsubsection}{\numberline {2.7.1}Chenova notace}{19}{subsubsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.2}Bachmanova notace}{19}{subsubsection.2.7.2}
-\contentsline {subsubsection}{\numberline {2.7.3}Crow's foot notace}{19}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Min-Max notace}{19}{subsubsection.2.7.4}
-\contentsline {subsubsection}{\numberline {2.7.5}IDEF1X notace}{19}{subsubsection.2.7.5}
-\contentsline {subsection}{\numberline {2.8}D\IeC {\v e}di\IeC {\v c}nost}{19}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Omezen\IeC {\'\i } ER diagramu}{19}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}Shrnut\IeC {\'\i }}{19}{subsection.2.10}
-\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{20}{section.3}
-\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{21}{section.4}
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{22}{section.5}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{23}{section.6}
-\contentsline {section}{Literatura}{24}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{24}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{25}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{26}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{27}{appendix.C}
+\contentsline {subsubsection}{\numberline {2.7.3}Crow's foot notace}{20}{subsubsection.2.7.3}
+\contentsline {subsubsection}{\numberline {2.7.4}Min-Max notace}{20}{subsubsection.2.7.4}
+\contentsline {subsubsection}{\numberline {2.7.5}IDEF1X notace}{20}{subsubsection.2.7.5}
+\contentsline {subsection}{\numberline {2.8}D\IeC {\v e}di\IeC {\v c}nost}{20}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Omezen\IeC {\'\i } ER diagramu}{20}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Shrnut\IeC {\'\i }}{20}{subsection.2.10}
+\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{21}{section.3}
+\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{22}{section.4}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{23}{section.5}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{24}{section.6}
+\contentsline {section}{Literatura}{25}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{25}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{26}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{27}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{28}{appendix.C}
