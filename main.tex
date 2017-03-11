@@ -208,13 +208,15 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\subsection{Vývoj notací}
 	Stejně jako se vyvíjely potřeby návrhu datových modelů, vznikaly i nové notace ER diagramu. Cílem nově vznikající notací, zejména v průběhu 80-tých let, bylo odstranění některých problémů již existujících notací. 
 	
-	Zásadním mezníkem pro vývoj notací byl objektově orientovaný přístup k vývoji softwaru, na který se mnohé notace snažily reagovat. Tento trend způsobil rozšíření notací ER modelu o koncept generalizace/specializace a dědičnosti, tento typ modelu se označuje jako  Enhanced entity–relationship model (EER). Vlivem popularity objektově-relačních databází vznikly i notace umožňující v modelu zahrnout metody a operace entit.
+	Zásadním mezníkem pro vývoj notací byl objektově orientovaný přístup k vývoji softwaru, na který se mnohé notace snažily reagovat. Tento trend způsobil rozšíření notací ER modelu o koncept generalizace/specializace a dědičnosti, tento typ modelu se označuje jako  Enhanced entity–relationship model (EER). Vlivem popularity objektově-relačních databází vznikly i notace umožňující v modelu zahrnout metody a operace entit. Tento přístup je dnes k vidění v celé řadě CASE nástrojů, jako je např. MySQL Workbench.
 	
 	\subsection{Rozdíly notací}
 	Na první pohled mohou různé notace vyvolávat dojem, že nejvýraznějším rozdílem mezi nimi je grafické znázornění entit a vztahů, nicméně rozdílů je mnohem více a některé mohou mít vliv na výslednou podobu fyzického modelu databáze.
 	
 	\subsubsection{Binární a n-ární modely}
 	Nejzásadnějším rozdílem mezi notacemi je podpora n-árních modelů, z toho důvodů rozlišujeme dva typy modelů a to, binární a n-ární. Pro kategorii binárních modelů je typické, že každý objekt, který má alespoň jeden atribut je považován za entitu. Není tedy možné přiřadit atribut vztahu, jak je možné běžně vidět u Chenovy notace. Tento fakt je nejvíce patrný u vztahu M:N, kterému chceme přiřadit atribut, pro zaznamenání dalších informací. Přidání neklíčového atributu způsobí nutnost přidat do modelu asociační entitu pro tento vztah. 
+	
+	V případě n-árních modelů, 
 	
 	\subsection{Nejčastěji používané notace} % TODO: Obrázky notací
 	
