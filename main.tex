@@ -248,6 +248,11 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\subsubsection{Bachmanova notace}
 	Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace modeluje cizí klíče už na konceptuální úrovní, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdelníky, vztahy čárami. Vztahům není možné znázornit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu.
 	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.75\textwidth]{Figures/NotationExBachman}
+		\caption[Příklad Bachmanovy notace]{Příklad Bachmanovy notace \cite{whatIsERD}}
+	\end{figure}
 	
 	\subsubsection{Crow's foot notace}
 	
