@@ -1816,14 +1816,14 @@ Package pdftex.def Info: Figures/ChenAttr.png used on input line 178.
 ] [24
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
  [25
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1831,13 +1831,13 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F61F990720AA635D0F3F95BBFC38B0C4;3395
-(rerunfilecheck)             After:  8ACC5249C51BE12AFB0302CCDC34274B;3393.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+(rerunfilecheck)             Before: 8ACC5249C51BE12AFB0302CCDC34274B;3393
+(rerunfilecheck)             After:  2231F1EC209274F1719701DEA9F4C640;3468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
- 16997 strings out of 493333
- 239054 string characters out of 3139195
+ 16998 strings out of 493333
+ 239069 string characters out of 3139195
  347911 words of memory out of 3000000
  20170 multiletter control sequences out of 15000+200000
  51008 words of font info for 45 fonts, out of 3000000 for 9000
@@ -1851,9 +1851,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (25 pages, 1054476 bytes).
+Output written on main.pdf (25 pages, 1059814 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
