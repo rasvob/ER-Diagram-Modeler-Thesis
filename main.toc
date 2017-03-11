@@ -25,11 +25,11 @@
 \contentsline {subsubsection}{\numberline {2.7.2}Bachmanova notace}{19}{subsubsection.2.7.2}
 \contentsline {subsubsection}{\numberline {2.7.3}Crow's foot notace}{20}{subsubsection.2.7.3}
 \contentsline {subsubsection}{\numberline {2.7.4}Barkerova notace}{20}{subsubsection.2.7.4}
-\contentsline {subsubsection}{\numberline {2.7.5}Min-Max notace}{22}{subsubsection.2.7.5}
-\contentsline {subsubsection}{\numberline {2.7.6}IDEF1X notace}{22}{subsubsection.2.7.6}
-\contentsline {subsubsection}{\numberline {2.7.7}D\IeC {\v e}di\IeC {\v c}nost}{22}{subsubsection.2.7.7}
-\contentsline {subsection}{\numberline {2.8}Omezen\IeC {\'\i } ER diagramu}{22}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{22}{subsection.2.9}
+\contentsline {subsubsection}{\numberline {2.7.5}Min-Max notace}{21}{subsubsection.2.7.5}
+\contentsline {subsubsection}{\numberline {2.7.6}IDEF1X notace}{21}{subsubsection.2.7.6}
+\contentsline {subsubsection}{\numberline {2.7.7}D\IeC {\v e}di\IeC {\v c}nost}{21}{subsubsection.2.7.7}
+\contentsline {subsection}{\numberline {2.8}Omezen\IeC {\'\i } ER diagramu}{21}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{21}{subsection.2.9}
 \contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{23}{section.3}
 \contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{24}{section.4}
 \contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{25}{section.5}
