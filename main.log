@@ -1743,14 +1743,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [11
 
 ]
-<Figures/BachmanDiagram.jpg, id=188, 829.0975pt x 408.52625pt>
+<Figures/BachmanDiagram.jpg, id=190, 829.0975pt x 408.52625pt>
 File: Figures/BachmanDiagram.jpg Graphic file (type jpg)
 
 <use Figures/BachmanDiagram.jpg>
 Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 74.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
 
-<Figures/ChenVsDSD.png, id=192, 381.67593pt x 277.78781pt>
+<Figures/ChenVsDSD.png, id=194, 381.67593pt x 277.78781pt>
 File: Figures/ChenVsDSD.png Graphic file (type png)
 
 <use Figures/ChenVsDSD.png>
@@ -1772,14 +1772,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 107.
 
-<Figures/ChenEntities.png, id=213, 373.395pt x 91.84312pt>
+<Figures/ChenEntities.png, id=215, 373.395pt x 91.84312pt>
 File: Figures/ChenEntities.png Graphic file (type png)
 
 <use Figures/ChenEntities.png>
 Package pdftex.def Info: Figures/ChenEntities.png used on input line 116.
 (pdftex.def)             Requested size: 295.90588pt x 72.78648pt.
  [14 <./Figures/ChenEntities.png>]
-<Figures/TernaryRelationship2.jpg, id=226, 569.87906pt x 289.83281pt>
+<Figures/TernaryRelationship2.jpg, id=228, 569.87906pt x 289.83281pt>
 File: Figures/TernaryRelationship2.jpg Graphic file (type jpg)
 
 <use Figures/TernaryRelationship2.jpg>
@@ -1787,35 +1787,35 @@ Package pdftex.def Info: Figures/TernaryRelationship2.jpg used on input line 13
 6.
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
 
-<Figures/ChenRelationships.png, id=227, 301.8778pt x 137.7647pt>
+<Figures/ChenRelationships.png, id=229, 301.8778pt x 137.7647pt>
 File: Figures/ChenRelationships.png Graphic file (type png)
 
 <use Figures/ChenRelationships.png>
 Package pdftex.def Info: Figures/ChenRelationships.png used on input line 144.
 (pdftex.def)             Requested size: 295.90588pt x 135.04pt.
  [15 <./Figures/TernaryRelationship2.jpg> <./Figures/ChenRelationships.png>]
-<Figures/ChenAttr.png, id=235, 363.60844pt x 88.83188pt>
+<Figures/ChenAttr.png, id=237, 363.60844pt x 88.83188pt>
 File: Figures/ChenAttr.png Graphic file (type png)
 
 <use Figures/ChenAttr.png>
 Package pdftex.def Info: Figures/ChenAttr.png used on input line 180.
 (pdftex.def)             Requested size: 295.90588pt x 72.29364pt.
  [16 <./Figures/ChenAttr.png>] [17] [18]
-<Figures/NotationExChen.png, id=264, 470.50781pt x 87.32625pt>
+<Figures/NotationExChen.png, id=266, 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
 Package pdftex.def Info: Figures/NotationExChen.png used on input line 244.
 (pdftex.def)             Requested size: 341.43307pt x 63.37053pt.
 
-<Figures/NotationExBachman.png, id=267, 464.4853pt x 89.58469pt>
+<Figures/NotationExBachman.png, id=269, 464.4853pt x 89.58469pt>
 File: Figures/NotationExBachman.png Graphic file (type png)
 
 <use Figures/NotationExBachman.png>
 Package pdftex.def Info: Figures/NotationExBachman.png used on input line 253.
 (pdftex.def)             Requested size: 341.43307pt x 65.85283pt.
  [19 <./Figures/NotationExChen.png> <./Figures/NotationExBachman.png>]
-<Figures/NotationExCrow.png, id=280, 462.22687pt x 88.07906pt>
+<Figures/NotationExCrow.png, id=282, 462.22687pt x 88.07906pt>
 File: Figures/NotationExCrow.png Graphic file (type png)
 
 <use Figures/NotationExCrow.png>
@@ -1902,9 +1902,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9
 ic/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (28 pages, 1109444 bytes).
+Output written on main.pdf (28 pages, 1133942 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
+ 387 PDF objects out of 1000 (max. 8388607)
  78 named destinations out of 1000 (max. 500000)
  247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
