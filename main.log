@@ -1755,7 +1755,7 @@ File: Figures/ChenVsDSD.png Graphic file (type png)
 
 <use Figures/ChenVsDSD.png>
 Package pdftex.def Info: Figures/ChenVsDSD.png used on input line 84.
-(pdftex.def)             Requested size: 341.43307pt x 248.51044pt.
+(pdftex.def)             Requested size: 455.24411pt x 331.34724pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1779,7 +1779,7 @@ File: Figures/ChenEntities.png Graphic file (type png)
 Package pdftex.def Info: Figures/ChenEntities.png used on input line 116.
 (pdftex.def)             Requested size: 295.90588pt x 72.78648pt.
  [14 <./Figures/ChenEntities.png>]
-<Figures/TernaryRelationship2.jpg, id=227, 569.87906pt x 289.83281pt>
+<Figures/TernaryRelationship2.jpg, id=226, 569.87906pt x 289.83281pt>
 File: Figures/TernaryRelationship2.jpg Graphic file (type jpg)
 
 <use Figures/TernaryRelationship2.jpg>
@@ -1787,21 +1787,29 @@ Package pdftex.def Info: Figures/TernaryRelationship2.jpg used on input line 13
 6.
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
 
-<Figures/ChenRelationships.png, id=228, 301.8778pt x 137.7647pt>
+<Figures/ChenRelationships.png, id=227, 301.8778pt x 137.7647pt>
 File: Figures/ChenRelationships.png Graphic file (type png)
 
 <use Figures/ChenRelationships.png>
 Package pdftex.def Info: Figures/ChenRelationships.png used on input line 144.
 (pdftex.def)             Requested size: 295.90588pt x 135.04pt.
- [15 <./Figures/TernaryRelationship2.jpg> <./Figures/ChenRelationships.png>]
-<Figures/ChenAttr.png, id=236, 363.60844pt x 88.83188pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./Figures/TernaryRelationship2.jpg>]
+<Figures/ChenAttr.png, id=235, 363.60844pt x 88.83188pt>
 File: Figures/ChenAttr.png Graphic file (type png)
 
 <use Figures/ChenAttr.png>
 Package pdftex.def Info: Figures/ChenAttr.png used on input line 180.
 (pdftex.def)             Requested size: 295.90588pt x 72.29364pt.
- [16 <./Figures/ChenAttr.png>] [17] [18] [19]
-[20
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./Figures/ChenRelationships.png>] [17 <./Figures/ChenAttr.png>] [18]
+[19] [20
 
 ] [21
 
@@ -1867,7 +1875,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
 Here is how much of TeX's memory you used:
  17023 strings out of 493333
  239438 string characters out of 3139195
- 347069 words of memory out of 3000000
+ 346069 words of memory out of 3000000
  20180 multiletter control sequences out of 15000+200000
  54005 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1881,7 +1889,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9
 ic/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (27 pages, 1092587 bytes).
+Output written on main.pdf (27 pages, 1097803 bytes).
 PDF statistics:
  362 PDF objects out of 1000 (max. 8388607)
  71 named destinations out of 1000 (max. 500000)
