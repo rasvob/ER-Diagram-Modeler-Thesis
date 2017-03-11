@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  11 MAR 2017 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  11 MAR 2017 20:27
 entering extended mode
 **./main.tex
 (main.tex
@@ -1839,22 +1839,13 @@ File: Figures/NotationExBarker.png Graphic file (type png)
 
 <use Figures/NotationExBarker.png>
 Package pdftex.def Info: Figures/NotationExBarker.png used on input line 299.
-(pdftex.def)             Requested size: 455.45045pt x 94.10132pt.
-
-Overfull \hbox (7.50633pt too wide) in paragraph at lines 299--300
- [][] 
- []
-
+(pdftex.def)             Requested size: 136.57462pt x 28.21776pt.
 File: Figures/NotationExBarker.png Graphic file (type png)
-<use Figures/NotationExBarker.png>
+ <use Figures/NotationExBarker.png>
 Package pdftex.def Info: Figures/NotationExBarker.png used on input line 304.
-(pdftex.def)             Requested size: 455.45045pt x 94.10132pt.
-
-Overfull \hbox (7.50633pt too wide) in paragraph at lines 304--305
- [][] 
- []
-
-[21] [22
+(pdftex.def)             Requested size: 136.57462pt x 28.21776pt.
+ [21]
+[22
 
 ] [23
 
@@ -1941,7 +1932,7 @@ lic/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (29 pages, 1167300 bytes).
+Output written on main.pdf (29 pages, 1160910 bytes).
 PDF statistics:
  412 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
