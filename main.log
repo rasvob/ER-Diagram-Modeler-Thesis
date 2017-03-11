@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  11 MAR 2017 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  11 MAR 2017 17:36
 entering extended mode
 **./main.tex
 (main.tex
@@ -1757,7 +1757,7 @@ File: Figures/ChenVsDSD.png Graphic file (type png)
 Package pdftex.def Info: Figures/ChenVsDSD.png used on input line 84.
 (pdftex.def)             Requested size: 341.43307pt x 248.51044pt.
 
-Overfull \hbox (91.04742pt too wide) in paragraph at lines 84--87
+Overfull \hbox (113.81102pt too wide) in paragraph at lines 84--87
  [][][][] 
  []
 
@@ -1885,7 +1885,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9
 ic/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (27 pages, 1092644 bytes).
+Output written on main.pdf (27 pages, 1092344 bytes).
 PDF statistics:
  362 PDF objects out of 1000 (max. 8388607)
  71 named destinations out of 1000 (max. 500000)
