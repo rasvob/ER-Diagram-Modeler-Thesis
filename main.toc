@@ -16,8 +16,8 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Vztah}{14}{subsubsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3}Atribut}{16}{subsubsection.2.3.3}
 \contentsline {subsection}{\numberline {2.4}Kategorie model\IeC {\r u}}{16}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{17}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{17}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.5}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{17}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{17}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}D\IeC {\v e}di\IeC {\v c}nost}{17}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}Omezen\IeC {\'\i } ER diagramu}{17}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{17}{subsection.2.9}
