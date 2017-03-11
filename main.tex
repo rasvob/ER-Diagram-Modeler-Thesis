@@ -40,7 +40,7 @@
 \AddAcronym{DBMS}{Database Management System}
 \AddAcronym{DSD}{Data Structure Diagram}
 \AddAcronym{EER}{Enhanced Entity–Relationship Model}
-
+\AddAcronym{IDEF}{Integration Definition for Information Modeling}
 
 \begin{document}
 
@@ -55,12 +55,6 @@ Strukturované uložení dat je dnes jednou ze základních potřeb většiny vy
 Vyvíjená aplikace slouží pro návrh a aktualizace schématu relační databáze, konkrétně podporuje DBMS Microsoft SQL~Server a Oracle~Database, z toho důvodu je první kapitola věnována popisu notace ER diagramu, který se používá pro vizualizaci vztahů mezi entitami v relačním schématu nejčastěji. Další kapitola se zaměřuje na srovnání možností již existujících nástrojů pro tvorbu ER diagramu. V následující kapitole je popsán návrh a implementace grafického editoru ER diagramu, včetně algoritmů pro vyhledávání cest při vizualizaci vztahů a porovnání jejich výkonosti. Poslední kapitola se zabývá synchronizací mezi ER diagramem a relačním schématem, zejména spoluprací použitých návrhových vzorů pro dosažení požadované funkcionality pro oba, dříve zmíněné, systémy řízení báze dat.
 
 % Zdroje:
-% https://www.lucidchart.com/pages/er-diagrams
-% http://dbedu.cs.vsb.cz/SubPages/OpenFile.aspx?file=book/dbcb.pdf
-% https://en.wikipedia.org/wiki/Data_structure_diagram
-% https://en.wikipedia.org/wiki/Data_dictionary
-% https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning
-% http://www.cci.drexel.edu/faculty/song/publications/p_Jcse-erd.PDF
 \section{Popis notace ER diagramu}
 V kontextu relačních databázi jsou ER diagramy nejběžnějším způsobem vizualizace entit vyskytujících se v databázi a jejich vzájemných vztahů. V průběhu let vznikla celá řada notací, které se liší nejen použitými grafickými symboly pro znázornění jak entit, tak kardinality a povinnosti vztahů, ale i dalšími vlastnostmi.
 
@@ -319,6 +313,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\end{figure}
 	
 	\subsubsection{IDEF1X notace} \label{idef1x}
+	IDEF1X, Integration Definition for Information Modeling
 	
 	\subsubsection{Dědičnost} % možná se vynechá
 	
