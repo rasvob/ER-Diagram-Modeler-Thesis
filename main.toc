@@ -18,6 +18,7 @@
 \contentsline {subsection}{\numberline {2.4}Kategorie model\IeC {\r u}}{16}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}V\IeC {\'y}voj notac\IeC {\'\i }}{17}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{17}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Bin\IeC {\'a}rn\IeC {\'\i } a n-\IeC {\'a}rn\IeC {\'\i } modely}{17}{subsubsection.2.6.1}
 \contentsline {subsection}{\numberline {2.7}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{18}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}D\IeC {\v e}di\IeC {\v c}nost}{18}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Omezen\IeC {\'\i } ER diagramu}{18}{subsection.2.9}
