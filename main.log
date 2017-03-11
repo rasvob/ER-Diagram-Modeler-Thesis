@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  11 MAR 2017 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  11 MAR 2017 20:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -1743,14 +1743,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [11
 
 ]
-<Figures/BachmanDiagram.jpg, id=194, 829.0975pt x 408.52625pt>
+<Figures/BachmanDiagram.jpg, id=196, 829.0975pt x 408.52625pt>
 File: Figures/BachmanDiagram.jpg Graphic file (type jpg)
 
 <use Figures/BachmanDiagram.jpg>
 Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 74.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
 
-<Figures/ChenVsDSD.png, id=198, 381.67593pt x 277.78781pt>
+<Figures/ChenVsDSD.png, id=200, 381.67593pt x 277.78781pt>
 File: Figures/ChenVsDSD.png Graphic file (type png)
 
 <use Figures/ChenVsDSD.png>
@@ -1772,14 +1772,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 107.
 
-<Figures/ChenEntities.png, id=219, 373.395pt x 91.84312pt>
+<Figures/ChenEntities.png, id=221, 373.395pt x 91.84312pt>
 File: Figures/ChenEntities.png Graphic file (type png)
 
 <use Figures/ChenEntities.png>
 Package pdftex.def Info: Figures/ChenEntities.png used on input line 116.
 (pdftex.def)             Requested size: 295.90588pt x 72.78648pt.
  [14 <./Figures/ChenEntities.png>]
-<Figures/TernaryRelationship2.jpg, id=232, 569.87906pt x 289.83281pt>
+<Figures/TernaryRelationship2.jpg, id=234, 569.87906pt x 289.83281pt>
 File: Figures/TernaryRelationship2.jpg Graphic file (type jpg)
 
 <use Figures/TernaryRelationship2.jpg>
@@ -1787,35 +1787,35 @@ Package pdftex.def Info: Figures/TernaryRelationship2.jpg used on input line 13
 6.
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
 
-<Figures/ChenRelationships.png, id=233, 301.8778pt x 137.7647pt>
+<Figures/ChenRelationships.png, id=235, 301.8778pt x 137.7647pt>
 File: Figures/ChenRelationships.png Graphic file (type png)
 
 <use Figures/ChenRelationships.png>
 Package pdftex.def Info: Figures/ChenRelationships.png used on input line 144.
 (pdftex.def)             Requested size: 295.90588pt x 135.04pt.
  [15 <./Figures/TernaryRelationship2.jpg> <./Figures/ChenRelationships.png>]
-<Figures/ChenAttr.png, id=241, 363.60844pt x 88.83188pt>
+<Figures/ChenAttr.png, id=243, 363.60844pt x 88.83188pt>
 File: Figures/ChenAttr.png Graphic file (type png)
 
 <use Figures/ChenAttr.png>
 Package pdftex.def Info: Figures/ChenAttr.png used on input line 180.
 (pdftex.def)             Requested size: 295.90588pt x 72.29364pt.
  [16 <./Figures/ChenAttr.png>] [17] [18]
-<Figures/NotationExChen.png, id=270, 470.50781pt x 87.32625pt>
+<Figures/NotationExChen.png, id=272, 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
 Package pdftex.def Info: Figures/NotationExChen.png used on input line 244.
 (pdftex.def)             Requested size: 341.43307pt x 63.37053pt.
 
-<Figures/NotationExBachman.png, id=273, 464.4853pt x 89.58469pt>
+<Figures/NotationExBachman.png, id=275, 464.4853pt x 89.58469pt>
 File: Figures/NotationExBachman.png Graphic file (type png)
 
 <use Figures/NotationExBachman.png>
 Package pdftex.def Info: Figures/NotationExBachman.png used on input line 253.
 (pdftex.def)             Requested size: 341.43307pt x 65.85283pt.
  [19 <./Figures/NotationExChen.png> <./Figures/NotationExBachman.png>]
-<Figures/NotationExCrow.png, id=286, 462.22687pt x 88.07906pt>
+<Figures/NotationExCrow.png, id=288, 462.22687pt x 88.07906pt>
 File: Figures/NotationExCrow.png Graphic file (type png)
 
 <use Figures/NotationExCrow.png>
@@ -1824,43 +1824,35 @@ Package pdftex.def Info: Figures/NotationExCrow.png used on input line 262.
 LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 273.
 
-<Figures/NotationExBarker.png, id=289, 455.45157pt x 94.10156pt>
+<Figures/NotationExBarker.png, id=291, 455.45157pt x 94.10156pt>
 File: Figures/NotationExBarker.png Graphic file (type png)
 
 <use Figures/NotationExBarker.png>
 Package pdftex.def Info: Figures/NotationExBarker.png used on input line 279.
 (pdftex.def)             Requested size: 341.43307pt x 70.54582pt.
- [20 <./Figures/NotationExCrow.png> <./Figures/NotationExBarker.png>]
-<Figures/BarkerUid.png, id=302, 579.66562pt x 149.05687pt>
+
+<Figures/BarkerUid.png, id=294, 579.66562pt x 149.05687pt>
 File: Figures/BarkerUid.png Graphic file (type png)
 
 <use Figures/BarkerUid.png>
-Package pdftex.def Info: Figures/BarkerUid.png used on input line 294.
-(pdftex.def)             Requested size: 227.62206pt x 58.52997pt.
-
-<Figures/BarkerNonTrans.png, id=303, 149.05687pt x 386.19281pt>
+Package pdftex.def Info: Figures/BarkerUid.png used on input line 287.
+(pdftex.def)             Requested size: 341.43307pt x 87.79723pt.
+ [20 <./Figures/NotationExCrow.png> <./Figures/NotationExBarker.png>]
+<Figures/BarkerNonTrans.png, id=307, 149.05687pt x 386.19281pt>
 File: Figures/BarkerNonTrans.png Graphic file (type png)
 
 <use Figures/BarkerNonTrans.png>
-Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 299.
+Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 300.
 (pdftex.def)             Requested size: 91.04742pt x 235.89546pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]\T1/lmr/m/n/9 (b) |Ne-p°e-no-si-telný
- []
-
-<Figures/BarkerSubtypes.png, id=304, 174.6525pt x 323.70938pt>
+<Figures/BarkerSubtypes.png, id=308, 174.6525pt x 323.70938pt>
 File: Figures/BarkerSubtypes.png Graphic file (type png)
 
 <use Figures/BarkerSubtypes.png>
-Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 304.
+Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 305.
 (pdftex.def)             Requested size: 91.04742pt x 168.75462pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21] [22 <./Figures/BarkerUid.png> <./Figures/BarkerNonTrans.png> <./Figures/Ba
-rkerSubtypes.png>] [23
+ [21 <./Figures/BarkerUid.png> <./Figures/BarkerNonTrans.png> <./Figures/Barker
+Subtypes.png>] [22] [23
 
 ] [24
 
@@ -1869,43 +1861,43 @@ rkerSubtypes.png>] [23
 ] [26
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 []\T1/lmr/m/n/10.95 SONG, Il-Yeol, Mary EVANS a E.K. PARK. \T1/lmr/m/it/10.95 A
  Com-pa-ra-tive Ana-ly-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 \T1/lmr/m/it/10.95 sis of Entity-Relationship Di-a-grams \T1/lmr/m/n/10.95 [on-
 line]. [cit. 2017-03-11]. Do-stupné z:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 []\T1/lmr/m/n/10.95 BACHMAN, C. W. \T1/lmr/m/it/10.95 Data structure di-a-grams
  \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-03-11]. Do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 \T1/lmr/m/n/10.95 stupné z: http://www.minet.uni-jena.de/dbis/lehre/ws2005/dbs1
 /Bachman-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 []\T1/lmr/m/n/10.95 Data structure di-a-gram. In: \T1/lmr/m/it/10.95 Wi-ki-pe-d
 ia: the free en-cyclo-pe-dia \T1/lmr/m/n/10.95 [on-line]. San
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 \T1/lmr/m/n/10.95 Fran-cisco (CA): Wi-ki-me-dia Foun-dation, 2001- [cit. 2017-0
 3-11]. Do-stupné z:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 []\T1/lmr/m/n/10.95 Verbatelo. \T1/lmr/m/it/10.95 Bar-ker's No-tation \T1/lmr/m
 /n/10.95 [on-line]. [cit. 2017-03-11]. Do-stupné z:
  []
@@ -1917,21 +1909,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
 ] [29
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 369.
  [30
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 369.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 369.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 369.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2B067D2A3CF0E955AF47B47876AD0C80;3357.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 369.
  ) 
 Here is how much of TeX's memory you used:
  17079 strings out of 493333
- 240745 string characters out of 3139195
+ 240748 string characters out of 3139195
  347204 words of memory out of 3000000
  20213 multiletter control sequences out of 15000+200000
  54306 words of font info for 47 fonts, out of 3000000 for 9000
@@ -1947,9 +1939,9 @@ lic/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (30 pages, 1146845 bytes).
+Output written on main.pdf (30 pages, 1194525 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
+ 425 PDF objects out of 1000 (max. 8388607)
  86 named destinations out of 1000 (max. 500000)
  267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
