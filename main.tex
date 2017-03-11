@@ -72,7 +72,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/BachmanDiagram}
-		\caption{Bachmanův diagram \cite{wikiDsd}}
+		\caption[Bachmanův diagram]{Bachmanův diagram \cite{wikiDsd}}
 	\end{figure}
 	
 	Speciálním typem DSD je Bachmanův diagram, který slouží k vytvoření relačního datového modelu bez ohledu na způsob fyzického uložení dat v systému. Tento diagram měl patrně největší vliv na pozdější vznik ER diagramu, který publikoval Peter Chen roku 1976 \cite{chenERD}.
@@ -82,7 +82,9 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/ChenVsDSD}
-		\caption[Srovnání DSD a ERD]{Srovnání DSD a ERD a) Data structure diagram b) ER diagram \cite{chenERD}}
+		\subfloat[Data structure diagram]{\hspace{.5\linewidth}}
+		\subfloat[ER diagram]{\hspace{.5\linewidth}}
+		\caption[Srovnání DSD a ERD]{Srovnání DSD a ERD \cite{chenERD}}
 	\end{figure}
 	
 	\subsection{Využití ER diagramu}
@@ -112,7 +114,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.65\textwidth]{Figures/ChenEntities}
-		\caption{Znázornění entit podle Chenovy notace \cite{erdSymbols}}
+		\caption[Znázornění entit podle Chenovy notace]{Znázornění entit podle Chenovy notace \cite{erdSymbols}}
 	\end{figure}
 
 	\subsubsection{Vztah}
@@ -140,7 +142,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.65\textwidth]{Figures/ChenRelationships}
-		\caption{Znázornění vztahů podle Chenovy notace \cite{erdSymbols}}
+		\caption[Znázornění vztahů podle Chenovy notace]{Znázornění vztahů podle Chenovy notace \cite{erdSymbols}}
 	\end{figure}
 
 	Vztahy dále dělíme podle kardinality, která udává kolikrát může instance entitního typu být ve vztahu s instancí jiného entitního typu, pro binární typ vztahu  rozlišujeme následující typy kardinality:
@@ -176,7 +178,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.65\textwidth]{Figures/ChenAttr}
-		\caption{Znázornění atributů podle Chenovy notace \cite{erdSymbols}}
+		\caption[Znázornění atributů podle Chenovy notace]{Znázornění atributů podle Chenovy notace \cite{erdSymbols}}
 	\end{figure}
 	
 	Označení atributů lze kombinovat, např. \textit{jednohodnotový odvozený atribut}
