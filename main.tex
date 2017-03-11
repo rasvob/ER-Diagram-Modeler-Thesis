@@ -274,7 +274,17 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 		\item \textbf{$\circ$} - nepovinný atribut
 	\end{itemize}
 
+	Oproti ostatním notacím zde nalezneme určitá specifika. Prvním z nich je tzv. UID čára, která se kreslí pouze u slabých entitních typů a vyjadřuje, že je identifikován atributy silných entitních typů. 
 	
+	Dalším specifikem, je možnost vyznačit nepřenositelný vztah, pokud jej použijeme, už jej nelze později změnit, příkladem je vztah mezi kapitolou a knihou, kdy kapitolu z jedné knihy nemůžeme přiřadit knize druhé. Graficky se tento typ vztahu značí přidáním kosočtverce k vraní noze.
+	
+	Notace podporuje také dědičnost, kdy podtypy dědí atributy supertypu, graficky je tento jev vyjádřen přidání obdelníků jednotlivých podtypů do společného obdelníku odpovídajícímu supertypu.
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.75\textwidth]{Figures/NotationExBarker}
+		\caption[Příklad Bachmanovy notace]{Příklad Bachmanovy notace \cite{whatIsERD}}
+	\end{figure}
 	
 	\subsubsection{Min-Max notace}
 	
