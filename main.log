@@ -1853,14 +1853,14 @@ Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 301.
 (pdftex.def)             Requested size: 91.04742pt x 168.75462pt.
  [21 <./Figures/BarkerUid.png> <./Figures/BarkerNonTrans.png> <./Figures/Barker
 Subtypes.png>]
-<Figures/NotationExMinMax.png, id=326, 467.49657pt x 91.09032pt>
+<Figures/NotationExMinMax.png, id=323, 467.49657pt x 91.09032pt>
 File: Figures/NotationExMinMax.png Graphic file (type png)
 
 <use Figures/NotationExMinMax.png>
 Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 312.
 (pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
 
-<Figures/NotationExIDEF1X.png, id=329, 473.51906pt x 107.65219pt>
+<Figures/NotationExIDEF1X.png, id=326, 473.51906pt x 107.65219pt>
 File: Figures/NotationExIDEF1X.png Graphic file (type png)
 
 <use Figures/NotationExIDEF1X.png>
@@ -1955,9 +1955,9 @@ KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (30 pages, 1219515 bytes).
+Output written on main.pdf (30 pages, 1212138 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
+ 446 PDF objects out of 1000 (max. 8388607)
  88 named destinations out of 1000 (max. 500000)
  277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
