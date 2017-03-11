@@ -1834,18 +1834,22 @@ Package pdftex.def Info: Figures/NotationExBarker.png used on input line 279.
 File: Figures/NotationExBarker.png Graphic file (type png)
  <use Figures/NotationExBarker.png>
 Package pdftex.def Info: Figures/NotationExBarker.png used on input line 294.
-(pdftex.def)             Requested size: 136.57462pt x 28.21776pt.
+(pdftex.def)             Requested size: 91.04742pt x 18.81136pt.
 File: Figures/NotationExBarker.png Graphic file (type png)
 
 <use Figures/NotationExBarker.png>
 Package pdftex.def Info: Figures/NotationExBarker.png used on input line 299.
-(pdftex.def)             Requested size: 136.57462pt x 28.21776pt.
+(pdftex.def)             Requested size: 91.04742pt x 18.81136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]\T1/lmr/m/n/9 (b) |Ne-p°e-no-si-telný
+ []
+
 File: Figures/NotationExBarker.png Graphic file (type png)
- <use Figures/NotationExBarker.png>
+<use Figures/NotationExBarker.png>
 Package pdftex.def Info: Figures/NotationExBarker.png used on input line 304.
-(pdftex.def)             Requested size: 136.57462pt x 28.21776pt.
- [21]
-[22
+(pdftex.def)             Requested size: 91.04742pt x 18.81136pt.
+ [21] [22
 
 ] [23
 
@@ -1932,7 +1936,7 @@ lic/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (29 pages, 1171733 bytes).
+Output written on main.pdf (29 pages, 1157987 bytes).
 PDF statistics:
  412 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
