@@ -42,6 +42,8 @@
 \AddAcronym{EER}{Enhanced Entity–Relationship Model}
 \AddAcronym{IDEF}{Integration Definition for Information Modeling}
 \AddAcronym{ICAM}{Integrated Computer-Aided Manufacturing}
+\AddAcronym{JSON}{JavaScript Object Notation}
+\AddAcronym{XML}{Extensible Markup Language}
 
 \begin{document}
 
@@ -322,7 +324,8 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 		\caption[Příklad IDEF1X notace]{Příklad IDEF1X notace \cite{whatIsERD}}
 	\end{figure}
 	
-	\subsection{Omezení ER diagramu}
+	\subsection{Nevýhody ER diagramu}
+	ER diagramy jsou určeny primárně pro vytváření modelů relačních struktur. Pokud pracujeme s nestrukturovanými daty, které není jednoduše možné reprezentovat relacemi, není ER diagram vhodný nástroj k vizualizaci jejich struktury. Toto omezení platí i pro částečně strukturovaná data, nejznámějšími zástupci jsou XML nebo JSON, protože navzdory tomu, že jsme schopni rozlišit jednotlivé entity, může dojít k situaci, kdy entity téhož typu se liší svými atributy. 
 	
 	\subsection{Shrnutí}
 
