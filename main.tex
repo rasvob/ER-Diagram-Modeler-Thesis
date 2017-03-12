@@ -243,7 +243,7 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 	\end{figure}
 	
 	\subsubsection{Bachmanova notace}
-	Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace modeluje cizí klíče už na konceptuální úrovní, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdélníky, vztahy čárami. Vztahům není možné znázornit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu.
+	Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace modeluje cizí klíče už na konceptuální úrovní, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdélníky, vztahy čárami. Vztahům není možné přiřadit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu.
 	
 	\begin{figure}[!h]
 		\centering
@@ -344,8 +344,8 @@ Dodnes nepředstavuje žádná z notací standard v oblasti modelování databá
 			Vlastnost & Chen & Bachman & Crow's foot & Berker & Min-Max & IDEF1X \\
 			\midrule
 			Ternární vztahy & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\
-			Look-across kardinalita & \\
-			Look-across povinnost & \\
+			Look-across kardinalita & \cmark & \cmark \\
+			Look-across povinnost & \xmark & \xmark \\
 			(Min, Max) notace & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark \\
 			Neklíčové atributy vztahů & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\
 			Cizí klíče na koncept. úrovni & \\
