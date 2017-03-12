@@ -11,30 +11,30 @@
 \contentsline {section}{\numberline {2}Popis notace ER diagramu}{12}{section.2}
 \contentsline {subsection}{\numberline {2.1}Historie}{12}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Vyu\IeC {\v z}it\IeC {\'\i } ER diagramu}{13}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Prvky ER diagramu}{14}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Entitn\IeC {\'\i } typ}{14}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Vztah}{14}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}Atribut}{16}{subsubsection.2.3.3}
-\contentsline {subsection}{\numberline {2.4}Kategorie model\IeC {\r u}}{16}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}V\IeC {\'y}voj notac\IeC {\'\i }}{17}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{17}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Bin\IeC {\'a}rn\IeC {\'\i } a n-\IeC {\'a}rn\IeC {\'\i } modely}{17}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Kardinalita a povinnost}{18}{subsubsection.2.6.2}
-\contentsline {subsection}{\numberline {2.7}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{19}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Chenova notace}{19}{subsubsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.2}Bachmanova notace}{19}{subsubsection.2.7.2}
-\contentsline {subsubsection}{\numberline {2.7.3}Crow's foot notace}{20}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Barkerova notace}{20}{subsubsection.2.7.4}
-\contentsline {subsubsection}{\numberline {2.7.5}Min-Max notace}{22}{subsubsection.2.7.5}
-\contentsline {subsubsection}{\numberline {2.7.6}IDEF1X notace}{22}{subsubsection.2.7.6}
-\contentsline {subsection}{\numberline {2.8}Nev\IeC {\'y}hody ER diagramu}{22}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{23}{subsection.2.9}
-\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{section.3}
-\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{25}{section.4}
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{26}{section.5}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{27}{section.6}
-\contentsline {section}{Literatura}{28}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{28}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{29}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{30}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{31}{appendix.C}
+\contentsline {subsection}{\numberline {2.3}Nev\IeC {\'y}hody ER diagramu}{14}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Prvky ER diagramu}{14}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Entitn\IeC {\'\i } typ}{14}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Vztah}{15}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Atribut}{16}{subsubsection.2.4.3}
+\contentsline {subsection}{\numberline {2.5}Kategorie model\IeC {\r u}}{16}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}V\IeC {\'y}voj notac\IeC {\'\i }}{17}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{18}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Bin\IeC {\'a}rn\IeC {\'\i } a n-\IeC {\'a}rn\IeC {\'\i } modely}{18}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Kardinalita a povinnost}{18}{subsubsection.2.7.2}
+\contentsline {subsection}{\numberline {2.8}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{19}{subsection.2.8}
+\contentsline {subsubsection}{\numberline {2.8.1}Chenova notace}{19}{subsubsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.2}Bachmanova notace}{19}{subsubsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.3}Crow's foot notace}{20}{subsubsection.2.8.3}
+\contentsline {subsubsection}{\numberline {2.8.4}Barkerova notace}{20}{subsubsection.2.8.4}
+\contentsline {subsubsection}{\numberline {2.8.5}Min-Max notace}{22}{subsubsection.2.8.5}
+\contentsline {subsubsection}{\numberline {2.8.6}IDEF1X notace}{22}{subsubsection.2.8.6}
+\contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{22}{subsection.2.9}
+\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{23}{section.3}
+\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{24}{section.4}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{25}{section.5}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{26}{section.6}
+\contentsline {section}{Literatura}{27}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{27}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{28}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{29}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{30}{appendix.C}
