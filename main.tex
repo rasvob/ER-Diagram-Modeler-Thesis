@@ -405,7 +405,13 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		\subsubsection{Toad Data Modeler}
 		Další nástroj je vyvíjen od roku 2006 firmou Quest Software, jedná se o komerční produkt určený pro operační systém Microsoft Windows. Toad podporuje více než 10 různých DBMS v několika verzích, mezi nimi např. Oracle Database, Microsoft SQL Server nebo PostgreSQL.
 		
+		Toad umožňuje vytvořit 3 typy modelů, nejpoužívanější je fyzický model, který je cílen na konkrétní DBMS, další možností je logický model, ten se ovšem doporučuje jen v případě využití dědičnosti. Posledním typem je univerzální model, který umožňuje tvorbu diagramu bez návaznosti na konkrétní DBMS, případně pokud určený DBMS není mezi podporovanými. Notace jsou tentokrát v nabídce pouze dvě, implicitně nastavený Information Engineering a IDEF1X.
 		
+		Export je možné provést do CSV, podle mého názoru je export řešen lépe než v Data Modeleru, protože CSV soubor je exportován pouze jeden a prvky jsou odděleny vnitřní strukturou. Další možnosti je export do Excelu, který prvky rozděluje do samostatných sešitů. Poslední možností je export ve formě obrázku. Tato volba nabízí mnoho nastavení od velikosti plátna, rozdělení na stránky pro tisk po kompresi a barevnou hloubku.
+		
+		Z diagramu je možné vygenerovat DDL skript pro všechny podporované DBMS bez ohledu na to, jaký byl zvolen při zakládaní projektu. DDL skripty je možné generovat buď úplné nebo obsahující jen změny v diagramu provedené v případě reverzního vygenerování. Takto vygenerovaný skript neobsahuje pouze tabulky a integritní omezení, ale může zahrnovat i uložené procedury, funkce, triggery nebo indexy. 
+		
+		Nástroj umožňuje rovněž kontrolu vytvořeného modelu než přejdeme ke generování skriptů. Fyzických modelů umožňuje vytvořit Toad několik v jednom projektu a následně je schopen provést jejich porovnání a přehledně vypsat v čem se liší, modely je možné dokonce i sloučit. Další zajímavou volbou je možnost migrace na jiný DBMS než z jakého byl model importován.
 		
 		\subsubsection{SQL Server Management Studio}
 		
@@ -417,7 +423,7 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		
 		\subsubsection{Online nástroje} % TODO: Možná se vynechá
 	
-	\subsection{Shrnutí} % TODO: Tabulka možností nástrojů
+	\subsection{Shrnutí} % TODO: Tabulka možností nástrojů, strojové zpracování exportu
 	
 \newpage
 \section{Návrh a implementace grafického editoru ER diagramů}

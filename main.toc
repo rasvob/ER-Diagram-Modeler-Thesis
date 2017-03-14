@@ -34,16 +34,16 @@
 \contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{24}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer Data Modeler}{25}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{26}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{26}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{26}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}StarUML}{26}{subsubsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.6}Online n\IeC {\'a}stroje}{26}{subsubsection.3.2.6}
-\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{26}{subsection.3.3}
-\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{27}{section.4}
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{28}{section.5}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{29}{section.6}
-\contentsline {section}{Literatura}{30}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{30}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{31}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{32}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{33}{appendix.C}
+\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{27}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{27}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}StarUML}{27}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Online n\IeC {\'a}stroje}{27}{subsubsection.3.2.6}
+\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{27}{subsection.3.3}
+\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{28}{section.4}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{29}{section.5}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{30}{section.6}
+\contentsline {section}{Literatura}{31}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{31}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{32}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{33}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{34}{appendix.C}
