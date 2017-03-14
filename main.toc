@@ -33,8 +33,8 @@
 \contentsline {subsection}{\numberline {3.1}V\IeC {\'y}hody a nev\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{24}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer Data Modeler}{25}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}SQL Server Management Studio}{26}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Toad Data Modeler}{26}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{26}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{26}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{26}{subsubsection.3.2.4}
 \contentsline {subsubsection}{\numberline {3.2.5}StarUML}{26}{subsubsection.3.2.5}
 \contentsline {subsubsection}{\numberline {3.2.6}Online n\IeC {\'a}stroje}{26}{subsubsection.3.2.6}
