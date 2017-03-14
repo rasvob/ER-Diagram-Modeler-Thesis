@@ -49,6 +49,7 @@
 \AddAcronym{PNG}{Portable Network Graphics}
 \AddAcronym{JDBC}{Java Database Connectivity}
 \AddAcronym{JPEG}{Joint Photographic Experts Group}
+\AddAcronym{GUI}{Graphical User Interface}
 
 \begin{document}
 
@@ -412,6 +413,10 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		Z diagramu je možné vygenerovat DDL skript pro všechny podporované DBMS bez ohledu na to, jaký byl zvolen při zakládaní projektu. DDL skripty je možné generovat buď úplné nebo obsahující jen změny v diagramu provedené v případě reverzního vygenerování. Takto vygenerovaný skript neobsahuje pouze tabulky a integritní omezení, ale může zahrnovat i uložené procedury, funkce, triggery nebo indexy. 
 		
 		Nástroj umožňuje rovněž kontrolu vytvořeného modelu než přejdeme ke generování skriptů. Fyzických modelů umožňuje vytvořit Toad několik v jednom projektu a následně je schopen provést jejich porovnání a přehledně vypsat v čem se liší, modely je možné dokonce i sloučit. Další zajímavou volbou je možnost migrace na jiný DBMS než z jakého byl model importován.
+		
+		Import modelu je možný nejen z CSV, Excelu a nativního formátu, ale také z jiných aplikací, konkrétně ER/Studio Data Architect a Toad for Oracle. Vytvoření modelu z DDL skriptu bohužel v případě tohoto nástroje chybí. Samozřejmostí je reverzní vygenerování modelu z připojené databáze, do projektu jsou lze zahrnout i indexy, procedury a další objekty z databáze, které poté mohou být rovněž součástí DDL skriptu.
+		
+		Aktualizace databáze na základě změn v ER diagramu je možné provádět buď spuštěním vygenerovaného DDL skriptu obsahující změny samostatně nebo lze využít definovaného připojení a změny provést přes GUI. Toad nabízí uložení modelů v různých fázích úprav, tento přístup umožňuje modely porovnat a případně vygenerovat skript na základě rozdílů mezi nimi.
 		
 		\subsubsection{SQL Server Management Studio}
 		
