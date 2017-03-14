@@ -31,8 +31,8 @@
 \contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{23}{subsection.2.9}
 \contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{section.3}
 \contentsline {subsection}{\numberline {3.1}CASE n\IeC {\'a}stroje obecn\IeC {\v e}}{24}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}V\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u}}{24}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Nev\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u}}{24}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1}V\IeC {\'y}hody}{24}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Nev\IeC {\'y}hody}{24}{subsubsection.3.1.2}
 \contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } existuj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{24}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer}{24}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{24}{subsubsection.3.2.2}
