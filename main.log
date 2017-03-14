@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  14 MAR 2017 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  14 MAR 2017 23:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1503,23 +1503,23 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 )) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1586,7 +1586,7 @@ G,.JBIG2,.JB2,.eps]
 )
 \c@lstlisting=\count145
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1596,9 +1596,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count146
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (main.out) (main.out)
 \@outlinefile=\write4
@@ -1611,7 +1611,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 52.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1657,7 +1657,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: Figures/Assignment1.jpg Graphic file (type jpg)
 
 <use Figures/Assignment1.jpg>
-Package pdftex.def Info: Figures/Assignment1.jpg used on input line 52.
+Package pdftex.def Info: Figures/Assignment1.jpg used on input line 55.
 (pdftex.def)             Requested size: 589.60045pt x 834.63033pt.
  [2
 
@@ -1747,14 +1747,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: Figures/BachmanDiagram.jpg Graphic file (type jpg)
 
 <use Figures/BachmanDiagram.jpg>
-Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 73.
+Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 76.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
 
 <Figures/ChenVsDSD.png, id=221, 381.67593pt x 277.78781pt>
 File: Figures/ChenVsDSD.png Graphic file (type png)
 
 <use Figures/ChenVsDSD.png>
-Package pdftex.def Info: Figures/ChenVsDSD.png used on input line 83.
+Package pdftex.def Info: Figures/ChenVsDSD.png used on input line 86.
 (pdftex.def)             Requested size: 364.19667pt x 265.07526pt.
 
 
@@ -1763,20 +1763,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [12
 
  <./Figures/BachmanDiagram.jpg>] [13 <./Figures/ChenVsDSD.png>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 106.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 109.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 106.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 109.
 
 <Figures/ChenEntities.png, id=242, 373.395pt x 91.84312pt>
 File: Figures/ChenEntities.png Graphic file (type png)
 
 <use Figures/ChenEntities.png>
-Package pdftex.def Info: Figures/ChenEntities.png used on input line 115.
+Package pdftex.def Info: Figures/ChenEntities.png used on input line 118.
 (pdftex.def)             Requested size: 295.90588pt x 72.78648pt.
  [14 <./Figures/ChenEntities.png>]
 <Figures/TernaryRelationship2.jpg, id=255, 569.87906pt x 289.83281pt>
@@ -1784,58 +1784,58 @@ File: Figures/TernaryRelationship2.jpg Graphic file (type jpg)
 
 <use Figures/TernaryRelationship2.jpg>
 Package pdftex.def Info: Figures/TernaryRelationship2.jpg used on input line 13
-5.
+8.
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
 
 <Figures/ChenRelationships.png, id=256, 301.8778pt x 137.7647pt>
 File: Figures/ChenRelationships.png Graphic file (type png)
 
 <use Figures/ChenRelationships.png>
-Package pdftex.def Info: Figures/ChenRelationships.png used on input line 143.
+Package pdftex.def Info: Figures/ChenRelationships.png used on input line 146.
 (pdftex.def)             Requested size: 250.38564pt x 114.26477pt.
  [15 <./Figures/TernaryRelationship2.jpg> <./Figures/ChenRelationships.png>]
 <Figures/ChenAttr.png, id=264, 363.60844pt x 88.83188pt>
 File: Figures/ChenAttr.png Graphic file (type png)
 
 <use Figures/ChenAttr.png>
-Package pdftex.def Info: Figures/ChenAttr.png used on input line 179.
+Package pdftex.def Info: Figures/ChenAttr.png used on input line 182.
 (pdftex.def)             Requested size: 295.90588pt x 72.29364pt.
  [16 <./Figures/ChenAttr.png>] [17] [18]
 <Figures/NotationExChen.png, id=293, 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
-Package pdftex.def Info: Figures/NotationExChen.png used on input line 243.
+Package pdftex.def Info: Figures/NotationExChen.png used on input line 246.
 (pdftex.def)             Requested size: 341.43307pt x 63.37053pt.
 
 <Figures/NotationExBachman.png, id=296, 464.4853pt x 89.58469pt>
 File: Figures/NotationExBachman.png Graphic file (type png)
 
 <use Figures/NotationExBachman.png>
-Package pdftex.def Info: Figures/NotationExBachman.png used on input line 252.
+Package pdftex.def Info: Figures/NotationExBachman.png used on input line 255.
 (pdftex.def)             Requested size: 341.43307pt x 65.85283pt.
  [19 <./Figures/NotationExChen.png> <./Figures/NotationExBachman.png>]
 <Figures/NotationExCrow.png, id=310, 462.22687pt x 88.07906pt>
 File: Figures/NotationExCrow.png Graphic file (type png)
 
 <use Figures/NotationExCrow.png>
-Package pdftex.def Info: Figures/NotationExCrow.png used on input line 261.
+Package pdftex.def Info: Figures/NotationExCrow.png used on input line 264.
 (pdftex.def)             Requested size: 341.43307pt x 65.06189pt.
 LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 272.
+(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 275.
 
 <Figures/NotationExBarker.png, id=313, 455.45157pt x 94.10156pt>
 File: Figures/NotationExBarker.png Graphic file (type png)
 
 <use Figures/NotationExBarker.png>
-Package pdftex.def Info: Figures/NotationExBarker.png used on input line 278.
+Package pdftex.def Info: Figures/NotationExBarker.png used on input line 281.
 (pdftex.def)             Requested size: 341.43307pt x 70.54582pt.
 
 <Figures/BarkerUid.png, id=317, 579.66562pt x 149.05687pt>
 File: Figures/BarkerUid.png Graphic file (type png)
 
 <use Figures/BarkerUid.png>
-Package pdftex.def Info: Figures/BarkerUid.png used on input line 286.
+Package pdftex.def Info: Figures/BarkerUid.png used on input line 289.
 (pdftex.def)             Requested size: 295.90588pt x 76.09077pt.
 
 
@@ -1845,21 +1845,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/BarkerNonTrans.png Graphic file (type png)
 
 <use Figures/BarkerNonTrans.png>
-Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 299.
+Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 302.
 (pdftex.def)             Requested size: 91.04742pt x 235.89546pt.
 
 <Figures/BarkerSubtypes.png, id=320, 174.6525pt x 323.70938pt>
 File: Figures/BarkerSubtypes.png Graphic file (type png)
 
 <use Figures/BarkerSubtypes.png>
-Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 305.
+Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 308.
 (pdftex.def)             Requested size: 91.04742pt x 168.75462pt.
  [20 <./Figures/NotationExCrow.png> <./Figures/NotationExBarker.png>]
 <Figures/NotationExMinMax.png, id=332, 467.49657pt x 91.09032pt>
 File: Figures/NotationExMinMax.png Graphic file (type png)
 
 <use Figures/NotationExMinMax.png>
-Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 316.
+Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 319.
 (pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
 
 
@@ -1871,10 +1871,10 @@ ubtypes.png>]
 File: Figures/NotationExIDEF1X.png Graphic file (type png)
 
 <use Figures/NotationExIDEF1X.png>
-Package pdftex.def Info: Figures/NotationExIDEF1X.png used on input line 325.
+Package pdftex.def Info: Figures/NotationExIDEF1X.png used on input line 328.
 (pdftex.def)             Requested size: 341.43307pt x 77.62448pt.
  [22 <./Figures/NotationExMinMax.png> <./Figures/NotationExIDEF1X.png>]
-Overfull \hbox (6.8649pt too wide) in paragraph at lines 344--357
+Overfull \hbox (6.8649pt too wide) in paragraph at lines 347--360
  [][] 
  []
 
@@ -1887,37 +1887,37 @@ Overfull \hbox (6.8649pt too wide) in paragraph at lines 344--357
 ] [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 []\T1/lmr/m/n/10.95 SONG, Il-Yeol, Mary EVANS a E.K. PARK. \T1/lmr/m/it/10.95 A
  Com-pa-ra-tive Ana-ly-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 \T1/lmr/m/it/10.95 sis of Entity-Relationship Di-a-grams \T1/lmr/m/n/10.95 [on-
 line]. [cit. 2017-03-11]. Do-stupné z:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 []\T1/lmr/m/n/10.95 BACHMAN, C. W. \T1/lmr/m/it/10.95 Data structure di-a-grams
  \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-03-11]. Do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 \T1/lmr/m/n/10.95 stupné z: http://www.minet.uni-jena.de/dbis/lehre/ws2005/dbs1
 /Bachman-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 []\T1/lmr/m/n/10.95 Data structure di-a-gram. In: \T1/lmr/m/it/10.95 Wi-ki-pe-d
 ia: the free en-cyclo-pe-dia \T1/lmr/m/n/10.95 [on-line]. San
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 \T1/lmr/m/n/10.95 Fran-cisco (CA): Wi-ki-me-dia Foun-dation, 2001- [cit. 2017-0
 3-11]. Do-stupné z:
  []
@@ -1929,22 +1929,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--434
 ] [32
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
  [33
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9839801F0477EE2F88615BA095ED5CA7;4179.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 455.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
  17110 strings out of 493333
  241403 string characters out of 3139195
- 348710 words of memory out of 3000000
+ 349816 words of memory out of 3000000
  20229 multiletter control sequences out of 15000+200000
  54306 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1961,7 +1961,7 @@ KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (33 pages, 1185867 bytes).
+Output written on main.pdf (33 pages, 1230223 bytes).
 PDF statistics:
  483 PDF objects out of 1000 (max. 8388607)
  99 named destinations out of 1000 (max. 500000)
