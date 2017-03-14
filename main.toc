@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{22}{subsection.2.9}
 \contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{section.3}
 \contentsline {subsection}{\numberline {3.1}V\IeC {\'y}hody a nev\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{25}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{24}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer}{25}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{25}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{25}{subsubsection.3.2.3}
