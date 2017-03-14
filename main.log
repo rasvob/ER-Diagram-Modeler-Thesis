@@ -1944,8 +1944,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 323F757E1A4F85A663F15FF5CF3967CF;3914
-(rerunfilecheck)             After:  E21F49C5618EDDE1C067F1870B62F8F3;3823.
+(rerunfilecheck)             Before: E21F49C5618EDDE1C067F1870B62F8F3;3823
+(rerunfilecheck)             After:  2D3D8A7EA55A76695935FFC22E85F424;3821.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 419.
  ) 
 Here is how much of TeX's memory you used:
@@ -1968,7 +1968,7 @@ KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (31 pages, 1222927 bytes).
+Output written on main.pdf (31 pages, 1222466 bytes).
 PDF statistics:
  475 PDF objects out of 1000 (max. 8388607)
  97 named destinations out of 1000 (max. 500000)
