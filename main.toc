@@ -31,19 +31,19 @@
 \contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{22}{subsection.2.9}
 \contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{section.3}
 \contentsline {subsection}{\numberline {3.1}V\IeC {\'y}hody a nev\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{24}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer}{24}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{24}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{24}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{24}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}StarUML}{24}{subsubsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.6}Online n\IeC {\'a}stroje}{24}{subsubsection.3.2.6}
-\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{24}{subsection.3.3}
-\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{25}{section.4}
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{26}{section.5}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{27}{section.6}
-\contentsline {section}{Literatura}{28}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{28}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{29}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{30}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{31}{appendix.C}
+\contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{25}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer}{25}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{25}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{25}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{25}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}StarUML}{25}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Online n\IeC {\'a}stroje}{25}{subsubsection.3.2.6}
+\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{25}{subsection.3.3}
+\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{26}{section.4}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{27}{section.5}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{28}{section.6}
+\contentsline {section}{Literatura}{29}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{29}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{30}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{31}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{32}{appendix.C}
