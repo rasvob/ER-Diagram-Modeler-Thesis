@@ -447,9 +447,19 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		zbytečné funkce. Právě tato jednoduchost má největší vliv na uživatelský komfort, který je podle mě na nejlepší úrovní z testovaných nástrojů.
 		
 		\subsubsection{Visual Paradigm}
-		Dalším testovaným nástrojem je komerční produkt od firmy Visual Paradigm International, zastřešuje ji Hong Kong Institute of Vocational Education, který je určen primárně pro tvorbu UML diagramů. Nástroj samozřejmě podporuje i modelování relačních databází formou ER diagramu. K dispozici je několik typů placených licencí, rozdělených podle nabízených možností a také community edice, která je určena pro nekomerční projekty. Nevýhodou community edice je absence veškerých pokročilých funkcí pro práci s relační databázi jako je reverzní generování diagramů a podobně.
+		Dalším testovaným nástrojem je komerční produkt od firmy Visual Paradigm International, zastřešuje ji Hong Kong Institute of Vocational Education, který je určen primárně pro tvorbu UML diagramů. Nástroj samozřejmě podporuje i modelování relačních databází formou ER diagramu. K dispozici je několik typů placených licencí, rozdělených podle nabízených možností a také community edice, která je určena pro nekomerční projekty. Nevýhodou community edice je absence veškerých pokročilých funkcí pro práci s relační databázi jako je např. reverzní generování diagramů..
 		
+		Visual Paradigm podporuje tvorbu logických modelů bez nutnosti specifikovat DBMS, ten je nutné uvést až při generování skriptu a nástroj podporuje více než deset různých systémů. Diagram používá Crow's foot notaci, bohužel je jediná podporovaná a nelze ji přepnout jako v případě jiných nástrojů.
 		
+		Diagramy je možné importovat v rámci projektu, samostatný import není možný. Diagramy můžeme importovat z nezávislých formátů jako je XML nebo i z jiných nástrojů, příkladem je konkurenční Enterprise Architect, dále Excel, Visio a několik dalších. 
+		
+		Nástroj nabízí tisk diagramů, pomocí této volby jsme schopni vytvořit i PDF nebo XPS soubor. Další možností exportu, kromě nativního formátu, je XML soubor a obrázek. Nastavení je poměrně detailní, lze nastavit formát, kompresi a dokonce i rozřezání diagramu na části specifikované svou velikostí. V případě XML můžeme ovlivnit jeho podobu volbou struktury, na výběr máme reprezentaci vlastností objektu samostatnými elementy nebo atributy příslušného elementu.
+		
+		Nástroj podporuje generování DDL skriptu vytvořeného diagramu. Diagramy mohou obsahovat i uložené procedury, funkce a triggery, které mohou být také součásti  tohoto skriptu. Skript můžeme uložit pouze do souboru nebo jej rovnou spustit nad definovaným připojením a modelované schéma tak fyzicky vytvořit v databázi. Oproti dalších nástrojům umí Visual Paradigm vygenerovat také kostru příkazů pro vložení a aktualizaci záznamů pro jednotlivé tabulky.
+		
+		Na rozdíl od jiných nástrojů je možné vytvořit z logického modelu také kostru pro objektově-relační mapování. Tuto volbu považuji za jeden z největších přínosů, protože pro rozsáhlé databáze ušetří obrovské množství času.
+		
+		Diagramy můžeme reverzně generovat z existující databáze nebo DDL skriptu. Synchronizace se schématem databáze není provedena okamžitě, ale je nutné ji spustit prostřednictvím GUI.
 		
 		\subsubsection{StarUML}
 		

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 MAR 2017 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 MAR 2017 18:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -1880,70 +1880,70 @@ Overfull \hbox (6.8649pt too wide) in paragraph at lines 348--361
 
 [23] [24
 
-] [25] [26] [27] [28] [29] [30
-
-] [31
+] [25] [26] [27] [28] [29] [30] [31
 
 ] [32
 
+] [33
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 []\T1/lmr/m/n/10.95 SONG, Il-Yeol, Mary EVANS a E.K. PARK. \T1/lmr/m/it/10.95 A
  Com-pa-ra-tive Ana-ly-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 \T1/lmr/m/it/10.95 sis of Entity-Relationship Di-a-grams \T1/lmr/m/n/10.95 [on-
 line]. [cit. 2017-03-11]. Do-stupné z:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 []\T1/lmr/m/n/10.95 BACHMAN, C. W. \T1/lmr/m/it/10.95 Data structure di-a-grams
  \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-03-11]. Do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 \T1/lmr/m/n/10.95 stupné z: http://www.minet.uni-jena.de/dbis/lehre/ws2005/dbs1
 /Bachman-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 []\T1/lmr/m/n/10.95 Data structure di-a-gram. In: \T1/lmr/m/it/10.95 Wi-ki-pe-d
 ia: the free en-cyclo-pe-dia \T1/lmr/m/n/10.95 [on-line]. San
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 \T1/lmr/m/n/10.95 Fran-cisco (CA): Wi-ki-me-dia Foun-dation, 2001- [cit. 2017-0
 3-11]. Do-stupné z:
  []
 
-[33
-
-] [34
+[34
 
 ] [35
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 503.
- [36
+] [36
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 503.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
+ [37
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 503.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 503.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 513.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9839801F0477EE2F88615BA095ED5CA7;4179.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 503.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 513.
  ) 
 Here is how much of TeX's memory you used:
- 17113 strings out of 493333
- 241424 string characters out of 3139195
+ 17114 strings out of 493333
+ 241431 string characters out of 3139195
  350848 words of memory out of 3000000
  20229 multiletter control sequences out of 15000+200000
  54306 words of font info for 47 fonts, out of 3000000 for 9000
@@ -1961,9 +1961,9 @@ KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (36 pages, 1236348 bytes).
+Output written on main.pdf (37 pages, 1202721 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
