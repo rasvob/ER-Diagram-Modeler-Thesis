@@ -1882,8 +1882,12 @@ Overfull \hbox (6.8649pt too wide) in paragraph at lines 347--360
 
 ] [25] [26] [27] [28] [29] [30]
 
-LaTeX Warning: Reference `tab:graphicEditorCmp' on page 31 undefined on input l
-ine 483.
+Package caption Warning: \label without proper reference on input line 487.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:geditCmp' on page 31 undefined on input line 483.
+
 
 [31] [32
 
@@ -1951,10 +1955,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 542.
  ) 
 Here is how much of TeX's memory you used:
- 17117 strings out of 493333
- 241471 string characters out of 3139195
+ 17116 strings out of 493333
+ 241449 string characters out of 3139195
  350921 words of memory out of 3000000
- 20231 multiletter control sequences out of 15000+200000
+ 20230 multiletter control sequences out of 15000+200000
  54306 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,50p,1004b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1970,9 +1974,9 @@ KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (38 pages, 1248596 bytes).
+Output written on main.pdf (38 pages, 1244048 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
+ 509 PDF objects out of 1000 (max. 8388607)
  104 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
