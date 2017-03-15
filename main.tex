@@ -431,6 +431,13 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		
 		Management studio umožňuje pouze tvorbu fyzického modelu databáze. Nemožnost tvorby modelů na jiných úrovní abstrakce je způsobena primárním zaměřením celého nástroje na správu již existujících databází. Konceptuální model tedy v tomto případě postrádá smysl. Použitá notace je specifická pro tento nástroj, nepoužívá žádnou z dříve zmíněných notací. Povinnost vztahu je znázorněna graficky v look here stylu, kardinalita znázorněna není, předpokládá se 1:N. 
 		
+		Import diagramů z jiných nástrojů nebo souboru není k dispozici v žádné formě, jedinou možností je vytvoření databáze na serveru a vygenerování diagramu na základě jejího schématu. Stejně tak není podporován ani export do CSV, Excelu nebo XML jako je tomu u konkurenčních nástrojů. 
+		
+		Reverzní generování diagramu umožňuje vizualizovat pouze vybranou část schématu, tato možnost je praktická zejména při práci s rozsáhlými systémy, kde lze schéma rozdělit na logické celky. Aktualizace schématu databáze prostřednictvím ER diagramu jsou velmi rychlé, stačí potvrzení změn uložením diagramu a patřičné změny se ihned promítnou v aktuálním schématu. Před potvrzením je možné zobrazit DDL skript obsahující SQL příkazy k modifikaci schématu. 
+		
+		Vybraná část schématu, která je součásti diagramu bohužel nejde exportovat ve formě DDL skriptu, je možné vytvořit pouze DDL skript pro jednotlivé tabulky a tyto dílčí části zkompletovat v textovém editoru podle potřeby.
+		
+		
 		\subsubsection{Visual Paradigm}
 		
 		\subsubsection{StarUML}
