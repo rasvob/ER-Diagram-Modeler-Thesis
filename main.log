@@ -1889,11 +1889,6 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `tab:graphicEditorCmp' on page 31 undefined on input l
 ine 484.
 
-
-Overfull \hbox (129.00397pt too wide) in paragraph at lines 490--497
- [][] 
- []
-
 [31] [32
 
 ] [33
@@ -1979,7 +1974,7 @@ KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (38 pages, 1240688 bytes).
+Output written on main.pdf (38 pages, 1204635 bytes).
 PDF statistics:
  509 PDF objects out of 1000 (max. 8388607)
  104 named destinations out of 1000 (max. 500000)
