@@ -367,7 +367,7 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarovém proc
 Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření těchto diagramů pro programovou dokumentaci, ale obsahují řadu dalších užitečných funkcí, jako je např. generování patřičných DDL skriptů na základě vytvořeného diagramu.
 
 	\subsection{Výhody a nevýhody CASE nástrojů pro modelování relačních databází}
-	Jednou z největších výhod je urychlení vývoje rozsáhlých projektů, protože mnoho činností lze použitím CASE nástrojů automatizovat. Mnoho z nich se nezastavuje u pouhého generování skriptů pro nasazení nové databáze, ale využívá reverzního inženýrství k vygenerování ER diagramu z existující databáze nebo na základě DDL skriptu. Stejně tak lze některé nástroje využít k tvorbě objektově-relačního mapování pro přístup k datovému zdroji, což ušetří mnoho času a práce. Tyto možnosti obvykle vedou ke značnému zvýšení produktivity.
+	Jednou z největších výhod je urychlení vývoje rozsáhlých projektů, protože spousta činností lze použitím CASE nástrojů automatizovat. Mnoho z nich se nezastavuje u pouhého generování skriptů pro nasazení nové databáze, ale využívá reverzního inženýrství k vygenerování ER diagramu z existující databáze nebo na základě DDL skriptu. Stejně tak lze některé nástroje využít k tvorbě objektově-relačního mapování pro přístup k datovému zdroji, což ušetří mnoho času a práce. Tyto možnosti obvykle vedou ke značnému zvýšení produktivity.
 	
 	Použití CASE nástrojů s sebou nenese jen samá pozitiva, ale skýtá i řadu nedostatků. Největším problémem je obvykle nulová podpora pro provedení formální analýzy vytvořeného modelu, nástroje tedy plně spoléhají na odborné znalosti uživatele. 
 	
@@ -377,7 +377,7 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 	
 	% TODO: Dát screeny do priloh
 	\subsection{Srovnání stávajících nástrojů}
-	Cílem práce je vytvoření CASE nástroje, který podporuje Oracle Database a Microsoft SQL Server, právě podpora DBMS se primárním požadavkem při volbě porovnávaných nástrojů. Každý z následujících nástrojů tedy podporuje alespoň jeden z dvojice dříve zmíněných databázových systémů. Nástroje jsou porovnány na základě mnoha kritérií, mezi jinými např. schopnost reverzního generování ER diagramů nebo způsob synchronizace se stávajícím schématem databáze. Každý z následujících nástrojů nabízí alespoň trial verzi pro otestování jeho funkcionality, v ideálním případě je možné pořídit zdarma licenci pro studenty nebo využít bezplatné community edice. 
+	Cílem práce je vytvoření CASE nástroje, který podporuje Oracle Database a Microsoft SQL Server, právě podpora DBMS se stala primárním požadavkem při volbě porovnávaných nástrojů. Každý z následujících nástrojů tedy podporuje alespoň jeden z dvojice dříve zmíněných databázových systémů. Nástroje jsou porovnány na základě mnoha kritérií, mezi jinými např. schopnost reverzního generování ER diagramů nebo způsob synchronizace se stávajícím schématem databáze. Každý z následujících nástrojů nabízí alespoň trial verzi pro otestování jeho funkcionality, v ideálním případě je možné pořídit zdarma licenci pro studenty nebo využít bezplatné community edice. 
 	
 		\subsubsection{Oracle SQL Developer Data Modeler}
 		Autorem prvního nástroje je firma Oracle, která jej vyvíjí od roku 2008. Data Modeler je šířen bezplatně a nainstalovat jej můžeme buď samostatně nebo v rámci nástroje SQL Developer, ovšem ten je zaměřen na správu existujících Oracle databázi, takže možnosti modelování jsou oproti samostatné instalaci Data Modeleru mírně limitovány.
@@ -406,15 +406,15 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		\subsubsection{Toad Data Modeler}
 		Další nástroj je vyvíjen od roku 2006 firmou Quest Software, jedná se o komerční produkt určený pro operační systém Microsoft Windows. Toad podporuje více než 10 různých DBMS v několika verzích, mezi nimi např. Oracle Database, Microsoft SQL Server nebo PostgreSQL.
 		
-		Toad umožňuje vytvořit 3 typy modelů, nejpoužívanější je fyzický model, který je cílen na konkrétní DBMS, další možností je logický model, ten se ovšem doporučuje jen v případě využití dědičnosti. Posledním typem je univerzální model, který umožňuje tvorbu diagramu bez návaznosti na konkrétní DBMS, případně pokud určený DBMS není mezi podporovanými. Notace jsou tentokrát v nabídce pouze dvě, implicitně nastavený Information Engineering a IDEF1X.
+		Toad umožňuje vytvořit 3 typy modelů, nejpoužívanější je fyzický model, který je cílen na konkrétní DBMS, další možností je logický model, ten se ovšem doporučuje jen v případě využití dědičnosti. Posledním typem je univerzální model, který umožňuje tvorbu diagramu bez návaznosti na konkrétní DBMS, případně pokud určený DBMS není mezi podporovanými. Notace jsou tentokrát v nabídce pouze dvě, implicitně nastavený Information Engineering a volitelná IDEF1X.
 		
-		Export je možné provést do CSV, podle mého názoru je export řešen lépe než v Data Modeleru, protože CSV soubor je exportován pouze jeden a prvky jsou odděleny vnitřní strukturou. Další možnosti je export do Excelu, který prvky rozděluje do samostatných sešitů. Poslední možností je export ve formě obrázku. Tato volba nabízí mnoho nastavení od velikosti plátna, rozdělení na stránky pro tisk po kompresi a barevnou hloubku.
+		Export je možné provést do CSV, podle mého názoru je export řešen lépe než v Data Modeleru, protože CSV soubor je exportován pouze jeden a prvky jsou odděleny vnitřní strukturou souboru. Další možnosti je export do Excelu, který prvky rozděluje do samostatných sešitů. Poslední možností je export ve formě obrázku. Tato volba nabízí mnoho nastavení od velikosti plátna, rozdělení na stránky pro tisk po kompresi a barevnou hloubku.
 		
 		Z diagramu je možné vygenerovat DDL skript pro všechny podporované DBMS bez ohledu na to, jaký byl zvolen při zakládaní projektu. DDL skripty je možné generovat buď úplné nebo obsahující jen změny v diagramu provedené v případě reverzního vygenerování. Takto vygenerovaný skript neobsahuje pouze tabulky a integritní omezení, ale může zahrnovat i uložené procedury, funkce, triggery nebo indexy. 
 		
 		Nástroj umožňuje rovněž kontrolu vytvořeného modelu než přejdeme ke generování skriptů. Fyzických modelů umožňuje vytvořit Toad několik v jednom projektu a následně je schopen provést jejich porovnání a přehledně vypsat v čem se liší, modely je možné dokonce i sloučit. Další zajímavou volbou je možnost migrace na jiný DBMS než z jakého byl model importován.
 		
-		Import modelu je možný nejen z CSV, Excelu a nativního formátu, ale také z jiných aplikací, konkrétně ER/Studio Data Architect a Toad for Oracle. Vytvoření modelu z DDL skriptu bohužel v případě tohoto nástroje chybí. Samozřejmostí je reverzní vygenerování modelu z připojené databáze, do projektu jsou lze zahrnout i indexy, procedury a další objekty z databáze, které poté mohou být rovněž součástí DDL skriptu.
+		Import modelu je možný nejen z CSV, Excelu a nativního formátu, ale také z jiných aplikací, konkrétně ER/Studio Data Architect a Toad for Oracle. Vytvoření modelu z DDL skriptu bohužel v případě tohoto nástroje chybí. Samozřejmostí je reverzní vygenerování modelu z připojené databáze, do projektu zde lze zahrnout i indexy, procedury a další objekty z databáze, které poté mohou být rovněž součástí DDL skriptu.
 		
 		Aktualizace databáze na základě změn v ER diagramu je možné provádět buď spuštěním vygenerovaného DDL skriptu obsahující změny samostatně nebo lze využít definovaného připojení a změny provést přes GUI. Toad nabízí uložení modelů v různých fázích úprav, tento přístup umožňuje modely porovnat a případně vygenerovat skript na základě rozdílů mezi nimi.
 		
@@ -422,17 +422,16 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		
 		Grafický editor pro tvorbu diagramů reaguje velmi rychle a za dobu testování jsem se nesetkal s žádnými výraznými problémy. Zobrazení entit lze měnit od  pouhého názvu po detailní výpis atributů. Vztahům lze přidávat popisky, samozřejmě je lze v případě potřeby vypnout. Pracovní plocha je rozdělena na části, velikosti A4, kvůli rozvržení pro tisk. Nevýhodou je absence mřížky, ke které by šly objekty přichytávat. Vztahy jsou reprezentovány lomenou čárou, úhly jsou vždy pravé což považuji za velké plus z pohledu přehlednosti. Do pracovní plochy lze kromě entit a vztahů vkládat také text a základní geometrické tvary, tato možnost je využitelná pro tvorbu popisků.
 		
-		Jeden z mála problémů, se kterým jsem se setkal, bylo hromadné přidání všech tabulek a vztahů z existující databáze do diagramu. Tabulky se všechny umístily do jednoho místa a bylo je nutné postupně rozprostřít po větší ploše. Naštěstí výrobce na tento problém pamatoval a v nabídce je volba \textit{autolayout}. Ta ma za následek automatické uspořádání tabulek tak, aby se nepřekrývaly. Rozložení je možné shora dolů, zleva doprava nebo abecedně do obdélníku. Podobně lze znova vykreslit vztahy, dokonce lze i zakázat jejich křížení, vyhledávání tras je velmi rychle a dokonce ani po zapnutí volby pro cp nejpřesnější trasy nepřesáhl čas, dle mého odhadu, sekundu.  
+		Jeden z mála problémů, se kterým jsem se setkal, bylo hromadné přidání všech tabulek a vztahů z existující databáze do diagramu. Tabulky se všechny umístily do jednoho místa a bylo je nutné postupně rozprostřít po větší ploše. Naštěstí výrobce na tento problém pamatoval a v nabídce je volba \textit{autolayout}. Ta ma za následek automatické uspořádání tabulek tak, aby se nepřekrývaly. Rozložení je možné shora dolů, zleva doprava nebo abecedně do obdélníku. Podobně lze znova vykreslit vztahy, dokonce lze i zakázat jejich křížení, vyhledávání tras je velmi rychle a dokonce ani po zapnutí volby pro cp nejpřesnější trasy nepřesáhl čas, dle mého odhadu, sekundu. 
 		
 		Jediná věc co bych Toad Data Modeleru vytkl je nepřehlednost uživatelského rozhraní. Jedná se o opravdu velmi komplexní nástroj a to mělo na GUI pravděpodobně největší dopad. Hlavní menu obsahuje sice optimální počet položek a není překombinované ani co se týká úrovní zanoření, nicméně o nástrojové liště to říct nelze. Většina funkcionality je směřovaná zde a novému uživateli zabere nějaký čas než prozkoumá veškeré možnosti, výhodou je velké množství klávesových zkratek, které velmi usnadňují práci. Problém způsobovalo také rozvržení spodních panelů na displayi s nižším rozlišením, nicméně přesunutí docků fungovalo bez problémů a na displayi s FullHD rozlišením se problém neprojevil.
 		
 		\subsubsection{SQL Server Management Studio}
+		Tento nástroj je vyvíjen společnosti Microsoft, první verze byla vydaná společně s Microsoft SQL Server 2005. Jedná se o plnohodnotný nástroj pro administraci SQL Serveru, většina potřebných úkonů je možné provést s využitím GUI. Součástí tohoto nástroje je také možnost tvorby ER diagramů a právě na něj se zaměříme. 
 		
 		\subsubsection{Visual Paradigm}
 		
-		
 		\subsubsection{StarUML}
-		
 		
 		\subsubsection{Online nástroje} % TODO: Možná se vynechá
 	
