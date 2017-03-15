@@ -437,9 +437,13 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 		
 		Reverzní generování diagramu umožňuje vizualizovat pouze vybranou část schématu, tato možnost je praktická zejména při práci s rozsáhlými systémy, kde lze schéma rozdělit na logické celky. Aktualizace schématu databáze prostřednictvím ER diagramu jsou velmi rychlé, stačí potvrzení změn uložením diagramu a patřičné změny se ihned promítnou v aktuálním schématu. Před potvrzením je možné zobrazit DDL skript obsahující SQL příkazy k modifikaci schématu. 
 		
+		Přepínání mezi diagramy funguje prakticky okamžitě, změny provedené v jednom jsou ihned zobrazeny v druhém, z tohoto pohledu je synchronizace na skvělé úrovni. Problém způsobilo jen přidání atributu do tabulky, ze které byl atribut se stejným názvem v dalším diagramu smazán, změny byly potvrzeny opožděně nicméně tato situace skončila chybou a pomohlo jen smazání diagramů z databáze a jejich opětovné vygenerování. Tento fakt nepovažuji za zásadní selhání, protože se jedná o velmi neobvyklou operaci.
+		
 		Vybraná část schématu, která je součásti diagramu bohužel nejde exportovat ve formě DDL skriptu, je možné vytvořit pouze DDL skript pro jednotlivé tabulky a tyto dílčí části zkompletovat v textovém editoru podle potřeby.
 		
 		Grafický editor reaguje, ve srovnání s ostatními nástroji, nejrychleji z testovaných. Umožňuje přidat kromě objektů z databáze také popisky, stejně tak je možné přidávat popisky vztahům. Režimů zobrazení tabulek editor nabízí také několik, od pouhého názvu tabulky po zobrazení pouze klíčových atributů. V případě potřeby je možné využít autolayout, podobně jako u Toad Modeleru, a celé schéma nechat přehledně uspořádat. 
+		
+		Žádné problémy s grafickým editorem jako je špatné uspořádání čar, blikání objektů a podobně se nevyskytly. Práce je velmi intuitivní a editor neobsahuje zbytečné funkce. Právě tato jednoduchost má největší vliv na uživatelský komfort, který je podle mě na nejlepší úrovní z testovaných nástrojů.
 		
 		
 		
