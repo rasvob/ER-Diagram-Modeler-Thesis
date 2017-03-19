@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  19 MAR 2017 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  19 MAR 2017 15:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -1897,18 +1897,6 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 553.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-[]\T1/lmr/m/n/10.95 SONG, Il-Yeol, Mary EVANS a E.K. PARK. \T1/lmr/m/it/10.95 A
- Com-pa-ra-tive Ana-ly-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-\T1/lmr/m/it/10.95 sis of Entity-Relationship Di-a-grams \T1/lmr/m/n/10.95 [on-
-line]. [cit. 2017-03-11]. Do-stupné z:
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 559--560
 []\T1/lmr/m/n/10.95 BACHMAN, C. W. \T1/lmr/m/it/10.95 Data structure di-a-grams
  \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-03-11]. Do-
@@ -1972,9 +1960,9 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (40 pages, 1271034 bytes).
+Output written on main.pdf (40 pages, 1270104 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
+ 553 PDF objects out of 1000 (max. 8388607)
  115 named destinations out of 1000 (max. 500000)
  325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
