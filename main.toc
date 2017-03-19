@@ -39,7 +39,7 @@
 \contentsline {subsubsection}{\numberline {3.2.5}StarUML 2}{31}{subsubsection.3.2.5}
 \contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{32}{subsection.3.3}
 \contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{34}{section.4}
-\contentsline {subsection}{\numberline {4.1}Implementace n\IeC {\'a}stroje obecn\IeC {\v e}}{34}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Pou\IeC {\v z}it\IeC {\'e} technologie}{34}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Kl\IeC {\'\i }\IeC {\v c}ov\IeC {\'e} operace p\IeC {\v r}i pr\IeC {\'a}ci s editorem}{34}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}Zm\IeC {\v e}na rozm\IeC {\v e}r\IeC {\r u} tabulek v diagramu}{34}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}P\IeC {\v r}esouvan\IeC {\'\i } tabulek v diagramu}{34}{subsubsection.4.2.2}

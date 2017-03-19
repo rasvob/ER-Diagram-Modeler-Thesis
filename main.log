@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  19 MAR 2017 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  19 MAR 2017 17:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1924,8 +1924,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 7D4D17762421E302FF4425D655826699;4967
-(rerunfilecheck)             After:  EE333A5510FC1B1011FF9F08E9F90C98;5100.
+(rerunfilecheck)             Before: EE333A5510FC1B1011FF9F08E9F90C98;5100
+(rerunfilecheck)             After:  6201299D9C65DE2A6784A787B829F7DF;4968.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
  ) 
 Here is how much of TeX's memory you used:
@@ -1949,7 +1949,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (40 pages, 1273858 bytes).
+Output written on main.pdf (40 pages, 1253712 bytes).
 PDF statistics:
  570 PDF objects out of 1000 (max. 8388607)
  117 named destinations out of 1000 (max. 500000)
