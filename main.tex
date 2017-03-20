@@ -534,12 +534,12 @@ Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření tě
 	
 \newpage
 \section{Návrh a implementace grafického editoru ER diagramů}
-Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od vrstvy realizující doménovou logiku, včetně přístupu k zdroji dat. Tento přístup je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
+Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu k zdroji dat. Tento přístup je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
 	
 	\subsection{Klíčové části grafického editoru}
 	Grafický editor je, stejně jako ostatní části aplikace, navrhnut s ohledem na, výše zmíněný, návrhová vzor MVVM. Viewmodely ve WPF aplikacích slouží pro agregování dat pro jednotlivé komponenty v podobě jaká vyhovuje prezentační vrstvě. Provázaní těchto dat s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. 
 	
-	Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace, nicméně tato praktika se používá zpravidla pro komponenty jako je tabulka nebo seznam, kdy hlavním úkolem je prezentace dat ze zdroje a práce s nimi. Grafický editor je z tohoto pohledu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat a prezentační vrstvy bylo tedy nutné implementovat alternativním způsobem. 
+	Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace, nicméně tato praktika se používá zpravidla pro komponenty jako je tabulka nebo seznam, kdy hlavním úkolem je prezentace dat ze zdroje a práce s nimi. Grafický editor je z tohoto pohledu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
 		
 		\subsubsection{Provázání editoru s daty}
 		
