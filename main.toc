@@ -42,16 +42,16 @@
 \contentsline {subsection}{\numberline {4.1}Kl\IeC {\'\i }\IeC {\v c}ov\IeC {\'e} \IeC {\v c}\IeC {\'a}sti grafick\IeC {\'e}ho editoru}{34}{subsection.4.1}
 \contentsline {subsubsection}{\numberline {4.1.1}Prov\IeC {\'a}z\IeC {\'a}n\IeC {\'\i } editoru s daty}{34}{subsubsection.4.1.1}
 \contentsline {subsubsection}{\numberline {4.1.2}P\IeC {\v r}esouvan\IeC {\'\i } a zm\IeC {\v e}na rozm\IeC {\v e}r\IeC {\r u} tabulek v diagramu}{35}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}\IeC {\'U}pravy \IeC {\v c}ar pro vizualizaci vztahu}{36}{subsubsection.4.1.3}
-\contentsline {subsection}{\numberline {4.2}Algoritmy pro automatick\IeC {\'e} rozvr\IeC {\v z}en\IeC {\'\i } objekt\IeC {\r u}}{36}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}V\IeC {\'y}po\IeC {\v c}et trasy po p\IeC {\v r}id\IeC {\'a}n\IeC {\'\i } vztahu}{36}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Automatick\IeC {\'e} rozvr\IeC {\v z}en\IeC {\'\i } tabulek}{36}{subsubsection.4.2.2}
-\contentsline {subsection}{\numberline {4.3}Serializace diagramu}{36}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Export diagramu}{36}{subsection.4.4}
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{37}{section.5}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{38}{section.6}
-\contentsline {section}{Literatura}{39}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{39}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{40}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{41}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{42}{appendix.C}
+\contentsline {subsubsection}{\numberline {4.1.3}\IeC {\'U}pravy \IeC {\v c}ar pro vizualizaci vztahu}{35}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}Algoritmy pro automatick\IeC {\'e} rozvr\IeC {\v z}en\IeC {\'\i } objekt\IeC {\r u}}{35}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}V\IeC {\'y}po\IeC {\v c}et trasy po p\IeC {\v r}id\IeC {\'a}n\IeC {\'\i } vztahu}{35}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Automatick\IeC {\'e} rozvr\IeC {\v z}en\IeC {\'\i } tabulek}{35}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Serializace diagramu}{35}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Export diagramu}{35}{subsection.4.4}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace synchronizace ER diagram\IeC {\r u} s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{36}{section.5}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{37}{section.6}
+\contentsline {section}{Literatura}{38}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{38}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{39}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{40}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{41}{appendix.C}
