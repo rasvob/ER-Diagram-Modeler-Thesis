@@ -551,6 +551,16 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\subsubsection{Přesouvaní a změna rozměrů tabulek v diagramu}
 		Implementace obou operací je úzce spjatá s použitím WPF komponenty Thumb, která je nejčastěji využívaná v aplikacích, které pro své fungování využívají výhody dotykového displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
 		
+		Tuto závislost lze řešit použitím komponenty Thumb v kombinaci s XAML šablonou \ref{src:Pascal}. Thumb vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí.
+		
+		\begin{lstlisting}[language=Pascal,label=src:Pascal,caption=Program Hello world v jazyce Pascal]
+		{ My first program in Pascal }
+		program Hello;
+		begin
+		writeln ('Hello, world.')
+		end.
+		\end{lstlisting}
+		
 		\subsubsection{Úpravy čar pro vizualizaci vztahu}
 		
 		
