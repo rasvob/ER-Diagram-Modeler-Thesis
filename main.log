@@ -1889,7 +1889,7 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 525--541
 
 ]
 
-Package caption Warning: \label without proper reference on input line 573.
+Package caption Warning: \label without proper reference on input line 572.
 See the caption package documentation for explanation.
 
 
@@ -1898,7 +1898,7 @@ ne 568.
 
 File: Figures/NotationExMinMax.png Graphic file (type png)
 <use Figures/NotationExMinMax.png>
-Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 572.
+Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 573.
 (pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
  [35] [36] [37
 
@@ -1960,7 +1960,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (42 pages, 1293966 bytes).
+Output written on main.pdf (42 pages, 1258585 bytes).
 PDF statistics:
  576 PDF objects out of 1000 (max. 8388607)
  119 named destinations out of 1000 (max. 500000)
