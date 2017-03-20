@@ -542,13 +542,14 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace, nicméně tato praktika se používá zpravidla pro komponenty jako je tabulka nebo seznam, kdy hlavním úkolem je prezentace dat ze zdroje a práce s nimi. Grafický editor je z tohoto pohledu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
 		
 		\subsubsection{Provázání editoru s daty}
-		Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jehož vlastníkem je vždy jediná komponenta. Kromě, výše zmíněného, uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
+		Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jenž je vlastněn výhradně touto komponentou. Kromě, výše zmíněného, uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
 		
-		Stejně je tomu i v případě grafického editoru, viemodel obsahuje trojici kolekcí obsahující viewmodely tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním komponentám, kdy např. pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno, není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou.
+		Stejně je tomu i v případě grafického editoru, viemodel obsahuje trojici kolekcí obsahující viewmodely tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním komponentám, kdy pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno, není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru.
 		
-		Tato implementace umožňuje pracovat s grafickým editorem na úrovni viewmodelu, stejně jako s komponentami využívajícími standardní způsob data-bindingu ve WPF aplikacích. 
+		Tato implementace umožňuje pracovat s grafickým editorem na úrovni viewmodelu, stejným způsobem jako s komponentami využívajícími standardní způsob data-bindingu ve WPF aplikacích. 
 		
 		\subsubsection{Přesouvaní a změna rozměrů tabulek v diagramu}
+		Implementace obou operací je úzce spjatá s použitím WPF komponenty Thumb, která je nejčastěji využívaná v aplikacích, které pro své fungování využívají výhody dotykového displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
 		
 		\subsubsection{Úpravy čar pro vizualizaci vztahu}
 		
