@@ -1900,7 +1900,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ] [37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 591--592
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
@@ -1912,24 +1912,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 591--592
 ] [40
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
  [41
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E9C62AF3A462711A35FF826AE2A8620F;4866.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
  ) 
 Here is how much of TeX's memory you used:
- 17513 strings out of 493333
- 245211 string characters out of 3139195
- 354243 words of memory out of 3000000
- 20601 multiletter control sequences out of 15000+200000
- 54946 words of font info for 49 fonts, out of 3000000 for 9000
+ 17510 strings out of 493333
+ 245170 string characters out of 3139195
+ 352243 words of memory out of 3000000
+ 20600 multiletter control sequences out of 15000+200000
+ 54625 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,50p,1004b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -1944,11 +1944,10 @@ KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmtto10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (41 pages, 1319572 bytes).
+ 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (41 pages, 1281550 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
  333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
