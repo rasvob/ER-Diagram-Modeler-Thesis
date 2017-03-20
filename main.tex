@@ -551,7 +551,9 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\subsubsection{Přesouvaní a změna rozměrů tabulek v diagramu}
 		Implementace obou operací je úzce spjatá s použitím WPF komponenty Thumb, která je nejčastěji využívaná v aplikacích, které pro své fungování využívají výhody dotykového displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
 		
-		Tuto závislost lze řešit právě použitím, již zmíněné, komponenty Thumb v kombinaci s XAML šablonou. Thumb vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí. Šablona umožňuje nastavení společných základních vlastností pro jakoukoli implementaci komponenty pro tabulku, společně s definicí triggeru pro zviditelnění vrstvy pro změnu rozměrů tabulky po jejím výběru.
+		Tuto závislost lze řešit právě použitím, již zmíněné, komponenty Thumb v kombinaci s XAML šablonou. Thumb vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí. Šablona umožňuje nastavení společných základních vlastností pro jakoukoli implementaci komponenty pro tabulku, společně s definicí triggeru pro zviditelnění vrstvy umožňující změnu rozměrů tabulky po jejím výběru. 
+		
+		Změna rozměrů využívá opět komponenty Thumb, která je nyní součástí tzv. adorner vrstvy, tato vrstva se zobrazí až po vybraní tabulky. Vybraním tabulky dojde k úpravě hodnoty jejího z-indexu tak, aby překryla veškeré ostatní objekty na plátně a bylo možné s ní komfortně pracovat. 
 		
 		\subsubsection{Úpravy čar pro vizualizaci vztahu}
 		
