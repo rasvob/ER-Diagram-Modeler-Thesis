@@ -619,7 +619,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		Moje implementace namísto množiny nezpracovaných uzlů používá, již zmíněnou, prioritní frontu a množina zpracovaných uzlů je nahrazena příznakem přímo v uzlu, který indikuje jeho stav. Tento způsob implementace značně optimalizuje základní algoritmus a výkon je tedy mnohem lepší než při použití množin.
 		
 		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
-		Implementace algoritmu pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy. Převod na graf ovšem není pro správnou funkcí vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující celá čísla, z hlediska výkonu, je ale, vzhledem k množství dat, tato skutečnost zanedbatelná. 
+		Implementace algoritmu pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy. Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující celá čísla, z hlediska výkonu, je ale, vzhledem k množství dat, tato skutečnost zanedbatelná. 
 		
 		Po připravení mřížky na základě rozvržení objektu na plátně je nutné provést přípravu dat v mřížce pro samotné vyhledávaní. Mřížku je nutné projít nejprve po sloupcích, vždy směrem nahoru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjádřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 		
