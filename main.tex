@@ -574,10 +574,8 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		Vztahy mezi zmíněnými třídami zachycuje třídní diagram na obr. \ref{fig:classDiagResize}, ten je značně zjednodušený oproti implementaci, obsahuje jen položky důležité pro tuto část.
 		
-		
-		
 		\subsubsection{Úpravy čar pro vizualizaci vztahu}
-		
+		Práce se samotnými vztahy probíhá opět na úrovní viewmodelu, podobně jako je tomu u tabulek, nicméně samotný vztah nyní není reprezentován jediným objektem na plátně, ale objektů se zde vyskytuje celá řada. Grafický editor používá Oracle CASE notaci, vztah je reprezentován lomenou čárou, na obou koncích této čáry se nachází symboly vyjádřující kardinalitu a povinnost. 
 		
 	
 	\subsection{Algoritmy pro automatické rozvržení objektů}
