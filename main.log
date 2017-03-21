@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  21 MAR 2017 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  21 MAR 2017 18:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -1899,7 +1899,7 @@ File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
 Package pdftex.def Info: Figures/EditorVztahy.png used on input line 586.
-(pdftex.def)             Requested size: 295.90588pt x 226.52689pt.
+(pdftex.def)             Requested size: 318.66948pt x 243.95769pt.
  [36 <./Figures/EditorVztahy.png>] [37] [38
 
 ]
@@ -1956,7 +1956,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (43 pages, 1328879 bytes).
+Output written on main.pdf (43 pages, 1358818 bytes).
 PDF statistics:
  589 PDF objects out of 1000 (max. 8388607)
  121 named destinations out of 1000 (max. 500000)
