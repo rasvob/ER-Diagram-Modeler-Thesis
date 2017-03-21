@@ -579,9 +579,11 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		V grafickém editoru je použita vlastní implementace lomené čáry, protože třída Polyline, která je pro práci s lomenými čárami určená, nabízí velmi omezené možnosti interakce ze strany uživatele a hodí se tedy spíše pro pouhou vizualizaci dat např. formou grafu, kde jsou zobrazovaná data aktualizována pomocí jiných prvků uživatelského rozhraní a přímá interakce není nutná.
 		
+		Viewmodel pro vztah tedy, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. Grafický editor reaguje na události vyvolané 
+		
 	
 	\subsection{Algoritmy pro automatické rozvržení objektů}
-		\subsubsection{Výpočet trasy po přidání vztahu}
+		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
 		\subsubsection{Automatické rozvržení tabulek}
 	
 	\subsection{Serializace diagramu}
