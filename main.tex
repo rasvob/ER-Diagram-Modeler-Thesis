@@ -621,7 +621,11 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
 		Implementace algoritmu pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy. Převod na graf ovšem není pro správnou funkcí vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující celá čísla, z hlediska výkonu, je ale, vzhledem k množství dat, tato skutečnost zanedbatelná. 
 		
+		Po připravení mřížky na základě rozvržení objektu na plátně je nutné provést přípravu dat v mřížce pro samotné vyhledávaní. Mřížku je nutné projít nejprve po sloupcích, vždy směrem nahoru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjádřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 		
+		V této fázi už je možné vyhledat volné obdélníky v takto připravené mřížce. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku.
+		
+		Nyní zbývá pouze zvolit jeden z těchto bodů, osobně jsem využil opět Manhattan \ref{eq:manhattan} metody pro určení metriky daného bodu vzhledem ke středu plátna, bod s nejlepší hodnotou metriky je tedy zvolen jako výsledný počáteční bod hledaného obdélníku. 
 		
 \newpage
 \section{Návrh a implementace synchronizace ER diagramů s relačním schématem}
