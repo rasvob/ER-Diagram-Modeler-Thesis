@@ -612,6 +612,8 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\label{eq:manhattan}
 		\end{equation}
 		
+		Uzly jsou uchovány v prioritní frontě, priorita je určena hodnotou vypočtenou pomocí metody Manhattan. Možností implementace prioritní fronty je celá řada, pro tento účel bylo nejvhodnější použít binární haldu, pro co nejlepší výkon algoritmu. Jedná se o stromovou strukturu, kde prvek s nejvyšší prioritou nalezneme v kořeni stromu. Open-source knihovny bohužel neimplementují operaci pro aktualizaci priority, která vyvolá nutnost úpravy stromové struktury, v nástroji bylo tedy nutné tuto strukturu pro správnou funkci A* algoritmu implementovat také. 
+		
 		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
 	
 	\subsection{Serializace diagramu}
