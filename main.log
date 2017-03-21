@@ -1899,20 +1899,16 @@ File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
 Package pdftex.def Info: Figures/EditorVztahy.png used on input line 586.
-(pdftex.def)             Requested size: 341.43307pt x 261.38113pt.
+(pdftex.def)             Requested size: 295.90588pt x 226.52689pt.
+ [36 <./Figures/EditorVztahy.png>] [37] [38
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[36] [37 <./Figures/EditorVztahy.png>] [38
-
-] [39
+]
+[39
 
 ]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 611.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \hbox (badness 10000) in paragraph at lines 617--618
@@ -1960,7 +1956,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (43 pages, 1359466 bytes).
+Output written on main.pdf (43 pages, 1328879 bytes).
 PDF statistics:
  589 PDF objects out of 1000 (max. 8388607)
  121 named destinations out of 1000 (max. 500000)
