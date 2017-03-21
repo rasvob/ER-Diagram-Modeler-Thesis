@@ -591,8 +591,11 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		Všechny segmenty lomené čáry reagují na interakci pomocí myši, pro přenos informací, o provedených změnách, do viewmodelu je využit návrhový vzor Pozorovatel, který využívá pro tuto činnost události. Viewmodel vztahu je informován o průběhu interakce, tím je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry včetně ukončujících symbolů v závislosti na pohybu určitého segmentu. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance nebo změna orientace ukončujících symbolů na základě orientace krajních segmentů čáry.
 		
 	\subsection{Algoritmy pro automatické rozvržení objektů}
+	Vztahy může uživatel libovolně upravovat dle své potřeby, nicméně po přidání nového vztahu mezi tabulkami je nutné tento vztah nejprve vykreslit pomocí lomené čáry. Tento krok byl v první fázi tvorby nástroje implementován metodou, která nejdříve zjistí vzájemnou polohu obou tabulek a následně vztah vykreslí jako spojnici předefinovaných lomových bodů. Tento způsob se neosvědčil v situacích, ve kterých tabulka figuruje v několika vztazích, protože často docházelo minimálně k částečnému překrývaní vztahů. Největším problémem tohoto řešení byl fakt, že nejsou zohledněny další tabulky na plátně a dochází tedy k častému křížení vztahů s tabulkami, které se vyskytují v trase vztahu, což vedlo u rozsáhlých diagramů k naprosté nepřehlednosti.
 	
 		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
+		
+		
 		\subsubsection{Automatické rozvržení tabulek}
 	
 	\subsection{Serializace diagramu}
