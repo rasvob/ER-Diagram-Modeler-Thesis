@@ -593,12 +593,12 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\subsection{Algoritmy pro automatické rozvržení objektů}
 	Vztahy může uživatel libovolně upravovat dle své potřeby, nicméně po přidání nového vztahu mezi tabulkami je nutné tento vztah nejprve vykreslit pomocí lomené čáry na plátno. Tento krok byl v první fázi tvorby nástroje implementován metodou, která nejdříve zjistila vzájemnou polohu obou tabulek a následně vztah vykreslila jako spojnici předefinovaných lomových bodů, jejich souřadnice byly posunuty na základě aktuální polohy tabulek. Tento způsob se neosvědčil v situacích, ve kterých tabulka figuruje v několika vztazích, protože často docházelo minimálně k částečnému překrývaní vztahů. Největším problémem tohoto řešení byl fakt, že nejsou zohledněny další tabulky na plátně a dochází ke křížení vztahů s tabulkami, které se vyskytují v předdefinované trase, což vedlo u rozsáhlých diagramů k naprosté nepřehlednosti. Z toho důvodu je diagram transformován na graf a problém je řešen jako vyhledávání cesty v grafu, který umožňuje tento problém řešit v krátkém čase se snadnou definicí omezení, která jsou na požadovanou trasu kladeny. Použité algoritmy jsou rozebrány v kapitole \ref{secAStar}.
 	
-	Přidávání již existujících tabulek z databáze je možné dvěma způsoby. Prvním z nich 
+	Přidávání již existujících tabulek v databázi z příslušného panelu je možné dvěma způsoby. Prvním z nich je klasická drag and drop varianta, známá z mnoha dalších nástrojů, která umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde druhá možnost, která po dvojitém stisku levého tlačítka myši umístí tabulku na plátno automaticky. Prvním způsobem implementace bylo umístění tabulky na náhodné místo v diagramu tak, aby se levý horní roh tabulky vyskytoval ve volném místě, nicméně toto řešení není zdaleka ideální, protože tabulky se velmi často překrývají a navíc může dojít k situaci, kdy jen několik málo tabulek je rozprostřeno po celém plátně, což není pro komfortní práci s nástrojem žádoucí. Aktuální implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna  bez vzájemného překrývání. Použitá metoda je popsána v kapitole \ref{secTablePos}.
 	
 		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
 		
 		
-		\subsubsection{Automatické rozvržení tabulek}
+		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
 	
 	\subsection{Serializace diagramu}
 	
