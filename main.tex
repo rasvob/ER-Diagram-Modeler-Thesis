@@ -608,7 +608,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		Druhým implementovaným algoritmem je A* \cite{aStar}, který se používá k nalezení nejkratší cesty v grafu. Tento algoritmus kombinuje výhody hladového BFS a Djikstrova algoritmu. Priorita prohledávání uzlů je určena na základě heuristiky, která slouží k odhadu vzdálenosti z aktuálního uzlu k cíli. Metod jak tuto hodnotu určit je několik, její volba závisí na reprezentaci prohledávaného prostoru a možných směrech. Pro mřížku se 4 směry pohybu je nejvhodnější metoda Manhattan, která je v implementaci použita.
 		
 		\begin{equation}
-			H = \left( \mid node.x - goal.x \mid + \mid node.y - goal.y \mid \right)
+			H = \left( \mid node.x - goal.x \mid + \mid node.y - goal.y \mid \right) \star D
 		\end{equation}
 		
 		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
