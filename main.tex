@@ -598,7 +598,9 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
 		Prvním krokem bylo transformace plátna na graf, ve kterém je cesta vyhledávaná. Graf je reprezentován pomocí 2D pole, tato reprezentace nejlépe odpovídá reálné reprezentaci plátna pomocí mřížky pixelů. Prvním krokem bylo převedení každého pixelu plátna na samostatný uzel grafu. Tento uzel obsahuje souřadnice bodu na plátně, společně s informací zda je bod volný nebo jej překrývá tabulka, dále jsou zde data důležitá pro vyhledávací algoritmus, ale tyto položky budou vysvětleny později.
 		
-		 
+		Výhodou této reprezentace je její přesnost, kdy nedochází k zanedbání žádné informace z plátna. Problémem je ovšem katastrofální dopad na výkon nástroje, protože pro plátno o šířce a výšce 4000 pixelů je nutné alokovat 16 milionů uzlům které v průměru zabírají více než 1GB operační paměti a jejich alokace trvá přes 15 sekund. 
+		
+		Počet uzlů grafu bylo nutné zredukovat na co nejnižší počet při optimálním zanedbání informací. Z tohoto důvodu je plátno nejprve rozděleno na čtvercové úseky o konstantních rozměrech, pokud tabulka alespoň částečně zasahuje do některého z úseku, je tento úsek označen jako obsazený. Z této mřížky je následně vytvořen graf, který místo 16 milionů uzlů, jako tomu bylo původně, obsahuje uzlů, pro dříve zmíněné rozměry, pouze 1600.
 		
 		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
 	
