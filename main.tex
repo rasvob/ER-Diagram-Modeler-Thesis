@@ -579,7 +579,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		V grafickém editoru je použita vlastní implementace lomené čáry, protože třída Polyline, která je pro práci s lomenými čárami určená, nabízí velmi omezené možnosti interakce ze strany uživatele a hodí se tedy spíše pro pouhou vizualizaci dat např. formou grafu, kde jsou zobrazovaná data aktualizována pomocí jiných prvků uživatelského rozhraní a přímá interakce není nutná.
 		
-		Viewmodel pro vztah tedy, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy, detailní popis této činnosti se nachází v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. Závislosti mezi třídami pro zajištění této funkcionality nástroje popisuje třídní diagram \ref{fig:classDiagMovePolyline}.
+		Viewmodel pro vztah tedy, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy, detailní popis této činnosti je popsán v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. Závislosti mezi třídami pro zajištění této funkcionality nástroje popisuje třídní diagram \ref{fig:classDiagMovePolyline}.
 		
 		\begin{figure}[!h]
 			\centering
@@ -590,7 +590,6 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		Všechny segmenty lomené čáry reagují na interakci pomocí myši, pro přenos informací, o provedených změnách, do viewmodelu je využit návrhový vzor Pozorovatel, který využívá pro tuto činnost události. Viewmodel vztahu je informován o průběhu interakce, tím je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry včetně ukončujících symbolů v závislosti na pohybu určitého segmentu. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance nebo změna orientace ukončujících symbolů na základě orientace krajních segmentů čáry.
 		
-	
 	\subsection{Algoritmy pro automatické rozvržení objektů}
 		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
 		\subsubsection{Automatické rozvržení tabulek}
