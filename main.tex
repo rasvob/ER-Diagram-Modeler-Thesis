@@ -579,7 +579,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		V grafickém editoru je použita vlastní implementace lomené čáry, protože třída Polyline, která je pro práci s lomenými čárami určená, nabízí velmi omezené možnosti interakce ze strany uživatele a hodí se tedy spíše pro pouhou vizualizaci dat např. formou grafu, kde jsou zobrazovaná data aktualizována pomocí jiných prvků uživatelského rozhraní a přímá interakce není nutná.
 		
-		Viewmodel pro vztah tedy, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy, detailní popis této činnosti se nachází v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. Tuto část nástroje popisuje třídní diagram \ref{fig:classDiagMovePolyline}.
+		Viewmodel pro vztah tedy, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy, detailní popis této činnosti se nachází v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. Závislosti mezi třídami pro zajištění této funkcionality nástroje popisuje třídní diagram \ref{fig:classDiagMovePolyline}.
 		
 		\begin{figure}[!h]
 			\centering
