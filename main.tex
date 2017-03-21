@@ -623,8 +623,6 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		Po připravení mřížky na základě rozvržení objektu na plátně je nutné provést přípravu dat v mřížce pro samotné vyhledávaní. Mřížku je nutné projít nejprve po sloupcích, vždy směrem nahoru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjádřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 		
-		V této fázi už je možné vyhledat volné obdélníky v takto připravené mřížce. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku.
-		
 		\begin{lstlisting}[label=src:freeRect,caption=Nalezení volného obdélníku v mřížce]
 		public Point? FindFreeRectangle(Rectangle rect)
 		{
@@ -646,6 +644,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			return null;
 		}
 		\end{lstlisting}
+		
+		V této fázi už je možné vyhledat volné obdélníky v takto připravené mřížce. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku.
+		
+		
 		
 		Nyní zbývá pouze zvolit jeden z těchto bodů, osobně jsem využil opět Manhattan \ref{eq:manhattan} metodu pro určení metriky daného bodu vzhledem ke středu plátna, bod s hodnotou metriky lepší než je průměrná hodnota je tedy zvolen jako výsledný počáteční bod hledaného obdélníku. Implementace celé metody je k vidění ve výpisu zdrojového kódu \ref{src:freeRect}.
 		
