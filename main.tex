@@ -577,6 +577,8 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\subsubsection{Úpravy čar pro vizualizaci vztahu}
 		Práce se samotnými vztahy probíhá opět na úrovní viewmodelu, podobně jako je tomu u tabulek, nicméně samotný vztah nyní není reprezentován jediným objektem na plátně, ale objektů se zde vyskytuje celá řada. Grafický editor používá Oracle CASE notaci, vztah je reprezentován lomenou čárou, na obou koncích této čáry se nachází symboly vyjádřující kardinalitu a povinnost. 
 		
+		V grafickém editoru je použita vlastní implementace lomené čáry, protože třída Polyline, která je pro práci s lomenými čárami určená, nabízí velmi omezené možnosti interakce ze strany uživatele a hodí se tedy spíše pro pouhou vizualizaci dat např. formou grafu, kde jsou zobrazovaná data aktualizována pomocí jiných prvků uživatelského rozhraní a přímá interakce není nutná.
+		
 	
 	\subsection{Algoritmy pro automatické rozvržení objektů}
 		\subsubsection{Výpočet trasy po přidání vztahu}
