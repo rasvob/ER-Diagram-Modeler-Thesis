@@ -596,7 +596,9 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Přidávání již existujících tabulek v databázi z příslušného panelu je možné dvěma způsoby. Prvním z nich je klasická drag and drop varianta, známá z mnoha dalších nástrojů, která umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde druhá možnost, která po dvojitém stisku levého tlačítka myši umístí tabulku na plátno automaticky. Prvním způsobem implementace bylo umístění tabulky na náhodné místo v diagramu tak, aby se levý horní roh tabulky vyskytoval ve volném místě, nicméně toto řešení není zdaleka ideální, protože tabulky se velmi často překrývají a navíc může dojít k situaci, kdy jen několik málo tabulek je rozprostřeno po celém plátně, což není pro komfortní práci s nástrojem žádoucí. Aktuální implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna  bez vzájemného překrývání. Použitá metoda je popsána v kapitole \ref{secTablePos}.
 	
 		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
+		Prvním krokem bylo transformace plátna na graf, ve kterém je cesta vyhledávaná. Graf je reprezentován pomocí 2D pole, tato reprezentace nejlépe odpovídá reálné reprezentaci plátna pomocí mřížky pixelů. Prvním krokem bylo převedení každého pixelu plátna na samostatný uzel grafu. Tento uzel obsahuje souřadnice bodu na plátně, společně s informací zda je bod volný nebo jej překrývá tabulka, dále jsou zde data důležitá pro vyhledávací algoritmus, ale tyto položky budou vysvětleny později.
 		
+		 
 		
 		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
 	
