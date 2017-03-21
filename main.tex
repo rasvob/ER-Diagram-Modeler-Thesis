@@ -583,7 +583,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.75\textwidth]{Figures/EditorTabulky}
+			\includegraphics[width=0.75\textwidth]{Figures/EditorVztahy}
 			\caption{Část třídního diagramu - vizualizace vztahu mezi tabulkami}
 			\label{fig:classDiagMovePolyline}
 		\end{figure}
@@ -591,6 +591,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		Všechny segmenty lomené čáry reagují na interakci pomocí myši, pro přenos informací, o provedených změnách, do viewmodelu je využit návrhový vzor Pozorovatel, který využívá pro tuto činnost události. Viewmodel vztahu je informován o průběhu interakce, tím je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry včetně ukončujících symbolů v závislosti na pohybu určitého segmentu. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance nebo změna orientace ukončujících symbolů na základě orientace krajních segmentů čáry.
 		
 	\subsection{Algoritmy pro automatické rozvržení objektů}
+	
 		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
 		\subsubsection{Automatické rozvržení tabulek}
 	
