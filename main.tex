@@ -581,6 +581,8 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		Viewmodel pro vztah tedy, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. Grafický editor reaguje na události vyvolané při práci s kolekcí čar, aby byla zajištěna integrita dat ve viewmodelu s objekty na plátně. 
 		
+		Všechny segmenty lomené čáry reagují na interakci pomocí myši, pro přenosu informací o provedených změnách je využit návrhový vzor Pozorovatel, který využívá událostí. Viewmodel vztahu je informován o průběhu interakce, tímto způsobem je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry včetně ukončujících symbolů. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance.
+		
 	
 	\subsection{Algoritmy pro automatické rozvržení objektů}
 		\subsubsection{Výpočet trasy po přidání vztahu} \label{secAStar}
