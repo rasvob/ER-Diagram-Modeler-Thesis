@@ -625,7 +625,17 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		V této fázi už je možné vyhledat volné obdélníky v takto připravené mřížce. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku.
 		
-		Nyní zbývá pouze zvolit jeden z těchto bodů, osobně jsem využil opět Manhattan \ref{eq:manhattan} metody pro určení metriky daného bodu vzhledem ke středu plátna, bod s nejlepší hodnotou metriky je tedy zvolen jako výsledný počáteční bod hledaného obdélníku. 
+		\begin{lstlisting}[label=src:freeRect,caption=Nalezení volného obdélníku v mřížce]
+		// My first program in C++
+		#include <iostream>
+		
+		int main()
+		{
+		std::cout << "Hello World!";
+		}
+		\end{lstlisting}
+		
+		Nyní zbývá pouze zvolit jeden z těchto bodů, osobně jsem využil opět Manhattan \ref{eq:manhattan} metodu pro určení metriky daného bodu vzhledem ke středu plátna, bod s hodnotou metriky lepší než je průměrná hodnota je tedy zvolen jako výsledný počáteční bod hledaného obdélníku. 
 		
 \newpage
 \section{Návrh a implementace synchronizace ER diagramů s relačním schématem}
