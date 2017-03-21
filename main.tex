@@ -605,10 +605,11 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		Nyní bylo možné přistoupit k samotnému vyhledávání trasy. Prvním implementovaným algoritmem je prohledávání grafu do šířky. Tento algoritmus využívá pro svou činnost frontu, v každém kroku jsou do fronty přidány sousední volné uzly vzhledem k aktuálně zpracovávanému uzlu. Pokud je tento uzel cílovým, prohledávání končí, cesta je nalezena. Pokud dojde k vyprázdnění fronty aniž by byl nalezen cíl, tak cesta v grafu neexistuje. Tento způsob hledání trasy je velmi snadno implementovatelný, jeho výkon bohužel není ideální, protože vyhledávání trvá řádově desítky až stovky milisekund pro jedinou trasu, nalezení více tras postupně tedy může trvat několik sekund, což je nežádoucí jev.
 		
-		Druhým implementovaným algoritmem je A* \cite{aStar}, který se používá k nalezení nejkratší cesty v grafu. Tento algoritmus kombinuje výhody hladového BFS a Djikstrova algoritmu. Priorita prohledávání uzlů je určena na základě heuristiky, která slouží k odhadu vzdálenosti z aktuálního uzlu k cíli. Metod jak tuto hodnotu určit je několik, její volba závisí na reprezentaci prohledávaného prostoru a možných směrech. Pro mřížku se 4 směry pohybu je nejvhodnější metoda Manhattan, která je v implementaci použita.
+		Druhým implementovaným algoritmem je A* \cite{aStar}, který se používá k nalezení nejkratší cesty v grafu. Tento algoritmus kombinuje výhody hladového BFS a Djikstrova algoritmu. Priorita prohledávání uzlů je určena na základě heuristiky, která slouží k odhadu vzdálenosti z aktuálního uzlu k cíli. Metod jak tuto hodnotu určit je několik, její volba závisí na reprezentaci prohledávaného prostoru a možných směrech. Pro mřížku se 4 směry pohybu je nejvhodnější metoda Manhattan \ref{eq:manhattan}, která je v implementaci použita.
 		
 		\begin{equation}
 			H = \left( \mid node.x - goal.x \mid + \mid node.y - goal.y \mid \right) \times D
+			\label{eq:manhattan}
 		\end{equation}
 		
 		\subsubsection{Automatické rozvržení tabulek} \label{secTablePos}
