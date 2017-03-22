@@ -673,7 +673,7 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		V nástroji představuje strategie primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie, kontext je definován typem aktuální relace. Struktura se samostatnými strategiemi pro jednotlivé mappery je zvolena z důvodu nutného předzpracování dat v případě některých operací, pokud by k tomuto jevu nedocházelo, bylo by možné namísto strategie použít vzor Abstract factory a s mappery pracovat přímo. 
 		
 		\subsubsection{Singleton}
-		V nástroji je důležité uchovávat informace o aktuální relaci 
+		Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
 	
 	\subsection{Využití vzorů pro synchronizaci}
 
