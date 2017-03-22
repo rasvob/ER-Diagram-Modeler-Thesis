@@ -677,6 +677,8 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		\subsubsection{Singleton}
 		Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
 		
+		Uchovávané informace se částečně liší pro různé DBMS, proto je zde uveden, kromě údajů potřebných k úspěšné autentifikaci, také DBMS, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci connection stringu, protože ty se liší pro každý DBMS, stejně tak se liší i třídy pro jeho sestavení z uvedených informací. 
+		
 		
 	
 	\subsection{Využití vzorů pro synchronizaci}
