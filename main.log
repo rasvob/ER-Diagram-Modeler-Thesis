@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  22 MAR 2017 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  22 MAR 2017 23:23
 entering extended mode
 **./main.tex
 (main.tex
@@ -1912,7 +1912,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 [43
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 694--695
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
@@ -1924,17 +1924,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--695
 ] [46
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 720.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 722.
  [47
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 720.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 722.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 720.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 720.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 722.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 722.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 862E3BA44C452E1046E5BD0437312D7F;5046.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 720.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 722.
  ) 
 Here is how much of TeX's memory you used:
  17596 strings out of 493333
@@ -1957,7 +1957,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (47 pages, 1367118 bytes).
+Output written on main.pdf (47 pages, 1362416 bytes).
 PDF statistics:
  647 PDF objects out of 1000 (max. 8388607)
  151 named destinations out of 1000 (max. 500000)

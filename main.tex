@@ -662,7 +662,7 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		\subsubsection{Data Mapper}
 		Tento vzor vychází z obecného vzoru Mapper, který slouží pro zprostředkování komunikace mezi, na sobě, nezávislými systémy. Data mapper je často používán v případech, kdy potřebujeme přistupovat k různým datovým zdrojům, které se liší implementaci přístupu. Typ datového zdroje je sice jeden, tedy systémový katalog relační databáze, nicméně pro různé DBMS se katalogy liší, což představuje ideální situaci pro použití tohoto vzoru. Další výhodou je i nezávislost podoby dat ve zdroji a doménové vrstvě, tímto je tedy možné reprezentovat data pro grafický editor jednotným modelem nezávisle na struktuře systémového katalogu.
 		
-		V nástroji se obvykle nepřistupuje k mapperům přímo, ale kvůli nutnosti přípravy dat před některými operacemi v závislosti na DBMS, se kterým aktuálně pracujeme, je přístup zapouzdřen pomocí návrhového vzoru Strategy. Toto provázání je popsáno v kapitole \ref{secStrategy}.
+		V nástroji se obvykle nepřistupuje k mapperům přímo, ale kvůli nutnosti přípravy dat před některými operacemi v závislosti na DBMS, se kterým aktuálně pracujeme, je přístup zapouzdřen pomocí návrhového vzoru Strategy. Toto provázání je popsáno v kapitole \ref{secStrategy}. K systémovému katalogu je přístup implementován pomoci vlastních SQL příkazů, pro tuto činnost tedy nejsou využity externí knihovny.
 		
 		\subsubsection{Layer Supertype}
 		Layer Supertype slouží k sjednocení společného rozhraní určité skupiny objektů nebo celé vrstvy, výhodou je zamezení duplikace metod se stejnou signaturou. Tento vzor je využít v datové vrstvě na dvou místech. První použitím je definice rozhraní pro třídy zodpovědné za přístup k databázi, zde jsou definovány základní metody pro otevření nového připojení, jeho uzavření a tvorbu SQL příkazu pro konkrétní mapper. 
@@ -676,6 +676,8 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		
 		\subsubsection{Singleton}
 		Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
+		
+		
 	
 	\subsection{Využití vzorů pro synchronizaci}
 
