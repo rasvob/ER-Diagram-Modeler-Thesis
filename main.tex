@@ -657,9 +657,10 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s relačním schématem tak, aby změny provedené v diagramu mohly být promítnuty do relačního schématu pomocí jednotného rozhraní, byť se vnitřní implementace pro oba DBMS liší. Synchronizace je navrhnuta s ohledem na možné budoucí rozšíření o další DBMS.
 	
 	\subsection{Použité návrhové vzory}
-	Použitím návrhových vzorů má dobrý vliv nejen na přehlednost a udržovatelnost kódu, ale také často usnadňuje rozšíření stávající implementace o novou funkcionalitu.  V této kapitole je popsána funkce návrhových vzorů, které jsou pro synchronizaci zásadní, první dva z nich jsou využity v datové vrstvě, další jsou použity v doménové vrstvě.
+	Použitím návrhových vzorů má dobrý vliv nejen na přehlednost a udržovatelnost kódu, ale také často usnadňuje rozšíření stávající implementace o novou funkcionalitu.  V této kapitole je popsána funkce návrhových vzorů, které jsou pro synchronizaci zásadní, první dva z nich jsou využity v datové vrstvě, další jsou použity v doménové logice.
 	
-		\subsubsection{Mapper}
+		\subsubsection{Data Mapper}
+		Tento vzor vychází z obecného vzoru Mapper, který slouží pro zprostředkování komunikace mezi, na sobě, nezávislými systémy. Data mapper je často používán v případech, kdy potřebujeme přistupovat k různým datovým zdrojům, které se liší implementaci přístupu. Typ datového zdroje je sice jeden, systémový katalog relační databáze, nicméně pro různé DBMS se katalogy liší, což představuje ideální situaci pro použití tohoto vzoru. Další výhodou je i nezávislost podoby dat ve zdroji a doménové vrstvě, tímto je tedy možné reprezentovat data pro grafický editor jednotným způsobem nezávisle na struktuře systémového katalogu.
 		
 		\subsubsection{Layer Supertype}
 	
