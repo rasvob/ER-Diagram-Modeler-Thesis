@@ -652,10 +652,13 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 \newpage
 \section{Návrh a implementace synchronizace ER diagramů s relačním schématem}
-	Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze GUI. Pro provedení těchto akcí je nutné nejprve sestrojit validní SQL dotaz, který změnu ve schématu provede. Nástroj aktuálně podporuje dva DBMS, Oracle Database a Microsoft SQL Server. Navzdory tomu, že SQL je standardizované, se syntaxe některých příkazů liší. Odlišnosti SQL syntaxe jsou nejčastěji způsobeny různorodými vlastnostmi těchto DBMS. 
+Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze GUI. Pro provedení těchto akcí je nutné nejprve sestrojit validní SQL dotaz, který změnu ve schématu provede. Nástroj aktuálně podporuje dva DBMS, Oracle Database a Microsoft SQL Server. Navzdory tomu, že SQL je standardizované, se syntaxe některých příkazů liší. Odlišnosti SQL syntaxe jsou nejčastěji způsobeny různorodými vlastnostmi těchto DBMS. 
+
+Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s relačním schématem tak, aby změny provedené v diagramu mohly být promítnuty do relačního schématu pomocí jednotného rozhraní, byť se vnitřní implementace pro oba DBMS liší. Synchronizace je navrhnuta s ohledem o možné budoucí rozšíření o další DBMS.
 	
-	Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s relačním schématem tak, aby změny provedené v diagramu mohly být promítnuty do relačního schématu pomocí jednotného rozhraní, byť se vnitřní implementace pro oba DBMS liší.
+	\subsection{Použité návrhové vzory}
 	
+	\subsection{}
 
 \newpage
 \section{Závěr}
