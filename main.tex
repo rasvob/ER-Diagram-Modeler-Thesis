@@ -660,7 +660,7 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 	Použitím návrhových vzorů má dobrý vliv nejen na přehlednost a udržovatelnost kódu, ale také často usnadňuje rozšíření stávající implementace o novou funkcionalitu.  V této kapitole je popsána funkce návrhových vzorů, které jsou pro synchronizaci zásadní, první dva z nich jsou využity v datové vrstvě, další jsou použity v doménové logice.
 	
 		\subsubsection{Data Mapper}
-		Tento vzor vychází z obecného vzoru Mapper, který slouží pro zprostředkování komunikace mezi, na sobě, nezávislými systémy. Data mapper je často používán v případech, kdy potřebujeme přistupovat k různým datovým zdrojům, které se liší implementaci přístupu. Typ datového zdroje je sice jeden, systémový katalog relační databáze, nicméně pro různé DBMS se katalogy liší, což představuje ideální situaci pro použití tohoto vzoru. Další výhodou je i nezávislost podoby dat ve zdroji a doménové vrstvě, tímto je tedy možné reprezentovat data pro grafický editor jednotným způsobem nezávisle na struktuře systémového katalogu.
+		Tento vzor vychází z obecného vzoru Mapper, který slouží pro zprostředkování komunikace mezi, na sobě, nezávislými systémy. Data mapper je často používán v případech, kdy potřebujeme přistupovat k různým datovým zdrojům, které se liší implementaci přístupu. Typ datového zdroje je sice jeden, systémový katalog relační databáze, nicméně pro různé DBMS se katalogy liší, což představuje ideální situaci pro použití tohoto vzoru. Další výhodou je i nezávislost podoby dat ve zdroji a doménové vrstvě, tímto je tedy možné reprezentovat data pro grafický editor jednotným modelem nezávisle na struktuře systémového katalogu.
 		
 		\subsubsection{Layer Supertype}
 		Layer Supertype slouží k sjednocení společného rozhraní určité skupiny objektů nebo celé vrstvy, výhodou je zamezení duplikace metod se stejnou signaturou. Tento vzor je využít v datové vrstvě na dvou místech. První použitím je definice rozhraní pro třídy zodpovědné za přístup k databázi, zde jsou definovány základní metody pro otevření nového připojení, jeho uzavření a tvorbu SQL příkazu pro konkrétní mapper. 
@@ -668,6 +668,9 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		Druhým použitím je sjednocení operací pro data mappery. Vrstva definuje v podstatě veškeré operace, které musí umět příslušný mapper vykonávat, aby jej bylo možné použít pro komunikaci grafického editoru s DBMS. 
 	
 		\subsubsection{Strategy}
+		Strategie je jedním z kategorie návrhových vzorů chování a slouží k definici skupiny tříd, které obvykle řeší stejný problém, ale jejich implementace se liší. Cílem tohoto vzoru je tuto skupinu tříd zastřešit společným rozhraním a umožnit záměnu těchto tříd v závislosti na situaci, ve které je provedení operace požadováno. Jádrem je třída pro udržování kontextu, která nabízí rozhraní pro nabízené operace. Na základě specifikovaného kontextu je vybraná strategie, která operaci provede. Jednotlivé strategie nabízejí jednotné rozhraní, což umožňuje v třídě pro kontext pracovat se strategiemi na úrovni supertypu.
+		
+		V nástroji představuje strategie primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie. 
 		
 		\subsubsection{Singleton}
 	
