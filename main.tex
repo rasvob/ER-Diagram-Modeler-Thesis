@@ -668,9 +668,9 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		Druhým použitím je sjednocení operací pro data mappery. Vrstva definuje v podstatě veškeré operace, které musí umět příslušný mapper vykonávat, aby jej bylo možné použít pro komunikaci grafického editoru s DBMS. 
 	
 		\subsubsection{Strategy}
-		Strategie je jedním z kategorie návrhových vzorů chování a slouží k definici skupiny tříd, které obvykle řeší stejný problém, ale jejich implementace se liší. Cílem tohoto vzoru je tuto skupinu tříd zastřešit společným rozhraním a umožnit záměnu těchto tříd v závislosti na situaci, ve které je provedení operace požadováno. Jádrem je třída pro udržování kontextu, která nabízí rozhraní pro nabízené operace. Na základě specifikovaného kontextu je vybraná strategie, která operaci provede. Jednotlivé strategie nabízejí jednotné rozhraní, což umožňuje v třídě pro kontext pracovat se strategiemi na úrovni supertypu.
+		Strategie je jedním z kategorie návrhových vzorů chování a slouží k definici skupiny tříd, které obvykle řeší stejný problém, ale jejich implementace se liší. Cílem tohoto vzoru je tuto skupinu tříd zastřešit společným rozhraním a umožnit záměnu těchto tříd v závislosti na situaci, ve které je provedení operace požadováno. Jádrem je třída pro udržování kontextu, která nabízí rozhraní pro nabízené operace. Na základě specifikovaného kontextu je vybraná strategie, která operaci provede. Jednotlivé strategie nabízejí jednotné rozhraní, což umožňuje v třídě pro kontext pracovat se strategiemi na úrovni supertypu. Tímto způsobem se vyhneme rozhodovacímu bloku v situacích, kdy je implementace závislá na DMBS.
 		
-		V nástroji představuje strategie primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie. 
+		V nástroji představuje strategie primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie, kontext je definován typem aktuální relace. Struktura se samostatnými strategiemi pro jednotlivé mappery je zvolena z důvodu nutného předzpracování dat v případě některých operací, pokud by k tomuto jevu nedocházelo, bylo by možné namísto strategie použít vzor Abstract factory a s mappery pracovat přímo. 
 		
 		\subsubsection{Singleton}
 	
