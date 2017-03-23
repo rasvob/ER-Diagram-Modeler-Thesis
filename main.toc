@@ -53,6 +53,7 @@
 \contentsline {subsubsection}{\numberline {5.1.3}Strategy}{42}{subsubsection.5.1.3}
 \contentsline {subsubsection}{\numberline {5.1.4}Singleton}{42}{subsubsection.5.1.4}
 \contentsline {subsection}{\numberline {5.2}Vyu\IeC {\v z}it\IeC {\'\i } vzor\IeC {\r u} pro synchronizaci}{43}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Serializace a export diagram\IeC {\r u}}{43}{subsection.5.3}
 \contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{44}{section.6}
 \contentsline {section}{Literatura}{45}{section.6}
 \contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{45}{section.6}
