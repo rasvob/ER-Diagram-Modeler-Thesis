@@ -707,10 +707,12 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 \section{Závěr}
 Cílem této práce bylo vytvořit aplikaci umožňující návrh schématu relační databáze formou ER diagramu, která je schopna pracovat s DBMS Microsoft SQL Server a Oracle Database. Práce je rozdělené na dvě části, první část se zaměřuje na problematiku notací ER diagramů z hlediska využívaných konstrukčních prvků, jejich rozdílů a využití samotných ER diagramů společně s jejich nevýhodami. Součástí první části práce je také porovnání existujících nástrojů pro návrh relačního schématu databáze, nástroje jsou porovnány nejen na základě možností grafického editoru pro práci s ER diagramy, ale porovnání se zaměřuje také na oblast synchronizace diagramu s existujícím relačních schématem.
 
-Druhá část bakalářské práce se zabývá návrhem a implementací grafického editoru vyvíjeného nástroje, včetně synchronizace diagramů s relačním schématem. V práci je detailně popsáno fungování klíčových částí grafického editoru pro práci s ER digramy, včetně problematiky algoritmizace některých činností. 
+Druhá část bakalářské práce se zabývá návrhem a implementací grafického editoru vyvíjeného nástroje, včetně synchronizace diagramů s relačním schématem. V práci je detailně popsáno fungování klíčových částí grafického editoru pro práci s ER digramy, včetně problematiky algoritmizace některých činností. Datová vrstva pro přístup k sysémovému katalogu DBMS je navržena s ohledem na možná budoucí rozšíření o podporu dalších DBMS. Návrh obou částí je doplněn o části třídního diagramu umožňující snazší popis struktury těchto částí.
+
+V rámci implementace jsem narazil na několik problémů souvisejících s limitujícím výkonem WPF aplikací, nicméně se tyto problematické částí podařilo zoptimalizovat a nástroj tak splnil cíle stanovené na počátku vývoje. Aplikace byla navrhnuta s ohledem na možná rozšíření, kterých se nabízí celá řada, nejzásadnějším z nich je podpora práce s více DBMS, než je tomu doposud. Za další užitečná rozšíření považuji návrhář pohledů, možnost práce v offline režimu nebo export do formátů, které podporují další nástroje v této oblasti.
 
 \newpage
-% TODO: Dopsat zdroje - vždy nad kapitolou
+% TODO: Zkontrolovat zdroje
 \begin{thebibliography}{99}
 	\bibitem{chenERD} CHEN, Peter Pin-Shan. \textit{The entity-relationship model---toward a unified view of data. ACM Transactions on Database Systems} [online]. 1(1), 9-36 [cit. 2017-03-10]. Dostupné z: \url{http://dspace.mit.edu/bitstream/handle/1721.1/47432/entityrelationshx00chen.pdf}
 	
