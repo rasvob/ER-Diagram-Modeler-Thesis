@@ -696,7 +696,9 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 	\subsection{Serializace a export diagramů}
 	Nástroj podporuje ukládání rozpracovaných diagramů přímo do speciální tabulky v databázi, ke které se diagram vztahuje. Oproti klasickému ukládání na pevný disk ve formě souboru umožňuje tento způsob zpřístupnění diagramu dalším osobám pracujícím s databázi, aniž by bylo nutné přenášet soubory projektu. Navíc je možné pokračovat v práci z jiného počítače, protože je potřeba jen připojení k databázi, kde se diagram nachází. Výhodou je také zálohování, diagramy je možné zálohovat v rámci záloh databáze.
 	
-	Serializace diagramů probíhá na úrovní viewmodelů, protože obsahují veškerá potřebná data týkající se struktury diagramu. Serializaci podléhají veškeré atributy diagramu, které nelze získat z existujícího schématu. Jedná se tedy zpravidla o souřadnice objektů na plátně, jejich velikost a samozřejmě také názvy a identifikátory, aby bylo možné provést načtení příslušných polí ze systémového katalogu. 
+	Serializace diagramů probíhá na úrovní viewmodelů, protože obsahují veškerá potřebná data týkající se struktury diagramu. Serializaci podléhají veškeré atributy diagramu, které nelze získat z existujícího schématu. Jedná se tedy zpravidla o souřadnice objektů na plátně, jejich velikost a samozřejmě také názvy a identifikátory, aby bylo možné provést načtení příslušných polí ze systémového katalogu. Tato struktura je uložená ve formátu XML.
+	
+	Načtení diagramu je rozděleno na dvě fáze. V první fázi je nutné provést kontrolu existence objektů v databázi, aby se nezobrazovaly již neexistující tabulky nebo integritní omezení v podobě cizích klíčů, po této kontrole jsou načtena data ze systémového katalogu. Tímto je zamezeno nekonzistenci načteného diagramu a relačního schématu, stejný princip je využit i při změně aktivního diagramu při práci s několika diagramy zároveň, aby zobrazený diagram ukazoval aktuální podobu schématu. V druhé fázi je potřeba přidat objekty na plátno a nastavit jim požadované vlastnosti, aby byla struktura načteného diagramu stejná jako při ukládání.
 
 \newpage
 \section{Závěr}
