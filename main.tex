@@ -701,7 +701,7 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 	
 	Načtení diagramu je rozděleno na dvě fáze. V první fázi je nutné provést kontrolu existence objektů v databázi, aby se nezobrazovaly již neexistující tabulky nebo integritní omezení v podobě cizích klíčů, po této kontrole jsou načtena data ze systémového katalogu. Tímto je zamezeno nekonzistenci načteného diagramu a relačního schématu, stejný princip je využit i při změně aktivního diagramu při práci s několika diagramy zároveň, aby zobrazený diagram ukazoval aktuální podobu schématu. V druhé fázi je potřeba přidat objekty na plátno a nastavit jim požadované vlastnosti, aby byla struktura načteného diagramu stejná jako při ukládání.
 	
-	Grafickou podobu diagramu je možné exportovat ve formátu PNG a XPS. Každý formát má své výhody, pokud uložíme diagram do PNG, není nutné exportovat celé plátno, ale jen využitou plochu. Ve formátu XPS dojde k exportu celého plátna, nicméně ten je velmi rychlý, z důvodu vektorové reprezentace plátna ve WPF aplikacích.
+	Grafickou podobu diagramu je možné exportovat ve formátu PNG a XPS. Každý formát má své výhody, pokud uložíme diagram do PNG, není nutné exportovat celé plátno, ale jen využitou plochu. Ve formátu XPS dojde k exportu celého plátna, nicméně ten je velmi rychlý, z důvodu vektorové reprezentace plátna ve WPF aplikacích. Nástroj umožňuje také tvorbu DDL skriptu pro objekty v diagramu, tato volba je využitelná také v kombinaci s dalšími nástroji, které umožňují použít DDL skript jako jeden z možných formátů pro import.
 
 \newpage
 \section{Závěr}
