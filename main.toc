@@ -53,10 +53,10 @@
 \contentsline {subsubsection}{\numberline {5.1.3}Strategy}{42}{subsubsection.5.1.3}
 \contentsline {subsubsection}{\numberline {5.1.4}Singleton}{42}{subsubsection.5.1.4}
 \contentsline {subsection}{\numberline {5.2}Synchronizace s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{43}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Serializace a export diagram\IeC {\r u}}{43}{subsection.5.3}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{44}{section.6}
-\contentsline {section}{Literatura}{45}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{45}{section.6}
-\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{46}{appendix.A}
-\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{47}{appendix.B}
-\contentsline {section}{\numberline {C}Instalace programu}{48}{appendix.C}
+\contentsline {subsection}{\numberline {5.3}Serializace a export diagram\IeC {\r u}}{44}{subsection.5.3}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{45}{section.6}
+\contentsline {section}{Literatura}{46}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{46}{section.6}
+\contentsline {section}{\numberline {A}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{47}{appendix.A}
+\contentsline {section}{\numberline {B}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{48}{appendix.B}
+\contentsline {section}{\numberline {C}Instalace programu}{49}{appendix.C}
