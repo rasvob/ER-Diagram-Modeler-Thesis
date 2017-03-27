@@ -631,22 +631,22 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\begin{lstlisting}[label=src:freeRect,caption=Nalezení volného obdélníku v mřížce]
 		public Point? FindFreeRectangle(Rectangle rect)
 		{
-		PreprocessGrid();
-		var nodes = GetListOfFreePoints(rect);
-		
-		if (!nodes.Any())
-		{
-		return null;
-		}
-		
-		var center = new Point(_grid.Width/2, _grid.Height/2);
-		var avg = (int)nodes.Select(t => Manhattan(t, center)).Average(t => t);
-		var res = nodes.FirstOrDefault(t => Manhattan(t, center) <= avg);
-		
-		if (res != null) 
-		return new Point(res.X, res.Y);
-		
-		return null;
+			PreprocessGrid();
+			var nodes = GetListOfFreePoints(rect);
+			
+			if (!nodes.Any())
+			{
+				return null;
+			}
+			
+			var center = new Point(_grid.Width/2, _grid.Height/2);
+			var avg = (int)nodes.Select(t => Manhattan(t, center)).Average(t => t);
+			var res = nodes.FirstOrDefault(t => Manhattan(t, center) <= avg);
+			
+			if (res != null) 
+				return new Point(res.X, res.Y);
+			
+			return null;
 		}
 		\end{lstlisting}
 		
@@ -680,7 +680,7 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		Uchovávané informace se částečně liší pro různé DBMS, proto je zde uveden, kromě údajů potřebných k úspěšné autentifikaci, také DBMS, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý DBMS, stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI, nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí. V tomto případě je možné zadat řetězec vlastní a singleton s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
 		
 	\subsection{Synchronizace s relačním schématem}
-	Aktualizace existujícího schématu je prováděna okamžitě po provedení změny v ER diagramu, nevyužívá se tedy odložená aktualizace, jako je tomu u většiny testovaných nástrojů. Nástroj podporuje práci se schématem použitím několika diagramů současně, není nutné diagram generovat pro všechny tabulky, ale stačí přidat ty, se kterými potřebujeme pracovat. Tento způsob je výhodný pro rozsáhlá schémata, kde rozdělení schématu na určité logické celky zpřehlední vizualizaci a usnadní tak proces aktualizace. Strukturu datové vrstvy nalezneme v diagramu \ref{fig:classDiagSync}.
+	Aktualizace existujícího schématu je prováděna okamžitě po provedení změny v ER diagramu, nevyužívá se tedy odložená aktualizace, jako u většiny testovaných nástrojů. Nástroj podporuje práci se schématem použitím několika diagramů současně, není nutné diagram generovat pro všechny tabulky, ale stačí přidat ty, se kterými potřebujeme pracovat. Tento způsob je výhodný pro rozsáhlá schémata, kde rozdělení schématu na určité logické celky zpřehlední vizualizaci a usnadní tak proces aktualizace. Strukturu datové vrstvy nalezneme v diagramu \ref{fig:classDiagSync}.
 	
 	Okamžité provedení aktualizace je důležité právě z důvodu práce s několika diagramy najednou. Jinak by mohlo dojít k situaci, kdy pro provedení změn záleží na pořadí jejich potvrzení, což může mít za následek nemožnost vykonání některých z nich, jako je tomu např. v Management studiu. Příkladem takové situace je umožnění ukládání NULL hodnot do určitém atributu v diagramu č. 1, změnu nepotvrdíme a v diagramu č.2 nastavíme tentýž atribut primárním klíčem tabulky, nyní změnu potvrdíme ihned, změnu v diagramu č. 1 teď už není možné provést, protože ji brání nově vzniklé integritní omezení.
 	
@@ -698,17 +698,17 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 	
 	Serializace diagramů probíhá na úrovní viewmodelů, protože obsahují veškerá potřebná data týkající se struktury diagramu. Serializaci podléhají veškeré atributy diagramu, které nelze získat z existujícího schématu. Jedná se tedy zpravidla o souřadnice objektů na plátně, jejich velikost a samozřejmě také názvy a identifikátory, aby bylo možné provést načtení příslušných polí ze systémového katalogu. Tato struktura je uložená ve formátu XML.
 	
-	Načtení diagramu je rozděleno na dvě fáze. V první fázi je nutné provést kontrolu existence objektů v databázi, aby se nezobrazovaly již neexistující tabulky nebo integritní omezení v podobě cizích klíčů, po této kontrole jsou načtena data ze systémového katalogu. Tímto je zamezeno nekonzistenci načteného diagramu a relačního schématu, stejný princip je využit i při změně aktivního diagramu při práci s několika diagramy zároveň, aby zobrazený diagram ukazoval aktuální podobu schématu. V druhé fázi je potřeba přidat objekty na plátno a nastavit jim požadované vlastnosti, aby byla struktura načteného diagramu stejná jako při ukládání.
+	Načtení diagramu je rozděleno na dvě fáze. V první fázi je nutné provést kontrolu existence objektů v databázi, aby se nezobrazovaly již neexistující tabulky nebo integritní omezení v podobě cizích klíčů, po této kontrole jsou načtena data ze systémového katalogu. Tímto je zamezeno nekonzistenci načteného diagramu a relačního schématu, stejný princip je využit i při změně aktivního diagramu při práci s několika diagramy zároveň, aby zobrazený diagram ukazoval aktuální podobu schématu. V druhé fázi je potřeba přidat objekty na plátno a nastavit jim požadované vlastnosti tak, aby byla struktura načteného diagramu stejná jako při ukládání.
 	
-	Grafickou podobu diagramu je možné exportovat ve formátu PNG a XPS. Každý formát má své výhody, pokud uložíme diagram do PNG, není nutné exportovat celé plátno, ale jen využitou plochu. Ve formátu XPS dojde k exportu celého plátna, nicméně ten je velmi rychlý, z důvodu vektorové reprezentace plátna ve WPF aplikacích. Nástroj umožňuje také tvorbu DDL skriptu pro objekty v diagramu, tato volba je využitelná také v kombinaci s dalšími nástroji, které umožňují použít DDL skript jako jeden z možných formátů pro import.
+	Grafickou podobu diagramu je možné exportovat ve formátu PNG a XPS. Každý formát má své výhody, pokud uložíme diagram do PNG, není nutné exportovat celé plátno, ale jen využitou plochu. Ve formátu XPS dojde k exportu celého plátna, nicméně tento typ exportu je velmi rychlý, z důvodu vektorové reprezentace plátna ve WPF aplikacích. Nástroj umožňuje také tvorbu DDL skriptu pro objekty v diagramu, tato volba je využitelná v kombinaci s dalšími nástroji, které umožňují použít DDL skript jako jeden z možných formátů pro import.
 
 \newpage
 \section{Závěr}
-Cílem této práce bylo vytvořit aplikaci umožňující návrh schématu relační databáze formou ER diagramu, která je schopna pracovat s DBMS Microsoft SQL Server a Oracle Database. Práce je rozdělené na dvě části, první část se zaměřuje na problematiku notací ER diagramů z hlediska využívaných konstrukčních prvků, jejich rozdílů a využití samotných ER diagramů společně s jejich nevýhodami. Součástí první části práce je také porovnání existujících nástrojů pro návrh relačního schématu databáze, nástroje jsou porovnány nejen na základě možností grafického editoru pro práci s ER diagramy, ale porovnání se zaměřuje také na oblast synchronizace diagramu s existujícím relačních schématem.
+Cílem této práce bylo vytvořit aplikaci umožňující návrh schématu relační databáze formou ER diagramu, která je schopna pracovat s DBMS Microsoft SQL Server a Oracle Database. Práce je rozdělené na dvě části, první část se zaměřuje na problematiku notací ER diagramů z hlediska využívaných konstrukčních prvků, jejich rozdílů a využití samotných ER diagramů společně s nevýhodami. Součástí první části práce je také porovnání existujících nástrojů pro návrh relačního schématu databáze, nástroje jsou porovnány nejen na základě možností grafického editoru pro práci s ER diagramy, ale porovnání se zaměřuje také na oblast synchronizace diagramu s existujícím relačních schématem.
 
 Druhá část bakalářské práce se zabývá návrhem a implementací grafického editoru vyvíjeného nástroje, včetně synchronizace diagramů s relačním schématem. V práci je detailně popsáno fungování klíčových částí grafického editoru pro práci s ER digramy, včetně problematiky algoritmizace některých činností. Datová vrstva pro přístup k systémovému katalogu DBMS je navržena s ohledem na možná budoucí rozšíření o podporu dalších DBMS. Návrh obou částí je doplněn o části třídního diagramu umožňující snazší popis struktury těchto částí.
 
-V rámci implementace jsem narazil na několik problémů souvisejících s limitujícím výkonem WPF aplikací, nicméně se tyto problematické částí podařilo zoptimalizovat a nástroj tak splnil cíle stanovené na počátku vývoje. Aplikace byla navrhnuta s ohledem na možná rozšíření, kterých se nabízí celá řada, nejzásadnějším z nich je podpora práce s více DBMS, než je tomu doposud. Za další užitečná rozšíření považuji návrhář pohledů, možnost práce v offline režimu nebo export do formátů, které podporují další nástroje v této oblasti.
+V rámci implementace jsem narazil na několik problémů souvisejících s limitujícím výkonem WPF aplikací, nicméně se tyto problematické částí podařilo zoptimalizovat a nástroj tak, dle mého názoru, splnil cíle stanovené na počátku vývoje. Aplikace byla navrhnuta s ohledem na možná rozšíření, kterých se nabízí celá řada, nejzásadnějším z nich je podpora práce s více DBMS, než je tomu doposud. Za další užitečná rozšíření považuji návrhář pohledů, možnost práce v offline režimu nebo export do formátů, které podporují další nástroje v této oblasti.
 
 Téma bakalářské práce pro mne bylo velice přínosné, protože jsem se díky němu naučil pracovat s mnoha technologiemi v oblasti vývoje aplikací pro platformu Microsoft Windows. Díky této práci jsem nabyl nové znalosti také v oblasti správy databázových systémů a využití návrhových vzorů v rámci návrhu a implementace rozsáhlejší aplikace.
 
