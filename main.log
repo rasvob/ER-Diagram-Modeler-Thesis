@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -1913,7 +1913,7 @@ Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 349.
 (pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
  [22 <./Figures/BarkerNonTrans.png> <./Figures/BarkerSubtypes.png> <./Figures/N
 otationExMinMax.png>]
-<Figures/NotationExIDEF1X.png, id=414, 473.51906pt x 107.65219pt>
+<Figures/NotationExIDEF1X.png, id=415, 473.51906pt x 107.65219pt>
 File: Figures/NotationExIDEF1X.png Graphic file (type png)
 
 <use Figures/NotationExIDEF1X.png>
@@ -1937,14 +1937,14 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 539--555
 
 [33] [34
 
-] <Figures/EditorTabulky.png, id=477, 500.62032pt x 350.81062pt>
+] <Figures/EditorTabulky.png, id=478, 500.62032pt x 350.81062pt>
 File: Figures/EditorTabulky.png Graphic file (type png)
 
 <use Figures/EditorTabulky.png>
 Package pdftex.def Info: Figures/EditorTabulky.png used on input line 580.
 (pdftex.def)             Requested size: 341.43307pt x 239.2707pt.
  [35 <./Figures/EditorTabulky.png (PNG copy)>]
-<Figures/EditorVztahy.png, id=486, 629.35126pt x 481.8pt>
+<Figures/EditorVztahy.png, id=487, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
@@ -1959,7 +1959,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [40] [41
 
 ] [42]
-<Figures/EditorSync.png, id=554, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=555, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2013,9 +2013,9 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (49 pages, 1426305 bytes).
+Output written on main.pdf (49 pages, 1393307 bytes).
 PDF statistics:
- 698 PDF objects out of 1000 (max. 8388607)
+ 699 PDF objects out of 1000 (max. 8388607)
  163 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
