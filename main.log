@@ -1776,7 +1776,7 @@ File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
 Package pdftex.def Info: Figures/NotationExChen.png used on input line 170.
-(pdftex.def)             Requested size: 341.43307pt x 63.37053pt.
+(pdftex.def)             Requested size: 295.90588pt x 54.91988pt.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 179.
 
 
@@ -2012,7 +2012,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (48 pages, 1402912 bytes).
+Output written on main.pdf (48 pages, 1425431 bytes).
 PDF statistics:
  686 PDF objects out of 1000 (max. 8388607)
  162 named destinations out of 1000 (max. 500000)
