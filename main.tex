@@ -95,15 +95,16 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	\end{figure}
 	
 	Speciálním typem DSD je Bachmanův diagram, který slouží k vytvoření relačního datového modelu bez ohledu na způsob fyzického uložení dat v systému. Ukázku tohoto diagramu vidíme na obrázku \ref{fig:bachmanDiag}, který zachycuje vztah mezi zákazníky (customer) a objednávkami (order). Tento diagram měl patrně největší vliv na pozdější vznik ER diagramu, který publikoval Peter Chen roku 1976 \cite{chenERD}.
-	Největším rozdílem mezi DSD a ERD, opomineme-li grafickou podobu, je fakt, že DSD se zaměřuje na popis struktury složitých entitních typů a vztahy modeluje na úrovni jednotlivých složek entitních typů, zatímco ERD řeší vztahy mezi samotnými entitními typy.
+	Největším rozdílem mezi DSD a ERD, opomineme-li grafickou podobu, je fakt, že DSD se zaměřuje na popis struktury složitých entitních typů a vztahy modeluje na úrovni jednotlivých složek entitních typů, zatímco ERD řeší vztahy mezi samotnými entitními typy. Srovnání těchto dvou typů diagramů nabízí Obrázek \ref{fig:chenERDCmp}.
 	
-%	\begin{figure}[!h]
-%		\centering
-%		\includegraphics[width=0.80\textwidth]{Figures/ChenVsDSD}
-%		\subfloat[Data structure diagram]{\hspace{.5\linewidth}}
-%		\subfloat[ER diagram]{\hspace{.25\linewidth}}
-%		\caption[Srovnání DSD a ERD]{Srovnání DSD a ERD (Převzato z \cite{chenERD})}
-%	\end{figure}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.80\textwidth]{Figures/ChenVsDSD}
+		\subfloat[Data structure diagram]{\hspace{.5\linewidth}}
+		\subfloat[ER diagram]{\hspace{.25\linewidth}}
+		\caption[Srovnání DSD a ERD]{Srovnání DSD a ERD (Převzato z \cite{chenERD})}
+		\label{fig:chenERDCmp}
+	\end{figure}
 	
 	\subsection{Využití ER diagramu}
 	Nejčastější použití ER diagramu představuje tvorba nových relačních schémat při návrhu databází, ale rozhodně se nejedná o jedinou oblast využití. Tvorba ER diagramu velmi často stojí na počátku vývoje mnoha informačních systému, protože relační databáze jsou obvykle primárním datovým zdrojem těchto systému pro uložení dat transakčního charakteru. 
