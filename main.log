@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 18:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -1810,183 +1810,210 @@ File: Figures/ChenAttr.png Graphic file (type png)
 <use Figures/ChenAttr.png>
 Package pdftex.def Info: Figures/ChenAttr.png used on input line 226.
 (pdftex.def)             Requested size: 295.90588pt x 72.29364pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[18 <./Figures/ChenAttr.png>] [19] [20]
-<Figures/NotationExChen.png, id=360, 470.50781pt x 87.32625pt>
+ [18 <./Figures/ChenAttr.png>] [19]
+<Figures/NotationExChen.png, id=353, 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
-Package pdftex.def Info: Figures/NotationExChen.png used on input line 290.
+Package pdftex.def Info: Figures/NotationExChen.png used on input line 261.
 (pdftex.def)             Requested size: 341.43307pt x 63.37053pt.
 
-<Figures/NotationExBachman.png, id=363, 464.4853pt x 89.58469pt>
+<Figures/NotationExBachman.png, id=356, 464.4853pt x 89.58469pt>
 File: Figures/NotationExBachman.png Graphic file (type png)
 
 <use Figures/NotationExBachman.png>
-Package pdftex.def Info: Figures/NotationExBachman.png used on input line 299.
+Package pdftex.def Info: Figures/NotationExBachman.png used on input line 270.
 (pdftex.def)             Requested size: 341.43307pt x 65.85283pt.
-
-<Figures/NotationExCrow.png, id=367, 462.22687pt x 88.07906pt>
+ [20 <./Figures/NotationExChen.png> <./Figures/NotationExBachman.png>]
+<Figures/NotationExCrow.png, id=370, 462.22687pt x 88.07906pt>
 File: Figures/NotationExCrow.png Graphic file (type png)
 
 <use Figures/NotationExCrow.png>
-Package pdftex.def Info: Figures/NotationExCrow.png used on input line 308.
+Package pdftex.def Info: Figures/NotationExCrow.png used on input line 279.
 (pdftex.def)             Requested size: 341.43307pt x 65.06189pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21 <./Figures/NotationExChen.png> <./Figures/NotationExBachman.png>]
 LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 319.
+(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 290.
 
-<Figures/NotationExBarker.png, id=379, 455.45157pt x 94.10156pt>
+<Figures/NotationExBarker.png, id=373, 455.45157pt x 94.10156pt>
 File: Figures/NotationExBarker.png Graphic file (type png)
 
 <use Figures/NotationExBarker.png>
-Package pdftex.def Info: Figures/NotationExBarker.png used on input line 325.
+Package pdftex.def Info: Figures/NotationExBarker.png used on input line 296.
 (pdftex.def)             Requested size: 341.43307pt x 70.54582pt.
 
-<Figures/BarkerUid.png, id=383, 579.66562pt x 149.05687pt>
+<Figures/BarkerUid.png, id=377, 579.66562pt x 149.05687pt>
 File: Figures/BarkerUid.png Graphic file (type png)
 
 <use Figures/BarkerUid.png>
-Package pdftex.def Info: Figures/BarkerUid.png used on input line 333.
+Package pdftex.def Info: Figures/BarkerUid.png used on input line 304.
 (pdftex.def)             Requested size: 295.90588pt x 76.09077pt.
- [22 <./Figures/NotationExCrow.png> <./Figures/NotationExBarker.png> <./Figures
-/BarkerUid.png>]
-<Figures/BarkerNonTrans.png, id=395, 149.05687pt x 386.19281pt>
-File: Figures/BarkerNonTrans.png Graphic file (type png)
-
-<use Figures/BarkerNonTrans.png>
-Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 346.
-(pdftex.def)             Requested size: 91.04742pt x 235.89546pt.
-
-<Figures/BarkerSubtypes.png, id=396, 174.6525pt x 323.70938pt>
-File: Figures/BarkerSubtypes.png Graphic file (type png)
-
-<use Figures/BarkerSubtypes.png>
-Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 352.
-(pdftex.def)             Requested size: 91.04742pt x 168.75462pt.
-
-<Figures/NotationExMinMax.png, id=398, 467.49657pt x 91.09032pt>
-File: Figures/NotationExMinMax.png Graphic file (type png)
-
-<use Figures/NotationExMinMax.png>
-Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 363.
-(pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
- [23 <./Figures/BarkerNonTrans.png> <./Figures/BarkerSubtypes.png> <./Figures/N
-otationExMinMax.png>]
-<Figures/NotationExIDEF1X.png, id=412, 473.51906pt x 107.65219pt>
-File: Figures/NotationExIDEF1X.png Graphic file (type png)
-
-<use Figures/NotationExIDEF1X.png>
-Package pdftex.def Info: Figures/NotationExIDEF1X.png used on input line 372.
-(pdftex.def)             Requested size: 341.43307pt x 77.62448pt.
-
-Overfull \hbox (6.8649pt too wide) in paragraph at lines 390--403
- [][] 
- []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24 <./Figures/NotationExIDEF1X.png>] [25] [26
+<Figures/BarkerNonTrans.png, id=379, 149.05687pt x 386.19281pt>
+File: Figures/BarkerNonTrans.png Graphic file (type png)
 
-] [27] [28] [29] [30] [31]
-[32] [33]
-Overfull \hbox (2.16542pt too wide) in paragraph at lines 553--569
+<use Figures/BarkerNonTrans.png>
+Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 317.
+(pdftex.def)             Requested size: 91.04742pt x 235.89546pt.
+
+<Figures/BarkerSubtypes.png, id=380, 174.6525pt x 323.70938pt>
+File: Figures/BarkerSubtypes.png Graphic file (type png)
+
+<use Figures/BarkerSubtypes.png>
+Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 323.
+(pdftex.def)             Requested size: 91.04742pt x 168.75462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21 <./Figures/NotationExCrow.png> <./Figures/NotationExBarker.png>]
+<Figures/NotationExMinMax.png, id=392, 467.49657pt x 91.09032pt>
+File: Figures/NotationExMinMax.png Graphic file (type png)
+
+<use Figures/NotationExMinMax.png>
+Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 334.
+(pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <./Figures/BarkerUid.png> <./Figures/BarkerNonTrans.png> <./Figures/BarkerS
+ubtypes.png>]
+<Figures/NotationExIDEF1X.png, id=407, 473.51906pt x 107.65219pt>
+File: Figures/NotationExIDEF1X.png Graphic file (type png)
+
+<use Figures/NotationExIDEF1X.png>
+Package pdftex.def Info: Figures/NotationExIDEF1X.png used on input line 343.
+(pdftex.def)             Requested size: 341.43307pt x 77.62448pt.
+ [23 <./Figures/NotationExMinMax.png> <./Figures/NotationExIDEF1X.png>]
+Overfull \hbox (6.8649pt too wide) in paragraph at lines 361--374
  [][] 
  []
 
-[34] [35
+[24] [25
 
-] <Figures/EditorTabulky.png, id=475, 500.62032pt x 350.81062pt>
+] [26] [27] [28] [29] [30] [31] [32]
+Overfull \hbox (2.16542pt too wide) in paragraph at lines 524--540
+ [][] 
+ []
+
+[33] [34
+
+] <Figures/EditorTabulky.png, id=472, 500.62032pt x 350.81062pt>
 File: Figures/EditorTabulky.png Graphic file (type png)
 
 <use Figures/EditorTabulky.png>
-Package pdftex.def Info: Figures/EditorTabulky.png used on input line 594.
+Package pdftex.def Info: Figures/EditorTabulky.png used on input line 565.
 (pdftex.def)             Requested size: 341.43307pt x 239.2707pt.
- [36 <./Figures/EditorTabulky.png (PNG copy)>]
-<Figures/EditorVztahy.png, id=484, 629.35126pt x 481.8pt>
+ [35 <./Figures/EditorTabulky.png (PNG copy)>]
+<Figures/EditorVztahy.png, id=482, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
-Package pdftex.def Info: Figures/EditorVztahy.png used on input line 614.
+Package pdftex.def Info: Figures/EditorVztahy.png used on input line 585.
 (pdftex.def)             Requested size: 336.88313pt x 257.89645pt.
- [37 <./Figures/EditorVztahy.png>] [38] [39]
-[40]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 658.
+ [36 <./Figures/EditorVztahy.png>] [37] [38]
+[39]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 629.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [41] [42
+) [40] [41
 
-] [43]
-<Figures/EditorSync.png, id=553, 563.10374pt x 458.46281pt>
+] [42]
+<Figures/EditorSync.png, id=550, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
-Package pdftex.def Info: Figures/EditorSync.png used on input line 716.
+Package pdftex.def Info: Figures/EditorSync.png used on input line 687.
 (pdftex.def)             Requested size: 336.88313pt x 274.2823pt.
- [44 <./Figures/EditorSync.png>] [45] [46
+ [43 <./Figures/EditorSync.png>] [44] [45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 751--752
+Underfull \hbox (badness 10000) in paragraph at lines 722--723
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
 
-[47
+[46
+
+] [47
 
 ] [48
 
-] [49
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 761.
+ [49
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 790.
- [50
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 790.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 761.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 790.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 790.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9487F7B15A1F00D1A7C116CFB6CEE92B;5496.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 761.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 761.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 9487F7B15A1F00D1A7C116CFB6CEE92B;5496
+(rerunfilecheck)             After:  018C7AC3F17B6A008F1CFA16106CD479;5277.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 790.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 761.
  ) 
 Here is how much of TeX's memory you used:
- 17617 strings out of 493333
- 246674 string characters out of 3139195
+ 17621 strings out of 493333
+ 246751 string characters out of 3139195
  382128 words of memory out of 3000000
  20668 multiletter control sequences out of 15000+200000
  54625 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,50p,1444b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbsy10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (50 pages, 1408725 bytes).
+pdfTeX warning (dest): name{subsubsection.2.9.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.19} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.8} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.22} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.11} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.10} has been referenced but does not e
+xist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.e
+nc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbsy10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssb
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (49 pages, 1429005 bytes).
 PDF statistics:
  694 PDF objects out of 1000 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
+ 164 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
