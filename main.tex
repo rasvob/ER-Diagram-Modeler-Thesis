@@ -160,20 +160,18 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	\end{figure}
 
 	\subsubsection{Vztah}
-	Vztah slouží k vyjádření asociace mezi entitními typy, obecně vyjadřuje informace, které nelze vyjádřit pouhými entitními typy, např. student \textit{studuje} předmět, novinář \textit{napsal} článek. Označuje se slovesem. Znázorňuje se kosočtvercem. 
+	Vztah slouží k vyjádření asociace mezi entitními typy. Obecně vyjadřuje informace, které nelze vyjádřit pouhými entitními typy, např. student \textit{studuje} předmět, novinář \textit{napsal} článek. Označuje se slovesem. Znázorňuje se kosočtvercem. 
 	
-	Identifikující vztah je speciální typ vztahu, který spojuje slabou entitu s entitou, na které je závislá, ta se označuje jako vlastník. Značí se kosočtvercem s dvojitým okrajem.
-	
-	Vztahy dělíme podle počtu entit, které se v nich vyskytují na vztahy:
+	Speciálním typem vztahu je identifikující vztah, který spojuje slabou entitu s entitou, na které je závislá, ta se označuje jako vlastník. Značí se kosočtvercem s dvojitým okrajem. Vztahy dělíme podle počtu entit, které se v nich vyskytují na:
 	
 	\begin{itemize}
-		\item \textbf{Unární} - ve vztahu vystupuje pouze jedna entita, ta je ve vztahu sama se sebou, např. zaměstnanec \textit{je nadřízeným} jiného zaměstnance
-		\item \textbf{Binární} - vztah mezi dvěma entitami, např. zaměstnanec \textit{je vedoucím} oddělení
-		\item \textbf{Ternární} - vztah mezi třemi entitami najednou, např. učitel \textit{doporučuje} knihu třídě
-		\item \textbf{N-ární} - vztah mezi \textit{n} entitami zároveň
+		\item \textbf{Unární} - vztah, ve kterém se vyskytuje pouze jedna entita, ta je ve vztahu sama se sebou, např. zaměstnanec \textit{je nadřízeným} jiného zaměstnance.
+		\item \textbf{Binární} - vztah existuje mezi dvěma entitami, např. zaměstnanec \textit{je vedoucím} oddělení.
+		\item \textbf{Ternární} - vztah existuje mezi třemi entitami najednou, např. učitel \textit{doporučuje} knihu třídě.
+		\item \textbf{N-ární} - vztah je mezi \textit{n} entitami zároveň.
 	\end{itemize}
 	
-	Obecně se ternární vztahy vyskytují v ER diagramech velmi málo, protože vedou k problémům s dekompozicí na několik binárních vztahů při přechodu z konceptuálního modelu na relační (logický), kdy může dojít ke ztrátě některých informací.
+	Nejčastějšími typy vztahů jsou vztahy unární a binární. N-ární vztahy, kde $n > 2$ se vyskytují v ER diagramech velmi málo, protože vedou k problémům s dekompozicí na několik binárních vztahů při přechodu z konceptuálního modelu na relační (logický).
 	
 	\begin{figure}[!h]
 		\centering
