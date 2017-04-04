@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -1769,7 +1769,7 @@ File: Figures/TernaryRelationship2.png Graphic file (type png)
 <use Figures/TernaryRelationship2.png>
 Package pdftex.def Info: Figures/TernaryRelationship2.png used on input line 14
 9.
-(pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
+(pdftex.def)             Requested size: 250.38564pt x 127.34108pt.
  [16 <./Figures/TernaryRelationship2.png>] <Figures/NotationExChen.png, id=312,
  470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
@@ -2012,7 +2012,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (48 pages, 1420267 bytes).
+Output written on main.pdf (48 pages, 1402912 bytes).
 PDF statistics:
  686 PDF objects out of 1000 (max. 8388607)
  162 named destinations out of 1000 (max. 500000)
