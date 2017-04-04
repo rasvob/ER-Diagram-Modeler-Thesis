@@ -175,12 +175,6 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		\item \textbf{N-ární} - vztah mezi \textit{n} entitami zároveň
 	\end{itemize}
 	
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.65\textwidth]{Figures/TernaryRelationship2}
-		\caption{Příklad ternárního vztahu}
-	\end{figure}
-
 	Obecně se ternární vztahy vyskytují v ER diagramech velmi málo, protože vedou k problémům s dekompozicí na několik binárních vztahů při přechodu z konceptuálního modelu na relační (logický), kdy může dojít ke ztrátě některých informací.
 	
 	\begin{figure}[!h]
@@ -232,8 +226,15 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	
 	\subsubsection{Binární a n-ární modely}
 	Nejzásadnějším rozdílem mezi notacemi je podpora n-árních modelů, z toho důvodů rozlišujeme dva typy modelů, a to binární a n-ární \cite{compErNotations}. Pro kategorii binárních modelů je typické, že každý objekt, který má alespoň jeden atribut, je považován za entitu. Není tedy možné přiřadit atribut vztahu, jak je možné běžně vidět u Chenovy notace. Tento fakt je nejvíce patrný u vztahu M:N, kterému chceme přiřadit atribut, pro zaznamenání dalších informací. Přidání neklíčového atributu způsobí nutnost přidat do modelu asociační entitu pro tento vztah. 
+		
+	V případě n-árních modelů není nutné vytvářet další entity k přidání atributů pro vztah. N-ární vztahy jsou z hlediska sémantiky výhodné pro modelování některých situací oproti vyjádření pomocí několika binárních vztahů. Při přechodu na modely nabízející nižší úroveň abstrakce, je často nutné tyto n-ární vztahy převést na sekvenci binárních vztahů, což může vést ke ztrátě cenných informací, protože už i pro ternární vztah M:N:P může způsobů dekompozice na binární vztahy existovat více a na první pohled nemusí být patrná ztráta části informace. Na obrázku \ref{fig:ternaryEx} vidíme diagram modelující situaci, kdy učitel doporučuje knihy třídám, nicméně převod na sekvenci binárních vztahů může znemožnit zjištění informací o tom, kdo z učitelů doporučil danou knihu.
 	
-	V případě n-árních modelů není nutné vytvářet další entity k přidání atributů pro vztah. N-ární vztahy jsou z hlediska sémantiky výhodné pro modelování některých situací oproti vyjádření pomocí několika binárních vztahů. Při přechodu na modely nabízející nižší úroveň abstrakce, je často nutné tyto n-ární vztahy převést na sekvenci binárních vztahů, což může vést ke ztrátě cenných informací, protože už i pro ternární vztah M:N:P může způsobů dekompozice na binární vztahy existovat více a na první pohled nemusí být patrná ztráta části informace. 
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.65\textwidth]{Figures/TernaryRelationship2}
+		\caption{Příklad ternárního vztahu}
+		\label{fig:ternaryEx}
+	\end{figure}
 	
 	Podpora n-árních vztahů vede k nekompatibilitě mezi jednotlivými notacemi, kdy nemusí být snadné převést model používající jednu notaci na model jiné notace. Z tohoto důvodu dnešní CASE nástroje obvykle podporují pouze jeden typ notace, případně typů podporují více, ale pouze ze stejné kategorie s ohledem na podporu arity vztahů. 
 	
