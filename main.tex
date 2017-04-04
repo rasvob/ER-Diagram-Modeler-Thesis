@@ -107,7 +107,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	\end{figure}
 	
 	\subsection{Využití ER diagramu}
-	Nejčastější použití ER diagramů představuje tvorba nových relačních schémat při návrhu databází. Rozhodně se ale nejedná o jedinou oblast využití. Tvorba ER diagramu velmi často stojí na počátku analýzy a návrhu mnoha informačních systému, protože relační databáze jsou obvykle primárním datovým zdrojem těchto systémů pro uložení dat transakčního charakteru. Časté je i využití ER diagramu ve spojitosti s diagramy datových toků pro znázornění uložení dat business procesu.
+	Nejčastější použití ER diagramů představuje tvorba nových relačních schémat při návrhu databází, jednotlivé typy modelů popisuje kapitola \ref{secModelCategory}. Rozhodně se ale nejedná o jedinou oblast využití. Tvorba ER diagramu velmi často stojí na počátku analýzy a návrhu mnoha informačních systému, protože relační databáze jsou obvykle primárním datovým zdrojem těchto systémů pro uložení dat transakčního charakteru. Časté je i využití ER diagramu ve spojitosti s diagramy datových toků pro znázornění uložení dat business procesu. 
 	
 	Dalším velmi častým použitím ER diagramu je vizualizace již existujících schémat databáze, protože právě grafické znázornění schématu je ideální pro snadné odhalení logických chyb, ke kterým mohlo v rámci návrhu systému dojít.
 	Vizualizace existujících schémat nemusí být použita pouze pro odhalení chyb, ale také při situaci, kdy došlo ke změně některých business procesu. Tyto změny obvykle vyvolají nutnost přizpůsobení relačního modelu, ER diagram je tedy vhodný prostředek nejen k analýze stávajícího schématu pro návrh změn, ale také pro jejich provádění použitím CASE nástrojů.
@@ -200,7 +200,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	
 	Označení atributů lze kombinovat, např. \textit{jednohodnotový odvozený atribut}
 	
-	\subsection{Kategorie modelů}
+	\subsection{Kategorie modelů} \label{secModelCategory}
 	Podle úrovně abstrakce rozlišujeme tři typy datových modelů \cite{whatIsERD}, které využíváme při návrhu databázového schématu. Nejvyšší úroveň abstrakce nabízí konceptuální model, který zachycuje pouze entity a vztahy mezi nimi, je nejméně detailní. Více detailů nabízí logický model, poskytuje nižší úroveň abstrakce, ale stále je nezávislý na použitém SŘDB. Posledním typem je fyzický model, ten vychází z logického modelu, nicméně se může v mnoha ohledech lišit, protože jeho cílem je obsáhnout dostatečný počet technických detailů pro implementaci databáze. Rozdíly mezi logickým a fyzickým modelem způsobuje fakt, že fyzický model je vytvářen s ohledem na konkrétní použitou technologii, proto i v případě, že zvolíme relační databázi, se mohou pro různé SŘDB fyzické modely více či méně lišit. Přehledné shrnutí rozdílů mezi modely nabízí tabulka \ref{tab:modelTypes}.
 	
 	\begin{table}[!h]
