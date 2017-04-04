@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -1920,7 +1920,7 @@ File: Figures/NotationExIDEF1X.png Graphic file (type png)
 Package pdftex.def Info: Figures/NotationExIDEF1X.png used on input line 358.
 (pdftex.def)             Requested size: 341.43307pt x 77.62448pt.
 
-Overfull \hbox (6.8649pt too wide) in paragraph at lines 376--389
+Overfull \hbox (6.8649pt too wide) in paragraph at lines 374--387
  [][] 
  []
 
@@ -1931,7 +1931,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ] [26] [27] [28] [29] [30]
 [31] [32]
-Overfull \hbox (2.16542pt too wide) in paragraph at lines 539--555
+Overfull \hbox (2.16542pt too wide) in paragraph at lines 537--553
  [][] 
  []
 
@@ -1941,18 +1941,18 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 539--555
 File: Figures/EditorTabulky.png Graphic file (type png)
 
 <use Figures/EditorTabulky.png>
-Package pdftex.def Info: Figures/EditorTabulky.png used on input line 580.
+Package pdftex.def Info: Figures/EditorTabulky.png used on input line 578.
 (pdftex.def)             Requested size: 341.43307pt x 239.2707pt.
  [35 <./Figures/EditorTabulky.png (PNG copy)>]
 <Figures/EditorVztahy.png, id=487, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
-Package pdftex.def Info: Figures/EditorVztahy.png used on input line 600.
+Package pdftex.def Info: Figures/EditorVztahy.png used on input line 598.
 (pdftex.def)             Requested size: 336.88313pt x 257.89645pt.
  [36 <./Figures/EditorVztahy.png>] [37] [38]
 [39]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 644.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 642.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1963,12 +1963,12 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
-Package pdftex.def Info: Figures/EditorSync.png used on input line 702.
+Package pdftex.def Info: Figures/EditorSync.png used on input line 700.
 (pdftex.def)             Requested size: 336.88313pt x 274.2823pt.
  [43 <./Figures/EditorSync.png>] [44] [45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 737--738
+Underfull \hbox (badness 10000) in paragraph at lines 735--736
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
@@ -1980,17 +1980,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 737--738
 ] [48
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 776.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 774.
  [49
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 776.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 774.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 776.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 776.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 774.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 774.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CDB809352581BA26F941107A774029C6;5243.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 776.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 774.
  ) 
 Here is how much of TeX's memory you used:
  17713 strings out of 493333
@@ -2013,7 +2013,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (49 pages, 1408616 bytes).
+Output written on main.pdf (49 pages, 1426124 bytes).
 PDF statistics:
  699 PDF objects out of 1000 (max. 8388607)
  163 named destinations out of 1000 (max. 500000)
