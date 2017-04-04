@@ -342,21 +342,23 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		Notace podporuje také dědičnost, kdy podtypy dědí atributy nadřazeného typu(viz. obrázek \ref{fig:barkerSubtypes}). Graficky je tento jev vyjádřen přidáním obdélníků jednotlivých podtypů do společného obdélníku, který odpovídá nadřazenému typu.
 		
 		\subsubsection{Min-Max notace}
-		Jedná se o notaci, která podporuje nejvýše binární vztahy. Pro vyjádření kardinality a povinnosti vztahu, zde není použit žádný grafický symbol, ale uspořádaná dvojice $(min, max)$, kde \emph{minimální} počet instancí entitního typu, které musí ve vztahu participovat, určuje povinnost, \emph{maximální} počet určuje kardinalitu. Styl pro kardinalitu a povinnost se používá jednotný, zpravidla look here.
+		Jedná se o notaci, která podporuje nejvýše binární vztahy. Pro vyjádření kardinality a povinnosti vztahu, zde není použit žádný grafický symbol, ale uspořádaná dvojice $(min, max)$, kde \emph{minimální} počet instancí entitního typu, které musí ve vztahu participovat, určuje povinnost, \emph{maximální} počet určuje kardinalitu. Styl pro kardinalitu a povinnost se používá jednotný, zpravidla look here (viz. obrázek \ref{fig:notationExMinMax}).
 		
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.75\textwidth]{Figures/NotationExMinMax}
 			\caption[Příklad Min-Max notace]{Příklad Min-Max notace \cite{whatIsERD}}
+			\label{fig:notationExMinMax}
 		\end{figure}
 	
 		\subsubsection{IDEF1X notace} \label{idef1x}
-		IDEF1X \cite{compErNotations} je notace, která vnikla v rámci programu ICAM, financovaném US Air Force, jako součást IDEF technik pro modelování informačních systémů. Vztahy jsou podporované nejvýše binární a neklíčové atributy vztahu je nutné modelovat použitím asociační entity. Kardinalita a povinnost vztahu je vyjádřena pomocí $(min, max)$ notace buď graficky nebo textově. Nejčastěji používá styl look across. Tato notace rozlišuje graficky silné a slabé entitní typy. Podobně jako u Barkerovy notace je zde možné vyznačit identifikující vztahy. Navzdory tomu, že notace nabízí vlastní grafické symboly pro znázornění kardinality a povinnosti vztahu, je často použita pro tento účel část Crow's foot notace, zbytek prvků IDEF1X je ponechán.
+		IDEF1X \cite{compErNotations} je notace, která vnikla v rámci programu ICAM, financovaném US Air Force, jako součást IDEF technik pro modelování informačních systémů. Vztahy jsou podporované nejvýše binární a neklíčové atributy vztahu je nutné modelovat použitím asociační entity. Kardinalita a povinnost vztahu je vyjádřena pomocí $(min, max)$ notace buď graficky nebo textově. Nejčastěji používá styl look across. Tato notace rozlišuje graficky silné a slabé entitní typy. Podobně jako u Barkerovy notace je zde možné vyznačit identifikující vztahy. Navzdory tomu, že notace nabízí vlastní grafické symboly pro znázornění kardinality a povinnosti vztahu, je často použita pro tento účel část Crow's foot notace, zbytek prvků IDEF1X je ponechán. Ukázku použití zachycuje obrázek \ref{fig:notationExIDEF1X}.
 		
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.75\textwidth]{Figures/NotationExIDEF1X}
 			\caption[Příklad IDEF1X notace]{Příklad IDEF1X notace \cite{whatIsERD}}
+			\label{fig:notationExIDEF1X}
 		\end{figure}
 	
 	\subsection{Nevýhody ER diagramů}
