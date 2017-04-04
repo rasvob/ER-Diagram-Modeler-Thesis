@@ -14,19 +14,19 @@
 \contentsline {subsection}{\numberline {2.3}Kategorie model\IeC {\r u}}{14}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}V\IeC {\'y}voj notac\IeC {\'\i }}{15}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Prvky ER diagramu}{15}{subsection.2.5}
-\contentsline {subsubsection}{\numberline {2.5.1}Entitn\IeC {\'\i } typ}{16}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.1}Entitn\IeC {\'\i } typ}{15}{subsubsection.2.5.1}
 \contentsline {subsubsection}{\numberline {2.5.2}Vztah}{16}{subsubsection.2.5.2}
-\contentsline {subsubsection}{\numberline {2.5.3}Atribut}{18}{subsubsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.5.3}Atribut}{17}{subsubsection.2.5.3}
 \contentsline {subsection}{\numberline {2.6}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{18}{subsection.2.6}
 \contentsline {subsubsection}{\numberline {2.6.1}Bin\IeC {\'a}rn\IeC {\'\i } a n-\IeC {\'a}rn\IeC {\'\i } modely}{18}{subsubsection.2.6.1}
 \contentsline {subsubsection}{\numberline {2.6.2}Kardinalita a povinnost}{19}{subsubsection.2.6.2}
 \contentsline {subsection}{\numberline {2.7}Nej\IeC {\v c}ast\IeC {\v e}ji pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{19}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Chenova notace}{20}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.1}Chenova notace}{19}{subsubsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.2}Bachmanova notace}{20}{subsubsection.2.7.2}
 \contentsline {subsubsection}{\numberline {2.7.3}Crow's foot notace}{20}{subsubsection.2.7.3}
 \contentsline {subsubsection}{\numberline {2.7.4}Barkerova notace}{21}{subsubsection.2.7.4}
 \contentsline {subsubsection}{\numberline {2.7.5}Min-Max notace}{22}{subsubsection.2.7.5}
-\contentsline {subsubsection}{\numberline {2.7.6}IDEF1X notace}{22}{subsubsection.2.7.6}
+\contentsline {subsubsection}{\numberline {2.7.6}IDEF1X notace}{23}{subsubsection.2.7.6}
 \contentsline {subsection}{\numberline {2.8}Nev\IeC {\'y}hody ER diagram\IeC {\r u}}{23}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Shrnut\IeC {\'\i }}{23}{subsection.2.9}
 \contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{25}{section.3}
