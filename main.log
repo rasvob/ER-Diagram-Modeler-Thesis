@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 18:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1500,14 +1500,7 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-)) (main.aux
-
-LaTeX Warning: Label `secModelCategory' multiply defined.
-
-
-LaTeX Warning: Label `tab:modelTypes' multiply defined.
-
-)
+)) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -1527,7 +1520,8 @@ LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 71.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1659,7 +1653,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<Figures/Assignment1.jpg, id=140, 597.6729pt x 845.0772pt>
+<Figures/Assignment1.jpg, id=132, 597.6729pt x 845.0772pt>
 File: Figures/Assignment1.jpg Graphic file (type jpg)
 
 <use Figures/Assignment1.jpg>
@@ -1749,14 +1743,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [12
 
 ]
-<Figures/BachmanDiagram.jpg, id=273, 829.0975pt x 408.52625pt>
+<Figures/BachmanDiagram.jpg, id=261, 829.0975pt x 408.52625pt>
 File: Figures/BachmanDiagram.jpg Graphic file (type jpg)
 
 <use Figures/BachmanDiagram.jpg>
 Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 92.
 (pdftex.def)             Requested size: 341.43307pt x 168.2324pt.
 
-<Figures/ChenVsDSD.png, id=279, 381.67593pt x 277.78781pt>
+<Figures/ChenVsDSD.png, id=267, 381.67593pt x 277.78781pt>
 File: Figures/ChenVsDSD.png Graphic file (type png)
 
 <use Figures/ChenVsDSD.png>
@@ -1778,14 +1772,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 153.
 
-<Figures/ChenEntities.png, id=311, 373.395pt x 91.84312pt>
+<Figures/ChenEntities.png, id=299, 373.395pt x 91.84312pt>
 File: Figures/ChenEntities.png Graphic file (type png)
 
 <use Figures/ChenEntities.png>
 Package pdftex.def Info: Figures/ChenEntities.png used on input line 162.
 (pdftex.def)             Requested size: 295.90588pt x 72.78648pt.
 
-<Figures/TernaryRelationship2.jpg, id=314, 569.87906pt x 289.83281pt>
+<Figures/TernaryRelationship2.jpg, id=302, 569.87906pt x 289.83281pt>
 File: Figures/TernaryRelationship2.jpg Graphic file (type jpg)
 
 <use Figures/TernaryRelationship2.jpg>
@@ -1797,35 +1791,35 @@ Package pdftex.def Info: Figures/TernaryRelationship2.jpg used on input line 18
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16 <./Figures/ChenEntities.png>]
-<Figures/ChenRelationships.png, id=324, 301.8778pt x 137.7647pt>
+<Figures/ChenRelationships.png, id=312, 301.8778pt x 137.7647pt>
 File: Figures/ChenRelationships.png Graphic file (type png)
 
 <use Figures/ChenRelationships.png>
 Package pdftex.def Info: Figures/ChenRelationships.png used on input line 190.
 (pdftex.def)             Requested size: 250.38564pt x 114.26477pt.
  [17 <./Figures/TernaryRelationship2.jpg> <./Figures/ChenRelationships.png>]
-<Figures/ChenAttr.png, id=332, 363.60844pt x 88.83188pt>
+<Figures/ChenAttr.png, id=320, 363.60844pt x 88.83188pt>
 File: Figures/ChenAttr.png Graphic file (type png)
 
 <use Figures/ChenAttr.png>
 Package pdftex.def Info: Figures/ChenAttr.png used on input line 226.
 (pdftex.def)             Requested size: 295.90588pt x 72.29364pt.
  [18 <./Figures/ChenAttr.png>] [19]
-<Figures/NotationExChen.png, id=353, 470.50781pt x 87.32625pt>
+<Figures/NotationExChen.png, id=341, 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
 Package pdftex.def Info: Figures/NotationExChen.png used on input line 261.
 (pdftex.def)             Requested size: 341.43307pt x 63.37053pt.
 
-<Figures/NotationExBachman.png, id=356, 464.4853pt x 89.58469pt>
+<Figures/NotationExBachman.png, id=344, 464.4853pt x 89.58469pt>
 File: Figures/NotationExBachman.png Graphic file (type png)
 
 <use Figures/NotationExBachman.png>
 Package pdftex.def Info: Figures/NotationExBachman.png used on input line 270.
 (pdftex.def)             Requested size: 341.43307pt x 65.85283pt.
  [20 <./Figures/NotationExChen.png> <./Figures/NotationExBachman.png>]
-<Figures/NotationExCrow.png, id=370, 462.22687pt x 88.07906pt>
+<Figures/NotationExCrow.png, id=357, 462.22687pt x 88.07906pt>
 File: Figures/NotationExCrow.png Graphic file (type png)
 
 <use Figures/NotationExCrow.png>
@@ -1834,14 +1828,14 @@ Package pdftex.def Info: Figures/NotationExCrow.png used on input line 279.
 LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 290.
 
-<Figures/NotationExBarker.png, id=373, 455.45157pt x 94.10156pt>
+<Figures/NotationExBarker.png, id=360, 455.45157pt x 94.10156pt>
 File: Figures/NotationExBarker.png Graphic file (type png)
 
 <use Figures/NotationExBarker.png>
 Package pdftex.def Info: Figures/NotationExBarker.png used on input line 296.
 (pdftex.def)             Requested size: 341.43307pt x 70.54582pt.
 
-<Figures/BarkerUid.png, id=377, 579.66562pt x 149.05687pt>
+<Figures/BarkerUid.png, id=364, 579.66562pt x 149.05687pt>
 File: Figures/BarkerUid.png Graphic file (type png)
 
 <use Figures/BarkerUid.png>
@@ -1851,14 +1845,14 @@ Package pdftex.def Info: Figures/BarkerUid.png used on input line 304.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/BarkerNonTrans.png, id=379, 149.05687pt x 386.19281pt>
+<Figures/BarkerNonTrans.png, id=366, 149.05687pt x 386.19281pt>
 File: Figures/BarkerNonTrans.png Graphic file (type png)
 
 <use Figures/BarkerNonTrans.png>
 Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 317.
 (pdftex.def)             Requested size: 91.04742pt x 235.89546pt.
 
-<Figures/BarkerSubtypes.png, id=380, 174.6525pt x 323.70938pt>
+<Figures/BarkerSubtypes.png, id=367, 174.6525pt x 323.70938pt>
 File: Figures/BarkerSubtypes.png Graphic file (type png)
 
 <use Figures/BarkerSubtypes.png>
@@ -1869,7 +1863,7 @@ Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 323.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21 <./Figures/NotationExCrow.png> <./Figures/NotationExBarker.png>]
-<Figures/NotationExMinMax.png, id=392, 467.49657pt x 91.09032pt>
+<Figures/NotationExMinMax.png, id=379, 467.49657pt x 91.09032pt>
 File: Figures/NotationExMinMax.png Graphic file (type png)
 
 <use Figures/NotationExMinMax.png>
@@ -1881,7 +1875,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22 <./Figures/BarkerUid.png> <./Figures/BarkerNonTrans.png> <./Figures/BarkerS
 ubtypes.png>]
-<Figures/NotationExIDEF1X.png, id=407, 473.51906pt x 107.65219pt>
+<Figures/NotationExIDEF1X.png, id=393, 473.51906pt x 107.65219pt>
 File: Figures/NotationExIDEF1X.png Graphic file (type png)
 
 <use Figures/NotationExIDEF1X.png>
@@ -1901,14 +1895,14 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 524--540
 
 [33] [34
 
-] <Figures/EditorTabulky.png, id=472, 500.62032pt x 350.81062pt>
+] <Figures/EditorTabulky.png, id=457, 500.62032pt x 350.81062pt>
 File: Figures/EditorTabulky.png Graphic file (type png)
 
 <use Figures/EditorTabulky.png>
 Package pdftex.def Info: Figures/EditorTabulky.png used on input line 565.
 (pdftex.def)             Requested size: 341.43307pt x 239.2707pt.
  [35 <./Figures/EditorTabulky.png (PNG copy)>]
-<Figures/EditorVztahy.png, id=482, 629.35126pt x 481.8pt>
+<Figures/EditorVztahy.png, id=466, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
@@ -1923,7 +1917,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [40] [41
 
 ] [42]
-<Figures/EditorSync.png, id=550, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=534, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -1952,68 +1946,34 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 761.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 761.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 761.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 9487F7B15A1F00D1A7C116CFB6CEE92B;5496
-(rerunfilecheck)             After:  018C7AC3F17B6A008F1CFA16106CD479;5277.
-
-LaTeX Warning: There were multiply-defined labels.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 018C7AC3F17B6A008F1CFA16106CD479;5277.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 761.
  ) 
 Here is how much of TeX's memory you used:
- 17621 strings out of 493333
- 246751 string characters out of 3139195
- 382128 words of memory out of 3000000
- 20668 multiletter control sequences out of 15000+200000
+ 17611 strings out of 493333
+ 246587 string characters out of 3139195
+ 382088 words of memory out of 3000000
+ 20666 multiletter control sequences out of 15000+200000
  54625 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,50p,1444b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsubsection.2.9.6} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.19} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.8} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.22} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.11} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.e
-nc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbsy10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssb
-x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (49 pages, 1429005 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
+.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbsy10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
+sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (49 pages, 1438056 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
