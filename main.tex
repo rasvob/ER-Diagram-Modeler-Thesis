@@ -188,8 +188,18 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	
 	\begin{figure}[!h]
 		\centering
+		\subfloat[Silný entitní typ]
+		{
+			\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesA}
+			\label{fig:ChenRelationshipsA}
+		}
+		\subfloat[Slabý entitní typ]
+		{
+			\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesB}
+			\label{fig:ChenRelationshipsB}
+		}	
 		\includegraphics[width=0.55\textwidth]{Figures/ChenRelationships}
-		\caption[Znázornění vztahů podle Chenovy notace]{Znázornění vztahů podle Chenovy notace \cite{erdSymbols}}
+		\caption[Znázornění vztahů podle Chenovy notace]{Znázornění vztahů podle Chenovy notace}
 	\end{figure}
 
 	Vztahy dále dělíme podle kardinality, která udává, kolikrát může instance entitního typu být ve vztahu s instancí jiného entitního typu, pro binární typ vztahu  rozlišujeme kardinalitu 1:1, 1:N, M:N. Pro ternární typ vztahu rozlišujeme kardinalitu 1:1:1, 1:1:N, 1:N:M, a M:N:P, pro n-ární typy vztahu se typy kardinality odvozují analogicky. Poslední důležitou vlastnosti vztahu je povinnost, určující zda může instance entitního typu existovat bez vztahu k jiné instanci entitního typu. Rozlišujeme povinné a nepovinné vztahy.
