@@ -8,21 +8,21 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Srovn\IeC {\'a}n\IeC {\'\i } DSD a ERD}}{14}{figure.caption.2}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data structure diagram}}}{14}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ER diagram}}}{14}{subfigure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } entit podle Chenovy notace}}{16}{figure.caption.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Siln\IeC {\'y} entitn\IeC {\'\i } typ}}}{16}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Slab\IeC {\'y} entitn\IeC {\'\i } typ}}}{16}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Asoc. entitn\IeC {\'\i } typ}}}{16}{subfigure.3.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } vztah\IeC {\r u} podle Chenovy notace}}{17}{figure.caption.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vztah}}}{17}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Identifikuj\IeC {\'\i }c\IeC {\'\i } vztah}}}{17}{subfigure.4.2}
-\contentsline {figure}{\numberline {5}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } atribut\IeC {\r u} podle Chenovy notace}}{18}{figure.caption.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Jednoduch\IeC {\'y} atribut}}}{18}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Slo\IeC {\v z}en\IeC {\'y} atribut}}}{18}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Odvozen\IeC {\'y} atribut}}}{18}{subfigure.5.3}
-\contentsline {figure}{\numberline {6}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad tern\IeC {\'a}rn\IeC {\'\i }ho vztahu\relax }}{18}{figure.caption.7}
+\contentsline {figure}{\numberline {3}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad tern\IeC {\'a}rn\IeC {\'\i }ho vztahu\relax }}{16}{figure.caption.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } entit podle Chenovy notace}}{17}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Siln\IeC {\'y} entitn\IeC {\'\i } typ}}}{17}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Slab\IeC {\'y} entitn\IeC {\'\i } typ}}}{17}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Asoc. entitn\IeC {\'\i } typ}}}{17}{subfigure.4.3}
+\contentsline {figure}{\numberline {5}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } vztah\IeC {\r u} podle Chenovy notace}}{18}{figure.caption.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vztah}}}{18}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Identifikuj\IeC {\'\i }c\IeC {\'\i } vztah}}}{18}{subfigure.5.2}
+\contentsline {figure}{\numberline {6}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } atribut\IeC {\r u} podle Chenovy notace}}{19}{figure.caption.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Jednoduch\IeC {\'y} atribut}}}{19}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Slo\IeC {\v z}en\IeC {\'y} atribut}}}{19}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Odvozen\IeC {\'y} atribut}}}{19}{subfigure.6.3}
 \contentsline {figure}{\numberline {7}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad Chenovy notace}}{20}{figure.caption.8}
 \contentsline {figure}{\numberline {8}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad Bachmanovy notace}}{20}{figure.caption.9}
-\contentsline {figure}{\numberline {9}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad Crow's foot notace}}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {9}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad Crow's foot notace}}{20}{figure.caption.10}
 \contentsline {figure}{\numberline {10}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad Barkerovy notace}}{21}{figure.caption.11}
 \contentsline {figure}{\numberline {11}{\ignorespaces Specifika Barkerovy notace - UID}}{21}{figure.caption.12}
 \contentsline {figure}{\numberline {12}{\ignorespaces Specifika Barkerovy notace}}{22}{figure.caption.13}
@@ -30,6 +30,6 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Podtypy}}}{22}{subfigure.12.2}
 \contentsline {figure}{\numberline {13}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad Min-Max notace}}{22}{figure.caption.14}
 \contentsline {figure}{\numberline {14}{\ignorespaces P\IeC {\v r}\IeC {\'\i }klad IDEF1X notace}}{23}{figure.caption.15}
-\contentsline {figure}{\numberline {15}{\ignorespaces \IeC {\v C}\IeC {\'a}st t\IeC {\v r}\IeC {\'\i }dn\IeC {\'\i }ho diagramu - p\IeC {\v r}esunut\IeC {\'\i } a zm\IeC {\v e}na rozm\IeC {\v e}r\IeC {\r u} tabulky\relax }}{35}{figure.caption.19}
-\contentsline {figure}{\numberline {16}{\ignorespaces \IeC {\v C}\IeC {\'a}st t\IeC {\v r}\IeC {\'\i }dn\IeC {\'\i }ho diagramu - vizualizace vztahu mezi tabulkami\relax }}{36}{figure.caption.20}
-\contentsline {figure}{\numberline {17}{\ignorespaces \IeC {\v C}\IeC {\'a}st t\IeC {\v r}\IeC {\'\i }dn\IeC {\'\i }ho diagramu - struktura datov\IeC {\'e} vrstvy\relax }}{43}{figure.caption.21}
+\contentsline {figure}{\numberline {15}{\ignorespaces \IeC {\v C}\IeC {\'a}st t\IeC {\v r}\IeC {\'\i }dn\IeC {\'\i }ho diagramu - p\IeC {\v r}esunut\IeC {\'\i } a zm\IeC {\v e}na rozm\IeC {\v e}r\IeC {\r u} tabulky\relax }}{34}{figure.caption.19}
+\contentsline {figure}{\numberline {16}{\ignorespaces \IeC {\v C}\IeC {\'a}st t\IeC {\v r}\IeC {\'\i }dn\IeC {\'\i }ho diagramu - vizualizace vztahu mezi tabulkami\relax }}{35}{figure.caption.20}
+\contentsline {figure}{\numberline {17}{\ignorespaces \IeC {\v C}\IeC {\'a}st t\IeC {\v r}\IeC {\'\i }dn\IeC {\'\i }ho diagramu - struktura datov\IeC {\'e} vrstvy\relax }}{42}{figure.caption.21}

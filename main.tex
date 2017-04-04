@@ -138,226 +138,226 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	\subsection{Vývoj notací}
 	Stejně jako se vyvíjely potřeby návrhu datových modelů, vznikaly i nové notace ER diagramu. Zásadním mezníkem pro vývoj notací byl objektově orientovaný přístup k vývoji softwaru, na který se mnohé notace snažily reagovat. Tento trend způsobil rozšíření notací ER modelu o~koncept generalizace/specializace a dědičnosti, tento typ modelu se označuje jako  Enhanced entity–relationship model (EER). Vlivem popularity objektově-relačních databází jsou některé notace často modifikovány tak, aby umožňovaly zahrnout v modelu metody a operace entit. Tento přístup je dnes k vidění v celé řadě CASE nástrojů a  vhodný je zejména pro modelování komplexních databází pro geografické informační systémy nebo telekomunikace.
 	
-	\subsection{Prvky ER diagramu} \label{erDiagramFeatures}
-	V této části jsou popsány prvky používané při tvorbě ER diagramu. Ilustrační grafické znázornění odpovídá notaci podle P. Chena \cite{erdSymbols}, nicméně v další části budou ostatní používané notace dále rozvedeny.
-	
-	\subsubsection{Entitní typ}
-	Entitní typy (často označovány v souvislosti s ERD jen jako entity) jsou jednoznačně identifikovatelné typy objektů vyskytující se v problémové doméně. Obvykle se označují podstatným jménem v jednotném čísle. Rozlišujeme následující typy entit:
-
-	\begin{itemize}
-		\item \textbf{Silný entitní typ} muže existovat nezávisle na ostatních entitních typech, protože obsahuje alespoň jeden atribut, který entitu jednoznačně odlišuje od ostatních, značí se obdélníkem (viz. obrázek \ref{fig:chenEntA}).
-		
-		\item \textbf{Slabý entitní typ} jehož existence je závislá na jiném entitním typu, protože neobsahuje atribut umožňující jednoznačnou identifikaci, značí se obdélníkem s dvojitým okrajem (viz. obrázek \ref{fig:chenEntB}).
-		
-		\item \textbf{Asociativní entitní typ} slouží k vyznačení vztahu mezi entitami, obsahuje atributy identifikující tento vztah, značí se kosočtvercem uvnitř obdélníku (viz. obrázek \ref{fig:chenEntC}).
-	\end{itemize}
-
-	\begin{figure}[!h]
-		\centering
-		\subfloat[Silný entitní typ]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesA}
-			\label{fig:chenEntA}
-		}
-		\subfloat[Slabý entitní typ]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesB}
-			\label{fig:chenEntB}
-		}	
-		\subfloat[Asoc. entitní typ]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesC}
-			\label{fig:chenEntC}
-		}	
-		\caption[Znázornění entit podle Chenovy notace]{Znázornění entit podle Chenovy notace}
-	\end{figure}
-
-	\subsubsection{Vztah}
-	Vztah slouží k vyjádření asociace mezi entitními typy. Obecně vyjadřuje informace, které nelze vyjádřit pouhými entitními typy, např. student \textit{studuje} předmět, novinář \textit{napsal} článek. Označuje se slovesem. Znázorňuje se kosočtvercem (viz. obrázek \ref{fig:chenRelA}). 
-	
-	Speciálním typem vztahu je identifikující vztah, který spojuje slabou entitu s entitou, na které je závislá, ta se označuje jako vlastník. Značí se kosočtvercem s dvojitým okrajem (viz. obrázek \ref{fig:chenRelB}). Podle počtu entit, které se v nich vyskytují rozlišujeme tyto typy:
-	
-	\begin{itemize}
-		\item \textbf{Unární} vztah, ve kterém se vyskytuje pouze jedna entita, ta je ve vztahu sama se sebou, např. zaměstnanec \textit{je nadřízeným} jiného zaměstnance.
-		\item \textbf{Binární} vztah existuje mezi dvěma entitami, např. zaměstnanec \textit{je vedoucím} oddělení.
-		\item \textbf{Ternární} vztah existuje mezi třemi entitami najednou, např. učitel \textit{doporučuje} knihu třídě.
-		\item \textbf{N-ární} vztah je mezi \textit{n} entitami zároveň.
-	\end{itemize}
-	
-	Nejčastějšími typy vztahů jsou vztahy unární a binární. N-ární vztahy, kde $n > 2$, se vyskytují v ER diagramech velmi málo, protože vedou k problémům s dekompozicí na několik binárních vztahů při přechodu z konceptuálního modelu na relační (logický).
-	
-	\begin{figure}[!h]
-		\centering
-		\subfloat[Vztah]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenRelationshipsA}
-			\label{fig:chenRelA}
-		}
-		\subfloat[Identifikující vztah]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenRelationshipsB}
-			\label{fig:chenRelB}
-		}	
-		\caption[Znázornění vztahů podle Chenovy notace]{Znázornění vztahů podle Chenovy notace}
-	\end{figure}
-
-	Vztahy dále dělíme podle kardinality, která udává, kolikrát může instance entitního typu být ve vztahu s instancí jiného entitního typu, pro binární typ vztahu  rozlišujeme kardinalitu 1:1, 1:N, M:N. Pro ternární typ vztahu rozlišujeme kardinalitu 1:1:1, 1:1:N, 1:N:M, a M:N:P, pro n-ární typy vztahu se typy kardinality odvozují analogicky. Poslední důležitou vlastnosti vztahu je povinnost, určující zda může instance entitního typu existovat bez vztahu k jiné instanci entitního typu. Rozlišujeme povinné a nepovinné vztahy.
-	
-	\subsubsection{Atribut}
-	Atributy jsou vlastnosti charakterizující entitní typ. Označují se podstatným jménem, znázorňují se elipsou. Rozlišujeme následující kategorie:
-	
-	\begin{itemize}
-		\item \textbf{Jednoduchý}, atomický, atribut, který nelze dále dělit, např. \textit{značka automobilu} (viz. obrázek \ref{fig:chenAttrA}).
-		\item \textbf{Složený} atribut se dělí na více atomických atributů, např. \textit{adresa} se dělí na \textit{město, ulici a PSČ} (viz. obrázek \ref{fig:chenAttrB}).
-		\item \textbf{Odvozený} atribut, jehož hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda} (viz. obrázek \ref{fig:chenAttrC}).
-	\end{itemize}
-
-	\begin{figure}[!h]
-		\centering
-		\subfloat[Jednoduchý atribut]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenAttrA}
-			\label{fig:chenAttrA}
-		}
-		\subfloat[Složený atribut]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenAttrB}
-			\label{fig:chenAttrB}
-		}
-		\subfloat[Odvozený atribut]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/ChenAttrC}
-			\label{fig:chenAttrC}
-		}	
-		\caption[Znázornění atributů podle Chenovy notace]{Znázornění atributů podle Chenovy notace}
-	\end{figure}
-
-	Další rozdělení je podle počtu hodnot atributu na:
-	
-	\begin{itemize}
-		\item \textbf{Jednohodnotové} - atributy obsahuje pouze jednu hodnotu, např. \textit{rodné číslo}.
-		\item \textbf{Vícehodnotové} - atributy mohou obsahovat více hodnot, značí se elipsou s dvojitým okrajem,např. \textit{telefonní číslo na pevnou linku i mobilní telefon}.
-	\end{itemize}
-		
-	Označení atributů lze kombinovat, např. \textit{jednohodnotový odvozený atribut}
-		
 	\subsection{Rozdíly notací}
 	Na první pohled mohou různé notace vyvolávat dojem, že nejvýraznějším rozdílem mezi nimi je grafické znázornění entit a vztahů, nicméně rozdílů je mnohem více a některé mohou mít vliv na výslednou podobu fyzického modelu databáze.
-	
-	\subsubsection{Binární a n-ární modely}
-	Nejzásadnějším rozdílem mezi notacemi je podpora n-árních modelů, z toho důvodů rozlišujeme dva typy modelů, a to binární a n-ární \cite{compErNotations}. Pro kategorii binárních modelů je typické, že každý objekt, který má alespoň jeden atribut, je považován za entitu. Není tedy možné přiřadit atribut vztahu, jak je možné běžně vidět u Chenovy notace. Tento fakt je nejvíce patrný u vztahu M:N, kterému chceme přiřadit atribut, pro zaznamenání dalších informací. Přidání neklíčového atributu způsobí nutnost přidat do modelu asociační entitu pro tento vztah. 
 		
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.65\textwidth]{Figures/TernaryRelationship2}
-		\caption{Příklad ternárního vztahu}
-		\label{fig:ternaryEx}
-	\end{figure}
+		\subsubsection{Binární a n-ární modely}
+		Nejzásadnějším rozdílem mezi notacemi je podpora n-árních modelů, z toho důvodů rozlišujeme dva typy modelů, a to binární a n-ární \cite{compErNotations}. Pro kategorii binárních modelů je typické, že každý objekt, který má alespoň jeden atribut, je považován za entitu. Není tedy možné přiřadit atribut vztahu, jak je možné běžně vidět u Chenovy notace. Tento fakt je nejvíce patrný u vztahu M:N, kterému chceme přiřadit atribut, pro zaznamenání dalších informací. Přidání neklíčového atributu způsobí nutnost přidat do modelu asociační entitu pro tento vztah. 
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.65\textwidth]{Figures/TernaryRelationship2}
+			\caption{Příklad ternárního vztahu}
+			\label{fig:ternaryEx}
+		\end{figure}
+		
+		V případě n-árních modelů není nutné vytvářet další entity k přidání atributů pro vztah. N-ární vztahy jsou z hlediska sémantiky výhodné pro modelování některých situací oproti vyjádření pomocí několika binárních vztahů. Při přechodu na modely nabízející nižší úroveň abstrakce, je často nutné tyto n-ární vztahy převést na sekvenci binárních vztahů, což může vést ke ztrátě cenných informací, protože už i pro ternární vztah M:N:P může způsobů dekompozice na binární vztahy existovat více a na první pohled nemusí být patrná ztráta části informace. Na obrázku \ref{fig:ternaryEx} vidíme diagram modelující situaci, kdy učitel doporučuje knihy třídám, nicméně převod na sekvenci binárních vztahů může znemožnit zjištění informací o tom, kdo z učitelů doporučil danou knihu.
+		
+		Podpora n-árních vztahů vede k nekompatibilitě mezi jednotlivými notacemi, kdy nemusí být snadné převést model používající jednu notaci na model jiné notace. Z tohoto důvodu dnešní CASE nástroje obvykle podporují pouze jeden typ notace, případně typů podporují více, ale pouze ze stejné kategorie s ohledem na podporu arity vztahů. 
+		
+		\subsubsection{Kardinalita a povinnost}
+		Vyjádření kardinality a povinnosti vztahu je další z mnoha odlišností notací ER diagramu. Pro vyjádření kardinality se používá buď grafické znázornění, nebo označení číslem na obou stranách vztahů v případě starších notací, např. Chenova \cite{dbVsb}. Povinnost bývá vyjádřena nejčastěji graficky, buď stylem čáry nebo určitým symbolem na stranách vztahu. Speciálním vyjádřením je dvojice (min, max), která vyjadřuje jak kardinalitu, tak povinnost. Jednotlivé notace se neliší vyjádřením kardinality a povinnosti pouze graficky, případně textově, ale také tím, na které straně je informace vyjádřena. Rozlišujeme proto dva styly zápisu, první z nich se označuje jako look here, druhý jako look across \cite{compErNotations}. 
+		
+		Pokud modelujeme situaci, ve které jeden zaměstnanec pracuje v právě jednom oddělení a oddělení může mít několik zaměstnanců, v look across notaci zapíšeme 1 na stranu oddělení a N na stranu zaměstnance. Pro notaci look here tomu bude přesně naopak. 
+		
+		%	To, na které straně je vyjádřena kardinalita a povinnost, nemusí být pro notaci jednotné. Chenova notace používá look across přístup pro vyjádření kardinality, ale povinnost vyjadřuje stylem look here, oproti tomu u notace Min-Max se obvykle dodržuje pouze jeden způsob pro kardinalitu i povinnost.
 	
-	V případě n-árních modelů není nutné vytvářet další entity k přidání atributů pro vztah. N-ární vztahy jsou z hlediska sémantiky výhodné pro modelování některých situací oproti vyjádření pomocí několika binárních vztahů. Při přechodu na modely nabízející nižší úroveň abstrakce, je často nutné tyto n-ární vztahy převést na sekvenci binárních vztahů, což může vést ke ztrátě cenných informací, protože už i pro ternární vztah M:N:P může způsobů dekompozice na binární vztahy existovat více a na první pohled nemusí být patrná ztráta části informace. Na obrázku \ref{fig:ternaryEx} vidíme diagram modelující situaci, kdy učitel doporučuje knihy třídám, nicméně převod na sekvenci binárních vztahů může znemožnit zjištění informací o tom, kdo z učitelů doporučil danou knihu.
+	\subsection{Chenova notace} \label{erDiagramFeatures}
+	Jedná se o notaci představenou poprvé roku 1976 Peterem Chenem \cite{chenERD} a dodnes se jedná o jednu z nejvíce používaných. Tato notace podporuje n-ární vztahy, původní specifikace obsahovala prvky jen pro entity, vztahy, včetně kardinality, a atributy. Později byla rozšířena o rozlišení povinnosti vztahu a koncept generalizace/specializace. Pro povinnost se používá styl look here, pro kardinalitu look across. V této části jsou rovněž popsány prvky používané při tvorbě ER diagramu. Na další notace a jejich rozdíly vhledem k této notaci se zaměřuje kapitola \ref{secOftenNotation}.
 	
-	Podpora n-árních vztahů vede k nekompatibilitě mezi jednotlivými notacemi, kdy nemusí být snadné převést model používající jednu notaci na model jiné notace. Z tohoto důvodu dnešní CASE nástroje obvykle podporují pouze jeden typ notace, případně typů podporují více, ale pouze ze stejné kategorie s ohledem na podporu arity vztahů. 
+		\subsubsection{Entitní typ}
+		Entitní typy (často označovány v souvislosti s ERD jen jako entity) jsou jednoznačně identifikovatelné typy objektů vyskytující se v problémové doméně. Obvykle se označují podstatným jménem v jednotném čísle. Rozlišujeme následující typy entit:
 	
-	\subsubsection{Kardinalita a povinnost}
-	Vyjádření kardinality a povinnosti vztahu je další z mnoha odlišností notací ER diagramu. Pro vyjádření kardinality se používá buď grafické znázornění, nebo označení číslem na obou stranách vztahů v případě starších notací, např. Chenova \cite{dbVsb}. Povinnost bývá vyjádřena nejčastěji graficky, buď stylem čáry nebo určitým symbolem na stranách vztahu. Speciálním vyjádřením je dvojice (min, max), která vyjadřuje jak kardinalitu, tak povinnost. Jednotlivé notace se neliší vyjádřením kardinality a povinnosti pouze graficky, případně textově, ale také tím, na které straně je informace vyjádřena. Rozlišujeme proto dva styly zápisu, první z nich se označuje jako look here, druhý jako look across \cite{compErNotations}. 
+		\begin{itemize}
+			\item \textbf{Silný entitní typ} muže existovat nezávisle na ostatních entitních typech, protože obsahuje alespoň jeden atribut, který entitu jednoznačně odlišuje od ostatních, značí se obdélníkem (viz. obrázek \ref{fig:chenEntA}).
+			
+			\item \textbf{Slabý entitní typ} jehož existence je závislá na jiném entitním typu, protože neobsahuje atribut umožňující jednoznačnou identifikaci, značí se obdélníkem s dvojitým okrajem (viz. obrázek \ref{fig:chenEntB}).
+			
+			\item \textbf{Asociativní entitní typ} slouží k vyznačení vztahu mezi entitami, obsahuje atributy identifikující tento vztah, značí se kosočtvercem uvnitř obdélníku (viz. obrázek \ref{fig:chenEntC}).
+		\end{itemize}
 	
-	Pokud modelujeme situaci, ve které jeden zaměstnanec pracuje v právě jednom oddělení a oddělení může mít několik zaměstnanců, v look across notaci zapíšeme 1 na stranu oddělení a N na stranu zaměstnance. Pro notaci look here tomu bude přesně naopak. 
-	
-%	To, na které straně je vyjádřena kardinalita a povinnost, nemusí být pro notaci jednotné. Chenova notace používá look across přístup pro vyjádření kardinality, ale povinnost vyjadřuje stylem look here, oproti tomu u notace Min-Max se obvykle dodržuje pouze jeden způsob pro kardinalitu i povinnost.
-	
-	\subsection{Nejčastěji používané notace}
-	Jak už bylo zmíněno, notací existuje celá řada. Jednotlivé notace se v mnoha směrech liší. V následující kapitole jsou vybrané notace popsány, včetně příkladů. Všechny příklady modelují situaci, kdy jeden člověk má právě jedno místo narození a na jednom místě narození se mohlo narodit více lidí.
-	
-	\subsubsection{Chenova notace}
-	Jedná se o notaci představenou poprvé roku 1976 Peterem Chenem a dodnes se jedná o jednu z nejvíce používaných. Tato notace podporuje n-ární vztahy, původní specifikace obsahovala prvky jen pro entity, vztahy, včetně kardinality, a atributy. Později byla rozšířena o rozlišení povinnosti vztahu a koncept generalizace/specializace. Pro povinnost se používá styl look here, pro kardinalitu look across. Grafické znázornění jednotlivých prvků této notace je popsáno v kapitole \ref{erDiagramFeatures}.
-	
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.75\textwidth]{Figures/NotationExChen}
-		\caption[Příklad Chenovy notace]{Příklad Chenovy notace \cite{whatIsERD}}
-	\end{figure}
-	
-	\subsubsection{Bachmanova notace}
-	Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace modeluje cizí klíče už na konceptuální úrovní, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdélníky, vztahy čárami. Vztahům není možné přiřadit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu.
-	
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.75\textwidth]{Figures/NotationExBachman}
-		\caption[Příklad Bachmanovy notace]{Příklad Bachmanovy notace \cite{whatIsERD}}
-	\end{figure}
-	
-	\subsubsection{Crow's foot notace}
-	Tato notace se označuje také jako Information engineering nebo Martinova notace. Opět podporuje nejvýše binární vztahy, které jsou znázorněny čárami. Není možné  přiřazovat atributy vztahu bez asociační entity. Kardinalita i povinnost vztahu používá look across styl a obojí je znázorněno graficky. Entity jsou znázorněny obdélníky, do nich jsou, kromě samotného názvu, vepsány také všechny atributy. Zajímavé je, že ačkoli každá notace používá své grafické symboly, tak znaky pro znázornění kardinality a povinnosti použité touto notací najdeme velmi často v kombinaci s jinými notacemi, jako je např. IDEF1X, detailní popis nalezneme v kapitole \ref{idef1x}. Tato notace je populární zejména v oblasti CASE nástrojů a nalezneme ji v mnohých z nich.
-	
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.75\textwidth]{Figures/NotationExCrow}
-		\caption[Příklad Crow's foot notace]{Příklad Crow's foot notace \cite{whatIsERD}}
-	\end{figure}
-	
-	\subsubsection{Barkerova notace}
-	Barkerova notace je velmi populární v oblasti tvorby datových modelů pro Oracle Database, vznikla roku 1981 a po příchodu Richarda Barkera do Oraclu, se stala v této oblasti velmi populární. Jedná se o notaci podporující nejvýše binární vztahy, které jsou vyjádřeny čárami. Plná čára symbolizuje povinný vztah, čárkovaná pak vztah nepovinný. Pro vyjádření kardinality je zde použít také symbol vraní nohy. Povinnost používá styl look here, kardinalita pak styl look across. Atributy jsou zde trojího typu, každý typ označuje kategorii atributu. 
-	
-	Notace používá tyto znaky pro kategorizaci atributů:
-	
-	\begin{itemize}
-		\item \textbf{\#} - identifikující atribut
-		\item \textbf{\textasteriskcentered} - povinný atribut
-		\item \textbf{$\circ$} - nepovinný atribut
-	\end{itemize}
+		\begin{figure}[!h]
+			\centering
+			\subfloat[Silný entitní typ]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesA}
+				\label{fig:chenEntA}
+			}
+			\subfloat[Slabý entitní typ]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesB}
+				\label{fig:chenEntB}
+			}	
+			\subfloat[Asoc. entitní typ]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenEntitiesC}
+				\label{fig:chenEntC}
+			}	
+			\caption[Znázornění entit podle Chenovy notace]{Znázornění entit podle Chenovy notace}
+		\end{figure}
 
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.75\textwidth]{Figures/NotationExBarker}
-		\caption[Příklad Barkerovy notace]{Příklad Barkerovy notace \cite{whatIsERD}}
-	\end{figure}
-
-	Oproti ostatním notacím zde nalezneme určitá specifika. Prvním z nich je tzv. UID čára, obr. \ref{fig:barkerUid}, která se kreslí pouze u slabých entitních typů a vyjadřuje, že je identifikován atributy silných entitních typů. 
+		\subsubsection{Vztah}
+		Vztah slouží k vyjádření asociace mezi entitními typy. Obecně vyjadřuje informace, které nelze vyjádřit pouhými entitními typy, např. student \textit{studuje} předmět, novinář \textit{napsal} článek. Označuje se slovesem. Znázorňuje se kosočtvercem (viz. obrázek \ref{fig:chenRelA}). 
+		
+		Speciálním typem vztahu je identifikující vztah, který spojuje slabou entitu s entitou, na které je závislá, ta se označuje jako vlastník. Značí se kosočtvercem s dvojitým okrajem (viz. obrázek \ref{fig:chenRelB}). Podle počtu entit, které se v nich vyskytují rozlišujeme tyto typy:
+		
+		\begin{itemize}
+			\item \textbf{Unární} vztah, ve kterém se vyskytuje pouze jedna entita, ta je ve vztahu sama se sebou, např. zaměstnanec \textit{je nadřízeným} jiného zaměstnance.
+			\item \textbf{Binární} vztah existuje mezi dvěma entitami, např. zaměstnanec \textit{je vedoucím} oddělení.
+			\item \textbf{Ternární} vztah existuje mezi třemi entitami najednou, např. učitel \textit{doporučuje} knihu třídě.
+			\item \textbf{N-ární} vztah je mezi \textit{n} entitami zároveň.
+		\end{itemize}
+		
+		Nejčastějšími typy vztahů jsou vztahy unární a binární. N-ární vztahy, kde $n > 2$, se vyskytují v ER diagramech velmi málo, protože vedou k problémům s dekompozicí na několik binárních vztahů při přechodu z konceptuálního modelu na relační (logický).
+		
+		\begin{figure}[!h]
+			\centering
+			\subfloat[Vztah]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenRelationshipsA}
+				\label{fig:chenRelA}
+			}
+			\subfloat[Identifikující vztah]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenRelationshipsB}
+				\label{fig:chenRelB}
+			}	
+			\caption[Znázornění vztahů podle Chenovy notace]{Znázornění vztahů podle Chenovy notace}
+		\end{figure}
 	
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.65\textwidth]{Figures/BarkerUid}
-		\caption[Specifika Barkerovy notace - UID]{Specifika Barkerovy notace - UID}
-		\label{fig:barkerUid}
-	\end{figure}
+		Vztahy dále dělíme podle kardinality, která udává, kolikrát může instance entitního typu být ve vztahu s instancí jiného entitního typu, pro binární typ vztahu  rozlišujeme kardinalitu 1:1, 1:N, M:N. Pro ternární typ vztahu rozlišujeme kardinalitu 1:1:1, 1:1:N, 1:N:M, a M:N:P, pro n-ární typy vztahu se typy kardinality odvozují analogicky. Poslední důležitou vlastnosti vztahu je povinnost, určující zda může instance entitního typu existovat bez vztahu k jiné instanci entitního typu. Rozlišujeme povinné a nepovinné vztahy.
+		
+		\subsubsection{Atribut}
+		Atributy jsou vlastnosti charakterizující entitní typ. Označují se podstatným jménem, znázorňují se elipsou. Rozlišujeme následující kategorie:
+		
+		\begin{itemize}
+			\item \textbf{Jednoduchý}, atomický, atribut, který nelze dále dělit, např. \textit{značka automobilu} (viz. obrázek \ref{fig:chenAttrA}).
+			\item \textbf{Složený} atribut se dělí na více atomických atributů, např. \textit{adresa} se dělí na \textit{město, ulici a PSČ} (viz. obrázek \ref{fig:chenAttrB}).
+			\item \textbf{Odvozený} atribut, jehož hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda} (viz. obrázek \ref{fig:chenAttrC}).
+		\end{itemize}
 	
-	Dalším specifikem, je možnost vyznačit nepřenositelný vztah, obr. \ref{fig:barkerNonTransferable}, pokud jej použijeme, už jej nelze později změnit, příkladem je vztah mezi kapitolou a knihou, kdy kapitolu z jedné knihy nemůžeme přiřadit knize druhé. Graficky se tento typ vztahu značí přidáním kosočtverce k vraní noze.
+		\begin{figure}[!h]
+			\centering
+			\subfloat[Jednoduchý atribut]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenAttrA}
+				\label{fig:chenAttrA}
+			}
+			\subfloat[Složený atribut]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenAttrB}
+				\label{fig:chenAttrB}
+			}
+			\subfloat[Odvozený atribut]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/ChenAttrC}
+				\label{fig:chenAttrC}
+			}	
+			\caption[Znázornění atributů podle Chenovy notace]{Znázornění atributů podle Chenovy notace}
+		\end{figure}
 	
-	\begin{figure}[!h]
-		\centering
-		\subfloat[Nepřenositelný vztah]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/BarkerNonTrans}
-			\label{fig:barkerNonTransferable}
-		}
-		\qquad
-		\subfloat[Podtypy]
-		{
-			\includegraphics[width=0.2\textwidth]{Figures/BarkerSubtypes}
-			\label{fig:barkerSubtypes}
-		}
-		\caption[Specifika Barkerovy notace]{Specifika Barkerovy notace}
-	\end{figure}
-
-	Notace podporuje také dědičnost, kdy podtypy dědí atributy supertypu, obr. \ref{fig:barkerSubtypes}, graficky je tento jev vyjádřen přidání obdélníků jednotlivých podtypů do společného obdélníku, který odpovídá supertypu.
+		Další rozdělení je podle počtu hodnot atributu na:
 	
-	\subsubsection{Min-Max notace}
-	Jedná se o notaci, která podporuje nejvýše binární vztahy. Pro vyjádření kardinality a povinnosti vztahu, zde není použit žádný grafický symbol, ale uspořádaná dvojice $(min, max)$, kde minimální počet instancí entitního typu, které musí ve vztahu participovat, určuje povinnost, maximální počet určuje kardinalitu. Styl pro kardinalitu a povinnost se používá jednotný, zpravidla look here.
+		\begin{itemize}
+			\item \textbf{Jednohodnotové} - atributy obsahuje pouze jednu hodnotu, např. \textit{rodné číslo}.
+			\item \textbf{Vícehodnotové} - atributy mohou obsahovat více hodnot, značí se elipsou s dvojitým okrajem,např. \textit{telefonní číslo na pevnou linku i mobilní telefon}.
+		\end{itemize}
+			
+		Označení atributů lze kombinovat, např. \textit{jednohodnotový odvozený atribut}.
+		
+	\subsection{Často používané notace} \label{secOftenNotation}
+	Jak už bylo zmíněno, notací existuje celá řada. Jednotlivé notace se v mnoha směrech liší. V této kapitole jsou vybrané notace popsány včetně příkladů. Všechny příklady modelují situaci, kdy jeden člověk má právě jedno místo narození a na jednom místě narození se mohlo narodit více lidí.
+		
+		\subsubsection{Chenova notace}
+		
 	
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.75\textwidth]{Figures/NotationExMinMax}
-		\caption[Příklad Min-Max notace]{Příklad Min-Max notace \cite{whatIsERD}}
-	\end{figure}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.75\textwidth]{Figures/NotationExChen}
+			\caption[Příklad Chenovy notace]{Příklad Chenovy notace \cite{whatIsERD}}
+		\end{figure}
+		
+		\subsubsection{Bachmanova notace}
+		Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace modeluje cizí klíče už na konceptuální úrovní, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdélníky, vztahy čárami. Vztahům není možné přiřadit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu.
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.75\textwidth]{Figures/NotationExBachman}
+			\caption[Příklad Bachmanovy notace]{Příklad Bachmanovy notace \cite{whatIsERD}}
+		\end{figure}
+		
+		\subsubsection{Crow's foot notace}
+		Tato notace se označuje také jako Information engineering nebo Martinova notace. Opět podporuje nejvýše binární vztahy, které jsou znázorněny čárami. Není možné  přiřazovat atributy vztahu bez asociační entity. Kardinalita i povinnost vztahu používá look across styl a obojí je znázorněno graficky. Entity jsou znázorněny obdélníky, do nich jsou, kromě samotného názvu, vepsány také všechny atributy. Zajímavé je, že ačkoli každá notace používá své grafické symboly, tak znaky pro znázornění kardinality a povinnosti použité touto notací najdeme velmi často v kombinaci s jinými notacemi, jako je např. IDEF1X, detailní popis nalezneme v kapitole \ref{idef1x}. Tato notace je populární zejména v oblasti CASE nástrojů a nalezneme ji v mnohých z nich.
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.75\textwidth]{Figures/NotationExCrow}
+			\caption[Příklad Crow's foot notace]{Příklad Crow's foot notace \cite{whatIsERD}}
+		\end{figure}
+		
+		\subsubsection{Barkerova notace}
+		Barkerova notace je velmi populární v oblasti tvorby datových modelů pro Oracle Database, vznikla roku 1981 a po příchodu Richarda Barkera do Oraclu, se stala v této oblasti velmi populární. Jedná se o notaci podporující nejvýše binární vztahy, které jsou vyjádřeny čárami. Plná čára symbolizuje povinný vztah, čárkovaná pak vztah nepovinný. Pro vyjádření kardinality je zde použít také symbol vraní nohy. Povinnost používá styl look here, kardinalita pak styl look across. Atributy jsou zde trojího typu, každý typ označuje kategorii atributu. 
+		
+		Notace používá tyto znaky pro kategorizaci atributů:
+		
+		\begin{itemize}
+			\item \textbf{\#} - identifikující atribut
+			\item \textbf{\textasteriskcentered} - povinný atribut
+			\item \textbf{$\circ$} - nepovinný atribut
+		\end{itemize}
 	
-	\subsubsection{IDEF1X notace} \label{idef1x}
-	IDEF1X je notace, která vnikla v rámci programu ICAM, financovaném US Air Force, jako součást IDEF technik pro modelování informačních systémů. Vztahy jsou podporované nejvýše binární a neklíčové atributy vztahu je nutné modelovat použitím asociační entity. Kardinalita a povinnost vztahu je vyjádřena pomocí $(min, max)$ notace, buď graficky, nebo textově, a nejčastěji používá styl look across. Tato notace rozlišuje graficky silné entitní typy, značí se obdélníkem, a slabé entitní typy, značí se obdélníkem se zakulacenými rohy. Podobně jako u Barkerovy notace je zde možné vyznačit identifikující vztahy. Navzdory tomu, že notace nabízí vlastní grafické symboly pro znázornění kardinality a povinnosti vztahu, je často použita pro tento účel část Crow's foot notace, zbytek prvků IDEF1X je ponechán.
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.75\textwidth]{Figures/NotationExBarker}
+			\caption[Příklad Barkerovy notace]{Příklad Barkerovy notace \cite{whatIsERD}}
+		\end{figure}
 	
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.75\textwidth]{Figures/NotationExIDEF1X}
-		\caption[Příklad IDEF1X notace]{Příklad IDEF1X notace \cite{whatIsERD}}
-	\end{figure}
+		Oproti ostatním notacím zde nalezneme určitá specifika. Prvním z nich je tzv. UID čára, obr. \ref{fig:barkerUid}, která se kreslí pouze u slabých entitních typů a vyjadřuje, že je identifikován atributy silných entitních typů. 
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.65\textwidth]{Figures/BarkerUid}
+			\caption[Specifika Barkerovy notace - UID]{Specifika Barkerovy notace - UID}
+			\label{fig:barkerUid}
+		\end{figure}
+		
+		Dalším specifikem, je možnost vyznačit nepřenositelný vztah, obr. \ref{fig:barkerNonTransferable}, pokud jej použijeme, už jej nelze později změnit, příkladem je vztah mezi kapitolou a knihou, kdy kapitolu z jedné knihy nemůžeme přiřadit knize druhé. Graficky se tento typ vztahu značí přidáním kosočtverce k vraní noze.
+		
+		\begin{figure}[!h]
+			\centering
+			\subfloat[Nepřenositelný vztah]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/BarkerNonTrans}
+				\label{fig:barkerNonTransferable}
+			}
+			\qquad
+			\subfloat[Podtypy]
+			{
+				\includegraphics[width=0.2\textwidth]{Figures/BarkerSubtypes}
+				\label{fig:barkerSubtypes}
+			}
+			\caption[Specifika Barkerovy notace]{Specifika Barkerovy notace}
+		\end{figure}
+	
+		Notace podporuje také dědičnost, kdy podtypy dědí atributy supertypu, obr. \ref{fig:barkerSubtypes}, graficky je tento jev vyjádřen přidání obdélníků jednotlivých podtypů do společného obdélníku, který odpovídá supertypu.
+		
+		\subsubsection{Min-Max notace}
+		Jedná se o notaci, která podporuje nejvýše binární vztahy. Pro vyjádření kardinality a povinnosti vztahu, zde není použit žádný grafický symbol, ale uspořádaná dvojice $(min, max)$, kde minimální počet instancí entitního typu, které musí ve vztahu participovat, určuje povinnost, maximální počet určuje kardinalitu. Styl pro kardinalitu a povinnost se používá jednotný, zpravidla look here.
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.75\textwidth]{Figures/NotationExMinMax}
+			\caption[Příklad Min-Max notace]{Příklad Min-Max notace \cite{whatIsERD}}
+		\end{figure}
+	
+		\subsubsection{IDEF1X notace} \label{idef1x}
+		IDEF1X je notace, která vnikla v rámci programu ICAM, financovaném US Air Force, jako součást IDEF technik pro modelování informačních systémů. Vztahy jsou podporované nejvýše binární a neklíčové atributy vztahu je nutné modelovat použitím asociační entity. Kardinalita a povinnost vztahu je vyjádřena pomocí $(min, max)$ notace, buď graficky, nebo textově, a nejčastěji používá styl look across. Tato notace rozlišuje graficky silné entitní typy, značí se obdélníkem, a slabé entitní typy, značí se obdélníkem se zakulacenými rohy. Podobně jako u Barkerovy notace je zde možné vyznačit identifikující vztahy. Navzdory tomu, že notace nabízí vlastní grafické symboly pro znázornění kardinality a povinnosti vztahu, je často použita pro tento účel část Crow's foot notace, zbytek prvků IDEF1X je ponechán.
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.75\textwidth]{Figures/NotationExIDEF1X}
+			\caption[Příklad IDEF1X notace]{Příklad IDEF1X notace \cite{whatIsERD}}
+		\end{figure}
 	
 	\subsection{Nevýhody ER diagramů}
 	ER diagramy jsou určeny primárně pro vytváření modelů relačních struktur. Pokud pracujeme s nestrukturovanými daty, které není jednoduše možné reprezentovat relacemi, není ER diagram vhodný nástroj k vizualizaci jejich struktury. Toto omezení platí i pro částečně strukturovaná data, nejznámějšími zástupci jsou XML nebo JSON, protože navzdory tomu, že jsme schopni rozlišit jednotlivé entity, může dojít k situaci, kdy se entity téhož typu liší svými atributy. 
