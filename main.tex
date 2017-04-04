@@ -112,6 +112,35 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	Dalším velmi častým použitím ER diagramu je vizualizace již existujících schémat databáze, protože právě grafické znázornění schématu je ideální pro snadné odhalení logických chyb, ke kterým mohlo v rámci návrhu systému dojít.
 	Vizualizace existujících schémat nemusí být použita pouze pro odhalení chyb, ale také při situaci, kdy došlo ke změně některých business procesu. Tyto změny obvykle vyvolají nutnost přizpůsobení relačního modelu, ER diagram je tedy vhodný prostředek nejen k analýze stávajícího schématu pro návrh změn, ale také pro jejich provádění použitím CASE nástrojů.
 	
+	\subsection{Kategorie modelů} \label{secModelCategory}
+	Podle úrovně abstrakce rozlišujeme tři typy datových modelů \cite{whatIsERD}, které využíváme při návrhu databázového schématu. Nejvyšší úroveň abstrakce nabízí konceptuální model, který zachycuje pouze entity a vztahy mezi nimi, je nejméně detailní. Více detailů nabízí logický model, poskytuje nižší úroveň abstrakce, ale stále je nezávislý na použitém SŘDB. Posledním typem je fyzický model, ten vychází z logického modelu, nicméně se může v mnoha ohledech lišit, protože jeho cílem je obsáhnout dostatečný počet technických detailů pro implementaci databáze. Rozdíly mezi logickým a fyzickým modelem způsobuje fakt, že fyzický model je vytvářen s ohledem na konkrétní použitou technologii, proto i v případě, že zvolíme relační databázi, se mohou pro různé SŘDB fyzické modely více či méně lišit. Přehledné shrnutí rozdílů mezi modely nabízí tabulka \ref{tab:modelTypes}.
+	
+	\begin{table}[!h]
+		\centering
+		\caption{Rozdíly mezi modely}
+		\label{tab:modelTypes}
+		\begin{tabular}{l c c c}
+			\toprule
+			Modelované vlastnosti & Konceptuální & Logický & Fyzický \\
+			\midrule
+			Názvy entit & \cmark & \cmark & \xmark \\
+			Vztahy & \cmark& \cmark & \xmark \\
+			Atributy & \cmark& \cmark & \xmark \\
+			Primární klíče & \xmark & \cmark & \cmark \\
+			Cizí klíče & \xmark & \cmark & \cmark \\
+			Názvy tabulek & \xmark & \xmark & \cmark \\
+			Názvy sloupců & \xmark & \xmark & \cmark \\
+			Datové typy sloupců & \xmark & \xmark & \cmark \\
+			\midrule
+		\end{tabular}
+	\end{table}
+	
+	
+	\subsection{Vývoj notací}
+	Stejně jako se vyvíjely potřeby návrhu datových modelů, vznikaly i nové notace ER diagramu. Cílem nově vznikající notací, zejména v průběhu 80tých let, bylo odstranění některých problémů již existujících notací. 
+	
+	Zásadním mezníkem pro vývoj notací byl objektově orientovaný přístup k vývoji softwaru, na který se mnohé notace snažily reagovat. Tento trend způsobil rozšíření notací ER modelu o koncept generalizace/specializace a dědičnosti, tento typ modelu se označuje jako  Enhanced entity–relationship model (EER). Vlivem popularity objektově-relačních databází vznikly i notace umožňující v modelu zahrnout metody a operace entit. Tento přístup je dnes k vidění v celé řadě CASE nástrojů a  vhodný je zejména pro modelování komplexních databází pro geografické informační systémy nebo telekomunikace.
+	
 	\subsection{Prvky ER diagramu} \label{erDiagramFeatures}
 	V této části jsou popsány prvky používané při tvorbě ER diagramu, včetně speciálních případů těchto prvků a příkladů. Ilustrační grafické znázornění odpovídá notaci podle P. Chena, nicméně v další části budou ostatní používané notace dále rozvedeny \cite{erdSymbols}.
 	
