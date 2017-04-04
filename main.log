@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 20:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -1801,18 +1801,18 @@ Package pdftex.def Info: Figures/ChenAttr.png used on input line 218.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [17 <./Figures/ChenRelationships.png>]
-<Figures/TernaryRelationship2.jpg, id=325, 569.87906pt x 289.83281pt>
-File: Figures/TernaryRelationship2.jpg Graphic file (type jpg)
+<Figures/TernaryRelationship2.png, id=325, 569.87906pt x 289.83281pt>
+File: Figures/TernaryRelationship2.png Graphic file (type png)
 
-<use Figures/TernaryRelationship2.jpg>
-Package pdftex.def Info: Figures/TernaryRelationship2.jpg used on input line 23
+<use Figures/TernaryRelationship2.png>
+Package pdftex.def Info: Figures/TernaryRelationship2.png used on input line 23
 4.
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18 <./Figures/ChenAttr.png>] [19 <./Figures/TernaryRelationship2.jpg>]
+[18 <./Figures/ChenAttr.png>] [19 <./Figures/TernaryRelationship2.png>]
 <Figures/NotationExChen.png, id=343, 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
@@ -1978,7 +1978,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (49 pages, 1421192 bytes).
+Output written on main.pdf (49 pages, 1448620 bytes).
 PDF statistics:
  676 PDF objects out of 1000 (max. 8388607)
  156 named destinations out of 1000 (max. 500000)
