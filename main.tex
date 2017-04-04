@@ -182,14 +182,12 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	Vztahy dále dělíme podle kardinality, která udává, kolikrát může instance entitního typu být ve vztahu s instancí jiného entitního typu, pro binární typ vztahu  rozlišujeme kardinalitu 1:1, 1:N, M:N. Pro ternární typ vztahu rozlišujeme kardinalitu 1:1:1, 1:1:N, 1:N:M, a M:N:P, pro n-ární typy vztahu se typy kardinality odvozují analogicky. Poslední důležitou vlastnosti vztahu je povinnost, určující zda může instance entitního typu existovat bez vztahu k jiné instanci entitního typu. Rozlišujeme povinné a nepovinné vztahy.
 	
 	\subsubsection{Atribut}
-	Atributy jsou vlastnosti charakterizující entitní typ. Označují se podstatným jménem, znázorňují se elipsou.
-	
-	Rozlišujeme následující kategorie atributů:
+	Atributy jsou vlastnosti charakterizující entitní typ. Označují se podstatným jménem, znázorňují se elipsou. Rozlišujeme následující kategorie:
 	
 	\begin{itemize}
-		\item \textbf{Jednoduchý} - atomický atribut, nelze dále dělit, např. \textit{značka automobilu}
-		\item \textbf{Složený} - dělí se na více atomických atributů, např. \textit{adresa} se dělí na \textit{město, ulici a PSČ} 
-		\item \textbf{Odvozený} - hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda}
+		\item \textbf{Jednoduchý} - atomický atribut, nelze dále dělit, např. \textit{značka automobilu}.
+		\item \textbf{Složený} - atribut se dělí na více atomických atributů, např. \textit{adresa} se dělí na \textit{město, ulici a PSČ}.
+		\item \textbf{Odvozený} - atribut, jehož hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda}.
 	\end{itemize}
 
 	Další rozdělení je podle počtu hodnot atributu na:
