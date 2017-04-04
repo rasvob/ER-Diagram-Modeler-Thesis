@@ -297,7 +297,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		\end{figure}
 		
 		\subsubsection{Barkerova notace}
-		Barkerova notace \cite{compErNotations} je velmi populární v oblasti tvorby datových modelů pro Oracle Database. Vznikla roku 1981 a po příchodu Richarda Barkera do společnosti Oracle, se stala v této oblasti velmi populární. Jedná se o notaci podporující nejvýše binární vztahy, které jsou vyjádřeny čárami. Plná čára symbolizuje povinný vztah, čárkovaná pak vztah nepovinný. Pro vyjádření kardinality je zde použít také symbol vraní nohy. Povinnost používá styl look here, kardinalita pak styl look across. Atributy jsou zde trojího typu, každý typ označuje kategorii atributu. Notace používá tyto znaky pro kategorizaci atributů:
+		Barkerova notace \cite{compErNotations} je velmi populární v oblasti tvorby datových modelů pro Oracle Database. Vznikla roku 1981 a po příchodu Richarda Barkera do společnosti Oracle, se stala v této oblasti velmi populární. Jedná se o notaci podporující nejvýše binární vztahy, které jsou vyjádřeny čárami. Plná čára symbolizuje povinný vztah, čárkovaná pak vztah nepovinný. Pro vyjádření kardinality je zde použít také symbol vraní nohy. Povinnost používá styl look here, kardinalita pak styl look across. Ukázku této notace vidíme na obrázku \ref{fig:notationExBarker}. Atributy jsou zde trojího typu, každý typ označuje kategorii atributu. Notace používá tyto znaky pro kategorizaci atributů:
 		
 		\begin{itemize}
 			\item \textbf{\#} pro vyznačení identifikujícího atributu.
@@ -309,6 +309,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 			\centering
 			\includegraphics[width=0.75\textwidth]{Figures/NotationExBarker}
 			\caption[Příklad Barkerovy notace]{Příklad Barkerovy notace \cite{whatIsERD}}
+			\label{fig:notationExBarker}
 		\end{figure}
 	
 		Oproti ostatním notacím zde nalezneme určitá specifika. Prvním z nich je tzv. UID čára, obr. \ref{fig:barkerUid}, která se kreslí pouze u slabých entitních typů a vyjadřuje, že je identifikován atributy silných entitních typů. 
