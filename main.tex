@@ -287,23 +287,22 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		\end{figure}
 		
 		\subsubsection{Crow's foot notace}
-		Tato notace se označuje také jako Information engineering nebo Martinova notace. Opět podporuje nejvýše binární vztahy, které jsou znázorněny čárami. Není možné  přiřazovat atributy vztahu bez asociační entity. Kardinalita i povinnost vztahu používá look across styl a obojí je znázorněno graficky. Entity jsou znázorněny obdélníky, do nich jsou, kromě samotného názvu, vepsány také všechny atributy. Zajímavé je, že ačkoli každá notace používá své grafické symboly, tak znaky pro znázornění kardinality a povinnosti použité touto notací najdeme velmi často v kombinaci s jinými notacemi, jako je např. IDEF1X, detailní popis nalezneme v kapitole \ref{idef1x}. Tato notace je populární zejména v oblasti CASE nástrojů a nalezneme ji v mnohých z nich.
+		Tato notace se označuje také jako Information engineering nebo Martinova notace. Opět podporuje nejvýše binární vztahy, které jsou znázorněny čárami. Není možné  přiřazovat atributy vztahu bez asociační entity. Kardinalita i povinnost vztahu používá look across styl a obojí je znázorněno graficky. Entity jsou znázorněny obdélníky, do nich jsou, kromě samotného názvu, vepsány také všechny atributy. Zajímavé je, že ačkoli každá notace používá své grafické symboly, tak znaky pro znázornění kardinality a povinnosti použité touto notací najdeme velmi často v kombinaci s jinými notacemi, jako je např. IDEF1X, detailní popis nalezneme v kapitole \ref{idef1x}. Tato notace je populární zejména v oblasti CASE nástrojů a nalezneme ji v mnohých z nich (viz. \ref{fig:notationExCrow}).
 		
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.75\textwidth]{Figures/NotationExCrow}
 			\caption[Příklad Crow's foot notace]{Příklad Crow's foot notace \cite{whatIsERD}}
+			\label{fig:notationExCrow}
 		\end{figure}
 		
 		\subsubsection{Barkerova notace}
-		Barkerova notace je velmi populární v oblasti tvorby datových modelů pro Oracle Database, vznikla roku 1981 a po příchodu Richarda Barkera do Oraclu, se stala v této oblasti velmi populární. Jedná se o notaci podporující nejvýše binární vztahy, které jsou vyjádřeny čárami. Plná čára symbolizuje povinný vztah, čárkovaná pak vztah nepovinný. Pro vyjádření kardinality je zde použít také symbol vraní nohy. Povinnost používá styl look here, kardinalita pak styl look across. Atributy jsou zde trojího typu, každý typ označuje kategorii atributu. 
-		
-		Notace používá tyto znaky pro kategorizaci atributů:
+		Barkerova notace je velmi populární v oblasti tvorby datových modelů pro Oracle Database, vznikla roku 1981 a po příchodu Richarda Barkera do Oraclu, se stala v této oblasti velmi populární. Jedná se o notaci podporující nejvýše binární vztahy, které jsou vyjádřeny čárami. Plná čára symbolizuje povinný vztah, čárkovaná pak vztah nepovinný. Pro vyjádření kardinality je zde použít také symbol vraní nohy. Povinnost používá styl look here, kardinalita pak styl look across. Atributy jsou zde trojího typu, každý typ označuje kategorii atributu. Notace používá tyto znaky pro kategorizaci atributů:
 		
 		\begin{itemize}
-			\item \textbf{\#} - identifikující atribut
-			\item \textbf{\textasteriskcentered} - povinný atribut
-			\item \textbf{$\circ$} - nepovinný atribut
+			\item \textbf{\#} pro vyznačení identifikujícího atributu.
+			\item \textbf{\textasteriskcentered} pro vyznačení povinného atributu.
+			\item \textbf{$\circ$} pro vyznačení nepovinného atributu.
 		\end{itemize}
 	
 		\begin{figure}[!h]
