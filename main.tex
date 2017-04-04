@@ -207,10 +207,30 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	Atributy jsou vlastnosti charakterizující entitní typ. Označují se podstatným jménem, znázorňují se elipsou. Rozlišujeme následující kategorie:
 	
 	\begin{itemize}
-		\item \textbf{Jednoduchý} - atomický atribut, nelze dále dělit, např. \textit{značka automobilu}.
-		\item \textbf{Složený} - atribut se dělí na více atomických atributů, např. \textit{adresa} se dělí na \textit{město, ulici a PSČ}.
-		\item \textbf{Odvozený} - atribut, jehož hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda}.
+		\item \textbf{Jednoduchý}, atomický, atribut, který nelze dále dělit, např. \textit{značka automobilu}.
+		\item \textbf{Složený} atribut se dělí na více atomických atributů, např. \textit{adresa} se dělí na \textit{město, ulici a PSČ}.
+		\item \textbf{Odvozený} atribut, jehož hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda}.
 	\end{itemize}
+
+	\begin{figure}[!h]
+		\centering
+		\subfloat[Jednoduchý atribut]
+		{
+			\includegraphics[width=0.2\textwidth]{Figures/ChenAttrA}
+			\label{fig:chenAttrA}
+		}
+		\subfloat[Složený atribut]
+		{
+			\includegraphics[width=0.2\textwidth]{Figures/ChenAttrB}
+			\label{fig:chenAttrB}
+		}
+		\subfloat[Odvozený atribut]
+		{
+			\includegraphics[width=0.2\textwidth]{Figures/ChenAttrC}
+			\label{fig:chenAttrC}
+		}	
+		\caption[Znázornění atributů podle Chenovy notace]{Znázornění atributů podle Chenovy notace}
+	\end{figure}
 
 	Další rozdělení je podle počtu hodnot atributu na:
 	
