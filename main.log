@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  4 APR 2017 23:30
 entering extended mode
 **./main.tex
 (main.tex
@@ -1770,100 +1770,101 @@ File: Figures/TernaryRelationship2.png Graphic file (type png)
 Package pdftex.def Info: Figures/TernaryRelationship2.png used on input line 14
 9.
 (pdftex.def)             Requested size: 295.90588pt x 150.4928pt.
- [16 <./Figures/TernaryRelationship2.png>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 172.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 172.
-
-<Figures/ChenEntitiesA.png, id=314, 160.6pt x 120.45pt>
-File: Figures/ChenEntitiesA.png Graphic file (type png)
-
-<use Figures/ChenEntitiesA.png>
-Package pdftex.def Info: Figures/ChenEntitiesA.png used on input line 185.
-(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
-
-<Figures/ChenEntitiesB.png, id=315, 160.6pt x 120.45pt>
-File: Figures/ChenEntitiesB.png Graphic file (type png)
-
-<use Figures/ChenEntitiesB.png>
-Package pdftex.def Info: Figures/ChenEntitiesB.png used on input line 190.
-(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
-
-<Figures/ChenEntitiesC.png, id=316, 160.6pt x 120.45pt>
-File: Figures/ChenEntitiesC.png Graphic file (type png)
-
-<use Figures/ChenEntitiesC.png>
-Package pdftex.def Info: Figures/ChenEntitiesC.png used on input line 195.
-(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
- [17 <./Figures/ChenEntitiesA.png> <./Figures/ChenEntitiesB.png> <./Figures/Che
-nEntitiesC.png>]
-<Figures/ChenRelationshipsA.png, id=328, 120.45pt x 137.7647pt>
-File: Figures/ChenRelationshipsA.png Graphic file (type png)
-
-<use Figures/ChenRelationshipsA.png>
-Package pdftex.def Info: Figures/ChenRelationshipsA.png used on input line 219.
-
-(pdftex.def)             Requested size: 91.04742pt x 104.13887pt.
-
-<Figures/ChenRelationshipsB.png, id=329, 125.71968pt x 137.7647pt>
-File: Figures/ChenRelationshipsB.png Graphic file (type png)
-
-<use Figures/ChenRelationshipsB.png>
-Package pdftex.def Info: Figures/ChenRelationshipsB.png used on input line 224.
-
-(pdftex.def)             Requested size: 91.04742pt x 99.77068pt.
- [18 <./Figures/ChenRelationshipsA.png> <./Figures/ChenRelationshipsB.png>]
-<Figures/ChenAttrA.png, id=346, 160.6pt x 120.45pt>
-File: Figures/ChenAttrA.png Graphic file (type png)
-
-<use Figures/ChenAttrA.png>
-Package pdftex.def Info: Figures/ChenAttrA.png used on input line 245.
-(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
-
-<Figures/ChenAttrB.png, id=347, 160.6pt x 120.45pt>
-File: Figures/ChenAttrB.png Graphic file (type png)
-
-<use Figures/ChenAttrB.png>
-Package pdftex.def Info: Figures/ChenAttrB.png used on input line 250.
-(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
-
-<Figures/ChenAttrC.png, id=348, 160.6pt x 120.45pt>
-File: Figures/ChenAttrC.png Graphic file (type png)
-
-<use Figures/ChenAttrC.png>
-Package pdftex.def Info: Figures/ChenAttrC.png used on input line 255.
-(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
-
-<Figures/NotationExChen.png, id=349, 470.50781pt x 87.32625pt>
+ [16 <./Figures/TernaryRelationship2.png>] <Figures/NotationExChen.png, id=312,
+ 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
-Package pdftex.def Info: Figures/NotationExChen.png used on input line 276.
+Package pdftex.def Info: Figures/NotationExChen.png used on input line 170.
 (pdftex.def)             Requested size: 341.43307pt x 63.37053pt.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 179.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 179.
+
+<Figures/ChenEntitiesA.png, id=318, 160.6pt x 120.45pt>
+File: Figures/ChenEntitiesA.png Graphic file (type png)
+
+<use Figures/ChenEntitiesA.png>
+Package pdftex.def Info: Figures/ChenEntitiesA.png used on input line 192.
+(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
+
+<Figures/ChenEntitiesB.png, id=319, 160.6pt x 120.45pt>
+File: Figures/ChenEntitiesB.png Graphic file (type png)
+
+<use Figures/ChenEntitiesB.png>
+Package pdftex.def Info: Figures/ChenEntitiesB.png used on input line 197.
+(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
+
+<Figures/ChenEntitiesC.png, id=320, 160.6pt x 120.45pt>
+File: Figures/ChenEntitiesC.png Graphic file (type png)
+
+<use Figures/ChenEntitiesC.png>
+Package pdftex.def Info: Figures/ChenEntitiesC.png used on input line 202.
+(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./Figures/ChenAttrA.png> <./Figures/ChenAttrB.png> <./Figures/ChenAttrC.pn
-g>] <Figures/NotationExBachman.png, id=362, 464.4853pt x 89.58469pt>
+[17 <./Figures/NotationExChen.png>]
+<Figures/ChenRelationshipsA.png, id=336, 120.45pt x 137.7647pt>
+File: Figures/ChenRelationshipsA.png Graphic file (type png)
+
+<use Figures/ChenRelationshipsA.png>
+Package pdftex.def Info: Figures/ChenRelationshipsA.png used on input line 226.
+
+(pdftex.def)             Requested size: 91.04742pt x 104.13887pt.
+
+<Figures/ChenRelationshipsB.png, id=337, 125.71968pt x 137.7647pt>
+File: Figures/ChenRelationshipsB.png Graphic file (type png)
+
+<use Figures/ChenRelationshipsB.png>
+Package pdftex.def Info: Figures/ChenRelationshipsB.png used on input line 231.
+
+(pdftex.def)             Requested size: 91.04742pt x 99.77068pt.
+ [18 <./Figures/ChenEntitiesA.png> <./Figures/ChenEntitiesB.png> <./Figures/Che
+nEntitiesC.png> <./Figures/ChenRelationshipsA.png> <./Figures/ChenRelationships
+B.png>]
+<Figures/ChenAttrA.png, id=350, 160.6pt x 120.45pt>
+File: Figures/ChenAttrA.png Graphic file (type png)
+
+<use Figures/ChenAttrA.png>
+Package pdftex.def Info: Figures/ChenAttrA.png used on input line 252.
+(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
+
+<Figures/ChenAttrB.png, id=351, 160.6pt x 120.45pt>
+File: Figures/ChenAttrB.png Graphic file (type png)
+
+<use Figures/ChenAttrB.png>
+Package pdftex.def Info: Figures/ChenAttrB.png used on input line 257.
+(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
+
+<Figures/ChenAttrC.png, id=352, 160.6pt x 120.45pt>
+File: Figures/ChenAttrC.png Graphic file (type png)
+
+<use Figures/ChenAttrC.png>
+Package pdftex.def Info: Figures/ChenAttrC.png used on input line 262.
+(pdftex.def)             Requested size: 91.04742pt x 68.28778pt.
+ [19 <./Figures/ChenAttrA.png> <./Figures/ChenAttrB.png> <./Figures/ChenAttrC.p
+ng>]
+<Figures/NotationExBachman.png, id=363, 464.4853pt x 89.58469pt>
 File: Figures/NotationExBachman.png Graphic file (type png)
 
 <use Figures/NotationExBachman.png>
 Package pdftex.def Info: Figures/NotationExBachman.png used on input line 285.
 (pdftex.def)             Requested size: 341.43307pt x 65.85283pt.
 
-<Figures/NotationExCrow.png, id=366, 462.22687pt x 88.07906pt>
+<Figures/NotationExCrow.png, id=367, 462.22687pt x 88.07906pt>
 File: Figures/NotationExCrow.png Graphic file (type png)
 
 <use Figures/NotationExCrow.png>
 Package pdftex.def Info: Figures/NotationExCrow.png used on input line 294.
 (pdftex.def)             Requested size: 341.43307pt x 65.06189pt.
- [20 <./Figures/NotationExChen.png> <./Figures/NotationExBachman.png> <./Figure
-s/NotationExCrow.png>]
+ [20 <./Figures/NotationExBachman.png> <./Figures/NotationExCrow.png>]
 LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 305.
 
@@ -1904,7 +1905,11 @@ File: Figures/NotationExMinMax.png Graphic file (type png)
 <use Figures/NotationExMinMax.png>
 Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 349.
 (pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
- [21 <./Figures/NotationExBarker.png> <./Figures/BarkerUid.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21 <./Figures/NotationExBarker.png> <./Figures/BarkerUid.png>]
 <Figures/NotationExIDEF1X.png, id=401, 473.51906pt x 107.65219pt>
 File: Figures/NotationExIDEF1X.png Graphic file (type png)
 
@@ -1988,9 +1993,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 776.
  ) 
 Here is how much of TeX's memory you used:
  17661 strings out of 493333
- 247659 string characters out of 3139195
- 382867 words of memory out of 3000000
- 20704 multiletter control sequences out of 15000+200000
+ 247657 string characters out of 3139195
+ 382922 words of memory out of 3000000
+ 20705 multiletter control sequences out of 15000+200000
  54625 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,50p,1444b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2007,9 +2012,9 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (48 pages, 1448166 bytes).
+Output written on main.pdf (48 pages, 1420267 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 162 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
