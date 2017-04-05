@@ -485,7 +485,14 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		\subsubsection{SQL Server Management Studio}
 		Tento nástroj, často označován jen jako SSMS, je vyvíjen společnosti Microsoft, první verze byla vydaná společně s Microsoft SQL Server 2005. Předchůdcem toho nástroje je Enterprise Manager, který se používal ke správě starších verzí SŘBD SQL Server. Jedná se o plnohodnotný nástroj pro administraci SŘBD SQL Server, většinu potřebných úkonů je možné provést s využitím GUI. Součástí tohoto nástroje je také možnost tvorby ER diagramů a právě na ní se zaměříme. Nástroj je určen pro platformu Microsoft Windows a kromě SQL Serveru nepodporuje žádné další SŘBD.
 		
-		Management studio umožňuje pouze tvorbu fyzického modelu databáze. Nemožnost tvorby modelů na jiných úrovní abstrakce je způsobena primárním zaměřením celého nástroje na správu již existujících databází. Konceptuální model tedy v tomto případě postrádá smysl. Použitá notace je specifická, tento nástroj nepoužívá žádnou z dříve zmíněných notací. Povinnost vztahu je znázorněna graficky v look here stylu, kardinalita znázorněna není, předpokládá se 1:N. 
+		Management studio umožňuje pouze tvorbu fyzického modelu databáze. Nemožnost tvorby modelů na jiných úrovní abstrakce je způsobena primárním zaměřením celého nástroje na správu již existujících databází. Konceptuální model tedy v tomto případě postrádá smysl. Použitá notace je specifická, tento nástroj nepoužívá žádnou z dříve zmíněných notací. Ukázku notace zachycuje obrázek \ref{fig:notSSMS} Povinnost vztahu je znázorněna graficky v look here stylu, kardinalita znázorněna není, předpokládá se 1:N. 
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/EditorSSMS}
+			\caption[Notace SSMS]{Notace SSMS}
+			\label{fig:notSSMS}
+		\end{figure}
 		
 		Import diagramů z jiných nástrojů nebo souboru není k dispozici v žádné formě, jedinou možností je vytvoření databáze na serveru a vygenerování diagramu na základě jejího schématu. Stejně tak není podporován ani export do CSV, Excelu nebo XML, jako je tomu u konkurenčních nástrojů. 
 		
