@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{25}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer Data Modeler}{25}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{28}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{29}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{30}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{31}{subsubsection.3.2.4}
 \contentsline {subsubsection}{\numberline {3.2.5}StarUML 2}{32}{subsubsection.3.2.5}
 \contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{33}{subsection.3.3}
