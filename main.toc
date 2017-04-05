@@ -33,6 +33,7 @@
 \contentsline {subsection}{\numberline {3.1}V\IeC {\'y}hody a nev\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{25}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{25}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer Data Modeler}{26}{subsubsection.3.2.1}
+\contentsline {paragraph}{\numberline {3.2.1.1}Popis funcionality}{26}{paragraph.3.2.1.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{28}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{30}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{32}{subsubsection.3.2.4}
