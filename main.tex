@@ -418,8 +418,9 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		20C3C4D9-827D-8EEB-22F6-EBC10927AF72,69,"Relational_1",Relational,SQL Server 2012,
 		\end{verbatim}
 		
-		\begin{lstlisting}[label=src:csvOracle,caption=Uložení modelů do CSV]
-			
+		\begin{lstlisting}[language=Pascal,label=src:csvOracle,caption=Uložení modelů do CSV]
+		ModelID,Num_ModelID,Model_Name,Model_Type,RDBMS_Type
+		20C3C4D9-827D-8EEB-22F6-EBC10927AF72,69,"Relational_1",Relational,SQL Server 2012,
 		\end{lstlisting}
 		
 		Nástroj podporuje vygenerování DDL skriptu na základě relačního modelu. Před exportem je nutné nastavit požadované SŘBD, v nabídce je Oracle Database, Microsoft SQL Server a IBM DB2, všechny zmíněné jsou podporovány v několika verzích z důvodu překlenutí specifik jednotlivých verzí. Exportování DDL skriptu je doprovázeno kontrolou chyb, ať už se jedná o varování nebo errory, což napomáhá k odhalení problémů ještě před samotným spuštěním skriptu.
