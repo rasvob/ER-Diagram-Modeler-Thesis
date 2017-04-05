@@ -425,13 +425,13 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		</xs:element>
 		\end{lstlisting}
 		
-		Nástroj podporuje vygenerování DDL skriptu na základě relačního modelu. Před exportem je nutné nastavit požadované SŘBD, v nabídce je Oracle Database, Microsoft SQL Server a IBM DB2, všechny zmíněné jsou podporovány v několika verzích z důvodu překlenutí specifik jednotlivých verzí. Exportování DDL skriptu je doprovázeno kontrolou chyb, ať už se jedná o varování nebo errory, což napomáhá k odhalení problémů ještě před samotným spuštěním skriptu.
+		Nástroj podporuje vygenerování DDL skriptu na základě relačního modelu. Před exportem je nutné nastavit požadované SŘBD, v nabídce je Oracle Database, Microsoft SQL Server a IBM DB2, všechny zmíněné jsou podporovány v několika verzích z důvodu překlenutí specifik jednotlivých verzí. Exportování DDL skriptu je doprovázeno kontrolou chyb, což napomáhá k odhalení problémů ještě před samotným spuštěním skriptu.
 		
 		Možností importu je opět několik, importovat lze nejen z CSV, Data Cube metadat, XMLA nebo nativního formátu Data Modeleru, ale také na základě DDL skriptu. Tato možnost je výhodná v případě vizualizace již existujících schémat. Ovšem za nejvíce praktickou považuji možnost importu pomocí data dictionary, které umožňuje připojení k existující databázi přes JDBC. Tento způsob importu je možné využít nejen pro Oracle, ale také pro Microsoft SQL Server a IBM DB2.
 		
 		Po importu a reverzním vytvoření diagramu nástroj umožňuje rovněž aktualizaci schématu databáze na základě změn v ER diagramu, změny se neprovádějí ihned po provedení, ale je nutné synchronizaci spustit ručně. Tento způsob implementace umožňuje nepotvrzené změny jednoduše vrátit zpátky synchronizací diagramu s aktuálním schématem databáze.
 		
-		Grafický editor reaguje při manipulaci s objekty poměrně rychle, nicméně při přesunu entity nepříjemně blikají, stejně tak korekce čar, po dokončení manipulace s entitou, způsobuje problémy. Konce čar se přemísťují aniž by k tomu byl zjevný důvod, entita byla posunuta jen o několik pixelů, případně jsou vlivem otočení špatně rozlišitelné symboly pro znázornění kardinality.
+		Grafický editor reaguje při manipulaci s objekty poměrně rychle, nicméně při přesunu entity nepříjemně problikují, stejně tak korekce čar, po dokončení manipulace s entitou, způsobuje problémy. Konce čar se přemísťují aniž by k tomu byl zjevný důvod, entita byla posunuta jen o několik pixelů, případně jsou vlivem otočení špatně rozlišitelné symboly pro znázornění kardinality.
 		
 		V průběhu používání jsem se setkal s několika problémy, nejčastěji souvisely s grafickým editorem diagramů. Nepříjemná je drag and drop funkcionalita pro přidání existujících tabulek do diagramu, místo kde tabulku umístíme přetažením je ignorováno a Data Modeler ji umístí obvykle jinde, po přetažení se navíc otevře detail struktury tabulky, což je nepříjemné, zejména pokud máme v úmyslu přidat více tabulek. 
 		
