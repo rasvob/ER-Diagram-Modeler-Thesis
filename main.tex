@@ -511,9 +511,9 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		\subsubsection{Visual Paradigm}
 		Dalším testovaným nástrojem je komerční produkt od firmy Visual Paradigm International, zastřešuje ji Hong Kong Institute of Vocational Education, který je určen primárně pro tvorbu UML diagramů. Nástroj samozřejmě podporuje i modelování relačních databází formou ER diagramu. K dispozici je několik typů placených licencí, rozdělených podle nabízených možností a také community edice, která je určena pro nekomerční projekty. Nevýhodou community edice je absence veškerých pokročilých funkcí pro práci s relační databázi, jako je např. reverzní generování diagramů.
 		
-		Visual Paradigm podporuje tvorbu logických modelů bez nutnosti specifikovat SŘBD, ten je nutné uvést až při generování skriptu a nástroj podporuje více než deset různých systémů. Diagram používá Crow's foot notaci (viz. kapitola \ref{crowsfoot}), bohužel je jediná podporovaná a nelze ji přepnout jako v případě jiných nástrojů. Možná nastavení pro vygenerovaní relačního schématu zobrazuje obrázek \ref{fig:editVP}.
+		Visual Paradigm podporuje tvorbu logických modelů bez nutnosti specifikovat SŘBD, ten je nutné uvést až při generování skriptu a nástroj podporuje více než deset různých systémů. Diagram používá Crow's foot notaci (viz. kapitola \ref{crowsfoot}), bohužel je jediná podporovaná a nelze ji přepnout jako v případě jiných nástrojů. Možná nastavení pro vygenerovaní relačního schématu zachycuje obrázek \ref{fig:editVP}.
 		
-		\begin{figure}[!h]
+		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.65\textwidth]{Figures/EditorVP}
 			\caption[Generování schématu databáze z ER diagramu ve Visual Paradigm]{Generování schématu databáze z ER diagramu ve Visual Paradigm}
@@ -529,8 +529,6 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		Na rozdíl od jiných nástrojů je možné vytvořit z logického modelu také kostru pro objektově-relační mapování. Tuto volbu považuji za jeden z největších přínosů, protože pro rozsáhlé databáze ušetří obrovské množství času. Další užitečnou funkcí je i možnost synchronizace s třídním diagramem.
 		
 		Diagramy můžeme reverzně generovat z existující databáze nebo DDL skriptu. Synchronizace se schématem databáze není provedena okamžitě, ale je nutné ji spustit prostřednictvím GUI. Definování nového připojení k databázi je bohužel jedna ze slabých stránek nástroje, pro SQL Server jsou možnosti velmi omezené a chybí např. možnost autentikace pomocí Windows účtu. Pro testování jsem tedy musel vytvořit nový login a databázového uživatele. Samotné připojení k databázi se pravděpodobně provádí na hlavním vlákně, to způsobilo v případě pomalé odezvy serveru zamrznutí celého GUI.
-		
-	
 		
 		Práce s grafickým editorem je intuitivní, reakce působí svižně a nedochází k žádným problémům s výskytem grafických artefaktů. Zobrazení tabulek je možné všemožně upravovat, k dispozici je i mřížka, ke které lze objekty zachytávat. Samozřejmostí je i zobrazení popisků vztahů, případně dalších objektů. Uživatelské rozhání je, vzhledem ke komplexnosti nástroje, přehledně uspořádáno. Nástroj považuj za vhodnou volbu zejména pro rozsáhlejší projekty, kde je výhodné diagram datového modelu využít i v dalších diagramech.
 		

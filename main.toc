@@ -36,8 +36,8 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{28}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{30}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{32}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}StarUML 2}{33}{subsubsection.3.2.5}
-\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{34}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.2.5}StarUML 2}{34}{subsubsection.3.2.5}
+\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{35}{subsection.3.3}
 \contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{37}{section.4}
 \contentsline {subsection}{\numberline {4.1}Kl\IeC {\'\i }\IeC {\v c}ov\IeC {\'e} \IeC {\v c}\IeC {\'a}sti grafick\IeC {\'e}ho editoru}{37}{subsection.4.1}
 \contentsline {subsubsection}{\numberline {4.1.1}Prov\IeC {\'a}z\IeC {\'a}n\IeC {\'\i } editoru s daty}{37}{subsubsection.4.1.1}
