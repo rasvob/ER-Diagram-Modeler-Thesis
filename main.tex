@@ -450,17 +450,24 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		
 		Toad umožňuje vytvořit 3 typy modelů: fyzický, logický a univerzální. Nejpoužívanější je fyzický model, který je cílen na konkrétní SŘBD, další možností je logický model, ten se ovšem doporučuje jen v případě využití dědičnosti. Posledním typem je univerzální model, který umožňuje tvorbu diagramu bez návaznosti na konkrétní SŘBD, případně pokud určený SŘBD není mezi podporovanými. Notace jsou tentokrát v nabídce pouze dvě, implicitně nastavený Information Engineering (viz. kapitola \ref{crowsfoot}) a volitelná IDEF1X (viz. kapitola \ref{idef1x}).
 		
-		Export je možné provést do CSV, podle mého názoru je export řešen lépe než v Data Modeleru, protože CSV soubor je exportován pouze jeden a prvky jsou odděleny vnitřní strukturou souboru. Další možnosti je export do Excelu, který prvky rozděluje do samostatných sešitů. Poslední možností je export ve formě obrázku. Tato volba nabízí mnoho nastavení od velikosti plátna nebo rozdělení na stránky pro tisk po kompresi a barevnou hloubku.
+		Export je možné provést do CSV, podle mého názoru je export řešen lépe než v Data Modeleru, protože CSV soubor je exportován pouze jeden. Další možnosti je export do Excelu, který prvky rozděluje do samostatných sešitů. Poslední možností je export ve formě obrázku. Tato volba nabízí mnoho nastavení od velikosti plátna nebo rozdělení na stránky pro tisk po kompresi a barevnou hloubku.
 		
 		Z diagramu je možné vygenerovat DDL skript pro všechny podporované SŘBD bez ohledu na to, jaký byl zvolen při zakládaní projektu. DDL skripty je možné generovat buď úplné nebo obsahující jen změny v diagramu provedené v případě reverzního vygenerování. Takto vygenerovaný skript neobsahuje pouze tabulky a integritní omezení, ale může zahrnovat i uložené procedury, funkce, triggery nebo indexy. 
 		
-		Nástroj umožňuje rovněž kontrolu vytvořeného modelu než přejdeme ke generování skriptů. Fyzických modelů umožňuje vytvořit Toad několik v jednom projektu a následně je schopen provést jejich porovnání a přehledně vypsat v čem se liší, modely je možné dokonce i sloučit. Další zajímavou volbou je možnost migrace na jiný SŘBD než z jakého byl model importován.
+		Nástroj umožňuje rovněž kontrolu vytvořeného modelu než přejdeme ke generování skriptů. Fyzických modelů umožňuje vytvořit Toad Data Modeler několik v jednom projektu a následně je schopen provést jejich porovnání a přehledně vypsat v čem se liší, modely je možné dokonce i sloučit. Další zajímavou volbou je možnost migrace na jiný SŘBD než z jakého byl model importován.
 		
-		Import modelu je možný nejen z CSV, Excelu a nativního formátu, ale také z jiných aplikací, konkrétně ER/Studio Data Architect a Toad for Oracle. Vytvoření modelu z DDL skriptu bohužel v případě tohoto nástroje chybí. Samozřejmostí je reverzní vygenerování modelu z připojené databáze, do projektu zde lze zahrnout i indexy, procedury a další objekty z databáze, které poté mohou být rovněž součástí DDL skriptu.
+		Import modelu je možný nejen z CSV, Excelu a nativního formátu, ale také z jiných aplikací, konkrétně ER/Studio Data Architect a Toad for Oracle. Vytvoření modelu z DDL skriptu bohužel v případě tohoto nástroje chybí. Samozřejmostí je reverzní vygenerování modelu z připojené databáze. Do projektu zde lze zahrnout i indexy, procedury a další objekty z databáze, které poté mohou být rovněž součástí DDL skriptu.
 		
-		Aktualizace databáze na základě změn v ER diagramu je možné provádět buď spuštěním vygenerovaného DDL skriptu obsahující změny samostatně, nebo lze využít definovaného připojení a změny provést přes GUI. Toad nabízí uložení modelů v různých fázích úprav, tento přístup umožňuje modely porovnat a případně vygenerovat skript na základě rozdílů mezi nimi.
+		Aktualizace databáze na základě změn v ER diagramu je možné provádět buď spuštěním vygenerovaného DDL skriptu obsahující změny samostatně, nebo lze využít definovaného připojení a změny provést přes GUI. Toad Data Modeler nabízí uložení modelů v různých fázích úprav, tento přístup umožňuje modely porovnat a případně vygenerovat skript na základě rozdílů mezi nimi.
 		
 		Velmi užitečnou funkcí je možnost vytváření reportů. Reporty lze generovat do PDF nebo jako statické webové stránky, což je výhodné pro tvorbu dokumentace. Report obsahuje kompletní datový slovník, přehledně vypsané informace o integritních omezeních, zdrojové kódy uložených funkcí, procedur a mnoho dalšího. Před vygenerováním lze nastavit, co vše má být v reportu obsaženo.
+		
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.85\textwidth]{Figures/EditorToadReport}
+			\caption[Report v podobě webové stránky z Toad Data Modeler]{Report v podobě webové stránky z Toad Data Modeler}
+			\label{fig:oracleBug}
+		\end{figure}
 		
 		Grafický editor pro tvorbu diagramů reaguje velmi rychle a za dobu testování jsem se nesetkal s žádnými výraznými problémy. Zobrazení entit lze měnit od  pouhého názvu po detailní výpis atributů. Vztahům lze přidávat popisky, samozřejmě je lze v případě potřeby vypnout. Pracovní plocha je rozdělena na části, velikosti A4, kvůli rozvržení pro tisk. Nevýhodou je absence mřížky, ke které by šly objekty přichytávat. Vztahy jsou reprezentovány lomenou čárou, úhly jsou vždy pravé, což považuji za velké plus z pohledu přehlednosti. Do pracovní plochy lze kromě entit a vztahů vkládat také text a základní geometrické tvary, tato možnost je využitelná pro tvorbu popisků.
 		
