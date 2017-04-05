@@ -411,17 +411,17 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		
 		Diagramy je možné exportovat ve formátu PDF, případně ve formě PNG nebo JPEG obrázku. Pro samotný relační model je možností exportu hned několik. Pokud nechceme použít nativní formát Data Modeleru, můžeme exportovat do CSV, v tomto případě vznikne hned několik CSV souborů, rozdělených podle jednotlivých prvků diagramu.  Dalšími možnostmi je XMLA nebo Cube View Metadata, používané v kombinaci s DB2 (viz. výpis \ref{src:xmlOracle}). \\
 				
+		%		<xs:element name="Oddeleni" msprop:FriendlyName="Oddeleni" msprop:DbSchemaName="dbo" msprop:DbTableName="Oddeleni" msprop:TableType="Table">
 		\begin{lstlisting}[language=xml,label=src:xmlOracle,caption=Příklad části exportu do XMLA]
-%		<xs:element name="Oddeleni" msprop:FriendlyName="Oddeleni" msprop:DbSchemaName="dbo" msprop:DbTableName="Oddeleni" msprop:TableType="Table">
-			<xs:complexType>
-				<xs:sequence>
-					<xs:element name="idOdd" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="idOdd" msprop:DbColumnName="idOdd" msprop:DataSize="-1" type="xs:integer" />
-					<xs:element name="nazev" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="nazev" msprop:DbColumnName="nazev" msprop:DataSize="100" type="xs:VARCHAR " />
-					<xs:element name="kod" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="kod" msprop:DbColumnName="kod" msprop:DataSize="4" type="xs:CHAR " />
-				</xs:sequence>
-			</xs:complexType>
-%		</xs:element>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="idOdd" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="idOdd" msprop:DbColumnName="idOdd" msprop:DataSize="-1" type="xs:integer" />
+				<xs:element name="nazev" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="nazev" msprop:DbColumnName="nazev" msprop:DataSize="100" type="xs:VARCHAR " />
+				<xs:element name="kod" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="kod" msprop:DbColumnName="kod" msprop:DataSize="4" type="xs:CHAR " />
+			</xs:sequence>
+		</xs:complexType>
 		\end{lstlisting}
+		%		</xs:element>
 		
 		Nástroj podporuje vygenerování DDL skriptu na základě relačního modelu. Před exportem je nutné nastavit požadované SŘBD, v nabídce je Oracle Database, Microsoft SQL Server a IBM DB2, všechny zmíněné jsou podporovány v několika verzích z důvodu překlenutí specifik jednotlivých verzí. Exportování DDL skriptu je doprovázeno kontrolou chyb, což napomáhá k odhalení problémů ještě před samotným spuštěním skriptu.
 		
