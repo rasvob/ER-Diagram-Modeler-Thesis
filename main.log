@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  5 APR 2017 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  5 APR 2017 20:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -1957,14 +1957,14 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 554--570
 
 [34] [35
 
-] <Figures/EditorTabulky.png, id=505, 500.62032pt x 350.81062pt>
+] <Figures/EditorTabulky.png, id=507, 500.62032pt x 350.81062pt>
 File: Figures/EditorTabulky.png Graphic file (type png)
 
 <use Figures/EditorTabulky.png>
 Package pdftex.def Info: Figures/EditorTabulky.png used on input line 595.
 (pdftex.def)             Requested size: 341.43307pt x 239.2707pt.
  [36 <./Figures/EditorTabulky.png (PNG copy)>]
-<Figures/EditorVztahy.png, id=514, 629.35126pt x 481.8pt>
+<Figures/EditorVztahy.png, id=516, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
@@ -1974,7 +1974,7 @@ Package pdftex.def Info: Figures/EditorVztahy.png used on input line 615.
 [40] [41] [42
 
 ] [43]
-<Figures/EditorSync.png, id=582, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=584, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2026,9 +2026,9 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (49 pages, 1462029 bytes).
+Output written on main.pdf (49 pages, 1431368 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
+ 724 PDF objects out of 1000 (max. 8388607)
  174 named destinations out of 1000 (max. 500000)
  386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
