@@ -276,7 +276,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	\subsection{Často používané notace} \label{secOftenNotation}
 	Jak už bylo zmíněno, notací existuje celá řada. Jednotlivé notace se v mnoha směrech liší. V této kapitole jsou vybrané notace popsány včetně příkladů. Všechny příklady modelují situaci, kdy jeden člověk má právě jedno místo narození a na jednom místě narození se mohlo narodit více lidí.
 	
-		\subsubsection{Bachmanova notace}
+		\subsubsection{Bachmanova notace} \label{bachman}
 		Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace \cite{compErNotations} modeluje cizí klíče už na konceptuální úrovni, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdélníky, vztahy čárami. Vztahům není možné přiřadit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu (viz. obrázek \ref{fig:notationExBachman}).
 		
 		\begin{figure}[!h]
@@ -286,7 +286,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 			\label{fig:notationExBachman}
 		\end{figure}
 		
-		\subsubsection{Crow's foot notace}
+		\subsubsection{Crow's foot notace} \label{crowsfoot}
 		Tato notace se označuje také jako Information engineering nebo Martinova notace \cite{compErNotations}. Opět podporuje nejvýše binární vztahy, které jsou znázorněny čárami. Není možné  přiřazovat atributy vztahu bez asociační entity. Kardinalita i povinnost vztahu používá look across styl a obojí je znázorněno graficky. Entity jsou znázorněny obdélníky, do kterých jsou kromě samotného názvu vepsány také všechny atributy. Zajímavé je, že ačkoli každá notace používá své grafické symboly, tak znaky pro znázornění kardinality a povinnosti použité touto notací najdeme velmi často v kombinaci s jinými notacemi, jako je např. IDEF1X, detailní popis nalezneme v kapitole \ref{idef1x}. Tato notace je populární zejména v oblasti CASE nástrojů. Příklad použití je vyobrazen na obrázku \ref{fig:notationExCrow}.
 		
 		\begin{figure}[!h]
@@ -296,7 +296,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 			\label{fig:notationExCrow}
 		\end{figure}
 		
-		\subsubsection{Barkerova notace}
+		\subsubsection{Barkerova notace} \label{barker}
 		Barkerova notace \cite{compErNotations} je velmi populární v oblasti tvorby datových modelů pro Oracle Database. Vznikla roku 1981 a po příchodu Richarda Barkera do společnosti Oracle, se stala v této oblasti velmi populární. Jedná se o notaci podporující nejvýše binární vztahy, které jsou vyjádřeny čárami. Plná čára symbolizuje povinný vztah, čárkovaná pak vztah nepovinný. Pro vyjádření kardinality je zde použít také symbol vraní nohy. Povinnost používá styl look here, kardinalita pak styl look across. Ukázku této notace vidíme na obrázku \ref{fig:notationExBarker}. Atributy jsou zde trojího typu, každý typ označuje kategorii atributu. Notace používá tyto znaky pro kategorizaci atributů:
 		
 		\begin{itemize}
@@ -341,7 +341,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	
 		Notace podporuje také dědičnost, kdy podtypy dědí atributy nadřazeného typu(viz. obrázek \ref{fig:barkerSubtypes}). Graficky je tento jev vyjádřen přidáním obdélníků jednotlivých podtypů do společného obdélníku, který odpovídá nadřazenému typu.
 		
-		\subsubsection{Min-Max notace}
+		\subsubsection{Min-Max notace} \label{minmax}
 		Jedná se o notaci, která podporuje nejvýše binární vztahy. Pro vyjádření kardinality a povinnosti vztahu, zde není použit žádný grafický symbol, ale uspořádaná dvojice $(min, max)$, kde \emph{minimální} počet instancí entitního typu, které musí ve vztahu participovat, určuje povinnost, \emph{maximální} počet určuje kardinalitu. Styl pro kardinalitu a povinnost se používá jednotný, zpravidla look here (viz. obrázek \ref{fig:notationExMinMax}).
 		
 		\begin{figure}[!h]
@@ -365,7 +365,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	ER diagramy jsou určeny primárně pro vytváření modelů relačních struktur. Pokud pracujeme s nestrukturovanými daty, které není jednoduše možné reprezentovat relacemi, není ER diagram vhodným vizualizačním nástrojem. Toto omezení platí i pro částečně strukturovaná data, jako npř. XML nebo JSON. Navzdory tomu, že jsme schopni rozlišit jednotlivé entitní typy, může dojít k situaci, kdy se entity téhož typu liší svými atributy. 
 	
 	\subsection{Notace použitá ve vyvíjeném nástroji}
-	Nástroj je určen pro návrh a správu relačních schémat v rámci již fyzicky existujících databází. Pro tuto činnost je používán výhradně fyzický model, protože je nutné pracovat s konkrétními datovými typy daného SŘBD a integritními omezeními v podobě primárních a cizích klíčů. Z tohoto důvodu byla zvolena Oracle CASE notace, která vychází z Barkerovy notace. Nicméně z důvodu práce na nejnižší úrovni abstrakce je tato notace mírně modifikována. Notace vyjadřuje kardinalitu i povinnost graficky. Styl look-here pro povinnost a look-across pro kardinalitu je z původní notace zachován. Vztahy jsou podporovány pouze unární a binární, modelování podtypů umožněno není.
+	Nástroj je určen pro návrh a správu relačních schémat v rámci již fyzicky existujících databází. Pro tuto činnost je používán výhradně fyzický model, protože je nutné pracovat s konkrétními datovými typy daného SŘBD a integritními omezeními v podobě primárních a cizích klíčů. Z tohoto důvodu byla zvolena Oracle CASE notace, která vychází z Barkerovy notace. Nicméně z důvodu práce na nejnižší úrovni abstrakce je tato notace modifikována. Kardinalitu i povinnost vyjadřuje notace graficky. Styl look-here pro povinnost a look-across pro kardinalitu je z původní notace zachován. Vztahy jsou podporovány pouze unární a binární, modelování podtypů umožněno není.
 	
 	\subsection{Shrnutí}
 	Každá notace má své klady i zápory. Nelze tedy říci, že je některá notace je lepší než jiná. Volba notace by měla vycházet z potřeb pro tvorbu konkrétního modelu. Největší rozdíl mezi notacemi představuje možnost modelování ternárních vztahů, případně i vztahů s vyšší aritou. Proto je nutné zvážit zda sémantické možnosti binárních notací jsou pro vytvářený model dostatečné. 
@@ -405,15 +405,18 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 	Cílem práce je vytvoření CASE nástroje, který podporuje Oracle Database a Microsoft SQL Server, právě podpora SŘBD se stala primárním požadavkem při volbě porovnávaných nástrojů. Každý z následujících nástrojů tedy podporuje alespoň jeden z dvojice uvedených SŘBD. Nástroje jsou porovnány na základě mnoha kritérií, mezi jinými např. schopnost reverzního generování ER diagramů nebo způsob synchronizace se stávajícím schématem databáze. Každý z následujících nástrojů nabízí alespoň zkušební verzi pro otestování jeho funkcionality, v ideálním případě je možné pořídit licenci pro studenty zdarma nebo využít bezplatné community edice. 
 	
 		\subsubsection{Oracle SQL Developer Data Modeler}
-		\paragraph{Testovaci odstavec}nejaky text atd.
-		
 		Autorem prvního nástroje je firma Oracle, která jej vyvíjí od roku 2008. Data Modeler je šířen bezplatně a nainstalovat jej můžeme buď samostatně nebo v rámci nástroje SQL Developer, ovšem ten je zaměřen na správu existujících Oracle databázi, takže možnosti modelování jsou oproti samostatné instalaci Data Modeleru mírně limitovány.
 		
-		Data Modeler nabízí tvorbu modelů na dvou úrovních abstrakce, prvním je logický model a druhým relační, fyzický, model. Výhodou je možnost vygenerování několika oddělených relačních modelů z jediného logického, pro vizualizaci možných schémat před samotným nasazením. 
+		Data Modeler nabízí tvorbu modelů na dvou úrovních abstrakce, prvním je logický model a druhým relační (fyzický) model. Výhodou je možnost vygenerování několika oddělených relačních modelů z jediného logického, pro vizualizaci možných schémat před samotným nasazením. 
 		
-		V nabídce je trojice notací pro logický model, implicitně je použita Barkerova notace, která je v oblasti Oracle databází nejpoužívanější, nicméně ji lze přepnout na Bachmanovu nebo Information engineering. Oproti jiným nástrojům tuto možnost volby oceňuji, protože si každý uživatel může notaci nastavit podle svých preferencí. Pro relační model už možnost volby neexistuje a je použita mírně modifikovaná Barkerova notace.
+		V nabídce je trojice notací pro logický model, implicitně je použita Barkerova notace (viz. kapitola \ref{barker}), která je v oblasti Oracle databází nejpoužívanější, nicméně ji lze přepnout na Bachmanovu (viz. kapitola \ref{bachman}) nebo Information engineering (viz. kapitola \ref{crowsfoot}). Oproti jiným nástrojům tuto možnost volby oceňuji, protože si každý uživatel může notaci nastavit podle svých preferencí. Pro relační model už možnost volby neexistuje a je použita modifikovaná Barkerova notace, označována někdy také jako Oracle CASE notace.
 		
-		Diagramy je možné exportovat ve formátu PDF, případně ve formě PNG nebo JPEG obrázku. Pro samotný relační model je možností exportu hned několik. Pokud nechceme použít nativní formát Data Modeleru, můžeme exportovat do CSV, v tomto případě vznikne hned několik CSV souborů, rozdělených podle jednotlivých prvků diagramu. Dalšími možnostmi je XMLA nebo Cube View Metadata, používané v kombinaci s DB2. 
+		Diagramy je možné exportovat ve formátu PDF, případně ve formě PNG nebo JPEG obrázku. Pro samotný relační model je možností exportu hned několik. Pokud nechceme použít nativní formát Data Modeleru, můžeme exportovat do CSV, v tomto případě vznikne hned několik CSV souborů, rozdělených podle jednotlivých prvků diagramu. Uložení informací o modelu do CSV vidíme na příkladu \ref{src:csvOracle}. Dalšími možnostmi je XMLA nebo Cube View Metadata, používané v kombinaci s DB2. 
+		
+		\begin{lstlisting}[label=src:csvOracle,caption=Uložení modelů do CSV]
+			ModelID,Num_ModelID,Model_Name,Model_Type,RDBMS_Type
+			20C3C4D9-827D-8EEB-22F6-EBC10927AF72,69,"Relational_1",Relational,SQL Server 2012,
+		\end{lstlisting}
 		
 		Nástroj podporuje vygenerování DDL skriptu na základě relačního modelu. Před exportem je nutné nastavit požadované SŘBD, v nabídce je Oracle Database, Microsoft SQL Server a IBM DB2, všechny zmíněné jsou podporovány v několika verzích z důvodu překlenutí specifik jednotlivých verzí. Exportování DDL skriptu je doprovázeno kontrolou chyb, ať už se jedná o varování nebo errory, což napomáhá k odhalení problémů ještě před samotným spuštěním skriptu.
 		
@@ -769,8 +772,6 @@ Téma bakalářské práce pro mne bylo velice přínosné, protože jsem se dí
 	\item Extended WPF Toolkit Community Edition - \url{http://wpftoolkit.codeplex.com/}
 \end{itemize}
 
-% TODO: Instalace programu
-\section{Instalace programu}
-Popis instalace.
+% TODO: Tabulka SW
 
 \end{document}
