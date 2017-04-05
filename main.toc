@@ -46,8 +46,9 @@
 \contentsline {paragraph}{\numberline {3.2.3.3}Popis grafick\IeC {\'e}ho editoru}{32}{paragraph.3.2.3.3}
 \contentsline {paragraph}{\numberline {3.2.3.4}Nev\IeC {\'y}hody}{32}{paragraph.3.2.3.4}
 \contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{32}{subsubsection.3.2.4}
-\contentsline {paragraph}{\numberline {3.2.4.1}Popis grafick\IeC {\'e}ho editoru}{34}{paragraph.3.2.4.1}
-\contentsline {paragraph}{\numberline {3.2.4.2}Nev\IeC {\'y}hody}{34}{paragraph.3.2.4.2}
+\contentsline {paragraph}{\numberline {3.2.4.1}Popis funkcionality}{32}{paragraph.3.2.4.1}
+\contentsline {paragraph}{\numberline {3.2.4.2}Popis grafick\IeC {\'e}ho editoru}{34}{paragraph.3.2.4.2}
+\contentsline {paragraph}{\numberline {3.2.4.3}Nev\IeC {\'y}hody}{34}{paragraph.3.2.4.3}
 \contentsline {subsubsection}{\numberline {3.2.5}StarUML 2}{34}{subsubsection.3.2.5}
 \contentsline {paragraph}{\numberline {3.2.5.1}Popis funkcionality}{34}{paragraph.3.2.5.1}
 \contentsline {paragraph}{\numberline {3.2.5.2}Popis grafick\IeC {\'e}ho editoru}{35}{paragraph.3.2.5.2}
