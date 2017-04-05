@@ -411,11 +411,18 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		
 		V nabídce je trojice notací pro logický model, implicitně je použita Barkerova notace (viz. kapitola \ref{barker}), která je v oblasti Oracle databází nejpoužívanější, nicméně ji lze přepnout na Bachmanovu (viz. kapitola \ref{bachman}) nebo Information engineering (viz. kapitola \ref{crowsfoot}). Oproti jiným nástrojům tuto možnost volby oceňuji, protože si každý uživatel může notaci nastavit podle svých preferencí. Pro relační model už možnost volby neexistuje a je použita modifikovaná Barkerova notace, označována někdy také jako Oracle CASE notace.
 		
-		Diagramy je možné exportovat ve formátu PDF, případně ve formě PNG nebo JPEG obrázku. Pro samotný relační model je možností exportu hned několik. Pokud nechceme použít nativní formát Data Modeleru, můžeme exportovat do CSV, v tomto případě vznikne hned několik CSV souborů, rozdělených podle jednotlivých prvků diagramu. Uložení informací o modelu do CSV vidíme na příkladu \ref{src:csvOracle}. Dalšími možnostmi je XMLA nebo Cube View Metadata, používané v kombinaci s DB2. \\
+		Diagramy je možné exportovat ve formátu PDF, případně ve formě PNG nebo JPEG obrázku. Pro samotný relační model je možností exportu hned několik. Pokud nechceme použít nativní formát Data Modeleru, můžeme exportovat do CSV, v tomto případě vznikne hned několik CSV souborů, rozdělených podle jednotlivých prvků diagramu.  Dalšími možnostmi je XMLA nebo Cube View Metadata, používané v kombinaci s DB2 (viz. výpis \ref{src:xmlOracle}). \\
 				
-		\begin{lstlisting}[language=html,label=src:csvOracle,caption=Příklad exportovaného CSV]
-		ModelID,Num_ModelID,Model_Name,Model_Type,RDBMS_Type
-		20C3C4D9-827D-8EEB-22F6-EBC10927AF72,69,"Relational_1",Relational,SQL Server 2012,
+		\begin{lstlisting}[language=xml,label=src:xmlOracle,caption=Příklad exportovaného XMLA]
+		<xs:element name="Oddeleni" msprop:FriendlyName="Oddeleni" msprop:DbSchemaName="dbo" msprop:DbTableName="Oddeleni" msprop:TableType="Table">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="idOdd" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="idOdd" msprop:DbColumnName="idOdd" msprop:DataSize="-1" type="xs:integer" />
+					<xs:element name="nazev" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="nazev" msprop:DbColumnName="nazev" msprop:DataSize="100" type="xs:VARCHAR " />
+					<xs:element name="kod" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="kod" msprop:DbColumnName="kod" msprop:DataSize="4" type="xs:CHAR " />
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
 		\end{lstlisting}
 		
 		Nástroj podporuje vygenerování DDL skriptu na základě relačního modelu. Před exportem je nutné nastavit požadované SŘBD, v nabídce je Oracle Database, Microsoft SQL Server a IBM DB2, všechny zmíněné jsou podporovány v několika verzích z důvodu překlenutí specifik jednotlivých verzí. Exportování DDL skriptu je doprovázeno kontrolou chyb, ať už se jedná o varování nebo errory, což napomáhá k odhalení problémů ještě před samotným spuštěním skriptu.
