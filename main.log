@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  5 APR 2017 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  5 APR 2017 22:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -1950,78 +1950,74 @@ File: Figures/EditorOracleLogic.png Graphic file (type png)
 Package pdftex.def Info: Figures/EditorOracleLogic.png used on input line 446.
 (pdftex.def)             Requested size: 341.43307pt x 204.74165pt.
  [27 <./Figures/EditorOracleLogic.png>]
-[28] <Figures/EditorToadReport.png, id=484, 1442.38875pt x 384.6872pt>
+[28] <Figures/EditorToadReport.png, id=485, 1442.38875pt x 384.6872pt>
 File: Figures/EditorToadReport.png Graphic file (type png)
 
 <use Figures/EditorToadReport.png>
-Package pdftex.def Info: Figures/EditorToadReport.png used on input line 478.
+Package pdftex.def Info: Figures/EditorToadReport.png used on input line 479.
 (pdftex.def)             Requested size: 455.24411pt x 121.4119pt.
  [29 <./Figures/EditorToadReport.png>]
-<Figures/EditorToad.png, id=491, 871.75688pt x 62.48344pt>
+<Figures/EditorToad.png, id=493, 871.75688pt x 62.48344pt>
 File: Figures/EditorToad.png Graphic file (type png)
 
 <use Figures/EditorToad.png>
-Package pdftex.def Info: Figures/EditorToad.png used on input line 491.
+Package pdftex.def Info: Figures/EditorToad.png used on input line 494.
 (pdftex.def)             Requested size: 455.24411pt x 32.6298pt.
-
-<Figures/EditorSSMS.png, id=493, 517.18219pt x 447.17062pt>
+ [30 <./Figures/EditorToad.png>]
+<Figures/EditorSSMS.png, id=502, 517.18219pt x 447.17062pt>
 File: Figures/EditorSSMS.png Graphic file (type png)
 
 <use Figures/EditorSSMS.png>
-Package pdftex.def Info: Figures/EditorSSMS.png used on input line 503.
+Package pdftex.def Info: Figures/EditorSSMS.png used on input line 506.
 (pdftex.def)             Requested size: 295.90588pt x 255.8588pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30 <./Figures/EditorToad.png>] [31 <./Figures/EditorSSMS.png>]
-<Figures/EditorVP.png, id=508, 353.06906pt x 487.06969pt>
+ [31 <./Figures/EditorSSMS.png>]
+<Figures/EditorVP.png, id=511, 353.06906pt x 487.06969pt>
 File: Figures/EditorVP.png Graphic file (type png)
 
 <use Figures/EditorVP.png>
-Package pdftex.def Info: Figures/EditorVP.png used on input line 529.
+Package pdftex.def Info: Figures/EditorVP.png used on input line 532.
 (pdftex.def)             Requested size: 250.38564pt x 345.41312pt.
  [32] [33 <./Figures/EditorVP.png>]
-<Figures/EditorStar.png, id=521, 350.05782pt x 304.88907pt>
+<Figures/EditorStar.png, id=524, 350.05782pt x 304.88907pt>
 File: Figures/EditorStar.png Graphic file (type png)
 
 <use Figures/EditorStar.png>
-Package pdftex.def Info: Figures/EditorStar.png used on input line 555.
+Package pdftex.def Info: Figures/EditorStar.png used on input line 558.
 (pdftex.def)             Requested size: 250.38564pt x 218.08241pt.
  [34] [35 <./Figures/EditorStar.png>] [36]
-Overfull \hbox (2.16542pt too wide) in paragraph at lines 599--615
+Overfull \hbox (2.16542pt too wide) in paragraph at lines 602--618
  [][] 
  []
 
 [37] [38
 
-] <Figures/EditorTabulky.png, id=548, 500.62032pt x 350.81062pt>
+] <Figures/EditorTabulky.png, id=551, 500.62032pt x 350.81062pt>
 File: Figures/EditorTabulky.png Graphic file (type png)
 
 <use Figures/EditorTabulky.png>
-Package pdftex.def Info: Figures/EditorTabulky.png used on input line 640.
+Package pdftex.def Info: Figures/EditorTabulky.png used on input line 643.
 (pdftex.def)             Requested size: 341.43307pt x 239.2707pt.
  [39 <./Figures/EditorTabulky.png (PNG copy)>]
-<Figures/EditorVztahy.png, id=557, 629.35126pt x 481.8pt>
+<Figures/EditorVztahy.png, id=560, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
-Package pdftex.def Info: Figures/EditorVztahy.png used on input line 660.
+Package pdftex.def Info: Figures/EditorVztahy.png used on input line 663.
 (pdftex.def)             Requested size: 336.88313pt x 257.89645pt.
  [40 <./Figures/EditorVztahy.png>] [41] [42]
 [43] [44] [45
 
 ] [46]
-<Figures/EditorSync.png, id=624, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=627, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
-Package pdftex.def Info: Figures/EditorSync.png used on input line 762.
+Package pdftex.def Info: Figures/EditorSync.png used on input line 765.
 (pdftex.def)             Requested size: 336.88313pt x 274.2823pt.
  [47 <./Figures/EditorSync.png>] [48] [49
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+Underfull \hbox (badness 10000) in paragraph at lines 800--801
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
@@ -2031,21 +2027,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 797--798
 ] [51
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 834.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
  [52
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 834.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 834.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 834.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 837.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B4C1B266C68DEDC86DCF418B78B8F56A;5299.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 834.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
  ) 
 Here is how much of TeX's memory you used:
- 17850 strings out of 493333
- 250759 string characters out of 3139195
+ 17853 strings out of 493333
+ 250810 string characters out of 3139195
  386289 words of memory out of 3000000
  20859 multiletter control sequences out of 15000+200000
  54625 words of font info for 48 fonts, out of 3000000 for 9000
@@ -2064,9 +2060,9 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (52 pages, 1588474 bytes).
+Output written on main.pdf (52 pages, 1585954 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 183 named destinations out of 1000 (max. 500000)
+ 770 PDF objects out of 1000 (max. 8388607)
+ 186 named destinations out of 1000 (max. 500000)
  411 words of extra memory for PDF output out of 10000 (max. 10000000)
 
