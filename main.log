@@ -1996,7 +1996,7 @@ File: Figures/EditorTabulky2.png Graphic file (type png)
 
 <use Figures/EditorTabulky2.png>
 Package pdftex.def Info: Figures/EditorTabulky2.png used on input line 653.
-(pdftex.def)             Requested size: 341.43307pt x 225.14107pt.
+(pdftex.def)             Requested size: 386.96027pt x 255.165pt.
  [39 <./Figures/EditorTabulky2.png>]
 <Figures/EditorVztahy.png, id=570, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
@@ -2004,8 +2004,11 @@ File: Figures/EditorVztahy.png Graphic file (type png)
 <use Figures/EditorVztahy.png>
 Package pdftex.def Info: Figures/EditorVztahy.png used on input line 673.
 (pdftex.def)             Requested size: 336.88313pt x 257.89645pt.
- [40 <./Figures/EditorVztahy.png>] [41] [42]
-[43] [44] [45
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40] [41 <./Figures/EditorVztahy.png>] [42] [43] [44] [45
 
 ] [46]
 <Figures/EditorSync.png, id=637, 563.10374pt x 458.46281pt>
@@ -2060,7 +2063,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (52 pages, 1561159 bytes).
+Output written on main.pdf (52 pages, 1569030 bytes).
 PDF statistics:
  782 PDF objects out of 1000 (max. 8388607)
  195 named destinations out of 1000 (max. 500000)
