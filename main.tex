@@ -702,7 +702,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\end{figure}
 		
 		\paragraph{Interakce s lomenými čárami}
-		Závislosti mezi třídami pro vizualizaci vztahů popisuje třídní diagram \ref{fig:classDiagMovePolyline}. Viewmodel pro vztah, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi konstrukce lomené čáry jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy. Detailní popis algoritmu nalezneme v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. 
+		Závislosti mezi třídami pro vizualizaci vztahů popisuje třídní diagram \ref{fig:classDiagMovePolyline}. Viewmodel pro vztah obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi konstrukce lomené čáry jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy. Detailní popis algoritmu nalezneme v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. 
 		
 		\begin{figure}[!h]
 			\centering
