@@ -631,9 +631,13 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 \section{Návrh a implementace grafického editoru ER diagramů}
 Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
 	
-	\subsection{Návrhový vzor MVVM a komponenty aplikace}
-	% TODO: Popis MVVM a  blokové schéma
-		
+	\subsection{Návrhový vzor MVVM}
+	% TODO: Popis MVVM a 
+	Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jenž je vlastněn výhradně touto komponentou. Kromě, výše zmíněného, uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
+	
+	\subsection{Architektura aplikace}
+	% TODO: Blokové schéma
+	
 	\subsection{Klíčové části grafického editoru}
 	Grafický editor je stejně jako ostatní části aplikace navrhnut s ohledem na výše zmíněný návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro uchovávání dat pro jednotlivé komponenty GUI v podobě jaká vyhovuje prezentační vrstvě. Provázaní viewmodelů s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace. Ukázku data-bindingu pro textové pole určující přesnost datového typu vidíme na výpisu kódu \ref{src:xamlDataBinding}. Grafický editor je z pohledu data-bindingu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
 		
@@ -648,11 +652,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\end{lstlisting}
 		
 		\subsubsection{Provázání editoru s daty}
-		Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jenž je vlastněn výhradně touto komponentou. Kromě, výše zmíněného, uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
-		
-		Stejně je tomu i v případě grafického editoru, viemodel obsahuje trojici kolekcí obsahující viewmodely tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním částem aplikace, kdy pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno, není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru.
-		
-		Tato implementace umožňuje pracovat s grafickým editorem na úrovni viewmodelu, stejným způsobem jako s komponentami využívajícími standardní způsob data-bindingu ve WPF aplikacích. 
+		Dle MVVM obsahuje viewmodel grafického editoru trojici kolekcí pro uložení viewmodelů tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním částem aplikace, kdy pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno, není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru. Tato implementace umožňuje pracovat s grafickým editorem na úrovni viewmodelu, stejným způsobem jako s komponentami využívajícími standardní způsob data-bindingu ve WPF aplikacích. 
 		
 		\subsubsection{Přesouvaní a změna rozměrů tabulek v diagramu}
 		Implementace obou operací je úzce spjatá s použitím WPF komponenty Thumb, která je nejčastěji využívaná v aplikacích, které pro své fungování využívají výhod dotykového displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
