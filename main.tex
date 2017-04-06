@@ -632,8 +632,8 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
 	
 	\subsection{Návrhový vzor MVVM}
-	% TODO: Popis MVVM a 
-	Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jenž je vlastněn výhradně touto komponentou. Kromě, výše zmíněného, uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
+	% TODO: Popis MVVM a obrázek
+	Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jenž je vlastněn výhradně touto komponentou. Kromě uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
 	
 	\subsection{Architektura aplikace}
 	% TODO: Blokové schéma
@@ -657,7 +657,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		% TODO: Obrázek komunikace
 		
 		\subsubsection{Vizualizace  tabulek}
-		Implementace obou operací je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
+		Implementace změny rozměrů a pozice tabulky na plátně je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
 		
 		Tuto závislost lze řešit právě použitím již zmíněné komponenty \texttt{Thumb} v kombinaci s XAML šablonou. \texttt{Thumb} vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí. Šablona umožňuje nastavení společných základních vlastností pro jakoukoli implementaci komponenty pro tabulku, společně s definicí triggeru pro zviditelnění vrstvy umožňující změnu rozměrů tabulky po jejím výběru. Triggery reagují na změny hodnot ve viewmodelech, ukázka triggeru pro ovládání vrstvy umožňující změnu rozměrů je k vidění na výpisu kódu \ref{src:xamlTrigger}. Tímto způsobem je možné provádět úpravy komponenty pro zobrazení tabulky, aniž by došlo k narušení funkcionality přesunu a změny rozměrů. 
 		
@@ -676,11 +676,9 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\label{fig:classDiagResize}
 		\end{figure}
 		
-		Změna rozměrů využívá opět komponenty Thumb, která je nyní součástí tzv. adorner vrstvy, tato vrstva se zobrazí až po vybrání tabulky. Vybraním dojde k úpravě hodnoty jejího z-indexu tak, aby překryla veškeré ostatní objekty na plátně a bylo možné s ní komfortně pracovat. 
+		Změna rozměrů využívá opět komponenty \texttt{Thumb}, která je nyní součástí tzv. adorner vrstvy, tato vrstva se zobrazí až po vybrání tabulky. Vybraním dojde k úpravě hodnoty jejího z-indexu tak, aby překryla veškeré ostatní objekty na plátně a bylo možné s adorner vrstvou komfortně pracovat. 
 		
-		Pro zprostředkování komunikace mezi šablonou a viewmodelem tabulky slouží třída TableContent. Tato třída obsahuje referenci na viewmodel tabulky, po interakci s Thumb objekty tedy zajistí aktualizaci patřičných hodnot v jeho vlastnostech. Třída TableContent slouží také k propagaci události pro přidání atributu, odstranění tabulky z databáze a mnohé další, tak aby komponenta pro grafické znázornění tabulky obsahovala co nejméně doménové logiky.
-		
-		Vztahy mezi zmíněnými třídami zachycuje třídní diagram na obr. \ref{fig:classDiagResize}, ten je značně zjednodušený oproti implementaci, obsahuje jen položky důležité pro tuto kapitolu.
+		Pro zprostředkování komunikace mezi šablonou a viewmodelem tabulky slouží třída \texttt{TableContent}. Tato třída obsahuje referenci na viewmodel tabulky, po interakci s \texttt{Thumb} objekty tedy zajistí aktualizaci patřičných hodnot v jeho vlastnostech. Třída TableContent slouží také k propagaci události pro přidání atributu, odstranění tabulky z databáze a mnohé další, tak aby komponenta pro grafické znázornění tabulky obsahovala co nejméně doménové logiky. Vztahy mezi zmíněnými třídami zachycuje třídní diagram na obr. \ref{fig:classDiagResize}, ten je značně zjednodušený oproti implementaci, obsahuje jen položky důležité pro tuto kapitolu.
 		
 		\subsubsection{Úpravy čar pro vizualizaci vztahu}
 		Práce se samotnými vztahy probíhá opět na úrovní viewmodelu, podobně jako je tomu u tabulek, nicméně samotný vztah nyní není reprezentován jediným objektem na plátně, ale objektů se zde vyskytuje celá řada. Grafický editor používá Oracle CASE notaci, vztah je reprezentován lomenou čárou, na obou koncích této čáry se nachází symboly vyjadřující kardinalitu a povinnost. 
