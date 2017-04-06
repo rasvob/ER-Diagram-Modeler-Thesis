@@ -637,7 +637,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\subsection{Klíčové části grafického editoru}
 	Grafický editor je stejně jako ostatní části aplikace navrhnut s ohledem na výše zmíněný návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro uchovávání dat pro jednotlivé komponenty GUI v podobě jaká vyhovuje prezentační vrstvě. Provázaní viewmodelů s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace. Ukázku data-bindingu pro textové pole určující přesnost datového typu vidíme na výpisu kódu \ref{src:xamlDataBinding}. Grafický editor je z pohledu data-bindingu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
 		
-		\begin{lstlisting}[language=xml,label=src:xamlDataBinding,caption=Příklad data-bindingu v XAML]
+		\begin{lstlisting}[language=xml,label=src:xamlDataBinding,caption=Příklad data-bindingu v XAML pro textové pole]
 		<TextBox x:Name="PrecisonTextBox"
 			Grid.Column="1"
 			IsReadOnly="True"
