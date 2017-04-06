@@ -692,7 +692,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		Práce se samotnými vztahy probíhá opět na úrovni viewmodelu. Podobně jako je tomu u tabulek, nicméně samotný vztah nyní není reprezentován jediným objektem na plátně, ale objektů se zde vyskytuje celá řada. 
 		
 		\paragraph{Reprezentace vztahů pomocí lomených čar}
-		Vztah je reprezentován lomenou čárou. Na obou koncích této čáry se nachází symboly vyjadřující kardinalitu a povinnost. Na obrázku \ref{fig:screenPolyline} vidíme ukázku lomené čáry spojující dvě tabulky. Tato lomená čára je reprezentována seznamem segmentů, kde sousední segmenty svírají vždy pravý úhel. Jeden ze sousedních segmentů je vždy tvořen 
+		Vztah je reprezentován lomenou čárou. Na obou koncích této čáry se nachází symboly vyjadřující kardinalitu a povinnost. Na obrázku \ref{fig:screenPolyline} vidíme ukázku lomené čáry spojující dvě tabulky. Tato lomená čára je reprezentována seznamem segmentů, kde sousední segmenty svírají vždy pravý úhel. V grafickém editoru je použita vlastní implementace lomené čáry, protože třída \texttt{Polyline}, která je pro práci s lomenými čárami určená, nabízí velmi omezené možnosti interakce ze strany uživatele a hodí se tedy spíše pro pouhou vizualizaci dat např. formou grafu.
 		
 			\begin{figure}[H]
 			\centering
@@ -701,7 +701,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\label{fig:screenPolyline}
 		\end{figure}
 		
-		V grafickém editoru je použita vlastní implementace lomené čáry, protože třída \texttt{Polyline}, která je pro práci s lomenými čárami určená, nabízí velmi omezené možnosti interakce ze strany uživatele a hodí se tedy spíše pro pouhou vizualizaci dat např. formou grafu.
+		
 		
 		\paragraph{Interakce se vztahy}
 		Závislosti mezi třídami pro vizualizaci vztahů popisuje třídní diagram \ref{fig:classDiagMovePolyline}. Viewmodel pro vztah, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi konstrukce lomené čáry jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy. Detailní popis algoritmu nalezneme v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. 
