@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  6 APR 2017 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  6 APR 2017 14:27
 entering extended mode
 **./main.tex
 (main.tex
@@ -1991,14 +1991,14 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 612--628
 
 [37] [38
 
-] <Figures/EditorTabulky.png, id=560, 500.62032pt x 350.81062pt>
-File: Figures/EditorTabulky.png Graphic file (type png)
+] <Figures/EditorTabulky2.png, id=560, 585.68813pt x 386.19281pt>
+File: Figures/EditorTabulky2.png Graphic file (type png)
 
-<use Figures/EditorTabulky.png>
-Package pdftex.def Info: Figures/EditorTabulky.png used on input line 653.
-(pdftex.def)             Requested size: 341.43307pt x 239.2707pt.
- [39 <./Figures/EditorTabulky.png (PNG copy)>]
-<Figures/EditorVztahy.png, id=569, 629.35126pt x 481.8pt>
+<use Figures/EditorTabulky2.png>
+Package pdftex.def Info: Figures/EditorTabulky2.png used on input line 653.
+(pdftex.def)             Requested size: 341.43307pt x 225.14107pt.
+ [39 <./Figures/EditorTabulky2.png>]
+<Figures/EditorVztahy.png, id=570, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
@@ -2008,7 +2008,7 @@ Package pdftex.def Info: Figures/EditorVztahy.png used on input line 673.
 [43] [44] [45
 
 ] [46]
-<Figures/EditorSync.png, id=636, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=637, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2041,7 +2041,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 847.
  ) 
 Here is how much of TeX's memory you used:
  17862 strings out of 493333
- 250963 string characters out of 3139195
+ 250968 string characters out of 3139195
  386289 words of memory out of 3000000
  20859 multiletter control sequences out of 15000+200000
  54625 words of font info for 48 fonts, out of 3000000 for 9000
@@ -2060,9 +2060,9 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (52 pages, 1564675 bytes).
+Output written on main.pdf (52 pages, 1561159 bytes).
 PDF statistics:
- 781 PDF objects out of 1000 (max. 8388607)
+ 782 PDF objects out of 1000 (max. 8388607)
  195 named destinations out of 1000 (max. 500000)
  411 words of extra memory for PDF output out of 10000 (max. 10000000)
 
