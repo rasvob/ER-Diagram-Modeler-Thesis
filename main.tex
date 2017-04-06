@@ -659,7 +659,16 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\subsubsection{Vizualizace  tabulek}
 		Implementace obou operací je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
 		
-		Tuto závislost lze řešit právě použitím již zmíněné komponenty \texttt{Thumb} v kombinaci s XAML šablonou. \texttt{Thumb} vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí. Šablona umožňuje nastavení společných základních vlastností pro jakoukoli implementaci komponenty pro tabulku, společně s definicí triggeru pro zviditelnění vrstvy umožňující změnu rozměrů tabulky po jejím výběru. Tímto způsobem je možné provádět úpravy komponenty pro zobrazení tabulky, aniž by došlo k narušení funkcionality přesunu a změny rozměrů. 
+		Tuto závislost lze řešit právě použitím již zmíněné komponenty \texttt{Thumb} v kombinaci s XAML šablonou. \texttt{Thumb} vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí. Šablona umožňuje nastavení společných základních vlastností pro jakoukoli implementaci komponenty pro tabulku, společně s definicí triggeru pro zviditelnění vrstvy umožňující změnu rozměrů tabulky po jejím výběru. Triggery reagují na změny hodnot ve viewmodelech, ukázka triggeru pro ovládání vrstvy umožňující změnu rozměrů je k vidění na výpisu kódu \ref{src:xamlTrigger}. Tímto způsobem je možné provádět úpravy komponenty pro zobrazení tabulky, aniž by došlo k narušení funkcionality přesunu a změny rozměrů. 
+		
+		\begin{lstlisting}[language=xml,label=src:xamlTrigger,caption=Příklad triggeru v XAML pro vrstvu umožňující změnu rozměrů]
+			<ControlTemplate.Triggers>
+				<Trigger Property="IsSelected" Value="True">
+					<Setter TargetName="ItemDecorator" Property="ShowDecorator" Value="True"/>
+				</Trigger>
+				</ControlTemplate.Triggers>
+			</ControlTemplate>
+		\end{lstlisting}
 		
 		\begin{figure}[!h]
 			\centering
