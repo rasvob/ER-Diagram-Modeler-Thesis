@@ -631,9 +631,9 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 \section{Návrh a implementace grafického editoru ER diagramů}
 Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
 	
-	\subsection{Komponenty aplikace}
+	\subsection{Návrhový vzor MVVM a komponenty aplikace}
 	% TODO: Popis MVVM a  blokové schéma
-	
+		
 	\subsection{Klíčové části grafického editoru}
 	Grafický editor je stejně jako ostatní části aplikace navrhnut s ohledem na výše zmíněný návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro uchovávání dat pro jednotlivé komponenty GUI v podobě jaká vyhovuje prezentační vrstvě. Provázaní viewmodelů s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace. Ukázku data-bindingu pro textové pole určující přesnost datového typu vidíme na výpisu kódu \ref{src:xamlDataBinding}. Grafický editor je z pohledu data-bindingu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
 		
