@@ -629,12 +629,44 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 	
 \newpage
 \section{Návrh a implementace grafického editoru ER diagramů}
-Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu k zdroji dat. Tento přístup je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
+Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
+	
+	\subsection{Komponenty aplikace}
+	% TODO: Popis MVVM a  blokové schéma
 	
 	\subsection{Klíčové části grafického editoru}
-	Grafický editor je, stejně jako ostatní části aplikace, navrhnut s ohledem na, výše zmíněný, návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro agregování dat, pro jednotlivé komponenty, v podobě jaká vyhovuje prezentační vrstvě. Provázaní těchto dat s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. 
-	
-	Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace, nicméně tato praktika se používá zpravidla pro komponenty jako je tabulka nebo seznam, kdy hlavním úkolem je prezentace dat ze zdroje. Grafický editor je z tohoto pohledu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
+	Grafický editor je stejně jako ostatní části aplikace navrhnut s ohledem na výše zmíněný návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro uchovávání dat pro jednotlivé komponenty GUI v podobě jaká vyhovuje prezentační vrstvě. Provázaní viewmodelů s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace. Ukázku této činnosti vidíme na výpisu . Grafický editor je z pohledu data-bindingu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
+		
+		\begin{lstlisting}[language=xml,label=src:xamlDataBinding,caption=Příklad data-bindingu v XAML]
+		<TextBox x:Name="PrecisonTextBox"
+			Grid.Column="1"
+			IsReadOnly="True"
+			controls:TextBoxHelper.UseFloatingWatermark="True"
+			controls:TextBoxHelper.Watermark="Precision"
+			Text="{Binding SelectedDatatype.Precision, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}">
+			<TextBox.Style>
+				<Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+				<Style.Triggers>
+					<DataTrigger
+					Binding="{Binding SelectedDatatype.HasPrecision, 
+					Mode=OneWay, 
+					UpdateSourceTrigger=PropertyChanged}"
+					Value="True">
+					<Setter Property="Visibility" Value="Visible"></Setter>
+					</DataTrigger>
+				
+					<DataTrigger
+					Binding="{Binding SelectedDatatype.HasPrecision, 
+					Mode=OneWay, 
+					UpdateSourceTrigger=PropertyChanged}"
+					Value="False">
+					<Setter Property="Visibility" Value="Collapsed"></Setter>
+					</DataTrigger>
+				</Style.Triggers>
+				</Style>
+			</TextBox.Style>
+		</TextBox>
+		\end{lstlisting}
 		
 		\subsubsection{Provázání editoru s daty}
 		Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jenž je vlastněn výhradně touto komponentou. Kromě, výše zmíněného, uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
@@ -764,6 +796,9 @@ Z důvodů těchto odlišnosti bylo potřeba navrhnout způsob synchronizace s r
 		Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
 		
 		Uchovávané informace se částečně liší pro různé SŘBD, proto je zde uveden, kromě údajů potřebných k úspěšné autentifikaci, také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD, stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI, nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí. V tomto případě je možné zadat řetězec vlastní a singleton s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
+	
+	% TODO: Pridat kapitolu o katalogu a ulozenych procedurach
+	\subsection{Zdroj dat} \label{secDataSource}
 		
 	\subsection{Synchronizace s relačním schématem}
 	Aktualizace existujícího schématu je prováděna okamžitě po provedení změny v ER diagramu, nevyužívá se tedy odložená aktualizace, jako u většiny testovaných nástrojů. Nástroj podporuje práci se schématem použitím několika diagramů současně, není nutné diagram generovat pro všechny tabulky, ale stačí přidat ty, se kterými potřebujeme pracovat. Tento způsob je výhodný pro rozsáhlá schémata, kde rozdělení schématu na určité logické celky zpřehlední vizualizaci a usnadní tak proces aktualizace. Strukturu datové vrstvy nalezneme v diagramu \ref{fig:classDiagSync}.
