@@ -656,7 +656,8 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		Dle MVVM obsahuje viewmodel grafického editoru trojici kolekcí pro uložení viewmodelů tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním částem aplikace, kdy pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno, není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru. Tato implementace umožňuje pracovat s grafickým editorem na úrovni viewmodelu, stejným způsobem jako s komponentami využívajícími standardní způsob data-bindingu ve WPF aplikacích. 
 		
 		\subsubsection{Vizualizace  tabulek}
-		Implementace změny rozměrů a pozice tabulky na plátně je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
+			\paragraph{Úvod do problematiky}
+			Implementace změny rozměrů a pozice tabulky na plátně je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. 
 		
 		Tuto závislost lze řešit právě použitím již zmíněné komponenty \texttt{Thumb} v kombinaci s XAML šablonou. \texttt{Thumb} vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí. Šablona umožňuje nastavení společných základních vlastností pro jakoukoli implementaci komponenty pro tabulku, společně s definicí triggeru pro zviditelnění vrstvy umožňující změnu rozměrů tabulky po jejím výběru. Triggery reagují na změny hodnot ve viewmodelech, ukázka triggeru pro ovládání vrstvy umožňující změnu rozměrů je k vidění na výpisu kódu \ref{src:xamlTrigger}. Tímto způsobem je možné provádět úpravy komponenty pro zobrazení tabulky, aniž by došlo k narušení funkcionality přesunu a změny rozměrů. 
 		
@@ -667,8 +668,6 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			</Trigger>
 		</ControlTemplate.Triggers>
 		\end{lstlisting}
-		
-		
 		
 		Změna rozměrů využívá opět komponenty \texttt{Thumb}, která je nyní součástí tzv. adorner vrstvy, tato vrstva se zobrazí až po vybrání tabulky. Vybraním dojde k úpravě hodnoty jejího z-indexu tak, aby překryla veškeré ostatní objekty na plátně a bylo možné s adorner vrstvou komfortně pracovat. 
 		
