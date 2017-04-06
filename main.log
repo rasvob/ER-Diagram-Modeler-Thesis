@@ -2017,16 +2017,16 @@ File: Figures/ScreenPolyline.png Graphic file (type png)
 
 <use Figures/ScreenPolyline.png>
 Package pdftex.def Info: Figures/ScreenPolyline.png used on input line 700.
-(pdftex.def)             Requested size: 341.43307pt x 183.03415pt.
- [41]
-<Figures/EditorVztahy.png, id=623, 629.35126pt x 481.8pt>
+(pdftex.def)             Requested size: 318.66948pt x 170.82637pt.
+ [41 <./Figures/ScreenPolyline.png>]
+<Figures/EditorVztahy.png, id=624, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
 Package pdftex.def Info: Figures/EditorVztahy.png used on input line 710.
 (pdftex.def)             Requested size: 336.88313pt x 257.89645pt.
- [42 <./Figures/ScreenPolyline.png> <./Figures/EditorVztahy.png>] [43] [44] [45
-] [46] [47
+ [42 <./Figures/EditorVztahy.png>] [43] [44]
+[45] [46] [47
 
 ] [48]
 <Figures/EditorSync.png, id=691, 563.10374pt x 458.46281pt>
@@ -2081,7 +2081,7 @@ pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (54 pages, 1636606 bytes).
+Output written on main.pdf (54 pages, 1625874 bytes).
 PDF statistics:
  843 PDF objects out of 1000 (max. 8388607)
  219 named destinations out of 1000 (max. 500000)
