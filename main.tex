@@ -658,7 +658,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\subsubsection{Vizualizace  tabulek}
 		Implementace změny rozměrů a pozice tabulky na plátně je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. Tuto závislost lze řešit právě použitím již zmíněné komponenty \texttt{Thumb} v kombinaci s XAML šablonou.
 		
-		\paragraph{Komunikace viewmodel}
+		\paragraph{Komunikace komponent grafického editoru s viewmodely}
 		Pro zprostředkování komunikace mezi šablonou a viewmodelem tabulky slouží třída \texttt{TableContent}. Vztahy mezi zmíněnými třídami zachycuje třídní diagram na obrázku \ref{fig:classDiagResize}, ten je značně zjednodušený oproti implementaci, obsahuje jen položky důležité pro tuto kapitolu. Třída \texttt{TableContent} obsahuje referenci na viewmodel tabulky. Po interakci s \texttt{Thumb} objekty tedy zajistí aktualizaci patřičných hodnot v jeho vlastnostech. Třída \texttt{TableContent} slouží také k propagaci události pro přidání atributu, odstranění tabulky z databáze a mnohé další, tak aby komponenta pro grafické znázornění tabulky obsahovala co nejméně doménové logiky. 
 		
 		\begin{figure}[H]
