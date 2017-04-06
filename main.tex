@@ -678,6 +678,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		 \texttt{Thumb} vyvolává událost na počátku tahu, v jeho průběhu a po ukončení tahu. Explicitní zachytávání událostí myší tedy není nutné, stejně tak rozdíl souřadnic počátečního a aktuálního bodu je součásti argumentu událostí. Šablona umožňuje nastavení společných základních vlastností pro jakoukoli implementaci komponenty pro tabulku, společně s definicí triggeru pro zviditelnění vrstvy umožňující změnu rozměrů tabulky po jejím výběru. Triggery reagují na změny hodnot ve viewmodelech, ukázka triggeru pro ovládání vrstvy umožňující změnu rozměrů je k vidění na výpisu kódu \ref{src:xamlTrigger}. Tímto způsobem je možné provádět úpravy komponenty pro zobrazení tabulky, aniž by došlo k narušení funkcionality přesunu a změny rozměrů. 
 		
+		\newpage
 		\begin{lstlisting}[language=xml,label=src:xamlTrigger,caption=Příklad triggeru v XAML pro vrstvu umožňující změnu rozměrů]
 		<ControlTemplate.Triggers>
 			<Trigger Property="IsSelected" Value="True">
