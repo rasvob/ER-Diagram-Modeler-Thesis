@@ -689,11 +689,22 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		Změna rozměrů využívá opět komponenty \texttt{Thumb}, která je nyní součástí tzv. adorner vrstvy, tato vrstva se zobrazí až po vybrání tabulky. Vybraním dojde k úpravě hodnoty jejího z-indexu tak, aby překryla veškeré ostatní objekty na plátně a bylo možné s adorner vrstvou komfortně pracovat. 
 		
 		\subsubsection{Vizualizace vztahů}
-		Práce se samotnými vztahy probíhá opět na úrovni viewmodelu. Podobně jako je tomu u tabulek, nicméně samotný vztah nyní není reprezentován jediným objektem na plátně, ale objektů se zde vyskytuje celá řada. Vztah je reprezentován lomenou čárou. na obou koncích této čáry se nachází symboly vyjadřující kardinalitu a povinnost. 
+		Práce se samotnými vztahy probíhá opět na úrovni viewmodelu. Podobně jako je tomu u tabulek, nicméně samotný vztah nyní není reprezentován jediným objektem na plátně, ale objektů se zde vyskytuje celá řada. 
 		
-		% TODO: Vysvětlit systém čar
+		\paragraph{Reprezentace vztahů pomocí lomených čar}
+		Vztah je reprezentován lomenou čárou. Na obou koncích této čáry se nachází symboly vyjadřující kardinalitu a povinnost. 
+		
+			\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.74\textwidth]{Figures/EditorVztahy}
+			\caption{Vizualizace vztahu mezi dvěma tabulkami}
+			\label{fig:screenPolyline}
+		\end{figure}
 		
 		V grafickém editoru je použita vlastní implementace lomené čáry, protože třída \texttt{Polyline}, která je pro práci s lomenými čárami určená, nabízí velmi omezené možnosti interakce ze strany uživatele a hodí se tedy spíše pro pouhou vizualizaci dat např. formou grafu.
+		
+		\paragraph{Interakce se vztahy}
+		Závislosti mezi třídami pro vizualizaci vztahů popisuje třídní diagram \ref{fig:classDiagMovePolyline}. Viewmodel pro vztah, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi konstrukce lomené čáry jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy. Detailní popis algoritmu nalezneme v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. 
 		
 		\begin{figure}[!h]
 			\centering
@@ -701,7 +712,6 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\caption{Část třídního diagramu - vizualizace vztahu mezi tabulkami}
 			\label{fig:classDiagMovePolyline}
 		\end{figure}
-		Závislosti mezi třídami pro Vizualizaci vztahů popisuje třídní diagram \ref{fig:classDiagMovePolyline}. Viewmodel pro vztah, kromě samotného datového modelu s parametry vztahu, obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry. V první fázi konstrukce lomené čáry jsou segmenty vytvořeny na základě lomových bodů, které jsou po přidání nového vztahu určeny algoritmem pro vyhledání trasy. Detailní popis algoritmu nalezneme v kapitole \ref{secAStar}. Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. 
 		
 		Všechny segmenty lomené čáry reagují na interakci pomocí myši. Pro přenos informací o provedených změnách do viewmodelu je využit návrhový vzor Pozorovatel, který využívá pro tuto činnost události. Viewmodel vztahu je informován o průběhu interakce, tím je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry včetně ukončujících symbolů v závislosti na pohybu určitého segmentu. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance nebo změna orientace ukončujících symbolů na základě orientace krajních segmentů čáry.
 		
