@@ -824,13 +824,15 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 					\texttt{\textbf{continue\;}}
 				}
 				
+				\N.Parent $\leftarrow$ \Current\;
+				\N.Manhattan $\leftarrow$ \Manhattan{\N, $E$}\;
 				
 				\If{\N is not in \Open}{
-					
+					\Open.\Enqueue{\N}\;
+					\texttt{\textbf{continue\;}}
 				}
 			
-			\N.Parent $\leftarrow$ \Current\;
-			\Open.\Enqueue{\N}\;
+				\Open.\Update{\N}\;
 			}
 		}
 		\caption{Prohledávání grafu algoritmem A*}
