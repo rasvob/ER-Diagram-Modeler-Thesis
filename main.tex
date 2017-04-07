@@ -41,6 +41,7 @@
 % Zadame soubor s digitalizovanou podobou prohlaseni autora zaverecne prace.
 % Pokud toto makro zapoznamkujeme sazi se cisty text prohlaseni.
 
+% TODO: Podpis naskenovat
 %\AuthorDeclarationImageFile{Figures/AuthorDeclaration.jpg}
 
 
@@ -630,7 +631,7 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 	
 \newpage
 \section{Návrh a implementace grafického editoru ER diagramů}
-Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
+Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace \cite{wpf} určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM \cite{mvvm}, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
 	
 	\subsection{Návrhový vzor MVVM}
 	% TODO: Popis MVVM a obrázek
@@ -1007,6 +1008,9 @@ Téma bakalářské práce pro mne bylo velice přínosné, protože jsem se dí
 	
 	\bibitem{queue}Visual Studio Magazine. \textit{Priority Queues with C\#} [online]. [cit. 2017-04-06]. Dostupné z: \url{https://visualstudiomagazine.com/Articles/2012/11/01/Priority-Queues-with-C.aspx}
 	
+	\bibitem{wpf}Microsoft. \textit{Introduction to WPF in Visual Studio 2015} [online]. [cit. 2017-04-07]. Dostupné z: \url{https://msdn.microsoft.com/en-us/library/aa970268.aspx}
+	
+	\bibitem{mvvm}Microsoft. \textit{Developer's Guide to Microsoft Prism Library 5.0 for WPF} [online]. [cit. 2017-04-07]. Dostupné z: \url{https://msdn.microsoft.com/en-us/library/gg406140.aspx}
 	
 \end{thebibliography}
 
