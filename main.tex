@@ -747,6 +747,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwFunction{BacktrackNodes}{BacktrackNodes}
 		\SetKwFunction{Add}{Add}
 		\SetKwFunction{Enqueue}{Enqueue}
+		\SetKwFunction{Dequeue}{Dequeue}
 		
 		\Input{Graph $G$, Start vertex $S$, End vertex $E$}
 		\Output{Path as a vertex collection}
@@ -757,13 +758,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Closed.\Add{$S$}\;
 		\Open.\Enqueue{$S$}\;
 		\While{\Open is not empty}{
-			read current\;
-			\eIf{understand}{
-				go to next section\;
-				current section becomes this one\;
-			}{
-				go back to the beginning of current section\;
-			}
+			\Current $\leftarrow$ \Open.Dequeue.
 		}
 		\caption{Prohledávání grafu průchodem do šířky}
 		\label{alg:bfs}
