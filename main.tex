@@ -758,7 +758,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Closed.\Add{$S$}\;
 		\Open.\Enqueue{$S$}\;
 		\While{\Open is not empty}{
-			\Current $\leftarrow$ \Open.Dequeue
+			\Current $\leftarrow$ \Open.\Dequeue
 		}
 		\caption{Prohledávání grafu průchodem do šířky}
 		\label{alg:bfs}
