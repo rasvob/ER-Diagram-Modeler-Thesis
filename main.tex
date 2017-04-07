@@ -888,7 +888,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Result}{result}
 		\SetKwData{Line}{line}
 		\SetKwData{Grid}{G}
-		\SetKwData{Cell}{cell}
+		\SetKwData{Cell}{C}
 		
 		\SetKwFunction{Add}{Add}
 		 \SetKwFunction{Manhattan}{Manhattan}
@@ -905,7 +905,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 				\For{$k \leftarrow j$ \KwTo $j + MW - 1$}{
 					\Line.\Add{$\Grid\left[ k, j \right]$}
 				}
-				\If{Every \Cell in \Line is free and \Cell.Metric $>= MH$ for every cell}{
+				\If{Every cell \Cell in \Line is free and \Cell.Metric $>= MH$ for every cell}{
 					\Nodes.\Add{\Current}\;
 				}
 				$j \leftarrow j+1$\;
