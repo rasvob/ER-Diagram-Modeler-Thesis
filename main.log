@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  7 APR 2017 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  7 APR 2017 19:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -2106,7 +2106,7 @@ LaTeX Warning: Reference `secCreateGraph' on page 46 undefined on input line 84
 [46] [47] [48
 
 ] [49]
-<Figures/EditorSync.png, id=776, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=777, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2159,11 +2159,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1033.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18839 strings out of 493333
- 266948 string characters out of 3139195
+ 18841 strings out of 493333
+ 266976 string characters out of 3139195
  419599 words of memory out of 3000000
- 21731 multiletter control sequences out of 15000+200000
- 57938 words of font info for 50 fonts, out of 3000000 for 9000
+ 21732 multiletter control sequences out of 15000+200000
+ 58257 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,51p,1444b,4665s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
@@ -2180,11 +2180,11 @@ public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
->
-Output written on main.pdf (55 pages, 1740871 bytes).
+ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (55 pages, 1752658 bytes).
 PDF statistics:
- 954 PDF objects out of 1000 (max. 8388607)
+ 959 PDF objects out of 1000 (max. 8388607)
  286 named destinations out of 1000 (max. 500000)
  458 words of extra memory for PDF output out of 10000 (max. 10000000)
 

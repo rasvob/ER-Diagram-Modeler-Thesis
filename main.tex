@@ -903,7 +903,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 				\For{$k \leftarrow j$ \KwTo $j + MW - 1$}{
 					\Line.\Add{$\Grid\left[ k, j \right]$}
 				}
-				\If{Every cell in \Line is free and cell.metric $>= MH$}{
+				\If{Every \texttt{cell} in \Line is free and \texttt{cell.metric} $>= MH$}{
 					\Nodes.\Add{\Current}\;
 				}
 				$j \leftarrow j+1$\;
