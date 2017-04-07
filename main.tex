@@ -638,7 +638,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	
 	\begin{itemize}
 		\item \textbf{Model} slouží pro uchování dat aplikace. Modely obvykle obsahují také doménovou logiku jako na např. validace vstupních dat.
-		\item \textbf{View} se zabývá prezentací dat a slouží ke komunikaci s uživateli.
+		\item \textbf{View} se slouží ke komunikaci s uživatelem, jedná se jak o prezentaci dat, tak o pořízení vstupních dat. Veškerá interakce s konkrétními ovládacími prvky uživatelského rozhraní se provádějí v této vrstvě. 
 		\item \textbf{ViewModel} funguje jako mezivrstva mezi view a modelem. Pokud dojde ke změně vlastností viewmodelu, view je o těchto změnách informováno a změnám se přizpůsobí. Viewmodel je nezávislý na prvcích uživatelského rozhraní. Z tohoto důvodu se zde využívá princip zvaný data-binding, který je popsán v kapitole \ref{secKeyPartsEditor}. 
 	\end{itemize}
 	
