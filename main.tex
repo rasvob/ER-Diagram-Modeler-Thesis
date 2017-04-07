@@ -850,53 +850,18 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwInOut{Input}{Input}
 		\SetKwInOut{Output}{Output}
 		
-		\SetKwData{Closed}{closed}
-		\SetKwData{Open}{open}
+		\SetKwData{Counter}{counter}
 		\SetKwData{Current}{current}
-		\SetKwData{Result}{Result}
-		\SetKwData{N}{N}
-		
-		\SetKwFunction{BacktrackNodes}{BacktrackNodes}
-		\SetKwFunction{Add}{Add}
-		\SetKwFunction{Enqueue}{Enqueue}
-		\SetKwFunction{Dequeue}{Dequeue}
-		\SetKwFunction{Update}{UpdatePriority}
-		\SetKwFunction{Manhattan}{Manhattan}
-		
-		\Input{Graph $G$, Start vertex $S$, End vertex $E$}
-		\Output{Path as a vertex collection}
-		
-		\Closed $\leftarrow$ empty set\;
-		\Open $\leftarrow$ empty priority queue\;
-		\Open.\Enqueue{$S$}\;
-		\While{\Open is not empty}{
-			\Current $\leftarrow$ \Open.\Dequeue{}\;
-			\Closed.\Add{\Current}\;
-			\If{\Current == $E$}{
-				\Result $\leftarrow$ \BacktrackNodes{\Current}\;
-			}
-			
-			\ForEach{node \N that is adjacent to \Current}{
-				\If{\N is in \Closed or \N is obstacle}{
-					\texttt{\textbf{continue\;}}
-				}
 				
-				\N.Parent $\leftarrow$ \Current\;
-				\N.Manhattan $\leftarrow$ \Manhattan{\N, $E$}\;
-				
-				\If{\N is not in \Open}{
-					\Open.\Enqueue{\N}\;
-					\texttt{\textbf{continue\;}}
-				}
-				
-				\Open.\Update{\N}\;
-			}
-		}
+		\Input{Graph $G$}
+		\Output{Preprocessed grid}
+		
+	
 		\caption{Příprava mřížky pro vyhledávání}
 		\label{alg:preprocessGrid}
 	\end{algorithm}
 
-Před samotným vyhledáváním volné pozice je nutné provést přípravu dat v mřížce. Postup přípravy mřížky demonstruje algoritmus \ref{alg:preprocessGrid}. Mřížku je nutné projít nejprve po sloupcích, vždy směrem vzhůru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjadřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
+	Před samotným vyhledáváním volné pozice je nutné provést přípravu dat v mřížce. Postup přípravy mřížky demonstruje algoritmus \ref{alg:preprocessGrid}. Mřížku je nutné projít nejprve po sloupcích, vždy směrem vzhůru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjadřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 	
 	\subsubsection{Nalezení volné pozice}
 	V další fázi už je možné vyhledat volné obdélníky v takto připravené mřížce. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku.
