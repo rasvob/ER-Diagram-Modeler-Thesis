@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  7 APR 2017 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  7 APR 2017 19:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -2106,7 +2106,7 @@ LaTeX Warning: Reference `secCreateGraph' on page 46 undefined on input line 84
 [46] [47] [48
 
 ] [49]
-<Figures/EditorSync.png, id=768, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=769, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2159,8 +2159,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1023.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18829 strings out of 493333
- 266836 string characters out of 3139195
+ 18830 strings out of 493333
+ 266848 string characters out of 3139195
  419599 words of memory out of 3000000
  21729 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
@@ -2182,9 +2182,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (55 pages, 1743402 bytes).
+Output written on main.pdf (55 pages, 1738119 bytes).
 PDF statistics:
- 945 PDF objects out of 1000 (max. 8388607)
- 278 named destinations out of 1000 (max. 500000)
+ 946 PDF objects out of 1000 (max. 8388607)
+ 279 named destinations out of 1000 (max. 500000)
  458 words of extra memory for PDF output out of 10000 (max. 10000000)
 
