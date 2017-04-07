@@ -889,6 +889,8 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Line}{line}
 		\SetKwData{Grid}{G}
 		
+		\SetKwFunction{Add}{Add}
+		
 		\Input{Grid $G$, Width of grid $W$, Height of grid $H$, Minimal width $MW$, Minimal height $MH$}
 		\Output{Collection of top-left points of free rectangles}
 		\BlankLine
@@ -897,7 +899,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\For{$i \leftarrow 0$ \KwTo $H-1$}{
 			\For{$j \leftarrow 0$ \KwTo $W-1$}{
 				\Current $\leftarrow \Grid\left[ i, j \right]$\;
-				\Line $\leftarrow$ cells in current row, starting with current column\;
+				\Line $\leftarrow$ empty collection\;
+				\For{$k \leftarrow j$ \KwTo $j + MW - 1$}{
+					\Line.\Add{$\Grid\left[ k, j \right]$}
+				}
 				$j \leftarrow j+1$\;
 			}
 			$i \leftarrow i+1$\;
