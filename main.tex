@@ -877,7 +877,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Před samotným vyhledáváním volné pozice je nutné provést přípravu dat v mřížce. Postup přípravy mřížky demonstruje algoritmus \ref{alg:preprocessGrid}. Mřížku je nutné projít nejprve po sloupcích, vždy směrem vzhůru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjadřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 	
 	\subsubsection{Nalezení volné pozice}
-	V připravené mřížce je nyní možné vyhledávat volné obdélníky. Proces nalezení počátečních bodů popisuje algoritmus \ref{alg:findFreeRect}, vstupem je připravená mřížka a minimální rozměry volné plochy, výstupem je souřadnice pro umístění levého horního rohu tabulky. Nyní procházíme mřížku po řádcích zleva a hledáme posloupnost čísel v řádku, pro která platí, že všechny z nich jsou rovny nebo vyšší minimální výšce hledané plochy. Počet takových čísel v řádku musí být roven nebo vyšší než je minimální šířka hledané plochy. Nyní zbývá pouze zvolit jednu z nalezených volných ploch. Pro tento účel byla opět zvolena metoda Manhattan \ref{eq:manhattan} k určení metriky levého horního bodu obdélníkové plochy vzhledem ke středu plátna. Bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. 
+	V připravené mřížce je nyní možné vyhledávat volné obdélníky. Proces hledání popisuje algoritmus \ref{alg:findFreeRect}, vstupem je připravená mřížka a minimální rozměry volné plochy, výstupem je souřadnice levého horního rohu tabulky pro umístění do volné plochy. Mřížku procházíme po řádcích zleva a hledáme posloupnost čísel v řádku, pro která platí, že všechny z nich jsou rovny nebo vyšší minimální výšce hledané plochy. Počet takových čísel v řádku musí být roven nebo vyšší než je minimální šířka hledané plochy. Nyní zbývá pouze zvolit jednu z nalezených volných ploch. Pro tento účel byla opět zvolena metoda Manhattan \ref{eq:manhattan} k určení metriky levého horního bodu obdélníkové plochy vzhledem ke středu plátna. Bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. 
 	
 		\begin{algorithm}[!h]
 		\SetKwInOut{Input}{Input}
@@ -902,6 +902,9 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 				\Line $\leftarrow$ empty collection\;
 				\For{$k \leftarrow j$ \KwTo $j + MW - 1$}{
 					\Line.\Add{$\Grid\left[ k, j \right]$}
+				}
+				\If{Every cell in \Line is free and $metric >= MH$}{
+					\Nodes.\Add{\Current}\;
 				}
 				$j \leftarrow j+1$\;
 			}
