@@ -637,9 +637,9 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	S WPF aplikacemi se váže návrhový vzor MVVM \cite{mvvm}, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní. Jednotlivé části a komunikace mezi nimi vidíme na obrázku \ref{fig:mvvm}. Vzor rozděluje aplikaci na tyto části: 
 	
 	\begin{itemize}
-		\item \textbf{View}
-		\item \textbf{ViewModel}
-		\item \textbf{Model}
+		\item \textbf{Model} slouží pro uchování dat aplikace. Modely obvykle obsahují také doménovou logiku jako na např. validace vstupních dat.
+		\item \textbf{View} se zabývá prezentací dat a slouží ke komunikaci s uživateli.
+		\item \textbf{ViewModel} funguje jako mezivrstva mezi view a modelem. Data jsou zde uchovávaná v podobě jaká vyhovuje view, 
 	\end{itemize}
 	
 	\begin{figure}[!h]
