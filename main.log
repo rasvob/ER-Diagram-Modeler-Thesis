@@ -2093,16 +2093,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 737--738
 [43 <./Figures/ScreenLineOverSelf.png>] [44]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 835.
- [45] [46] [47] [48] [49
+ [45] [46] [47] [48
 
-] [50]
-<Figures/EditorSync.png, id=761, 563.10374pt x 458.46281pt>
+] [49]
+<Figures/EditorSync.png, id=758, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
 Package pdftex.def Info: Figures/EditorSync.png used on input line 915.
 (pdftex.def)             Requested size: 336.88313pt x 274.2823pt.
- [51 <./Figures/EditorSync.png>] [52] [53
+ [50 <./Figures/EditorSync.png>] [51] [52
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 950--951
@@ -2122,13 +2122,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 960--961
 diomagazine . com / Articles / 2012 / 11 / 01 /
  []
 
-[54
+[53
 
-] [55
+] [54
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 991.
- [56
+ [55
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 991.
@@ -2144,10 +2144,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 991.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18912 strings out of 493333
- 267701 string characters out of 3139195
+ 18914 strings out of 493333
+ 267742 string characters out of 3139195
  419570 words of memory out of 3000000
- 21821 multiletter control sequences out of 15000+200000
+ 21823 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,51p,1444b,6123s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2167,9 +2167,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (56 pages, 1721715 bytes).
+Output written on main.pdf (55 pages, 1746269 bytes).
 PDF statistics:
- 936 PDF objects out of 1000 (max. 8388607)
+ 933 PDF objects out of 1000 (max. 8388607)
  269 named destinations out of 1000 (max. 500000)
  458 words of extra memory for PDF output out of 10000 (max. 10000000)
 
