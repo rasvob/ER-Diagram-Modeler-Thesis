@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  7 APR 2017 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  7 APR 2017 23:22
 entering extended mode
 **./main.tex
 (main.tex
@@ -2041,7 +2041,7 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 614--630
  [][] 
  []
 
-[37] <Figures/Mvvm.png, id=593, 602.25pt x 176.66pt>
+[37] <Figures/Mvvm.png, id=594, 602.25pt x 176.66pt>
 File: Figures/Mvvm.png Graphic file (type png)
  <use Figures/Mvvm.png>
 Package pdftex.def Info: Figures/Mvvm.png used on input line 647.
@@ -2050,7 +2050,7 @@ Package pdftex.def Info: Figures/Mvvm.png used on input line 647.
 [38
 
  <./Figures/Mvvm.png>]
-<Figures/SequenceRemoveTable.png, id=604, 734.745pt x 347.04657pt>
+<Figures/SequenceRemoveTable.png, id=605, 734.745pt x 347.04657pt>
 File: Figures/SequenceRemoveTable.png Graphic file (type png)
 
 <use Figures/SequenceRemoveTable.png>
@@ -2064,7 +2064,7 @@ mo-de-lem ta-bulky slouºí t°ída \T1/lmtt/m/n/10.95 TableContent\T1/lmr/m/n/10.9
 5 .
  []
 
-<Figures/EditorTabulky2.png, id=618, 585.68813pt x 386.19281pt>
+<Figures/EditorTabulky2.png, id=619, 585.68813pt x 386.19281pt>
 File: Figures/EditorTabulky2.png Graphic file (type png)
 
 <use Figures/EditorTabulky2.png>
@@ -2072,21 +2072,21 @@ Package pdftex.def Info: Figures/EditorTabulky2.png used on input line 688.
 (pdftex.def)             Requested size: 386.96027pt x 255.165pt.
  [40 <./Figures/SequenceRemoveTable.png>]
 [41 <./Figures/EditorTabulky2.png>]
-<Figures/ScreenPolyline.png, id=633, 918.43124pt x 492.33937pt>
+<Figures/ScreenPolyline.png, id=634, 918.43124pt x 492.33937pt>
 File: Figures/ScreenPolyline.png Graphic file (type png)
 
 <use Figures/ScreenPolyline.png>
 Package pdftex.def Info: Figures/ScreenPolyline.png used on input line 714.
 (pdftex.def)             Requested size: 336.88313pt x 180.59259pt.
  [42 <./Figures/ScreenPolyline.png>]
-<Figures/EditorVztahy.png, id=648, 629.35126pt x 481.8pt>
+<Figures/EditorVztahy.png, id=649, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
 Package pdftex.def Info: Figures/EditorVztahy.png used on input line 724.
 (pdftex.def)             Requested size: 336.88313pt x 257.89645pt.
  [43 <./Figures/EditorVztahy.png>]
-<Figures/ScreenLineOverSelf.png, id=657, 716.6775pt x 280.79906pt>
+<Figures/ScreenLineOverSelf.png, id=658, 716.6775pt x 280.79906pt>
 File: Figures/ScreenLineOverSelf.png Graphic file (type png)
 
 <use Figures/ScreenLineOverSelf.png>
@@ -2114,7 +2114,7 @@ LaTeX Warning: Reference `secCreateGraph' on page 47 undefined on input line 85
 [47] [48] [49
 
 ] [50]
-<Figures/EditorSync.png, id=796, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=797, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2167,10 +2167,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1055.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18860 strings out of 493333
- 267169 string characters out of 3139195
- 419716 words of memory out of 3000000
- 21745 multiletter control sequences out of 15000+200000
+ 18861 strings out of 493333
+ 267188 string characters out of 3139195
+ 419785 words of memory out of 3000000
+ 21746 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,51p,1444b,4671s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2190,9 +2190,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (56 pages, 1765041 bytes).
+Output written on main.pdf (56 pages, 1774343 bytes).
 PDF statistics:
- 978 PDF objects out of 1000 (max. 8388607)
+ 979 PDF objects out of 1000 (max. 8388607)
  292 named destinations out of 1000 (max. 500000)
  471 words of extra memory for PDF output out of 10000 (max. 10000000)
 

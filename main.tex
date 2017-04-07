@@ -639,7 +639,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\begin{itemize}
 		\item \textbf{Model} slouží pro uchování dat aplikace. Modely obvykle obsahují také doménovou logiku jako na např. validace vstupních dat.
 		\item \textbf{View} se zabývá prezentací dat a slouží ke komunikaci s uživateli.
-		\item \textbf{ViewModel} funguje jako mezivrstva mezi view a modelem. Data jsou zde uchovávaná v podobě jaká vyhovuje view, 
+		\item \textbf{ViewModel} funguje jako mezivrstva mezi view a modelem. Pokud dojde ke změně vlastností viewmodelu, view je o těchto změnách informováno a těmto změnám se přizpůsobí. Využívá se zde proces zvaný data-binding, který je popsán v kapitole \ref{secKeyPartsEditor}. 
 	\end{itemize}
 	
 	\begin{figure}[!h]
@@ -652,7 +652,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\subsection{Architektura aplikace}
 	% TODO: Blokové schéma
 	
-	\subsection{Klíčové části grafického editoru}
+	\subsection{Klíčové části grafického editoru} \label{secKeyPartsEditor}
 	Grafický editor je stejně jako ostatní části aplikace navrhnut s ohledem na výše zmíněný návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro uchovávání dat pro jednotlivé komponenty GUI v podobě jaká vyhovuje prezentační vrstvě. Provázaní viewmodelů s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace. Ukázku data-bindingu pro textové pole určující přesnost datového typu vidíme na výpisu kódu \ref{src:xamlDataBinding}. Grafický editor je z pohledu data-bindingu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
 		
 		\begin{lstlisting}[language=xml,label=src:xamlDataBinding,caption=Příklad data-bindingu v XAML pro textové pole]
