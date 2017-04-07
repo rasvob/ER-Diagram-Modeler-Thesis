@@ -6,6 +6,7 @@
 \usepackage{hyperref}
 \usepackage{float}
 \usepackage{titlesec}
+\usepackage[]{algorithm2e}
 
 \setcounter{secnumdepth}{4}
 
@@ -732,7 +733,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\subsubsection{Vyhledávání cesty v grafu}
 	Tento problém je v práci řešen dvěma algoritmy: prohledávání do šířky a A*. Vstupem obou algoritmů je prohledávány graf, počáteční a cílový vrchol. Výstupem je kolekce uzlů reprezentující nalezenou cestu.
 	
-	\paragraph{Prohledávání grafu průchodem do šířky}
+	\paragraph{Prohledávání grafu průchodem do šířky} %TODO: 
 	Prohledávání grafu do šířky využívá pro svou činnost frontu, v každém kroku jsou do fronty přidány sousední volné uzly vzhledem k aktuálně zpracovávanému uzlu. Pokud je tento uzel cílovým, prohledávání končí a cesta je nalezena. Pokud dojde k vyprázdnění fronty aniž by byl nalezen cíl, tak cesta v grafu neexistuje. Tento způsob hledání trasy je velmi snadno implementovatelný, jeho výkon bohužel není ideální, protože vyhledávání trvá řádově desítky až stovky milisekund pro jedinou trasu.
 	
 	\paragraph{Prohledávání grafu algoritmem A*}
