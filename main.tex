@@ -886,6 +886,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Nodes}{nodes}
 		\SetKwData{Current}{current}
 		\SetKwData{Result}{result}
+		\SetKwData{Line}{line}
 		\SetKwData{Grid}{G}
 		
 		\Input{Grid $G$, Width of grid $W$, Height of grid $H$, Minimal width $MW$, Minimal height $MH$}
@@ -896,6 +897,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\For{$i \leftarrow 0$ \KwTo $H-1$}{
 			\For{$j \leftarrow 0$ \KwTo $W-1$}{
 				\Current $\leftarrow \Grid\left[ i, j \right]$\;
+				\Line $\leftarrow$ cells in current row, starting with current column
 				$j \leftarrow j+1$\;
 			}
 			$i \leftarrow i+1$\;
