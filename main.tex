@@ -760,7 +760,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Closed.\Add{$S$}\;
 		\Open.\Enqueue{$S$}\;
 		\While{\Open is not empty}{
-			\Current $\leftarrow$ \Open.\Dequeue\;
+			\Current $\leftarrow$ \Open.\Dequeue{}\;
 			\Closed.\Add{\Current}\;
 			\If{\Current == $E$}{
 				\Result $\leftarrow$ \BacktrackNodes{\Current}\;
