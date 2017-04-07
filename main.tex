@@ -834,13 +834,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		}
 		\caption{Prohledávání grafu algoritmem A*}
 		\label{alg:astar}
-		
-	
 	\end{algorithm}
 	
 	Algoritmus \ref{alg:astar} demonstruje princip A*. Ten spočívá v použití prioritní fronty pro ještě nezpracované uzly a množiny pro uzly zpracované. Algoritmus v každém kroku vezme z fronty nezpracovaných uzlů uzel s nejvyšší prioritou. Pokud je zpracovávaný uzel cílový, prohledávání končí. V opačném případě je uzel vložen do množiny zpracovaných uzlů, pro sousední uzly je určena priorita, ukazatel na rodiče je nastaven na aktuální uzel a tyto uzly jsou vloženy do množiny nezpracovaných uzlů. Po nalezení cíle je nutné následovat ukazatele na rodiče každého uzlu pro rekonstrukci nalezené cesty. 
 	
-		
 	\subsection{Automatické rozvržení tabulek} \label{secTablePos}
 	Přidávání již existujících tabulek v databázi z příslušného panelu je možné dvěma způsoby. Prvním z nich je klasická drag and drop varianta, známá z mnoha dalších nástrojů, která umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde druhá možnost, která po dvojitém stisku levého tlačítka myši umístí tabulku na plátno automaticky. Prvním způsobem implementace bylo umístění tabulky na náhodné místo v diagramu tak, aby se levý horní roh tabulky vyskytoval ve volném místě, nicméně toto řešení není zdaleka ideální, protože tabulky se velmi často překrývají a navíc může dojít k situaci, kdy jen několik málo tabulek je rozprostřeno po celém plátně, což není pro komfortní práci s nástrojem žádoucí. Aktuální implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna  bez vzájemného překrývání. 
 	
