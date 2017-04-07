@@ -761,12 +761,16 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Open.\Enqueue{$S$}\;
 		\While{\Open is not empty}{
 			\Current $\leftarrow$ \Open.\Dequeue\;
+			\Closed.\Add{\Current}\;
 			\If{\Current == $E$}{
-				\Result $\leftarrow$ \BacktrackNodes{\Current}
+				\Result $\leftarrow$ \BacktrackNodes{\Current}\;
 			}
 		
 			\ForEach{node \N that is adjacent to \Current}{
-			
+				\If{\N is not in \Closed}{
+					\N.Parent $\leftarrow$ \Current
+					\Open.\Enqueue{\N}\;
+				}
 			}
 		}
 		\caption{Prohledávání grafu průchodem do šířky}
