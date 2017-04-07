@@ -725,7 +725,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\label{fig:screenLinesOverlay}
 	\end{figure}
 	
-	\subsubsection{Sestavení grafu}
+	\subsubsection{Sestavení grafu} \ref{secCreateGraph}
 	Prvním krokem byla transformace plátna na graf, ve kterém je cesta vyhledávaná. Vrcholy grafu jsou tvořeny obrazovými body plátna. Mezi vrcholy existuje hrana  pokud se jedná o sousední obrazové body. Prvním krokem bylo převedení každého obrazového bodu plátna na samostatný uzel grafu. Tento uzel obsahuje souřadnice bodu na plátně, společně s informací zda je bod volný nebo jej překrývá tabulka.
 	
 	Výhodou této reprezentace je její přesnost, kdy nedochází k zanedbání informací z plátna. Problémem je ovšem negativní dopad na výkon nástroje, protože pro plátno o šířce a výšce 4000 obrazových bodů je nutné alokovat 16 milionů uzlů, které v průměru zabírají více než 1GB operační paměti. Počet uzlů grafu bylo nutné zredukovat tak, aby zabraly řádově méně prostoru operační paměti. Z tohoto důvodu je plátno nejprve rozděleno na čtvercové úseky o konstantních rozměrech. Pokud tabulka alespoň částečně zasahuje do některého z úseku, je úsek označen jako obsazený. Z této mřížky je následně vytvořen graf, který místo 16 milionů uzlů jich pro dříve zmíněné rozměry obsahuje pouze 1600. Alokace operační paměti v tomto případě trvá jen několik milisekund a zabraná paměť se pohybuje řádově v jednotkách MB.
@@ -839,37 +839,67 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Algoritmus \ref{alg:astar} demonstruje princip A*. Ten spočívá v použití prioritní fronty pro ještě nezpracované uzly a množiny pro uzly zpracované. Algoritmus v každém kroku vezme z fronty nezpracovaných uzlů uzel s nejvyšší prioritou. Pokud je zpracovávaný uzel cílový, prohledávání končí. V opačném případě je uzel vložen do množiny zpracovaných uzlů, pro sousední uzly je určena priorita, ukazatel na rodiče je nastaven na aktuální uzel a tyto uzly jsou vloženy do množiny nezpracovaných uzlů. Po nalezení cíle je nutné následovat ukazatele na rodiče každého uzlu pro rekonstrukci nalezené cesty. 
 	
 	\subsection{Automatické rozvržení tabulek} \label{secTablePos}
-	Přidávání již existujících tabulek v databázi z příslušného panelu je možné dvěma způsoby. Prvním z nich je klasická drag and drop varianta, známá z mnoha dalších nástrojů, která umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde druhá možnost, která po dvojitém stisku levého tlačítka myši umístí tabulku na plátno automaticky. Prvním způsobem implementace bylo umístění tabulky na náhodné místo v diagramu tak, aby se levý horní roh tabulky vyskytoval ve volném místě, nicméně toto řešení není zdaleka ideální, protože tabulky se velmi často překrývají a navíc může dojít k situaci, kdy jen několik málo tabulek je rozprostřeno po celém plátně, což není pro komfortní práci s nástrojem žádoucí. Aktuální implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna  bez vzájemného překrývání. 
+	Přidávání již existujících tabulek v databázi je možné dvěma způsoby: automaticky nebo metodou drag and drop. Drag and drop umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde možnost zvolit pozici tabulky na plátně automaticky. Implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna bez vzájemného překrývání. 
+		
+	\subsubsection{Sestavení a příprava grafu}
+	Algoritmus pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy (viz. kapitola \ref{secCreateGraph}. Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující jen čísla.
 	
-	Implementace algoritmu pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy. Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující jen čísla, z hlediska výkonu, je ale, vzhledem k množství dat, tato skutečnost zanedbatelná. 
+	Před samotným vyhledáváním volné pozice je nutné provést přípravu dat v mřížce. Postup přípravy mřížky demonstruje algoritmus \ref{alg:preprocessGrid} Mřížku je nutné projít nejprve po sloupcích, vždy směrem vzhůru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjadřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 	
-	Po připravení mřížky na základě rozvržení objektu na plátně je nutné provést přípravu dat v mřížce pro samotné vyhledávání. Mřížku je nutné projít nejprve po sloupcích, vždy směrem vzhůru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjadřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
+	\begin{algorithm}[!h]
+		\SetKwInOut{Input}{Input}
+		\SetKwInOut{Output}{Output}
+		
+		\SetKwData{Closed}{closed}
+		\SetKwData{Open}{open}
+		\SetKwData{Current}{current}
+		\SetKwData{Result}{Result}
+		\SetKwData{N}{N}
+		
+		\SetKwFunction{BacktrackNodes}{BacktrackNodes}
+		\SetKwFunction{Add}{Add}
+		\SetKwFunction{Enqueue}{Enqueue}
+		\SetKwFunction{Dequeue}{Dequeue}
+		\SetKwFunction{Update}{UpdatePriority}
+		\SetKwFunction{Manhattan}{Manhattan}
+		
+		\Input{Graph $G$, Start vertex $S$, End vertex $E$}
+		\Output{Path as a vertex collection}
+		
+		\Closed $\leftarrow$ empty set\;
+		\Open $\leftarrow$ empty priority queue\;
+		\Open.\Enqueue{$S$}\;
+		\While{\Open is not empty}{
+			\Current $\leftarrow$ \Open.\Dequeue{}\;
+			\Closed.\Add{\Current}\;
+			\If{\Current == $E$}{
+				\Result $\leftarrow$ \BacktrackNodes{\Current}\;
+			}
+			
+			\ForEach{node \N that is adjacent to \Current}{
+				\If{\N is in \Closed or \N is obstacle}{
+					\texttt{\textbf{continue\;}}
+				}
+				
+				\N.Parent $\leftarrow$ \Current\;
+				\N.Manhattan $\leftarrow$ \Manhattan{\N, $E$}\;
+				
+				\If{\N is not in \Open}{
+					\Open.\Enqueue{\N}\;
+					\texttt{\textbf{continue\;}}
+				}
+				
+				\Open.\Update{\N}\;
+			}
+		}
+		\caption{Příprava mřížky pro vyhledávání}
+		\label{alg:preprocessGrid}
+	\end{algorithm}
 	
+	\subsubsection{Nalezení volné pozice}
 	V další fázi už je možné vyhledat volné obdélníky v takto připravené mřížce. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku.
 	
-	Nyní zbývá pouze zvolit jeden z těchto bodů, osobně jsem využil opět metodu Manhattan \ref{eq:manhattan} pro určení metriky daného bodu vzhledem ke středu plátna, bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. Implementace celé metody je k vidění ve výpisu zdrojového kódu \ref{src:freeRect}.
-	
-	\begin{lstlisting}[label=src:freeRect,caption=Nalezení volného obdélníku v mřížce]
-	public Point? FindFreeRectangle(Rectangle rect)
-	{
-		PreprocessGrid();
-		var nodes = GetListOfFreePoints(rect);
-		
-		if (!nodes.Any())
-		{
-			return null;
-		}
-		
-		var center = new Point(_grid.Width/2, _grid.Height/2);
-		var avg = (int)nodes.Select(t => Manhattan(t, center)).Average(t => t);
-		var res = nodes.FirstOrDefault(t => Manhattan(t, center) <= avg);
-		
-		if (res != null) 
-			return new Point(res.X, res.Y);
-		
-		return null;
-	}
-	\end{lstlisting}
+	Nyní zbývá pouze zvolit jeden z těchto bodů, osobně jsem využil opět metodu Manhattan \ref{eq:manhattan} pro určení metriky daného bodu vzhledem ke středu plátna, bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. 
 		
 \newpage
 \section{Návrh a implementace synchronizace ER diagramů s relačním schématem}
