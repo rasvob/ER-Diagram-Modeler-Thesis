@@ -877,7 +877,37 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Před samotným vyhledáváním volné pozice je nutné provést přípravu dat v mřížce. Postup přípravy mřížky demonstruje algoritmus \ref{alg:preprocessGrid}. Mřížku je nutné projít nejprve po sloupcích, vždy směrem vzhůru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjadřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 	
 	\subsubsection{Nalezení volné pozice}
-	V připravené mřížce je nyní možné vyhledávat volné obdélníky. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku. Nyní zbývá pouze zvolit jeden z těchto bodů. Pro tento účel byla opět zvolena metoda Manhattan \ref{eq:manhattan} k určení metriky daného bodu vzhledem ke středu plátna. Bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. 
+	V připravené mřížce je nyní možné vyhledávat volné obdélníky. Proces nalezení počátečních bodů popisuje algoritmus \ref{alg:findFreeRect}. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku. Nyní zbývá pouze zvolit jeden z těchto bodů. Pro tento účel byla opět zvolena metoda Manhattan \ref{eq:manhattan} k určení metriky daného bodu vzhledem ke středu plátna. Bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. 
+	
+		\begin{algorithm}[!h]
+		\SetKwInOut{Input}{Input}
+		\SetKwInOut{Output}{Output}
+		
+		\SetKwData{Counter}{counter}
+		\SetKwData{Current}{current}
+		\SetKwData{Grid}{G}
+		
+		\Input{Grid $G$, Width of grid $W$, Height of grid $H$}
+		\Output{Preprocessed grid $G$ for free rectangle search}
+		
+		\For{$i \leftarrow 0$ \KwTo $W-1$}{
+			\Counter $\leftarrow$ 1\;
+			\For{$j \leftarrow H-1$ \KwTo 0}{
+				\Current $\leftarrow \Grid\left[ i, j \right]$\;
+				\If{\Current is obstacle}{
+					\Counter $\leftarrow$ 1\;
+					\texttt{\textbf{continue\;}}
+				}
+				\Current.Metric $\leftarrow$ \Counter\;
+				\Counter $\leftarrow \Counter+1$\;
+				$j \leftarrow j-1$\;
+			}
+			$i \leftarrow i+1$\;
+		}
+		
+		\caption{Příprava mřížky pro vyhledávání}
+		\label{alg:findFreeRect}
+	\end{algorithm}
 		
 \newpage
 \section{Návrh a implementace synchronizace ER diagramů s relačním schématem}
