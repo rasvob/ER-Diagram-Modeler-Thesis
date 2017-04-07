@@ -820,10 +820,12 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			}
 			
 			\ForEach{node \N that is adjacent to \Current}{
-				\If{\N is in \Closed or \N is obtacle}{
-					\N.Parent $\leftarrow$ \Current\;
-					\Open.\Enqueue{\N}\;
+				\If{\N is in \Closed or \N is obstacle}{
+					\texttt{\textbf{continue\;}}
 				}
+			
+			\N.Parent $\leftarrow$ \Current\;
+			\Open.\Enqueue{\N}\;
 			}
 		}
 		\caption{Prohledávání grafu algoritmem A*}
