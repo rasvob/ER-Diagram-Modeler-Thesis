@@ -735,7 +735,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	
 	\paragraph{Prohledávání grafu průchodem do šířky}
 	Princip prohledávání popisuje algoritmus \ref{alg:bfs}. Prohledávání grafu do šířky využívá pro svou činnost frontu, v každém kroku jsou do fronty přidány sousední volné uzly vzhledem k aktuálně zpracovávanému uzlu. Pokud je tento uzel cílovým, prohledávání končí a cesta je nalezena. Pokud dojde k vyprázdnění fronty aniž by byl nalezen cíl, tak cesta v grafu neexistuje. Tento způsob hledání trasy je velmi snadno implementovatelný, jeho výkon bohužel není ideální, protože vyhledávání trvá řádově desítky až stovky milisekund pro jedinou trasu.
-	
+	\BlankLine
 	\begin{algorithm}[H]
 		\SetKwInOut{Input}{Input}
 		\SetKwInOut{Output}{Output}
