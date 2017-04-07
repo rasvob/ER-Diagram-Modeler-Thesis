@@ -2050,43 +2050,42 @@ Package pdftex.def Info: Figures/Mvvm.png used on input line 642.
 [38
 
  <./Figures/Mvvm.png>]
-<Figures/SequenceRemoveTable.png, id=604, 734.745pt x 347.04657pt>
+<Figures/SequenceRemoveTable.png, id=606, 734.745pt x 347.04657pt>
 File: Figures/SequenceRemoveTable.png Graphic file (type png)
 
 <use Figures/SequenceRemoveTable.png>
 Package pdftex.def Info: Figures/SequenceRemoveTable.png used on input line 670
 .
 (pdftex.def)             Requested size: 455.24411pt x 215.03426pt.
- [39]
+ [39 <./Figures/SequenceRemoveTable.png>]
 Overfull \hbox (9.731pt too wide) in paragraph at lines 679--680
 \T1/lmr/m/n/10.95 Pro zpro-st°ed-ko-vání ko-mu-ni-kace mezi ²a-b-lo-nou a view-
 mo-de-lem ta-bulky slouºí t°ída \T1/lmtt/m/n/10.95 TableContent\T1/lmr/m/n/10.9
 5 .
  []
 
-<Figures/EditorTabulky2.png, id=616, 585.68813pt x 386.19281pt>
+<Figures/EditorTabulky2.png, id=618, 585.68813pt x 386.19281pt>
 File: Figures/EditorTabulky2.png Graphic file (type png)
 
 <use Figures/EditorTabulky2.png>
 Package pdftex.def Info: Figures/EditorTabulky2.png used on input line 683.
 (pdftex.def)             Requested size: 386.96027pt x 255.165pt.
- [40 <./Figures/SequenceRemoveTable.png>]
-[41 <./Figures/EditorTabulky2.png>]
-<Figures/ScreenPolyline.png, id=631, 918.43124pt x 492.33937pt>
+ [40 <./Figures/EditorTabulky2.png>] [41]
+<Figures/ScreenPolyline.png, id=632, 918.43124pt x 492.33937pt>
 File: Figures/ScreenPolyline.png Graphic file (type png)
 
 <use Figures/ScreenPolyline.png>
 Package pdftex.def Info: Figures/ScreenPolyline.png used on input line 709.
 (pdftex.def)             Requested size: 336.88313pt x 180.59259pt.
  [42 <./Figures/ScreenPolyline.png>]
-<Figures/EditorVztahy.png, id=646, 629.35126pt x 481.8pt>
+<Figures/EditorVztahy.png, id=647, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
 Package pdftex.def Info: Figures/EditorVztahy.png used on input line 719.
 (pdftex.def)             Requested size: 336.88313pt x 257.89645pt.
  [43 <./Figures/EditorVztahy.png>]
-<Figures/ScreenLineOverSelf.png, id=655, 716.6775pt x 280.79906pt>
+<Figures/ScreenLineOverSelf.png, id=656, 716.6775pt x 280.79906pt>
 File: Figures/ScreenLineOverSelf.png Graphic file (type png)
 
 <use Figures/ScreenLineOverSelf.png>
@@ -2114,7 +2113,7 @@ LaTeX Warning: Reference `secCreateGraph' on page 47 undefined on input line 85
 [47] [48] [49
 
 ] [50]
-<Figures/EditorSync.png, id=794, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=795, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2169,7 +2168,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1050.
 Here is how much of TeX's memory you used:
  18860 strings out of 493333
  267169 string characters out of 3139195
- 419717 words of memory out of 3000000
+ 419716 words of memory out of 3000000
  21745 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2190,9 +2189,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (56 pages, 1759821 bytes).
+Output written on main.pdf (56 pages, 1757425 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
+ 977 PDF objects out of 1000 (max. 8388607)
  292 named destinations out of 1000 (max. 500000)
  471 words of extra memory for PDF output out of 10000 (max. 10000000)
 
