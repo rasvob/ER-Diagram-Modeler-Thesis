@@ -877,9 +877,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Před samotným vyhledáváním volné pozice je nutné provést přípravu dat v mřížce. Postup přípravy mřížky demonstruje algoritmus \ref{alg:preprocessGrid}. Mřížku je nutné projít nejprve po sloupcích, vždy směrem vzhůru pro jednotlivé sloupce, a každou volnou buňku opatřit číslem vyjadřujícím její vzdálenost od nejbližší nižší překážky. Začínáme číslem 1, počítadlo zvyšujeme s každou volnou buňkou ve sloupci, pokud narazíme na překážku, počítadlo opět nastavíme na počáteční hodnotu. 
 	
 	\subsubsection{Nalezení volné pozice}
-	V další fázi už je možné vyhledat volné obdélníky v takto připravené mřížce. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku.
-	
-	Nyní zbývá pouze zvolit jeden z těchto bodů, osobně jsem využil opět metodu Manhattan \ref{eq:manhattan} pro určení metriky daného bodu vzhledem ke středu plátna, bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. 
+	V připravené mřížce je nyní možné vyhledávat volné obdélníky. Nyní procházíme mřížku po řádcích, zleva, a v případě, že narazíme na posloupnost čísel v řádku, pro které platí, že všechny z nich jsou rovny nebo vyšší výšce obdélníku, o celkovém počtu rovném alespoň jeho šířce, můžeme index pole prvního prvku z této posloupnosti přidat do kolekce možných počátečních bodů hledaného obdélníku. Nyní zbývá pouze zvolit jeden z těchto bodů. Pro tento účel byla opět zvolena metoda Manhattan \ref{eq:manhattan} k určení metriky daného bodu vzhledem ke středu plátna. Bod s hodnotou metriky lepší než je průměrná hodnota je zvolen jako výsledný počáteční bod hledaného obdélníku. 
 		
 \newpage
 \section{Návrh a implementace synchronizace ER diagramů s relačním schématem}
