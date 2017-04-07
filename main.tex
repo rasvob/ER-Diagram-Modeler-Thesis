@@ -852,10 +852,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Current}{current}
 		\SetKwData{Grid}{G}
 				
-		\Input{Grid $G$}
+		\Input{Grid $G$, Width of grid $W$, Height of grid $H$}
 		\Output{Preprocessed grid $G$ for free rectangle search}
 		
-		\For{$i \leftarrow 0$ \KwTo $\Grid.Width-1$}{
+		\For{$i \leftarrow 0$ \KwTo $W-1$}{
 			\Counter $\leftarrow$ 1\;
 			
 			$i \leftarrow i+1$\;
