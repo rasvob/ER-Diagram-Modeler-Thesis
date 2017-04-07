@@ -2052,32 +2052,32 @@ File: Figures/EditorMvvm.png Graphic file (type png)
 
 <use Figures/EditorMvvm.png>
 Package pdftex.def Info: Figures/EditorMvvm.png used on input line 658.
-(pdftex.def)             Requested size: 341.43307pt x 77.23872pt.
+(pdftex.def)             Requested size: 455.24411pt x 102.98685pt.
  [38
 
- <./Figures/Mvvm.png> <./Figures/EditorMvvm.png>] <Figures/SequenceRemoveTable.
-png, id=605, 734.745pt x 347.04657pt>
+ <./Figures/Mvvm.png>] [39 <./Figures/EditorMvvm.png>] <Figures/SequenceRemoveT
+able.png, id=617, 734.745pt x 347.04657pt>
 File: Figures/SequenceRemoveTable.png Graphic file (type png)
 
 <use Figures/SequenceRemoveTable.png>
 Package pdftex.def Info: Figures/SequenceRemoveTable.png used on input line 683
 .
 (pdftex.def)             Requested size: 455.24411pt x 215.03426pt.
- [39]
+
 Overfull \hbox (9.731pt too wide) in paragraph at lines 692--693
 \T1/lmr/m/n/10.95 Pro zpro-st°ed-ko-vání ko-mu-ni-kace mezi ²a-b-lo-nou a view-
 mo-de-lem ta-bulky slouºí t°ída \T1/lmtt/m/n/10.95 TableContent\T1/lmr/m/n/10.9
 5 .
  []
 
-<Figures/EditorTabulky2.png, id=619, 585.68813pt x 386.19281pt>
+[40 <./Figures/SequenceRemoveTable.png>]
+<Figures/EditorTabulky2.png, id=626, 585.68813pt x 386.19281pt>
 File: Figures/EditorTabulky2.png Graphic file (type png)
 
 <use Figures/EditorTabulky2.png>
 Package pdftex.def Info: Figures/EditorTabulky2.png used on input line 696.
 (pdftex.def)             Requested size: 386.96027pt x 255.165pt.
- [40 <./Figures/SequenceRemoveTable.png>]
-[41 <./Figures/EditorTabulky2.png>]
+ [41 <./Figures/EditorTabulky2.png>]
 <Figures/ScreenPolyline.png, id=639, 918.43124pt x 492.33937pt>
 File: Figures/ScreenPolyline.png Graphic file (type png)
 
@@ -2119,18 +2119,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 757--758
 [44 <./Figures/ScreenLineOverSelf.png>]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 855.
+ [45] [46]
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45]
-
-LaTeX Warning: Reference `secCreateGraph' on page 46 undefined on input line 86
+LaTeX Warning: Reference `secCreateGraph' on page 47 undefined on input line 86
 5.
-
-[46]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [47] [48] [49
 
@@ -2211,7 +2203,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (56 pages, 1770709 bytes).
+Output written on main.pdf (56 pages, 1775527 bytes).
 PDF statistics:
  979 PDF objects out of 1000 (max. 8388607)
  292 named destinations out of 1000 (max. 500000)
