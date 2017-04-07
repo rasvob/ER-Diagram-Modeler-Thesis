@@ -2090,34 +2090,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 737--738
 
  []
 
-[43 <./Figures/ScreenLineOverSelf.png>] [44]
+[43 <./Figures/ScreenLineOverSelf.png>] [44] [45]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 837.
- [45] [46] [47] [48] [49
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 838.
+ [46] [47] [48] [49
 
 ] [50]
 <Figures/EditorSync.png, id=760, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
-Package pdftex.def Info: Figures/EditorSync.png used on input line 915.
+Package pdftex.def Info: Figures/EditorSync.png used on input line 916.
 (pdftex.def)             Requested size: 336.88313pt x 274.2823pt.
  [51 <./Figures/EditorSync.png>] [52] [53
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 960--961
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 []\T1/lmr/m/n/10.95 Visual Stu-dio Ma-ga-zine. \T1/lmr/m/it/10.95 Pri-o-rity Qu
 e-ues with C# \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-04-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 960--961
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 \T1/lmr/m/n/10.95 06]. Do-stupné z: []$\T1/lmtt/m/n/10.95 https : / / visualstu
 diomagazine . com / Articles / 2012 / 11 / 01 /
  []
@@ -2127,17 +2127,17 @@ diomagazine . com / Articles / 2012 / 11 / 01 /
 ] [55
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 991.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 992.
  [56
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 991.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 992.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 991.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 991.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 992.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 992.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 06033EBFE7042F12C690D111478B1A65;5610.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 991.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 992.
  )
 (\end occurred inside a group at level 1)
 
@@ -2146,7 +2146,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 991.
 Here is how much of TeX's memory you used:
  18911 strings out of 493333
  267688 string characters out of 3139195
- 419570 words of memory out of 3000000
+ 420570 words of memory out of 3000000
  21821 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2167,7 +2167,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (56 pages, 1733274 bytes).
+Output written on main.pdf (56 pages, 1759255 bytes).
 PDF statistics:
  935 PDF objects out of 1000 (max. 8388607)
  268 named destinations out of 1000 (max. 500000)
