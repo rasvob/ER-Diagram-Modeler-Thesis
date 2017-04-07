@@ -737,7 +737,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Princip prohledávání popisuje algoritmus \ref{alg:bfs}. Prohledávání grafu do šířky využívá pro svou činnost frontu, v každém kroku jsou do fronty přidány sousední volné uzly vzhledem k aktuálně zpracovávanému uzlu. Pokud je tento uzel cílovým, prohledávání končí a cesta je nalezena. Pokud dojde k vyprázdnění fronty aniž by byl nalezen cíl, tak cesta v grafu neexistuje. Tento způsob hledání trasy je velmi snadno implementovatelný, jeho výkon bohužel není ideální, protože vyhledávání trvá řádově desítky až stovky milisekund pro jedinou trasu.
 	
 	\begin{algorithm}[H]
-		\KwData{Graph G, Start s, End e}
+		\KwData{Graf $G$, Počáteční vrchol $P$, Cílový vrchol $C$}
 		\KwResult{how to write algorithm with \LaTeX2e }
 		initialization\;
 		\While{not at end of this document}{
