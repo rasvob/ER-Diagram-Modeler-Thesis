@@ -859,7 +859,12 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\Counter $\leftarrow$ 1\;
 			\For{$j \leftarrow H-1$ \KwTo 0}{
 				\Current $\leftarrow \Grid\left[ i, j \right]$\;
-				
+				\If{\Current is obstacle}{
+					\Counter $\leftarrow$ 1\;
+					\texttt{\textbf{continue\;}}
+				}
+				\Current.Metric $\leftarrow$ \Counter\;
+				\Counter $\leftarrow$ \Counter+1\;
 				$j \leftarrow j-1$\;
 			}
 			$i \leftarrow i+1$\;
