@@ -737,13 +737,16 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Princip prohledávání popisuje algoritmus \ref{alg:bfs}. Prohledávání grafu do šířky využívá pro svou činnost frontu, v každém kroku jsou do fronty přidány sousední volné uzly vzhledem k aktuálně zpracovávanému uzlu. Pokud je tento uzel cílovým, prohledávání končí a cesta je nalezena. Pokud dojde k vyprázdnění fronty aniž by byl nalezen cíl, tak cesta v grafu neexistuje. Tento způsob hledání trasy je velmi snadno implementovatelný, jeho výkon bohužel není ideální, protože vyhledávání trvá řádově desítky až stovky milisekund pro jedinou trasu.
 	
 	\begin{algorithm}[H]
-		\SetKwInOut{Input}{Vstup}\SetKwInOut{Output}{Výstup}
-		\KwData{Graf $G$, Počáteční vrchol $P$, Cílový vrchol $C$}
-		\KwResult{Kolekce vrcholů představující nalezenou trasu}
+		\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
 		
-		\Input{A bitmap $Im$ of size $w\times l$}
-		\Output{A partition of the bitmap}
-		initialization\;
+		\SetKwData{Set}{closed}
+		\SetKwData{Queue}{open}
+		\SetKwData{Up}{up}
+		
+		\SetKwFunction{BacktrackNodes}{BacktrackNodes}
+		
+		\Input{Graph $G$, Start vertex $S$, End vertex $E$}
+		\Output{Path as a vertex collection}
 		\While{not at end of this document}{
 			read current\;
 			\eIf{understand}{
