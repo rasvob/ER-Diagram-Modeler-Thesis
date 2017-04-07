@@ -888,8 +888,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Result}{result}
 		\SetKwData{Line}{line}
 		\SetKwData{Grid}{G}
+		\SetKwData{Cell}{cell}
 		
 		\SetKwFunction{Add}{Add}
+		 \SetKwFunction{Manhattan}{Manhattan}
 		
 		\Input{Grid $G$, Width of grid $W$, Height of grid $H$, Minimal width $MW$, Minimal height $MH$}
 		\Output{Collection of top-left points of free rectangles}
@@ -903,14 +905,14 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 				\For{$k \leftarrow j$ \KwTo $j + MW - 1$}{
 					\Line.\Add{$\Grid\left[ k, j \right]$}
 				}
-				\If{Every \texttt{cell} in \Line is free and \texttt{cell.Metric} $>= MH$}{
+				\If{Every \Cell in \Line is free and \Cell.Metric $>= MH$}{
 					\Nodes.\Add{\Current}\;
 				}
 				$j \leftarrow j+1$\;
 			}
 			$i \leftarrow i+1$\;
 		}
-		\Result $\leftarrow$ \Nodes\;
+		\Result $\leftarrow$ cell where \Manhattan \;
 		\caption{Nalezení volné plochy o minimálních rozměrech}
 		\label{alg:findFreeRect}
 	\end{algorithm}
