@@ -604,7 +604,6 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		\end{tabular}
 	\end{table}
 	
-	\newpage
 	V oblasti synchronizace diagramu s existující databázi nabízí nejširší škálu možností Toad Data Modeler. Ostatní nástroje předčil podporou mnoha SŘBD, porovnáním modelů a detailními možnostmi nastavení generování DDL skriptu. Srovnání všech nástrojů v této oblasti nalezneme v tabulce \ref{tab:ddlCreateCmp}, komfort aktualizací schématu je opět hodnocen známkami 1 - 5, StarUML je z tohoto hodnocení vynechán, protože práci s databázi nepodporuje.
 	
 	\begin{table}[!h]
@@ -651,7 +650,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\label{fig:mvvm}
 	\end{figure}
 
-		
+	
 	
 	\subsection{Klíčové části grafického editoru} \label{secKeyPartsEditor}
 	Grafický editor je stejně jako ostatní části aplikace navrhnut s ohledem na výše zmíněný návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro uchovávání dat pro jednotlivé komponenty GUI v podobě jaká vyhovuje prezentační vrstvě. Provázaní viewmodelů s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace. Ukázku data-bindingu pro textové pole určující přesnost datového typu vidíme na výpisu kódu \ref{src:xamlDataBinding}. Grafický editor je z pohledu data-bindingu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
