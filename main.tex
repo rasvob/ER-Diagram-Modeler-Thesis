@@ -850,11 +850,13 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 		\SetKwData{Counter}{counter}
 		\SetKwData{Current}{current}
+		\SetKwData{Grid}{G}
 				
 		\Input{Grid $G$}
 		\Output{Preprocessed grid $G$ for free rectangle search}
 		
-	
+		\For{$i \leftarrow \Grid.Width$}{for-block}
+		
 		\caption{Příprava mřížky pro vyhledávání}
 		\label{alg:preprocessGrid}
 	\end{algorithm}
