@@ -2051,11 +2051,7 @@ File: Figures/Mvvm.png Graphic file (type png)
 <use Figures/Mvvm.png>
 Package pdftex.def Info: Figures/Mvvm.png used on input line 658.
 (pdftex.def)             Requested size: 295.90588pt x 86.80136pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38
+ [38
 
  <./Figures/Mvvm.png>]
 <Figures/SequenceRemoveTable.png, id=603, 734.745pt x 347.04657pt>
@@ -2213,7 +2209,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (56 pages, 1765266 bytes).
+Output written on main.pdf (56 pages, 1792354 bytes).
 PDF statistics:
  977 PDF objects out of 1000 (max. 8388607)
  292 named destinations out of 1000 (max. 500000)
