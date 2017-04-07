@@ -634,7 +634,7 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace \cite{wpf} určena pro operační systém Microsoft Windows. 
 	
 	\subsection{Architektura aplikace}
-	S WPF aplikacemi se váže návrhový vzor MVVM \cite{mvvm}, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní. Jednotlivé části a komunikace mezi nimi vidíme na obrázku \ref{fig:mvvm}. Vzor rozděluje aplikaci na tyto části: 
+	S WPF aplikacemi se váže návrhový vzor MVVM \cite{mvvm}, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní. Jednotlivé části a komunikace mezi nimi jsou znázorněny na obrázku \ref{fig:mvvm}. Vzor rozděluje aplikaci na tyto části: 
 	
 	\begin{itemize}
 		\item \textbf{Model} slouží pro uchování dat aplikace. Modely obvykle obsahují také doménovou logiku jako na např. validace vstupních dat.
