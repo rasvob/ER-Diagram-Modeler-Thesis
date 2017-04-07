@@ -651,7 +651,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\label{fig:mvvm}
 	\end{figure}
 	
-	Aplikaci vzoru MVVM v praxi vidíme na obrázku \ref{fig:mvvmUsage}. Příklad zobrazuje strukturu komponenty pro vizualizaci tabulek v grafickém editoru. 
+	Aplikaci vzoru MVVM v praxi vidíme na obrázku \ref{fig:mvvmUsage}. Příklad zobrazuje strukturu komponenty pro vizualizaci tabulek v grafickém editoru. Plná čára zobrazuje asociaci mezi třídami. Vazba je jednosměrná, přímá komunikace mezi view a modelem tedy není možná, vše se odehrává prostřednictvím viewmodelu. Změny dat jsou přenášeny pomocí událostí, směr jejich propagace je značena čárkovanou čárou. Viemodel informuje view o změně dat pomocí události \texttt{PropertyChanged}. Model používá stejný princip při validaci dat, tedy událost \texttt{DataErrorInfo}.
 	
 	\begin{figure}[H]
 		\centering
