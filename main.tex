@@ -889,6 +889,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Line}{line}
 		\SetKwData{Grid}{G}
 		\SetKwData{Cell}{C}
+		\SetKwData{Node}{N}
 		\SetKwData{Avg}{Average}
 		
 		\SetKwFunction{Add}{Add}
@@ -913,7 +914,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			}
 			$i \leftarrow i+1$\;
 		}
-		\lForEach{node $n$ of \Nodes}{calculate \Manhattan{n, center}}\;
+		\lForEach{node \Node of \Nodes}{calculate \Manhattan{\Node, center}}\;
 		\Result $\leftarrow$ cell where \Manhattan{cell, center} < average\;
 		\caption{Nalezení volné plochy o minimálních rozměrech}
 		\label{alg:findFreeRect}
