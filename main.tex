@@ -855,7 +855,11 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Input{Grid $G$}
 		\Output{Preprocessed grid $G$ for free rectangle search}
 		
-		\For{$i \leftarrow 0$ \KwTo $\Grid.Width-1$}{for-block}
+		\For{$i \leftarrow 0$ \KwTo $\Grid.Width-1$}{
+			\Counter $\leftarrow$ 1\;
+			
+			$i \leftarrow i+1$\;
+		}
 		
 		\caption{Příprava mřížky pro vyhledávání}
 		\label{alg:preprocessGrid}
