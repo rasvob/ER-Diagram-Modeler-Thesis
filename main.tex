@@ -786,8 +786,6 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	
 	Uzly jsou uchovány v prioritní frontě \cite{queue}, priorita je určena hodnotou vypočtenou pomocí metody Manhattan \ref{eq:manhattan}. Možností implementace prioritní fronty je celá řada, pro tento účel bylo nejvhodnější použít binární haldu, pro co nejlepší výkon algoritmu. Jedná se o stromovou strukturu, kde prvek s nejvyšší prioritou nalezneme v kořeni stromu. Open-source knihovny bohužel obvykle neimplementují operaci pro aktualizaci priority, která vyvolá nutnost úpravy stromové struktury. V nástroji bylo tedy nutné tuto strukturu pro správnou funkci A* algoritmu implementovat také. 
 	
-	
-	
 	\begin{algorithm}[H]
 		\SetKwInOut{Input}{Input}
 		\SetKwInOut{Output}{Output}
