@@ -744,6 +744,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Open}{open}
 		\SetKwData{Current}{current}
 		\SetKwData{Result}{Result}
+		\SetKwData{N}{N}
 		
 		\SetKwFunction{BacktrackNodes}{BacktrackNodes}
 		\SetKwFunction{Add}{Add}
@@ -762,6 +763,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\Current $\leftarrow$ \Open.\Dequeue\;
 			\If{\Current == $E$}{
 				\Result $\leftarrow$ \BacktrackNodes{\Current}
+			}
+		
+			\ForEach{node \N that is adjacent to \Current}{
+			
 			}
 		}
 		\caption{Prohledávání grafu průchodem do šířky}
