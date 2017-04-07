@@ -743,6 +743,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Closed}{closed}
 		\SetKwData{Open}{open}
 		\SetKwData{Current}{current}
+		\SetKwData{Result}{Result}
 		
 		\SetKwFunction{BacktrackNodes}{BacktrackNodes}
 		\SetKwFunction{Add}{Add}
@@ -750,7 +751,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwFunction{Dequeue}{Dequeue}
 		
 		\Input{Graph $G$, Start vertex $S$, End vertex $E$}
-		\Output{Path as a vertex collection}
+		\Output{Path as a vertex collection $Result$}
 		\BlankLine
 		
 		\Closed $\leftarrow$ empty set\;
@@ -758,8 +759,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Closed.\Add{$S$}\;
 		\Open.\Enqueue{$S$}\;
 		\While{\Open is not empty}{
-			\Current $\leftarrow$ \Open.\Dequeue
-			\If{\Current == $E$}{then-block}
+			\Current $\leftarrow$ \Open.\Dequeue\;
+			\If{\Current == $E$}{
+				\Result $\leftarrow$ \BacktrackNodes{\Current}
+			}
 		}
 		\caption{Prohledávání grafu průchodem do šířky}
 		\label{alg:bfs}
