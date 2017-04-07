@@ -768,7 +768,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 			\ForEach{node \N that is adjacent to \Current}{
 				\If{\N is not in \Closed}{
-					\N.Parent $\leftarrow$ \Current
+					\N.Parent $\leftarrow$ \Current\;
 					\Open.\Enqueue{\N}\;
 				}
 			}

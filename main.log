@@ -2093,7 +2093,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 737--738
 [43 <./Figures/ScreenLineOverSelf.png>] [44] [45] [46] [47
 
 ] [48]
-<Figures/EditorSync.png, id=726, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=727, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2141,8 +2141,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 940.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18877 strings out of 493333
- 267290 string characters out of 3139195
+ 18878 strings out of 493333
+ 267303 string characters out of 3139195
  419512 words of memory out of 3000000
  21814 multiletter control sequences out of 15000+200000
  57620 words of font info for 49 fonts, out of 3000000 for 9000
@@ -2163,9 +2163,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 zapfding/uzdr.pfb>
-Output written on main.pdf (54 pages, 1749009 bytes).
+Output written on main.pdf (54 pages, 1721726 bytes).
 PDF statistics:
- 892 PDF objects out of 1000 (max. 8388607)
- 242 named destinations out of 1000 (max. 500000)
+ 893 PDF objects out of 1000 (max. 8388607)
+ 243 named destinations out of 1000 (max. 500000)
  458 words of extra memory for PDF output out of 10000 (max. 10000000)
 
