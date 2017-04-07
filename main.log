@@ -2106,7 +2106,7 @@ LaTeX Warning: Reference `secCreateGraph' on page 46 undefined on input line 84
 [46] [47] [48
 
 ] [49]
-<Figures/EditorSync.png, id=769, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=770, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
@@ -2159,8 +2159,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1025.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18832 strings out of 493333
- 266857 string characters out of 3139195
+ 18833 strings out of 493333
+ 266870 string characters out of 3139195
  419599 words of memory out of 3000000
  21731 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
@@ -2182,9 +2182,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (55 pages, 1728345 bytes).
+Output written on main.pdf (55 pages, 1738157 bytes).
 PDF statistics:
- 946 PDF objects out of 1000 (max. 8388607)
- 279 named destinations out of 1000 (max. 500000)
+ 947 PDF objects out of 1000 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
  458 words of extra memory for PDF output out of 10000 (max. 10000000)
 
