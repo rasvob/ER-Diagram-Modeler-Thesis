@@ -759,6 +759,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Open.\Enqueue{$S$}\;
 		\While{\Open is not empty}{
 			\Current $\leftarrow$ \Open.\Dequeue
+			\If{\Current == $E$}{then-block}
 		}
 		\caption{Prohledávání grafu průchodem do šířky}
 		\label{alg:bfs}
