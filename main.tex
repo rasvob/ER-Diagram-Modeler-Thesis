@@ -631,10 +631,11 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 	
 \newpage
 \section{Návrh a implementace grafického editoru ER diagramů}
-Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace \cite{wpf} určena pro operační systém Microsoft Windows. S WPF aplikacemi se váže návrhový vzor MVVM \cite{mvvm}, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
+Grafický editor představuje jádro celého CASE nástroje, protože většina operací, které nástroj umožňuje, je prováděna prostřednictvím jeho rozhraní. Nástroj je implementován jako desktopová WPF aplikace \cite{wpf} určena pro operační systém Microsoft Windows. 
 	
 	\subsection{Návrhový vzor MVVM}
-	% TODO: Popis MVVM a obrázek
+	S WPF aplikacemi se váže návrhový vzor MVVM \cite{mvvm}, který slouží k oddělení prezentační vrstvy od doménové logiky, včetně přístupu ke zdroji dat. Tento návrhový vzor je výhodný zejména pro vývoj rozsáhlejších aplikací, kdy čistě událostmi řízené programování může vést k obtížím s laděním aplikace, případně pozdějším úpravám v oblasti grafického rozhraní.
+	
 	Každá komponenta má, pro správnou implementaci vzoru MVVM, vlastní viewmodel, jenž je vlastněn výhradně touto komponentou. Kromě uchovávaní dat slouží viewmodely také ke komunikaci mezi jednotlivými komponentami. 
 	
 	\begin{figure}[!h]
