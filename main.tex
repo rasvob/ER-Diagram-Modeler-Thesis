@@ -752,8 +752,11 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Output{Path as a vertex collection}
 		\BlankLine
 		
-	
-		\While{$\Open$ is not empty}{
+		\Closed $\leftarrow$ empty set\;
+		\Open $\leftarrow$ empty queue\;
+		\Closed \Add{$S$}\;
+		\Open \Enqueue{$S$}\;
+		\While{\Open is not empty}{
 			read current\;
 			\eIf{understand}{
 				go to next section\;
