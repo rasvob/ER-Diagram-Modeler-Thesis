@@ -950,10 +950,11 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze GUI. Pro provedení těchto akcí je nutné nejprve sestrojit validní DML příkaz, který změnu ve schématu provede. Nástroj aktuálně podporuje dva SŘBD: Oracle Database a Microsoft SQL Server. Navzdory tomu, že SQL je standardizované, se syntaxe některých příkazů liší. Z důvodů těchto odlišností bylo potřeba navrhnout způsob synchronizace s relačním schématem tak, aby změny provedené v diagramu mohly být promítnuty do relačního schématu pomocí jednotného rozhraní. Datová vrstva je navrhnuta s ohledem na možné budoucí rozšíření o další SŘBD.
 	
 	% TODO: Pridat kapitolu o katalogu a ulozenych procedurach
-	\subsection{Zdroj informací o schématu databáze} \label{secDataSource}
+	\subsection{Zdroj informací o relačním schématu} \label{secDataSource}
+	K systémovému katalogu je přístup implementován pomoci vlastních SQL příkazů, pro tuto činnost tedy nejsou využity externí knihovny z důvodů větší variability při práci s katalogem.
 	
 	\subsection{Struktura datové vrstvy}
-	Strukturu datové vrstvy popisuje diagram na obrázku \ref{fig:classDiagSync}.
+	Strukturu datové vrstvy popisuje diagram na obrázku \ref{fig:classDiagSync}. Jádrem datové vrstvy jsou třídy \texttt{MsSqlMapper} a \texttt{OracleMapper}. Tyto třídy realizují sestavení DML příkazů pro úpravu schématu, stejně tak jsou zodpovědné za přístup k datům systémového katalogu. Připojení k databázi realizují třídy \texttt{OracleDatabase} a \texttt{MsSqlDatabase}, tyto třídy nabízejí jednotné rozhraní (viz. kapitola \ref{secSupertype}). 
 	
 	\begin{figure}[!h]
 		\centering
@@ -962,36 +963,35 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 		\label{fig:classDiagSync}
 	\end{figure}
 	
+	V nástroji se obvykle nepřistupuje k mapperům přímo, ale kvůli nutnosti přípravy dat před některými operacemi v závislosti na SŘBD, se kterým aktuálně pracujeme, je přístup zapouzdřen pomocí návrhového vzoru Strategy (viz. kapitola \ref{secStrategy}). Strategie představuje primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie, kontext je definován typem aktuální relace. Struktura se samostatnými strategiemi pro jednotlivé mappery je zvolena z důvodu nutného předzpracování dat v případě některých operací. Pokud by k tomuto jevu nedocházelo, bylo by možné namísto strategie použít vzor Factory a s data mappery pracovat přímo. 
+	
 		\subsubsection{Použité návrhové vzory}
-		V této kapitole je popsána funkce návrhových vzorů, které jsou pro funkcionalitu datové vrstvy zásadní, první dva z nich jsou využity v datové vrstvě, další jsou použity pro propojení datové vrstvy s doménovou logikou.
+		V této kapitole je popsána funkce návrhových vzorů, které jsou pro funkcionalitu datové vrstvy zásadní. První dva z nich jsou využity v datové vrstvě, další jsou použity pro propojení datové vrstvy s doménovou logikou. U všech vzorů je také uveden konkrétní účel jeho použití v nástroji.
 			
 			\paragraph{Data Mapper}
 			Tento vzor slouží pro zprostředkování komunikace mezi vzájemně nezávislými systémy. Data mapper je často používán v případech, kdy potřebujeme přistupovat k různým datovým zdrojům s odlišným rozhraním. Typ datového zdroje je sice jeden, tedy systémový katalog relační databáze, nicméně pro různé SŘBD se katalogy liší, což představuje ideální situaci pro použití tohoto vzoru. Další výhodou je i nezávislost podoby dat ve zdroji a doménové vrstvě, tímto je tedy možné reprezentovat data pro grafický editor jednotným modelem nezávisle na struktuře systémového katalogu.
 			
-			V nástroji se obvykle nepřistupuje k mapperům přímo, ale kvůli nutnosti přípravy dat před některými operacemi v závislosti na SŘBD, se kterým aktuálně pracujeme, je přístup zapouzdřen pomocí návrhového vzoru Strategy. Toto provázání je popsáno v kapitole \ref{secStrategy}. K systémovému katalogu je přístup implementován pomoci vlastních SQL příkazů, pro tuto činnost tedy nejsou využity externí knihovny z důvodů větší variability při práci s katalogem.
-			
-			\paragraph{Layer Supertype}
-			Layer Supertype slouží k sjednocení společného chování určité skupiny objektů nebo celé vrstvy, výhodou je zamezení duplikace metod se stejnou signaturou. Tento vzor je využit v datové vrstvě na dvou místech. Prvním použitím je definice rozhraní pro třídy zodpovědné za přístup k databázi, zde jsou definovány základní metody pro otevření nového připojení, jeho uzavření a tvorbu SQL příkazu pro konkrétní data mapper.  Druhým použitím je sjednocení operací pro data mappery. Vrstva definuje operace, které musí umět příslušný mapper vykonávat, aby jej bylo možné použít pro komunikaci grafického editoru se SŘBD. Jak již bylo zmíněno, SŘBD se svými funkcemi liší, takže tato vrstva nedeklaruje všechny dostupné operace, ale spíše nezbytný základ pro použití v nástroji. Každý mapper obsahuje navíc ještě operace specifické pro SŘBD, se kterým komunikuje, ale ty už součásti supertypu nejsou.
+			\paragraph{Layer Supertype} \label{secSupertype}
+			Layer Supertype slouží k sjednocení společného chování určité skupiny objektů nebo celé vrstvy, výhodou je zamezení duplikace metod se stejnou signaturou. Tento vzor je využit v datové vrstvě na dvou místech. Prvním použitím je definice rozhraní pro třídy zodpovědné za přístup k databázi, zde jsou definovány základní metody pro otevření nového připojení a jeho uzavření.  Druhým použitím je sjednocení operací pro data mappery. Vrstva definuje operace, které musí umět příslušný data mapper vykonávat, aby jej bylo možné použít pro komunikaci grafického editoru se SŘBD. Jak již bylo zmíněno, SŘBD se svými funkcemi liší, takže tato vrstva nedeklaruje všechny dostupné operace, ale spíše nezbytný základ pro použití v nástroji. Každý data mapper obsahuje navíc ještě operace specifické pro SŘBD, se kterým komunikuje, ale ty už součásti supertypu nejsou.
 		
+			% TODO: Priklad s RENAME
 			\paragraph{Strategy} \label{secStrategy}
 			Strategie je jedním z kategorie návrhových vzorů chování a slouží k definici skupiny tříd, které obvykle řeší stejný problém, ale jejich implementace se liší. Cílem tohoto vzoru je tuto skupinu tříd zastřešit společným rozhraním a umožnit záměnu těchto tříd v závislosti na situaci, ve které je provedení operace požadováno. Jádrem je třída pro udržování kontextu, která nabízí rozhraní pro nabízené operace. Na základě specifikovaného kontextu je vybraná strategie, která operaci provede. Jednotlivé strategie nabízejí jednotné rozhraní, což umožňuje v třídě pro kontext pracovat se strategiemi na úrovni supertypu. Tímto způsobem se vyhneme rozhodovacímu bloku v situacích, kdy je implementace závislá na SŘBD.
 			
-			V nástroji představuje strategie primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie, kontext je definován typem aktuální relace. Struktura se samostatnými strategiemi pro jednotlivé mappery je zvolena z důvodu nutného předzpracování dat v případě některých operací. Pokud by k tomuto jevu nedocházelo, bylo by možné namísto strategie použít vzor Factory a s mappery pracovat přímo. 
-			
 			\paragraph{Singleton}
 			Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
-			
-			Uchovávané informace se částečně liší pro různé SŘBD. Kromě údajů potřebných k úspěšné autentifikaci je zde uveden také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD. Stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI, nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí. V tomto případě je možné zadat řetězec vlastní a singleton s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
-		
+	
+	% TODO: Prepracovat	a nadpis jiny
+	\subsection{Připojení k databázi}
+	Uchovávané informace se částečně liší pro různé SŘBD. Kromě údajů potřebných k úspěšné autentifikaci je zde uveden také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD. Stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI, nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí. V tomto případě je možné zadat řetězec vlastní a singleton s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
+	
 	% TODO: Prepracovat
 	\subsection{Synchronizace s relačním schématem}
-	Aktualizace existujícího schématu je prováděna okamžitě po provedení změny v ER diagramu, nevyužívá se tedy odložená aktualizace, jako u většiny testovaných nástrojů. Nástroj podporuje práci se schématem použitím několika diagramů současně, není nutné diagram generovat pro všechny tabulky, ale stačí přidat ty, se kterými potřebujeme pracovat. Tento způsob je výhodný pro rozsáhlá schémata, kde rozdělení schématu na určité logické celky zpřehlední vizualizaci a usnadní tak proces aktualizace. 
-	
-	Okamžité provedení aktualizace je důležité právě z důvodu práce s několika diagramy najednou. Jinak by mohlo dojít k situaci, kdy pro provedení změn záleží na pořadí jejich potvrzení, což může mít za následek nemožnost vykonání některých z nich, jako je tomu např. v nástroji Microsoft SQL Server Management studio. 
+	Aktualizace existujícího schématu je prováděna okamžitě po provedení změny v ER diagramu, nevyužívá se tedy odložená aktualizace, jako u většiny testovaných nástrojů. Nástroj podporuje práci se schématem použitím několika diagramů současně, není nutné diagram generovat pro všechny tabulky, ale stačí přidat ty, se kterými potřebujeme pracovat. Tento způsob je výhodný pro rozsáhlá schémata, kde rozdělení schématu na určité logické celky zpřehlední vizualizaci a usnadní tak proces aktualizace. Okamžité provedení aktualizace je důležité právě z důvodu práce s několika diagramy najednou. Jinak by mohlo dojít k situaci, kdy pro provedení změn záleží na pořadí jejich potvrzení, což může mít za následek nemožnost vykonání některých z nich, jako je tomu např. v nástroji Microsoft SQL Server Management studio. 
 	% TODO: Priklad
 	Příkladem takové situace je umožnění ukládání NULL hodnot do určitém atributu v diagramu č. 1, změnu nepotvrdíme a v diagramu č.2 nastavíme tentýž atribut primárním klíčem tabulky, nyní změnu potvrdíme ihned, změnu v diagramu č. 1 teď už není možné provést, protože ji brání nově vzniklé integritní omezení.
 	
-	% TODO: Sekvencni diagram
+	% TODO: Sekvencni diagram a podkapitola
 	Celý proces aktualizace schématu začíná provedením změny v diagramu pomocí grafického editoru. Po potvrzení změny uživatelem je nutné provést adekvátní SQL příkaz. Na základě SŘBD, se kterým aktuálně pracujeme, je zvolen data mapper, který příkaz provede. Operace mapperu je volána prostřednictvím rozhraní kontextu, který vybere konkrétní strategii pro práci s příslušným data mapperem. Tento proces je popsán v kapitole \ref{secStrategy}. Toto uspořádání tříd pro provádění změn v relačním schématu eliminuje nutnost rozhodovacích bloků při každém volání metod data mapperu, stejně tak nabízí snadný způsob rozšíření nástroje o nové SŘBD. Stačí pouze přidat nový data mapper, který implementuje požadované rozhraní a vytvořit pro něj novou strategii. Při vykonávání příkazu může samozřejmě dojít k chybě, ta může být zaviněna jak chybou vstupu na straně uživatele, tak např. chybou sítě. Tyto chyby vyvolávají výjimky v kódu, proto probíhá přístup k metodám kontextu přes tzv. fasádu, která má na starosti zachycení těchto výjimek. O chybách je uživatel informován formou dialogového okna a také jsou zapsány do logu, který se nachází v samostatném panelu. Do tohoto logu jsou vypisovány také prováděné SQL příkazy pro snazší identifikaci chyb, pokud není změna úspěšná.
 	
 	\subsection{Serializace diagramů}
