@@ -2146,7 +2146,7 @@ File: Figures/ScreenConnectConnString.png Graphic file (type png)
 <use Figures/ScreenConnectConnString.png>
 Package pdftex.def Info: Figures/ScreenConnectConnString.png used on input line
  1001.
-(pdftex.def)             Requested size: 273.14923pt x 63.28001pt.
+(pdftex.def)             Requested size: 318.66948pt x 73.82455pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2222,7 +2222,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (58 pages, 1813183 bytes).
+Output written on main.pdf (58 pages, 1803095 bytes).
 PDF statistics:
  1029 PDF objects out of 1200 (max. 8388607)
  318 named destinations out of 1000 (max. 500000)
