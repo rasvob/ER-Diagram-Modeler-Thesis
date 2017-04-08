@@ -1028,7 +1028,14 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 		
 		% TODO: Sekvencni diagram
 		\subsubsection{Aktualizace schématu} \label{secDbUpdate}
-		Celý proces aktualizace schématu začíná provedením změny v diagramu pomocí grafického editoru. Po potvrzení změny uživatelem je nutné provést adekvátní SQL příkaz. Na základě SŘBD (informaci poskytuje třída \texttt{SessionProvider}), se kterým aktuálně pracujeme, je zvolen data mapper, který příkaz provede. Ten je zodpovědný i za sestavení SQL příkazu. Operace data mapperu je volána prostřednictvím rozhraní třídy \texttt{DatabaseContext}, který vybere konkrétní strategii pro práci s příslušným data mapperem. 
+		Celý proces aktualizace schématu začíná provedením změny v diagramu pomocí grafického editoru. Po potvrzení změny uživatelem je nutné provést adekvátní SQL příkaz. Sekvenční diagram na obrázku \ref{fig:seqRemoveFk} zachycuje odstranění vztahu mezi tabulkami. Na základě SŘBD (informaci poskytuje třída \texttt{SessionProvider}), se kterým aktuálně pracujeme, je zvolen data mapper, který příkaz provede. Ten je zodpovědný i za sestavení SQL příkazu. Operace data mapperu je volána prostřednictvím rozhraní třídy \texttt{DatabaseContext}, který vybere konkrétní strategii pro práci s příslušným data mapperem. 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.70\textwidth]{Figures/EditorSync}
+			\caption{Část třídního diagramu - struktura datové vrstvy}
+			\label{fig:seqRemoveFk}
+		\end{figure}
 		
 		Při vykonávání příkazu může samozřejmě dojít k chybě, ta může být zaviněna jak chybou vstupu na straně uživatele, tak např. chybou sítě. Tyto chyby vyvolávají výjimky v kódu, proto probíhá přístup k metodám třídy \texttt{DatabaseContext} přes třídu \texttt{DatabaseUpdater}. Tato třída má na starosti zachycení výjimek. O chybách je uživatel informován formou dialogového okna a také jsou zapsány do logu, který se nachází v samostatném panelu. Do tohoto logu jsou vypisovány také prováděné SQL příkazy pro snazší identifikaci chyb, pokud změna neproběhla úspěšně. V případě chyby je nutné diagram uvést do původního stavu. Pokud se jedná o chybu při úpravě struktury tabulky, dojde k aktualizaci dat doménové vrstvy opětovným načtením hodnot ze systémového katalogu. Pokud dojde k chybě při provádění operace, která způsobuje odstranění nebo přidání objektu na plátno, není opětovné načtení dat potřeba, protože k operacím s objekty na plátně dochází jen po úspěšném dokončení operace.
 	
