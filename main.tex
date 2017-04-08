@@ -954,13 +954,14 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 	Informace o podobě relačního schématu nalezneme v tzv. systémovém katalogu. Systémová katalog je souhrn tabulek, které uchovávají metadata popisující strukturu databáze, nalezneme zde informace o veškerých databázových objektech. Pro uživatele je zpřístupněn systémový katalog pouze pro čtení použitím pohledů nad samotnými tabulkami. Pokud chceme upravovat strukturu databáze, je nutné využít DDL příkazů. Systémový katalog jednotlivých SŘBD nabízí podobné možnosti, ale struktura a názvy pohledů se mohou lišit. Přístup k systémovému katalogu implementován pomoci vlastních SQL příkazů, pro tuto činnost tedy nejsou využity externí knihovny z důvodů větší variability při práci s ním.
 	
   		\subsubsection{Systémový katalog Microsoft SQL Server}
-  		Pohledy nad systémovými tabulkami jsou součástí schématu \texttt{sys}. V aplikaci se pracuje pouze s některými z těchto pohledů. Pro zjištění některých informací jsou zde implementovány uložené procedury, které práci značně ulehčují. Pro zjištění informací o primárním klíči tabulky je možné použít proceduru \texttt{sp\_pkeys}, pro cizí klíče existuje procedura \texttt{sp\_fkeys}. V aplikaci se pracuje s těmito pohledy: 
+  		Pohledy nad systémovými tabulkami jsou součástí schématu \texttt{sys}. V aplikaci se pracuje pouze s některými z těchto pohledů. Pro zjištění často používaných informací jsou zde implementovány uložené procedury, které práci značně ulehčují. Pro zjištění informací o primárním klíči tabulky je možné použít proceduru \texttt{sp\_pkeys}, pro cizí klíče existuje procedura \texttt{sp\_fkeys}. V aplikaci se pracuje s těmito pohledy: 
   		
   		\begin{itemize}
-  			\item \texttt{tables} - 
-  			\item \texttt{columns} -
-  			\item \texttt{types} -
-  			\item \texttt{foreign\_keys} -
+  			\item \texttt{databases} - Pohled obsahuje informace o databázích.
+  			\item \texttt{tables} - Tento pohled slouží pro zjištění informací o tabulkách, jako je např. název a identifikátor.
+  			\item \texttt{columns} - Zde zjistíme informace o sloupcích tabulky. Často se používá v kombinaci s pohledem \texttt{types}.
+  			\item \texttt{types} - Tento pohled obsahuje informace o datových typech.
+  			\item \texttt{foreign\_keys} - Pohled obsahuje informace o cizích klíčích.
   		\end{itemize}
   		
   		\subsubsection{Systémový katalog Oracle Database}
