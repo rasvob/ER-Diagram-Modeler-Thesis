@@ -407,14 +407,13 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 \section{Popis a srovnání stávajících CASE nástrojů pro modelování relačních databází}
 V dnešní době je využití CASE nástrojů v mnoha fázích softwarového procesu de~facto standardem. Jinak tomu samozřejmě není ani u návrhu datových modelů. Na trhu nalezneme celou řadu nástrojů od komerčního softwaru po open-source projekty podporující tvorbu ER diagramů. Tyto nástroje z pravidla nenabízí pouze grafický editor pro vytváření těchto diagramů pro programovou dokumentaci, ale obsahují řadu dalších užitečných funkcí, jako je např. generování patřičných DDL skriptů na základě vytvořeného diagramu.
 	
-	% TODO: Reference na tabulku SW
 	\subsection{Výhody a nevýhody CASE nástrojů pro modelování relačních databází}
 	Jednou z největších výhod je urychlení vývoje rozsáhlých projektů, protože spousta činností lze použitím CASE nástrojů automatizovat. Mnoho z nich se nezastavuje u pouhého generování skriptů pro nasazení nové databáze, ale umožňuje také vygenerování ER diagramu z existující databáze nebo na základě DDL skriptu. Stejně tak lze některé nástroje využít k tvorbě objektově-relačního mapování pro přístup k datovému zdroji, což ušetří mnoho času a práce. 
 	
 	Použití CASE nástrojů s sebou nenese jen samá pozitiva, ale skýtá i řadu nedostatků. Největším problémem je obvykle nulová podpora pro provedení formální analýzy vytvořeného modelu, nástroje tedy plně spoléhají na odborné znalosti uživatele. Dalším problémem je časová investice nutná k naučení se efektivně pracovat s daným nástrojem. Tento problém se netýká pouze modelování relačních databází, ale projevuje se u většiny specializovaných nástrojů.	Za poslední nevýhodu považuji cenu komerčních nástrojů, protože zejména u menších projektů nemusí být využity veškeré možnosti, které daný produkt nabízí a týmové licence mohou být velmi drahé. Řešením je použití freeware nástrojů, případně tzv. community verze některého z nástrojů, pokud to licenční politika dovolí.
 	
 	\subsection{Srovnání stávajících nástrojů}
-	Cílem práce je vytvoření CASE nástroje, který podporuje Oracle Database a Microsoft SQL Server, právě podpora SŘBD se stala primárním požadavkem při volbě porovnávaných nástrojů. Každý z následujících nástrojů tedy podporuje alespoň jeden z dvojice uvedených SŘBD. Nástroje jsou porovnány na základě mnoha kritérií, mezi jinými např. schopnost reverzního generování ER diagramů nebo způsob synchronizace se stávajícím schématem databáze. Každý z~následujících nástrojů nabízí alespoň zkušební verzi pro otestování jeho funkcionality, v ideálním případě je možné pořídit licenci pro studenty zdarma nebo využít bezplatné community edice. 
+	Cílem práce je vytvoření CASE nástroje, který podporuje Oracle Database a Microsoft SQL Server, právě podpora SŘBD se stala primárním požadavkem při volbě porovnávaných nástrojů. Každý z následujících nástrojů tedy podporuje alespoň jeden z dvojice uvedených SŘBD. Nástroje jsou porovnány na základě mnoha kritérií, mezi jinými např. schopnost reverzního generování ER diagramů nebo způsob synchronizace se stávajícím schématem databáze. Každý z~následujících nástrojů nabízí alespoň zkušební verzi pro otestování jeho funkcionality, v ideálním případě je možné pořídit licenci pro studenty zdarma nebo využít bezplatné community edice. Odkazy na oficiální webové stránky testovaných CASE nástrojů a zmíněných SŘBD jsou k dispozici v příloze \ref{secAddCase}. 
 	
 		\subsubsection{Oracle SQL Developer Data Modeler}
 		Autorem prvního nástroje je firma Oracle, která jej vyvíjí od roku 2008. Data Modeler je šířen bezplatně a nainstalovat jej můžeme buď samostatně nebo v rámci nástroje SQL Developer, ovšem ten je zaměřen na správu existujících Oracle databázi, takže možnosti modelování jsou oproti samostatné instalaci Data Modeleru mírně limitovány.
@@ -949,7 +948,6 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 \section{Návrh a implementace datové vrstvy}
 Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze GUI. Pro provedení těchto akcí je nutné nejprve sestrojit validní DML příkaz, který změnu ve schématu provede. Nástroj aktuálně podporuje dva SŘBD: Oracle Database a Microsoft SQL Server. Navzdory tomu, že SQL je standardizované, se syntaxe některých příkazů liší. Z důvodů těchto odlišností bylo potřeba navrhnout způsob synchronizace s relačním schématem tak, aby změny provedené v diagramu mohly být promítnuty do relačního schématu pomocí jednotného rozhraní. Datová vrstva je navrhnuta s ohledem na možné budoucí rozšíření o další SŘBD.
 	
-	% TODO: Pridat kapitolu o katalogu a ulozenych procedurach
 	\subsection{Zdroj informací o relačním schématu} \label{secDataSource}
 	Informace o podobě relačního schématu nalezneme v tzv. systémovém katalogu. Systémová katalog je souhrn tabulek, které uchovávají metadata popisující strukturu databáze, nalezneme zde informace o veškerých databázových objektech. Pro uživatele je zpřístupněn systémový katalog pouze pro čtení použitím pohledů nad samotnými tabulkami. Pokud chceme upravovat strukturu databáze, je nutné využít DDL příkazů. Systémový katalog jednotlivých SŘBD nabízí podobné možnosti, ale struktura a názvy pohledů se mohou lišit. Přístup k systémovému katalogu implementován pomoci vlastních SQL příkazů, pro tuto činnost tedy nejsou využity externí knihovny z důvodů větší variability při práci s ním.
 	
@@ -1155,6 +1153,41 @@ Téma bakalářské práce pro mne bylo velice přínosné, protože jsem se dí
 	\item MahApps.Metro - \url{https://github.com/MahApps/MahApps.Metro}
 	\item Extended WPF Toolkit Community Edition - \url{http://wpftoolkit.codeplex.com/}
 \end{itemize}
+
+\section{Testované CASE nástroje a SŘBD zmíněné v textu} \label{secAddCase}
+\begin{table}[h!]
+	\centering
+	\caption{Stávající CASE nástroje}
+	\label{tab:case}
+	\begin{tabular}{l l l}
+		\toprule
+		Název & Výrobce & Oficiální webové stránky \\
+		\midrule
+		Oracle SQL Developer Data Modeler & Oracle Corporation & \url{http://www.oracle.com/technetwork/developer-tools/datamodeler/overview/index.html} \\
+		Toad Data Modeler & & \\
+		SQL Server Management Studio & & \\
+		Visual Paradigm & & \\
+		StarUML 2 & & \\
+		\midrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+	\centering
+	\caption{Zmíněné SŘBD}
+	\label{tab:dbms}
+	\begin{tabular}{l l l}
+		\toprule
+		Název & Výrobce & Oficiální webové stránky \\
+		\midrule
+		Oracle Database & Oracle Corporation & \url{https://www.oracle.com/database/} \\
+		Microsoft SQL Server & Microsoft & \url{https://www.microsoft.com/en-us/sql-server/default.aspx} \\
+		DB2 & IBM & \url{https://www.ibm.com/analytics/us/en/technology/db2/} \\
+		PostgreSQL & The PostgreSQL Global Development Group & \url{https://www.postgresql.org/} \\
+		MySQL & Oracle Corporation & \url{https://www.mysql.com/} \\
+		\midrule
+	\end{tabular}
+\end{table}
 
 % TODO: Tabulka SW
 
