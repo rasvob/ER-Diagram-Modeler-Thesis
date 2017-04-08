@@ -81,7 +81,7 @@
 \contentsline {paragraph}{\numberline {5.2.1.4}Singleton}{51}{paragraph.5.2.1.4}
 \contentsline {subsection}{\numberline {5.3}Sestaven\IeC {\'\i } aktu\IeC {\'a}ln\IeC {\'\i } relace}{51}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Synchronizace s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{51}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Probl\IeC {\'e}mu odlo\IeC {\v z}en\IeC {\'e} aktualizace}{52}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.1}Probl\IeC {\'e}m odlo\IeC {\v z}en\IeC {\'e} aktualizace}{52}{subsubsection.5.4.1}
 \contentsline {subsubsection}{\numberline {5.4.2}Proces aktualizace sch\IeC {\'e}matu}{52}{subsubsection.5.4.2}
 \contentsline {subsection}{\numberline {5.5}Serializace diagram\IeC {\r u}}{53}{subsection.5.5}
 \contentsline {subsubsection}{\numberline {5.5.1}Ulo\IeC {\v z}en\IeC {\'\i } diagramu}{53}{subsubsection.5.5.1}
