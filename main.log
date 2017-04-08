@@ -2187,19 +2187,52 @@ Overfull \hbox (317.0351pt too wide) in paragraph at lines 1162--1173
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1182
+[]\T1/lmr/m/n/10.95 Oficiální webové
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1183
+[][]$\T1/lmtt/m/n/10.95 https : / / www . oracle .
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1184--1184
-[][]$\T1/lmtt/m/n/10.95 https : / / www . microsoft . com / en-[]us / sql-[]ser
-ver /
+[][]$\T1/lmtt/m/n/10.95 https : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1184
+\T1/lmtt/m/n/10.95 microsoft . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1184
+\T1/lmtt/m/n/10.95 en-[]us / sql-[]server /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1185--1185
-[][]$\T1/lmtt/m/n/10.95 https : / / www . ibm . com / analytics / us / en / tec
-hnology /
+[][]$\T1/lmtt/m/n/10.95 https : / / www . ibm .
  []
 
 
-Overfull \hbox (184.1718pt too wide) in paragraph at lines 1179--1190
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1185
+\T1/lmtt/m/n/10.95 com / analytics / us /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1186
+[][]$\T1/lmtt/m/n/10.95 https : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1187
+[][]$\T1/lmtt/m/n/10.95 https : / / www . mysql .
+ []
+
+
+Overfull \hbox (13.45526pt too wide) in paragraph at lines 1179--1190
  [][] 
  []
 
@@ -2248,9 +2281,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (62 pages, 1867729 bytes).
+Output written on main.pdf (62 pages, 1893922 bytes).
 PDF statistics:
- 1080 PDF objects out of 1200 (max. 8388607)
+ 1086 PDF objects out of 1200 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
  499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
