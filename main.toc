@@ -94,3 +94,5 @@
 \contentsline {section}{\numberline {A}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{60}{appendix.A}
 \contentsline {section}{\numberline {B}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{61}{appendix.B}
 \contentsline {section}{\numberline {C}Testovan\IeC {\'e} CASE n\IeC {\'a}stroje a S\IeC {\v R}BD zm\IeC {\'\i }n\IeC {\v e}n\IeC {\'e} v textu}{62}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Zm\IeC {\'\i }n\IeC {\v e}n\IeC {\'e} S\IeC {\v R}BD}{62}{subsection.C.1}
+\contentsline {subsubsection}{\numberline {C.1.1}Oracle Database}{62}{subsubsection.C.1.1}
