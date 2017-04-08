@@ -580,7 +580,7 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		Grafický editor nabízí všechny základní funkce pro vytváření ER diagramu a celkově působí uživatelské rozhraní přehledně. 
 		
 		\paragraph{Nevýhody}
-		Ovšem za největší nedostatek považuji rychlost reakcí editoru. Zde se bohužel projevil nižší výkon použitých technologií oproti klasickému přístupu k vývoji desktopových aplikací. Při přesouvání objektů po plátně se editor velmi znatelně zadrhává. Vzhledem ke zbytku srovnávaných nástrojů je v tomto ohledu StarUML rozhodně nejhorší.
+		Za největší nedostatek považuji rychlost reakcí editoru. Zde se bohužel projevil nižší výkon použitých technologií oproti klasickému přístupu k vývoji desktopových aplikací. Při přesouvání objektů po plátně se editor velmi znatelně zadrhává. Vzhledem ke zbytku srovnávaných nástrojů je v tomto ohledu StarUML rozhodně nejhorší.
 	
 	\subsection{Shrnutí}
 	Všechny testované nástroje nabízí alespoň základní funkcionalitu nutnou pro úspěšné vytvoření ER diagramu. Většina z nich se nezastavuje u pouhého grafického editoru s možností exportu DDL skriptu, ale nabízí mnoho komplexnějších funkcí. Hodnocen nebyl pouze grafický editor pro tvorbu diagramů, ale také možnosti reverzního generování diagramů z databáze a s tím spojená synchronizace s jejím schématem. Dalšími aspekty v hodnocení byly také možnosti importu a~exportu schémat, kdy XML nebo CSV mohou být výhodné z hlediska strojového zpracování nástroji pro formální analýzu, zatímco export do Excelu nebo PDF je využitelný pro tvorbu dokumentace projektu.
@@ -983,9 +983,24 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 			\paragraph{Singleton}
 			Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
 	
-	% TODO: Prepracovat	a nadpis jiny
-	\subsection{Informace o aktuální relaci}
-	Uchovávané informace se částečně liší pro různé SŘBD. Kromě údajů potřebných k úspěšné autentifikaci je zde uveden také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD. Stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI, nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí. V tomto případě je možné zadat řetězec vlastní a singleton s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
+	\subsection{Sestavení aktuální relace}
+	Informace nutné pro připojení k databázi se částečně liší pro různé SŘBD. Pro připojení je nutné zkonstruovat řetězec pro připojení na základě přihlašovacích údajů. Za tuto činnost je zodpovědná třída \texttt{SessionProvider}. Kromě údajů potřebných k úspěšné autentifikaci je zde uveden také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD. Stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI (viz. obrázek \ref{fig:screenAuthGui}), nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí (viz. obrázek \ref{fig:screenAuthConnStr}). V tomto případě je možné zadat řetězec vlastní a třída \texttt{SessionProvider} s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
+	
+	\begin{figure}[!h]
+		\centering
+		\subfloat[Zadání údajů pomocí GUI]
+		{
+			\includegraphics[width=0.2\textwidth]{Figures/ScreenConnect}
+			\label{fig:screenAuthGui}
+		}
+		\qquad
+		\subfloat[Zadání vlastního řetězce pro připojení]
+		{
+			\includegraphics[width=0.4\textwidth]{Figures/ScreenConnectConnString}
+			\label{fig:screenAuthConnStr}
+		}
+		\caption{Zadání přihlašovacích údajů}
+	\end{figure}
 	
 	% TODO: Prepracovat
 	\subsection{Synchronizace s relačním schématem}
