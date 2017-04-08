@@ -973,6 +973,17 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
   			\item \texttt{DBA} - Zde nalezneme informace o veškerých objektech databáze. Pohledy uvozeny tímto prefixem mohou obsahovat detailnější informace.
   		\end{itemize} 
 	
+		V nástroji jsou jako zdroj informací použity pohledy uvozené prefixem \texttt{ALL}. Pro získání informací o schématu databáze jsou použity tyto pohledy:
+		
+		\begin{itemize}
+			\item \texttt{ALL\_OBJECTS} - Pohled slouží k získání informací o veškerých objektech, které jsou uživateli přístupné. Používá se pro zjištění informací o tabulkách.
+			\item \texttt{ALL\_TAB\_COLUMNS} - Tento pohled slouží pro zjištění informací o sloupcích tabulky včetně informací o datovém typu.
+			\item \texttt{ALL\_CONSTRAINTS} - Zde zjistíme informace o integritních omezeních.
+			\item \texttt{ALL\_CONS\_COLUMNS} - Tento pohled obsahuje informace o sloupcích, které figurují v integritních omezeních.
+			\item \texttt{FOREIGN\_KEYS} - Pohled obsahuje informace o cizích klíčích.
+		\end{itemize}
+		
+		
 	\subsection{Struktura datové vrstvy}
 	Strukturu datové vrstvy popisuje diagram na obrázku \ref{fig:classDiagSync}. Jádrem datové vrstvy jsou třídy \texttt{MsSqlMapper} a \texttt{OracleMapper}. Tyto třídy realizují sestavení DML příkazů pro úpravu schématu, stejně tak jsou zodpovědné za přístup k datům systémového katalogu. Připojení k databázi realizují třídy \texttt{OracleDatabase} a \texttt{MsSqlDatabase}, tyto třídy nabízejí jednotné rozhraní (viz. kapitola \ref{secSupertype}). 
 	
