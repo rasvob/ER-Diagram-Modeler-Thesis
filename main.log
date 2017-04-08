@@ -2278,7 +2278,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1192.
 Here is how much of TeX's memory you used:
  18949 strings out of 493333
  268785 string characters out of 3139195
- 423651 words of memory out of 3000000
+ 424651 words of memory out of 3000000
  21791 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2299,7 +2299,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (62 pages, 1907976 bytes).
+Output written on main.pdf (62 pages, 1883275 bytes).
 PDF statistics:
  1098 PDF objects out of 1200 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
