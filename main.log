@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  8 APR 2017 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  8 APR 2017 22:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -2124,20 +2124,20 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 LaTeX Warning: Reference `secCreateGraph' on page 47 undefined on input line 86
 7.
 
-[47] [48] <Figures/EditorSync.png, id=797, 563.10374pt x 458.46281pt>
+[47] [48] [49
+
+] <Figures/EditorSync.png, id=804, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
-Package pdftex.def Info: Figures/EditorSync.png used on input line 971.
+Package pdftex.def Info: Figures/EditorSync.png used on input line 973.
 (pdftex.def)             Requested size: 318.66948pt x 259.45169pt.
- [49
-
-] [50 <./Figures/EditorSync.png>] [51]
+ [50 <./Figures/EditorSync.png>] [51]
 <Figures/ScreenConnect.png, id=823, 243.91125pt x 412.54124pt>
 File: Figures/ScreenConnect.png Graphic file (type png)
 
 <use Figures/ScreenConnect.png>
-Package pdftex.def Info: Figures/ScreenConnect.png used on input line 1004.
+Package pdftex.def Info: Figures/ScreenConnect.png used on input line 1006.
 (pdftex.def)             Requested size: 91.04742pt x 153.99126pt.
 
 <Figures/ScreenConnectConnString.png, id=824, 903.375pt x 209.28188pt>
@@ -2145,32 +2145,32 @@ File: Figures/ScreenConnectConnString.png Graphic file (type png)
 
 <use Figures/ScreenConnectConnString.png>
 Package pdftex.def Info: Figures/ScreenConnectConnString.png used on input line
- 1010.
+ 1012.
 (pdftex.def)             Requested size: 318.66948pt x 73.82455pt.
  [52 <./Figures/ScreenConnect.png> <./Figures/ScreenConnectConnString.png>]
 <Figures/SequenceRemoveFk.png, id=836, 599.99156pt x 597.73312pt>
 File: Figures/SequenceRemoveFk.png Graphic file (type png)
 
 <use Figures/SequenceRemoveFk.png>
-Package pdftex.def Info: Figures/SequenceRemoveFk.png used on input line 1043.
+Package pdftex.def Info: Figures/SequenceRemoveFk.png used on input line 1045.
 (pdftex.def)             Requested size: 409.71692pt x 408.18607pt.
  [53] [54 <./Figures/SequenceRemoveFk.png>]
 [55] [56] [57
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+Underfull \hbox (badness 10000) in paragraph at lines 1109--1110
 []\T1/lmr/m/n/10.95 Visual Stu-dio Ma-ga-zine. \T1/lmr/m/it/10.95 Pri-o-rity Qu
 e-ues with C# \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-04-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+Underfull \hbox (badness 10000) in paragraph at lines 1109--1110
 \T1/lmr/m/n/10.95 06]. Do-stupné z: []$\T1/lmtt/m/n/10.95 https : / / visualstu
 diomagazine . com / Articles / 2012 / 11 / 01 /
  []
@@ -2180,14 +2180,14 @@ diomagazine . com / Articles / 2012 / 11 / 01 /
 ] [59
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1142.
  [60
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1142.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1142.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0BDB8AE06A54F23DC6646F21E7C10372;5522.
@@ -2195,7 +2195,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1142.
  )
 (\end occurred inside a group at level 1)
 
@@ -2225,7 +2225,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (60 pages, 1847519 bytes).
+Output written on main.pdf (60 pages, 1835449 bytes).
 PDF statistics:
  1052 PDF objects out of 1200 (max. 8388607)
  326 named destinations out of 1000 (max. 500000)
