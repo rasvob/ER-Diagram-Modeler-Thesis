@@ -2146,7 +2146,7 @@ File: Figures/ScreenConnectConnString.png Graphic file (type png)
 <use Figures/ScreenConnectConnString.png>
 Package pdftex.def Info: Figures/ScreenConnectConnString.png used on input line
  1001.
-(pdftex.def)             Requested size: 350.5399pt x 81.21083pt.
+(pdftex.def)             Requested size: 273.14923pt x 63.28001pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2201,7 +2201,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1105.
 Here is how much of TeX's memory you used:
  18924 strings out of 493333
  268360 string characters out of 3139195
- 424205 words of memory out of 3000000
+ 423205 words of memory out of 3000000
  21780 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2222,7 +2222,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (58 pages, 1806438 bytes).
+Output written on main.pdf (58 pages, 1836159 bytes).
 PDF statistics:
  1029 PDF objects out of 1200 (max. 8388607)
  318 named destinations out of 1000 (max. 500000)
