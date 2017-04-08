@@ -1005,11 +1005,31 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 	% TODO: Prepracovat
 	\subsection{Synchronizace s relačním schématem}
 	Aktualizace existujícího schématu je prováděna okamžitě po provedení změny v ER diagramu, nevyužívá se tedy odložená aktualizace, jako u většiny testovaných nástrojů. Nástroj podporuje práci se schématem použitím několika diagramů současně, není nutné diagram generovat pro všechny tabulky, ale stačí přidat ty, se kterými potřebujeme pracovat. Tento způsob je výhodný pro rozsáhlá schémata, kde rozdělení schématu na určité logické celky zpřehlední vizualizaci a usnadní tak proces aktualizace. Okamžité provedení aktualizace je důležité právě z důvodu práce s několika diagramy najednou. Jinak by mohlo dojít k situaci, kdy pro provedení změn záleží na pořadí jejich potvrzení, což může mít za následek nemožnost vykonání některých z nich, jako je tomu např. v nástroji Microsoft SQL Server Management studio. 
-	% TODO: Priklad
-	Příkladem takové situace je umožnění ukládání NULL hodnot do určitém atributu v diagramu č. 1, změnu nepotvrdíme a v diagramu č.2 nastavíme tentýž atribut primárním klíčem tabulky, nyní změnu potvrdíme ihned, změnu v diagramu č. 1 teď už není možné provést, protože ji brání nově vzniklé integritní omezení.
 	
-	% TODO: Sekvencni diagram a podkapitola
-	Celý proces aktualizace schématu začíná provedením změny v diagramu pomocí grafického editoru. Po potvrzení změny uživatelem je nutné provést adekvátní SQL příkaz. Na základě SŘBD, se kterým aktuálně pracujeme, je zvolen data mapper, který příkaz provede. Operace mapperu je volána prostřednictvím rozhraní kontextu, který vybere konkrétní strategii pro práci s příslušným data mapperem. Tento proces je popsán v kapitole \ref{secStrategy}. Toto uspořádání tříd pro provádění změn v relačním schématu eliminuje nutnost rozhodovacích bloků při každém volání metod data mapperu, stejně tak nabízí snadný způsob rozšíření nástroje o nové SŘBD. Stačí pouze přidat nový data mapper, který implementuje požadované rozhraní a vytvořit pro něj novou strategii. Při vykonávání příkazu může samozřejmě dojít k chybě, ta může být zaviněna jak chybou vstupu na straně uživatele, tak např. chybou sítě. Tyto chyby vyvolávají výjimky v kódu, proto probíhá přístup k metodám kontextu přes tzv. fasádu, která má na starosti zachycení těchto výjimek. O chybách je uživatel informován formou dialogového okna a také jsou zapsány do logu, který se nachází v samostatném panelu. Do tohoto logu jsou vypisovány také prováděné SQL příkazy pro snazší identifikaci chyb, pokud není změna úspěšná.
+		\subsubsection{Problému odložené aktualizace}
+		K problémům s odloženou aktualizace zpravidla dochází vlivem konfliktů integritních omezení. Příklad takového problému vidíme v tabulce \ref{tab:lateUpdateIssue}.
+				
+		\begin{table}[!h]
+			\centering
+			\caption{Příklad problému odložené aktualizace}
+			\label{tab:lateUpdateIssue}
+			\begin{tabular}{l c c}
+				\toprule
+				Čas & Diagram 1 & Diagram 2 \\
+				\midrule
+				t1 & Povolení NULL hodnot atributu X & \\
+				t2 & & Nastavení atributu X primárním klíčem \\
+				t3 & & Potvrzení změn \\
+				t4 & Diagram neodpovídá schématu & \\
+				\midrule
+			\end{tabular}
+		\end{table}
+		
+		Příkladem situace je umožnění ukládání NULL hodnot do určitém atributu v diagramu č. 1, změnu nepotvrdíme a v diagramu č.2 nastavíme tentýž atribut primárním klíčem tabulky, nyní změnu potvrdíme ihned, změnu v diagramu č. 1 teď už není možné provést, protože ji brání nově vzniklé integritní omezení.
+		
+		% TODO: Sekvencni diagram a podkapitola
+		\subsubsection{Proces aktualizace schématu}
+		Celý proces aktualizace schématu začíná provedením změny v diagramu pomocí grafického editoru. Po potvrzení změny uživatelem je nutné provést adekvátní SQL příkaz. Na základě SŘBD, se kterým aktuálně pracujeme, je zvolen data mapper, který příkaz provede. Operace mapperu je volána prostřednictvím rozhraní kontextu, který vybere konkrétní strategii pro práci s příslušným data mapperem. Tento proces je popsán v kapitole \ref{secStrategy}. Toto uspořádání tříd pro provádění změn v relačním schématu eliminuje nutnost rozhodovacích bloků při každém volání metod data mapperu, stejně tak nabízí snadný způsob rozšíření nástroje o nové SŘBD. Stačí pouze přidat nový data mapper, který implementuje požadované rozhraní a vytvořit pro něj novou strategii. Při vykonávání příkazu může samozřejmě dojít k chybě, ta může být zaviněna jak chybou vstupu na straně uživatele, tak např. chybou sítě. Tyto chyby vyvolávají výjimky v kódu, proto probíhá přístup k metodám kontextu přes tzv. fasádu, která má na starosti zachycení těchto výjimek. O chybách je uživatel informován formou dialogového okna a také jsou zapsány do logu, který se nachází v samostatném panelu. Do tohoto logu jsou vypisovány také prováděné SQL příkazy pro snazší identifikaci chyb, pokud není změna úspěšná.
 	
 	\subsection{Serializace diagramů}
 	Nástroj podporuje ukládání rozpracovaných diagramů přímo do speciální tabulky v databázi, ke které se diagram vztahuje. Oproti klasickému ukládání na pevný disk ve formě souboru umožňuje tento způsob zpřístupnění diagramu dalším osobám pracujícím s databázi, aniž by bylo nutné přenášet soubory projektu. Navíc je možné pokračovat v práci z jiného počítače, protože je potřeba jen připojení k~databázi, kde se diagram nachází. Výhodou je také zálohování, protože diagramy je možné zálohovat v rámci záloh databáze.
