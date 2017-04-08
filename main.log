@@ -2155,19 +2155,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [53] [54] [55
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 []\T1/lmr/m/n/10.95 Visual Stu-dio Ma-ga-zine. \T1/lmr/m/it/10.95 Pri-o-rity Qu
 e-ues with C# \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-04-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 \T1/lmr/m/n/10.95 06]. Do-stupné z: []$\T1/lmtt/m/n/10.95 https : / / visualstu
 diomagazine . com / Articles / 2012 / 11 / 01 /
  []
@@ -2177,14 +2177,14 @@ diomagazine . com / Articles / 2012 / 11 / 01 /
 ] [57
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1125.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1124.
  [58
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1124.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1125.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1125.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1124.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0BDB8AE06A54F23DC6646F21E7C10372;5522.
@@ -2192,7 +2192,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1125.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1124.
  )
 (\end occurred inside a group at level 1)
 
@@ -2222,7 +2222,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (58 pages, 1811057 bytes).
+Output written on main.pdf (58 pages, 1816416 bytes).
 PDF statistics:
  1035 PDF objects out of 1200 (max. 8388607)
  321 named destinations out of 1000 (max. 500000)
