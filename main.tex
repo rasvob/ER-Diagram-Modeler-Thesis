@@ -984,7 +984,7 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 			Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
 	
 	% TODO: Prepracovat	a nadpis jiny
-	\subsection{Připojení k databázi}
+	\subsection{Informace o aktuální relaci}
 	Uchovávané informace se částečně liší pro různé SŘBD. Kromě údajů potřebných k úspěšné autentifikaci je zde uveden také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD. Stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI, nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí. V tomto případě je možné zadat řetězec vlastní a singleton s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
 	
 	% TODO: Prepracovat
