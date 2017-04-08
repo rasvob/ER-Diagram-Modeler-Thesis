@@ -863,7 +863,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Přidávání již existujících tabulek v databázi je možné dvěma způsoby: automaticky nebo metodou drag and drop. Drag and drop umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde možnost zvolit pozici tabulky na plátně automaticky. Implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna bez vzájemného překrývání. 
 		
 	\subsubsection{Sestavení a příprava grafu}
-	Algoritmus pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy (viz. kapitola \ref{secCreateGraph}. Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující jen čísla.
+	Algoritmus pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy (viz. kapitola \ref{secCreateGraph}). Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující jen čísla.
 	
 	\begin{algorithm}[!h]
 		\SetKwInOut{Input}{Input}
