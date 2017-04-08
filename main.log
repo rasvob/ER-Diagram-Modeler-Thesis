@@ -2175,57 +2175,37 @@ diomagazine . com / Articles / 2012 / 11 / 01 /
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1165--1165
-[][]$\T1/lmtt/m/n/10.95 http : / / www . oracle .
+[][]$\T1/lmtt/m/n/10.95 http : / / www . oracle . com /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1165--1165
-\T1/lmtt/m/n/10.95 com / technetwork /
+\T1/lmtt/m/n/10.95 technetwork / developer-[]tools /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1165--1165
-\T1/lmtt/m/n/10.95 developer-[]tools /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1165--1165
-\T1/lmtt/m/n/10.95 datamodeler /
+\T1/lmtt/m/n/10.95 datamodeler / overview / index .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1166--1166
-[][]$\T1/lmtt/m/n/10.95 https : / / www . quest .
+[][]$\T1/lmtt/m/n/10.95 https : / / www . quest . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1166--1166
-\T1/lmtt/m/n/10.95 com / products /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1167
-[][]$\T1/lmtt/m/n/10.95 https : / / www .
+Underfull \hbox (badness 5802) in paragraph at lines 1167--1167
+[]\T1/lmr/m/n/10.95 SQL Ser-ver Ma-nage-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1167--1167
-\T1/lmtt/m/n/10.95 microsoft . com /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1167
-\T1/lmtt/m/n/10.95 en-[]us / sql-[]server /
+[][]$\T1/lmtt/m/n/10.95 https : / / www . microsoft . com /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
-[][]$\T1/lmtt/m/n/10.95 https : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
-\T1/lmtt/m/n/10.95 visual-[]paradigm .
+[][]$\T1/lmtt/m/n/10.95 https : / / www . visual-[]paradigm .
  []
 
 
@@ -2289,9 +2269,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (62 pages, 1932246 bytes).
+Output written on main.pdf (62 pages, 1870602 bytes).
 PDF statistics:
- 1098 PDF objects out of 1200 (max. 8388607)
+ 1093 PDF objects out of 1200 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
  499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
