@@ -2129,11 +2129,11 @@ File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
 Package pdftex.def Info: Figures/EditorSync.png used on input line 961.
-(pdftex.def)             Requested size: 336.88313pt x 274.2823pt.
+(pdftex.def)             Requested size: 318.66948pt x 259.45169pt.
  [49
 
-] [50 <./Figures/EditorSync.png>] [51] [52]
-[53] [54] [55
+ <./Figures/EditorSync.png>] [50] [51] [52]
+[53] [54
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
@@ -2153,13 +2153,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
 diomagazine . com / Articles / 2012 / 11 / 01 /
  []
 
-[56
+[55
 
-] [57
+] [56
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1088.
- [58
+ [57
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1088.
@@ -2180,13 +2180,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1088.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18907 strings out of 493333
- 267901 string characters out of 3139195
- 423029 words of memory out of 3000000
+ 18906 strings out of 493333
+ 267894 string characters out of 3139195
+ 420029 words of memory out of 3000000
  21768 multiletter control sequences out of 15000+200000
  57938 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,51p,1449b,4689s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,51p,1449b,6183s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
 rogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvip
@@ -2203,9 +2203,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (58 pages, 1778039 bytes).
+Output written on main.pdf (57 pages, 1808744 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 315 named destinations out of 1000 (max. 500000)
+ 1015 PDF objects out of 1200 (max. 8388607)
+ 314 named destinations out of 1000 (max. 500000)
  476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
