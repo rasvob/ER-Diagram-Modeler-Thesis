@@ -987,12 +987,33 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 	
 	Celý proces aktualizace schématu začíná provedením změny v diagramu pomocí grafického editoru. Po potvrzení změny uživatelem je nutné provést adekvátní SQL příkaz. Na základě SŘBD, se kterým aktuálně pracujeme, je zvolen data mapper, který příkaz provede. Operace mapperu je volána prostřednictvím rozhraní kontextu, který vybere konkrétní strategii pro práci s příslušným data mapperem. Tento proces je popsán v kapitole \ref{secStrategy}. Toto uspořádání tříd pro provádění změn v relačním schématu eliminuje nutnost rozhodovacích bloků při každém volání metod data mapperu, stejně tak nabízí snadný způsob rozšíření nástroje o nové SŘBD. Stačí pouze přidat nový data mapper, který implementuje požadované rozhraní a vytvořit pro něj novou strategii. Při vykonávání příkazu může samozřejmě dojít k chybě, ta může být zaviněna jak chybou vstupu na straně uživatele, tak např. chybou sítě. Tyto chyby vyvolávají výjimky v kódu, proto probíhá přístup k metodám kontextu přes tzv. fasádu, která má na starosti zachycení těchto výjimek. O chybách je uživatel informován formou dialogového okna a také jsou zapsány do logu, který se nachází v samostatném panelu. Do tohoto logu jsou vypisovány také prováděné SQL příkazy pro snazší identifikaci chyb, pokud není změna úspěšná.
 	
-	\subsection{Uložení a načtení diagramů}
-	Nástroj podporuje ukládání rozpracovaných diagramů přímo do speciální tabulky v databázi, ke které se diagram vztahuje. Oproti klasickému ukládání na pevný disk ve formě souboru umožňuje tento způsob zpřístupnění diagramu dalším osobám pracujícím s databázi, aniž by bylo nutné přenášet soubory projektu. Navíc je možné pokračovat v práci z jiného počítače, protože je potřeba jen připojení k~databázi, kde se diagram nachází. Výhodou je také zálohování, protože diagramy je možné zálohovat v rámci záloh databáze.
-	
-	Serializace diagramů probíhá na úrovni viewmodelů, protože ty obsahují veškerá potřebná data týkající se struktury diagramu. Serializaci podléhají veškeré vlastnosti diagramu, které nelze získat z existujícího schématu. Jedná se tedy o souřadnice objektů na plátně, jejich velikost a samozřejmě také názvy a identifikátory, aby bylo možné provést načtení příslušných polí ze systémového katalogu. Tato struktura je uložená ve formátu XML.
-	
-	Načtení diagramu je rozděleno na dvě fáze. V první fázi je nutné provést kontrolu existence objektů v databázi, aby se nezobrazovaly již neexistující tabulky nebo integritní omezení v podobě cizích klíčů, po této kontrole jsou načtena data ze systémového katalogu. Tímto je zamezeno nekonzistenci načteného diagramu a relačního schématu, stejný princip je využit i při změně aktivního diagramu při práci s několika diagramy zároveň, aby zobrazený diagram ukazoval aktuální podobu schématu. V druhé fázi je potřeba přidat objekty na plátno a nastavit jim požadované vlastnosti tak, aby byla struktura načteného diagramu stejná jako při ukládání.
+		\subsection{Serializace diagramů}
+		Nástroj podporuje ukládání rozpracovaných diagramů přímo do speciální tabulky v databázi, ke které se diagram vztahuje. Oproti klasickému ukládání na pevný disk ve formě souboru umožňuje tento způsob zpřístupnění diagramu dalším osobám pracujícím s databázi, aniž by bylo nutné přenášet soubory projektu. Navíc je možné pokračovat v práci z jiného počítače, protože je potřeba jen připojení k~databázi, kde se diagram nachází. Výhodou je také zálohování, protože diagramy je možné zálohovat v rámci záloh databáze.
+		
+		\subsubsection{Uložení diagramu}
+		Serializace diagramů probíhá na úrovni viewmodelů, protože ty obsahují veškerá potřebná data týkající se struktury diagramu. Serializaci podléhají veškeré vlastnosti diagramu, které nelze získat z existujícího schématu. Jedná se tedy o souřadnice objektů na plátně, jejich velikost a samozřejmě také názvy a identifikátory, aby bylo možné provést načtení příslušných polí ze systémového katalogu. Tato struktura je uložená ve formátu XML. Příklad serializovaného vztahu ve formě XML elementu vidíme na výpisu kódu \ref{src:xmlFk}.
+		
+		\begin{lstlisting}[language=xml,label=src:xmlFk,caption=Serializovaný vztah ve formátu XML]
+		<ConnectionInfoViewModel SourceConnectorOrientation="Down" DestinationConnectorOrientation="Down">
+			<RelationshipModel Id="661577395" Name="Objednany_zajezd_Zajezd_FK" LastModified="2017-01-21T15:17:53.68">
+				<Source>
+					<TableModel Title="Zajezd" Id="453576654" />
+				</Source>
+				<Destination>
+					<TableModel Title="Objednany_zajezd" Id="421576540" />
+				</Destination>
+			</RelationshipModel>
+			<Points>
+				<ConnectionPoint X="1060" Y="1173" />
+				<ConnectionPoint X="1060" Y="1200" />
+				<ConnectionPoint X="1500" Y="1200" />
+				<ConnectionPoint X="1500" Y="832" />
+			</Points>
+		</ConnectionInfoViewModel>
+		\end{lstlisting}
+		
+		\subsubsection{Načtení diagramu}
+		Načtení diagramu je rozděleno na dvě fáze. V první fázi je nutné provést kontrolu existence objektů v databázi, aby se nezobrazovaly již neexistující tabulky nebo integritní omezení v podobě cizích klíčů, po této kontrole jsou načtena data ze systémového katalogu. Tímto je zamezeno nekonzistenci načteného diagramu a relačního schématu, stejný princip je využit i při změně aktivního diagramu při práci s několika diagramy zároveň, aby zobrazený diagram ukazoval aktuální podobu schématu. V druhé fázi je potřeba přidat objekty na plátno a nastavit jim požadované vlastnosti tak, aby byla struktura načteného diagramu stejná jako při ukládání.
 
 \newpage
 \section{Závěr}
