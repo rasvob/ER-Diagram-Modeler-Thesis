@@ -2268,11 +2268,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
 [][]$\T1/lmtt/m/n/10.95 https : / / www . mysql .
  []
 
-
-Overfull \hbox (13.45526pt too wide) in paragraph at lines 1178--1189
- [][] 
- []
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1191.
 [62
 
@@ -2314,7 +2309,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (62 pages, 1857889 bytes).
+Output written on main.pdf (62 pages, 1854952 bytes).
 PDF statistics:
  1102 PDF objects out of 1200 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
