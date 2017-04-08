@@ -1026,7 +1026,6 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 		
 		V čase \texttt{t4} není možné změnu potvrdit, diagram 1 navíc není v souladu s existujícím schématem. Odstranění problému závisí na možnostech použitého nástroje.
 		
-		% TODO: Sekvencni diagram
 		\subsubsection{Aktualizace schématu} \label{secDbUpdate}
 		Celý proces aktualizace schématu začíná provedením změny v diagramu pomocí grafického editoru. Po potvrzení změny uživatelem je nutné provést adekvátní SQL příkaz. Sekvenční diagram na obrázku \ref{fig:seqRemoveFk} zachycuje odstranění vztahu mezi tabulkami z pohledu datové vrstvy. Na základě SŘBD (informaci poskytuje třída \texttt{SessionProvider}), se kterým aktuálně pracujeme, je zvolen data mapper, který příkaz provede. Ten je zodpovědný i za sestavení SQL příkazu. Operace data mapperu je volána prostřednictvím rozhraní třídy \texttt{DatabaseContext}, který vybere konkrétní strategii pro práci s příslušným data mapperem. 
 		
