@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  8 APR 2017 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  8 APR 2017 17:49
 entering extended mode
 **./main.tex
 (main.tex
@@ -2136,19 +2136,19 @@ Package pdftex.def Info: Figures/EditorSync.png used on input line 961.
 [53] [54
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
 \T1/lmtt/m/n/10.95 www . minet . uni-[]jena . de / dbis / lehre / ws2005 / dbs1
  / Bachman-[]DataStructureDiagrams .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
 []\T1/lmr/m/n/10.95 Visual Stu-dio Ma-ga-zine. \T1/lmr/m/it/10.95 Pri-o-rity Qu
 e-ues with C# \T1/lmr/m/n/10.95 [on-line]. [cit. 2017-04-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
 \T1/lmr/m/n/10.95 06]. Do-stupné z: []$\T1/lmtt/m/n/10.95 https : / / visualstu
 diomagazine . com / Articles / 2012 / 11 / 01 /
  []
@@ -2158,14 +2158,14 @@ diomagazine . com / Articles / 2012 / 11 / 01 /
 ] [56
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1088.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1090.
  [57
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1088.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1090.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1088.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1088.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1090.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1090.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E3627A8E9FB2D33EC0D12C602158A269;5605.
@@ -2173,7 +2173,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1088.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1090.
  )
 (\end occurred inside a group at level 1)
 
@@ -2203,7 +2203,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (57 pages, 1808744 bytes).
+Output written on main.pdf (57 pages, 1812363 bytes).
 PDF statistics:
  1015 PDF objects out of 1200 (max. 8388607)
  314 named destinations out of 1000 (max. 500000)
