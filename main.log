@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 21:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -1813,31 +1813,32 @@ Package pdftex.def Info: Figures/BachmanDiagram.jpg used on input line 105.
  [13
 
  <./Figures/BachmanDiagram.jpg>] [14]
-<Figures/TernaryRelationship2.png, id=352, 569.87906pt x 289.83281pt>
+<Figures/TernaryRelationship2.png, id=353, 569.87906pt x 289.83281pt>
 File: Figures/TernaryRelationship2.png Graphic file (type png)
 
 <use Figures/TernaryRelationship2.png>
 Package pdftex.def Info: Figures/TernaryRelationship2.png used on input line 15
-3.
+5.
 (pdftex.def)             Requested size: 250.38564pt x 127.34108pt.
- [15 <./Figures/TernaryRelationship2.png>] <Figures/NotationExChen.png, id=365,
- 470.50781pt x 87.32625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15] <Figures/NotationExChen.png, id=365, 470.50781pt x 87.32625pt>
 File: Figures/NotationExChen.png Graphic file (type png)
 
 <use Figures/NotationExChen.png>
 Package pdftex.def Info: Figures/NotationExChen.png used on input line 174.
 (pdftex.def)             Requested size: 295.90588pt x 54.91988pt.
- [16 <./Figures/NotationExChen.png>]
+ [16 <./Figures/TernaryRelationship2.png> <./Figures/NotationExChen.png>]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 183.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 183.
-
-<Figures/ChenEntitiesA.png, id=379, 160.6pt x 120.45pt>
+ <Figures/ChenEntitiesA.png, id=379, 160.6pt x 120.45pt>
 File: Figures/ChenEntitiesA.png Graphic file (type png)
 
 <use Figures/ChenEntitiesA.png>
@@ -2268,7 +2269,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1839667 bytes).
+Output written on main.pdf (61 pages, 1840806 bytes).
 PDF statistics:
  1084 PDF objects out of 1200 (max. 8388607)
  327 named destinations out of 1000 (max. 500000)
