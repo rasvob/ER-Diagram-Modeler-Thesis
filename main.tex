@@ -148,14 +148,14 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		\subsubsection{Binární a \textit{n}-ární modely}
 		Nejzásadnějším rozdílem mezi notacemi je podpora \textit{n}-árních modelů. Z toho důvodů rozlišujeme dva typy modelů: binární a \textit{n}-ární \cite{compErNotations}. Pro kategorii binárních modelů je typické, že každý objekt, který má alespoň jeden atribut, je považován za entitu. Není tedy možné přiřadit atribut vztahu, jak to můžeme běžně vidět u Chenovy notace. Tento fakt je nejvíce patrný u vztahu M:N, kterému chceme přiřadit atribut, pro zaznamenání dalších informací. Přidání neklíčového atributu způsobí nutnost přidat do modelu asociační entitu pro tento vztah. 
 		
-		V případě \textit{n}-árních modelů není nutné vytvářet další entity k přidání atributů pro vztah. N-ární vztahy jsou z hlediska sémantiky výhodné pro modelování některých situací oproti vyjádření pomocí několika binárních vztahů. Při přechodu na modely nabízející nižší úroveň abstrakce, je často nutné tyto \textit{n}-ární vztahy převést na sekvenci binárních vztahů, což může vést ke ztrátě cenných informací, protože už i pro ternární vztah M:N:P může způsobů dekompozice na binární vztahy existovat více a na první pohled nemusí být patrná ztráta části informace. Na obrázku \ref{fig:ternaryEx} vidíme diagram modelující situaci, kdy učitel doporučuje knihy třídám, nicméně převod na sekvenci binárních vztahů může znemožnit zjištění informací o tom, kdo z učitelů doporučil danou knihu.
-		
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.55\textwidth]{Figures/TernaryRelationship2}
 			\caption{Příklad ternárního vztahu}
 			\label{fig:ternaryEx}
 		\end{figure}
+		
+		V případě \textit{n}-árních modelů není nutné vytvářet další entity k přidání atributů pro vztah. N-ární vztahy jsou z hlediska sémantiky výhodné pro modelování některých situací oproti vyjádření pomocí několika binárních vztahů. Při přechodu na modely nabízející nižší úroveň abstrakce, je často nutné tyto \textit{n}-ární vztahy převést na sekvenci binárních vztahů, což může vést ke ztrátě cenných informací, protože už i pro ternární vztah M:N:P může způsobů dekompozice na binární vztahy existovat více a na první pohled nemusí být patrná ztráta části informace. Na obrázku \ref{fig:ternaryEx} vidíme diagram modelující situaci, kdy učitel doporučuje knihy třídám, nicméně převod na sekvenci binárních vztahů může znemožnit zjištění informací o tom, kdo z učitelů doporučil danou knihu.
 		
 		Podpora \textit{n}-árních vztahů vede k nekompatibilitě mezi jednotlivými notacemi, kdy nemusí být snadné převést model používající jednu notaci na model jiné notace. Z tohoto důvodu dnešní CASE nástroje obvykle podporují pouze jeden typ notace, případně typů podporují více, ale pouze ze stejné kategorie s ohledem na podporu arity vztahů. 
 		
