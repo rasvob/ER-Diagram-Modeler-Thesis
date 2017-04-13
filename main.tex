@@ -980,7 +980,7 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 		
 		
 	\subsection{Struktura datové vrstvy}
-	Strukturu datové vrstvy popisuje diagram na obrázku \ref{fig:classDiagSync}. Jádrem datové vrstvy jsou třídy \texttt{MsSqlMapper} a \texttt{OracleMapper}. Tyto třídy realizují sestavení DML příkazů pro úpravu schématu, stejně tak jsou zodpovědné za přístup k datům systémového katalogu. Připojení k databázi realizují třídy \texttt{OracleDatabase} a \texttt{MsSqlDatabase}, tyto třídy nabízejí jednotné rozhraní (viz kapitola~\ref{secSupertype}). 
+	Strukturu datové vrstvy popisuje diagram na obrázku \ref{fig:classDiagSync}. Jádrem datové vrstvy jsou třídy \texttt{MsSqlMapper} a \texttt{OracleMapper}. Tyto třídy (tzv. \emph{mappery}) realizují sestavení DML příkazů pro úpravu schématu, stejně tak jsou zodpovědné za přístup k datům systémového katalogu. Připojení k databázi realizují třídy \texttt{OracleDatabase} a \texttt{MsSqlDatabase}, tyto třídy nabízejí jednotné rozhraní (viz kapitola~\ref{secSupertype}). 
 	
 	\begin{figure}[H]
 		\centering
