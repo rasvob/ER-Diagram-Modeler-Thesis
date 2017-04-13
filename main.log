@@ -1957,7 +1957,7 @@ Package pdftex.def Info: Figures/NotationExMinMax.png used on input line 352.
 (pdftex.def)             Requested size: 341.43307pt x 66.5301pt.
  [21 <./Figures/BarkerNonTrans.png> <./Figures/BarkerSubtypes.png> <./Figures/N
 otationExMinMax.png>]
-<Figures/NotationExIDEF1X.png, id=474, 473.51906pt x 107.65219pt>
+<Figures/NotationExIDEF1X.png, id=475, 473.51906pt x 107.65219pt>
 File: Figures/NotationExIDEF1X.png Graphic file (type png)
 
 <use Figures/NotationExIDEF1X.png>
@@ -1987,42 +1987,42 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 418.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [25]
-<Figures/EditorOracleLogic.png, id=512, 400.49625pt x 240.14719pt>
+<Figures/EditorOracleLogic.png, id=513, 400.49625pt x 240.14719pt>
 File: Figures/EditorOracleLogic.png Graphic file (type png)
 
 <use Figures/EditorOracleLogic.png>
 Package pdftex.def Info: Figures/EditorOracleLogic.png used on input line 440.
 (pdftex.def)             Requested size: 341.43307pt x 204.74165pt.
  [26 <./Figures/EditorOracleLogic.png>]
-[27] <Figures/EditorToadReport.png, id=529, 1442.38875pt x 384.6872pt>
+[27] <Figures/EditorToadReport.png, id=530, 1442.38875pt x 384.6872pt>
 File: Figures/EditorToadReport.png Graphic file (type png)
 
 <use Figures/EditorToadReport.png>
 Package pdftex.def Info: Figures/EditorToadReport.png used on input line 473.
 (pdftex.def)             Requested size: 455.24411pt x 121.4119pt.
  [28 <./Figures/EditorToadReport.png>]
-<Figures/EditorToad.png, id=537, 871.75688pt x 62.48344pt>
+<Figures/EditorToad.png, id=538, 871.75688pt x 62.48344pt>
 File: Figures/EditorToad.png Graphic file (type png)
 
 <use Figures/EditorToad.png>
 Package pdftex.def Info: Figures/EditorToad.png used on input line 488.
 (pdftex.def)             Requested size: 455.24411pt x 32.6298pt.
  [29 <./Figures/EditorToad.png>]
-<Figures/EditorSSMS.png, id=546, 517.18219pt x 447.17062pt>
+<Figures/EditorSSMS.png, id=547, 517.18219pt x 447.17062pt>
 File: Figures/EditorSSMS.png Graphic file (type png)
 
 <use Figures/EditorSSMS.png>
 Package pdftex.def Info: Figures/EditorSSMS.png used on input line 501.
 (pdftex.def)             Requested size: 295.90588pt x 255.8588pt.
  [30 <./Figures/EditorSSMS.png>]
-<Figures/EditorVP.png, id=555, 353.06906pt x 487.06969pt>
+<Figures/EditorVP.png, id=556, 353.06906pt x 487.06969pt>
 File: Figures/EditorVP.png Graphic file (type png)
 
 <use Figures/EditorVP.png>
 Package pdftex.def Info: Figures/EditorVP.png used on input line 530.
 (pdftex.def)             Requested size: 250.38564pt x 345.41312pt.
  [31] [32 <./Figures/EditorVP.png>]
-<Figures/EditorStar.png, id=572, 350.05782pt x 304.88907pt>
+<Figures/EditorStar.png, id=573, 350.05782pt x 304.88907pt>
 File: Figures/EditorStar.png Graphic file (type png)
 
 <use Figures/EditorStar.png>
@@ -2033,13 +2033,13 @@ Overfull \hbox (2.16542pt too wide) in paragraph at lines 606--622
  [][] 
  []
 
-[36] <Figures/Mvvm.png, id=602, 602.25pt x 176.66pt>
+[36] <Figures/Mvvm.png, id=603, 602.25pt x 176.66pt>
 File: Figures/Mvvm.png Graphic file (type png)
  <use Figures/Mvvm.png>
 Package pdftex.def Info: Figures/Mvvm.png used on input line 641.
 (pdftex.def)             Requested size: 295.90588pt x 86.80136pt.
 
-<Figures/EditorMvvm.png, id=606, 811.53188pt x 177.66376pt>
+<Figures/EditorMvvm.png, id=607, 811.53188pt x 177.66376pt>
 File: Figures/EditorMvvm.png Graphic file (type png)
 
 <use Figures/EditorMvvm.png>
@@ -2048,7 +2048,7 @@ Package pdftex.def Info: Figures/EditorMvvm.png used on input line 650.
  [37
 
  <./Figures/Mvvm.png>] [38 <./Figures/EditorMvvm.png>] <Figures/SequenceRemoveT
-able.png, id=629, 734.745pt x 347.04657pt>
+able.png, id=630, 734.745pt x 347.04657pt>
 File: Figures/SequenceRemoveTable.png Graphic file (type png)
 
 <use Figures/SequenceRemoveTable.png>
@@ -2063,21 +2063,21 @@ mo-de-lem ta-bulky slouºí t°ída \T1/lmtt/m/n/10.95 TableContent\T1/lmr/m/n/10.9
  []
 
 [39 <./Figures/SequenceRemoveTable.png>]
-<Figures/EditorTabulky2.png, id=638, 585.68813pt x 386.19281pt>
+<Figures/EditorTabulky2.png, id=639, 585.68813pt x 386.19281pt>
 File: Figures/EditorTabulky2.png Graphic file (type png)
 
 <use Figures/EditorTabulky2.png>
 Package pdftex.def Info: Figures/EditorTabulky2.png used on input line 688.
 (pdftex.def)             Requested size: 386.96027pt x 255.165pt.
  [40 <./Figures/EditorTabulky2.png>]
-<Figures/ScreenPolyline.png, id=651, 918.43124pt x 492.33937pt>
+<Figures/ScreenPolyline.png, id=652, 918.43124pt x 492.33937pt>
 File: Figures/ScreenPolyline.png Graphic file (type png)
 
 <use Figures/ScreenPolyline.png>
 Package pdftex.def Info: Figures/ScreenPolyline.png used on input line 713.
 (pdftex.def)             Requested size: 336.88313pt x 180.59259pt.
 
-<Figures/EditorVztahy.png, id=654, 629.35126pt x 481.8pt>
+<Figures/EditorVztahy.png, id=655, 629.35126pt x 481.8pt>
 File: Figures/EditorVztahy.png Graphic file (type png)
 
 <use Figures/EditorVztahy.png>
@@ -2088,7 +2088,7 @@ Package pdftex.def Info: Figures/EditorVztahy.png used on input line 723.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41 <./Figures/ScreenPolyline.png>]
-<Figures/ScreenLineOverSelf.png, id=664, 716.6775pt x 280.79906pt>
+<Figures/ScreenLineOverSelf.png, id=665, 716.6775pt x 280.79906pt>
 File: Figures/ScreenLineOverSelf.png Graphic file (type png)
 
 <use Figures/ScreenLineOverSelf.png>
@@ -2110,21 +2110,21 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
  [44] [45] [46] [47] [48
 
 ]
-<Figures/EditorSync.png, id=802, 563.10374pt x 458.46281pt>
+<Figures/EditorSync.png, id=803, 563.10374pt x 458.46281pt>
 File: Figures/EditorSync.png Graphic file (type png)
 
 <use Figures/EditorSync.png>
 Package pdftex.def Info: Figures/EditorSync.png used on input line 981.
 (pdftex.def)             Requested size: 318.66948pt x 259.45169pt.
  [49] [50 <./Figures/EditorSync.png>] [51]
-<Figures/ScreenConnect.png, id=827, 243.91125pt x 412.54124pt>
+<Figures/ScreenConnect.png, id=828, 243.91125pt x 412.54124pt>
 File: Figures/ScreenConnect.png Graphic file (type png)
 
 <use Figures/ScreenConnect.png>
 Package pdftex.def Info: Figures/ScreenConnect.png used on input line 1014.
 (pdftex.def)             Requested size: 91.04742pt x 153.99126pt.
 
-<Figures/ScreenConnectConnString.png, id=828, 903.375pt x 209.28188pt>
+<Figures/ScreenConnectConnString.png, id=829, 903.375pt x 209.28188pt>
 File: Figures/ScreenConnectConnString.png Graphic file (type png)
 
 <use Figures/ScreenConnectConnString.png>
@@ -2132,7 +2132,7 @@ Package pdftex.def Info: Figures/ScreenConnectConnString.png used on input line
  1020.
 (pdftex.def)             Requested size: 318.66948pt x 73.82455pt.
  [52 <./Figures/ScreenConnect.png> <./Figures/ScreenConnectConnString.png>]
-<Figures/SequenceRemoveFk.png, id=840, 599.99156pt x 597.73312pt>
+<Figures/SequenceRemoveFk.png, id=841, 599.99156pt x 597.73312pt>
 File: Figures/SequenceRemoveFk.png Graphic file (type png)
 
 <use Figures/SequenceRemoveFk.png>
@@ -2261,9 +2261,9 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1864238 bytes).
+Output written on main.pdf (61 pages, 1867272 bytes).
 PDF statistics:
- 1085 PDF objects out of 1200 (max. 8388607)
+ 1086 PDF objects out of 1200 (max. 8388607)
  327 named destinations out of 1000 (max. 500000)
  494 words of extra memory for PDF output out of 10000 (max. 10000000)
 
