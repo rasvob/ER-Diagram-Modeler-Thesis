@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 22:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 22:05
 entering extended mode
 **./main.tex
 (main.tex
@@ -1935,21 +1935,21 @@ Package pdftex.def Info: Figures/BarkerUid.png used on input line 322.
 (pdftex.def)             Requested size: 295.90588pt x 76.09077pt.
  [20 <./Figures/NotationExCrow.png> <./Figures/NotationExBarker.png> <./Figures
 /BarkerUid.png>]
-<Figures/BarkerNonTrans.png, id=455, 149.05687pt x 386.19281pt>
+<Figures/BarkerNonTrans.png, id=454, 149.05687pt x 386.19281pt>
 File: Figures/BarkerNonTrans.png Graphic file (type png)
 
 <use Figures/BarkerNonTrans.png>
 Package pdftex.def Info: Figures/BarkerNonTrans.png used on input line 335.
 (pdftex.def)             Requested size: 91.04742pt x 235.89546pt.
 
-<Figures/BarkerSubtypes.png, id=456, 174.6525pt x 323.70938pt>
+<Figures/BarkerSubtypes.png, id=455, 174.6525pt x 323.70938pt>
 File: Figures/BarkerSubtypes.png Graphic file (type png)
 
 <use Figures/BarkerSubtypes.png>
 Package pdftex.def Info: Figures/BarkerSubtypes.png used on input line 341.
 (pdftex.def)             Requested size: 91.04742pt x 168.75462pt.
 
-<Figures/NotationExMinMax.png, id=459, 467.49657pt x 91.09032pt>
+<Figures/NotationExMinMax.png, id=458, 467.49657pt x 91.09032pt>
 File: Figures/NotationExMinMax.png Graphic file (type png)
 
 <use Figures/NotationExMinMax.png>
@@ -2261,7 +2261,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1839577 bytes).
+Output written on main.pdf (61 pages, 1842611 bytes).
 PDF statistics:
  1084 PDF objects out of 1200 (max. 8388607)
  327 named destinations out of 1000 (max. 500000)
