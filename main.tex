@@ -180,11 +180,11 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		Entitní typy (často označovány v souvislosti s ERD jen jako entity) jsou jednoznačně identifikovatelné typy objektů vyskytující se v problémové doméně. Obvykle se označují podstatným jménem v jednotném čísle. Rozlišujeme následující typy entit:
 	
 		\begin{itemize}
-			\item \textbf{Silný entitní typ} muže existovat nezávisle na ostatních entitních typech, protože obsahuje alespoň jeden atribut, který entitu jednoznačně odlišuje od ostatních, značí se obdélníkem (viz. obrázek \ref{fig:chenEntA}).
+			\item \textbf{Silný entitní typ} může existovat nezávisle na ostatních entitních typech, protože obsahuje alespoň jeden atribut, který entitu jednoznačně odlišuje od ostatních, značí se obdélníkem (viz obrázek \ref{fig:chenEntA}).
 			
 			\item \textbf{Slabý entitní typ} jehož existence je závislá na jiném entitním typu, protože neobsahuje atribut umožňující jednoznačnou identifikaci, značí se obdélníkem s dvojitým okrajem (viz.~obrázek \ref{fig:chenEntB}).
 			
-			\item \textbf{Asociativní entitní typ} slouží k vyznačení vztahu mezi entitami, obsahuje atributy identifikující tento vztah, značí se kosočtvercem uvnitř obdélníku (viz. obrázek \ref{fig:chenEntC}).
+			\item \textbf{Asociativní entitní typ} slouží k vyznačení vztahu mezi entitami, obsahuje atributy identifikující tento vztah, značí se kosočtvercem uvnitř obdélníku (viz obrázek \ref{fig:chenEntC}).
 		\end{itemize}
 	
 		\begin{figure}[H]
@@ -208,15 +208,15 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		\end{figure}
 
 		\subsubsection{Vztah}
-		Vztah slouží k vyjádření asociace mezi entitními typy. Obecně vyjadřuje informace, které nelze vyjádřit pouhými entitními typy, např. student \textit{studuje} předmět, novinář \textit{napsal} článek. Označuje se slovesem. Znázorňuje se kosočtvercem (viz. obrázek \ref{fig:chenRelA}). 
+		Vztah slouží k vyjádření asociace mezi entitními typy. Obecně vyjadřuje informace, které nelze vyjádřit pouhými entitními typy, např. student \textit{studuje} předmět, novinář \textit{napsal} článek. Označuje se slovesem. Znázorňuje se kosočtvercem (viz obrázek \ref{fig:chenRelA}). 
 		
-		Speciálním typem vztahu je identifikující vztah, který spojuje slabou entitu s entitou, na které je závislá, ta se označuje jako vlastník. Značí se kosočtvercem s dvojitým okrajem (viz.~obrázek~\ref{fig:chenRelB}). Podle počtu entit, které se v nich vyskytují rozlišujeme tyto typy:
+		Speciálním typem vztahu je identifikující vztah, který spojuje slabý entitní typ s entitním typem, na kterém je závislý, ten se označuje jako vlastník. Značí se kosočtvercem s dvojitým okrajem (viz.~obrázek~\ref{fig:chenRelB}). Podle počtu entit, které se v nich vyskytují rozlišujeme tyto typy:
 		
 		\begin{itemize}
-			\item \textbf{Unární} vztah, ve kterém se vyskytuje pouze jedna entita, ta je ve vztahu sama se sebou, např. zaměstnanec \textit{je nadřízeným} jiného zaměstnance.
-			\item \textbf{Binární} vztah existuje mezi dvěma entitami, např. zaměstnanec \textit{je vedoucím} oddělení.
-			\item \textbf{Ternární} vztah existuje mezi třemi entitami najednou, např. učitel \textit{doporučuje} knihu třídě.
-			\item \textbf{N-ární} vztah je mezi \textit{n} entitami zároveň.
+			\item \textbf{Unární vztah}, ve kterém se vyskytuje pouze jedna entita, ta je ve vztahu sama se sebou, např. zaměstnanec \textit{je nadřízeným} jiného zaměstnance.
+			\item \textbf{Binární vztah} existuje mezi dvěma entitami, např. zaměstnanec \textit{je vedoucím} oddělení.
+			\item \textbf{Ternární vztah} existuje mezi třemi entitami najednou, např. učitel \textit{doporučuje} knihu třídě.
+			\item \textbf{N-ární vztah} je mezi \textit{n} entitami zároveň.
 		\end{itemize}
 		
 		Nejčastějšími typy vztahů jsou vztahy unární a binární. N-ární vztahy, kde $n > 2$, se vyskytují v ER diagramech velmi málo, protože vedou k problémům s dekompozicí na několik binárních vztahů při přechodu z konceptuálního modelu na relační (logický).
@@ -242,9 +242,9 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 		Atributy jsou vlastnosti charakterizující entitní typ. Označují se podstatným jménem, znázorňují se elipsou. Rozlišujeme následující kategorie:
 		
 		\begin{itemize}
-			\item \textbf{Jednoduchý}, atomický, atribut, který nelze dále dělit, např. \textit{značka automobilu} (viz. obrázek \ref{fig:chenAttrA}).
+			\item \textbf{Jednoduchý}, atomický, atribut, který nelze dále dělit, např. \textit{značka automobilu} (viz obrázek \ref{fig:chenAttrA}).
 			\item \textbf{Složený} atribut se dělí na více atomických atributů, např. \textit{adresa} se dělí na \textit{město, ulici a PSČ} (viz.~obrázek~\ref{fig:chenAttrB}).
-			\item \textbf{Odvozený} atribut, jehož hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda} (viz. obrázek \ref{fig:chenAttrC}).
+			\item \textbf{Odvozený} atribut, jehož hodnota je vypočtena na základě hodnot ostatních atributů, fyzicky nemusí v relační databázi existovat, znázorněn je elipsou s čárkovanou hranou, např. \textit{průměrná mzda} (viz obrázek \ref{fig:chenAttrC}).
 		\end{itemize}
 	
 		\begin{figure}[!h]
@@ -280,7 +280,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	Jak už bylo zmíněno, notací existuje celá řada. Jednotlivé notace se v mnoha směrech liší. V~této kapitole jsou vybrané notace popsány včetně příkladů. Všechny příklady modelují situaci, kdy jeden člověk má právě jedno místo narození a na jednom místě narození se mohlo narodit více lidí.
 	
 		\subsubsection{Bachmanova notace} \label{bachman}
-		Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace \cite{compErNotations} modeluje cizí klíče už na konceptuální úrovni, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdélníky, vztahy čárami. Vztahům není možné přiřadit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu (viz. obrázek \ref{fig:notationExBachman}).
+		Tento typ notace podporuje nejvýše binární vztahy, vyjádření kardinality používá styl look across, povinnost pak look here, stejně jako je tomu u Chenovy notace. Bachmanova notace \cite{compErNotations} modeluje cizí klíče už na konceptuální úrovni, její předpokládané použití je tedy modelování relačních databází. Entity jsou znázorněny obdélníky, vztahy čárami. Vztahům není možné přiřadit atributy, pokud potřebujeme u vztahu M:N přidat neklíčový atribut, je nutná dekompozice pomocí asociační entity. Povinnost vztahu vyjadřuje kruh bez výplně, pro nepovinné vztahy, povinný vztah je naopak vyjádřen plným černým kruhem. Povinnost je vyjádřena vždy na konci vztahu. Pokud čára končí šipkou, jedná se o kardinalitu N, 1 se značí pouhou čárou bez symbolu (viz obrázek \ref{fig:notationExBachman}).
 		
 		\begin{figure}[!h]
 			\centering
@@ -315,7 +315,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 			\label{fig:notationExBarker}
 		\end{figure}
 	
-		Oproti ostatním notacím zde nalezneme určitá specifika. Prvním z nich je tzv. UID čára (viz. obrázek \ref{fig:barkerUid}), která se kreslí pouze u slabých entitních typů a vyjadřuje, že je identifikován atributy silných entitních typů. 
+		Oproti ostatním notacím zde nalezneme určitá specifika. Prvním z nich je tzv. UID čára (viz obrázek \ref{fig:barkerUid}), která se kreslí pouze u slabých entitních typů a vyjadřuje, že je identifikován atributy silných entitních typů. 
 		
 		\begin{figure}[!h]
 			\centering
@@ -324,7 +324,7 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 			\label{fig:barkerUid}
 		\end{figure}
 		
-		Dalším specifikem, je možnost vyznačit nepřenositelný vztah (viz. obrázek \ref{fig:barkerNonTransferable}). Pokud jej použijeme, už jej nelze později změnit. Příkladem je vztah mezi kapitolou a knihou, kdy kapitolu z jedné knihy nemůžeme přiřadit knize druhé. Graficky se tento typ vztahu značí přidáním kosočtverce k vraní noze.
+		Dalším specifikem, je možnost vyznačit nepřenositelný vztah (viz obrázek \ref{fig:barkerNonTransferable}). Pokud jej použijeme, už jej nelze později změnit. Příkladem je vztah mezi kapitolou a knihou, kdy kapitolu z jedné knihy nemůžeme přiřadit knize druhé. Graficky se tento typ vztahu značí přidáním kosočtverce k vraní noze.
 		
 		\begin{figure}[!h]
 			\centering
@@ -342,10 +342,10 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 			\caption[Specifika Barkerovy notace]{Specifika Barkerovy notace}
 		\end{figure}
 	
-		Notace podporuje také dědičnost, kdy podtypy dědí atributy nadřazeného typu(viz. obrázek \ref{fig:barkerSubtypes}). Graficky je tento jev vyjádřen přidáním obdélníků jednotlivých podtypů do společného obdélníku, který odpovídá nadřazenému typu.
+		Notace podporuje také dědičnost, kdy podtypy dědí atributy nadřazeného typu(viz obrázek \ref{fig:barkerSubtypes}). Graficky je tento jev vyjádřen přidáním obdélníků jednotlivých podtypů do společného obdélníku, který odpovídá nadřazenému typu.
 		
 		\subsubsection{Min-Max notace} \label{minmax}
-		Jedná se o notaci, která podporuje nejvýše binární vztahy. Pro vyjádření kardinality a povinnosti vztahu, zde není použit žádný grafický symbol, ale uspořádaná dvojice $(min, max)$, kde \emph{minimální} počet instancí entitního typu, které musí ve vztahu participovat, určuje povinnost, \emph{maximální} počet určuje kardinalitu. Styl pro kardinalitu a povinnost se používá jednotný, zpravidla look here (viz. obrázek \ref{fig:notationExMinMax}).
+		Jedná se o notaci, která podporuje nejvýše binární vztahy. Pro vyjádření kardinality a povinnosti vztahu, zde není použit žádný grafický symbol, ale uspořádaná dvojice $(min, max)$, kde \emph{minimální} počet instancí entitního typu, které musí ve vztahu participovat, určuje povinnost, \emph{maximální} počet určuje kardinalitu. Styl pro kardinalitu a povinnost se používá jednotný, zpravidla look here (viz obrázek \ref{fig:notationExMinMax}).
 		
 		\begin{figure}[!h]
 			\centering
@@ -410,9 +410,9 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		Autorem prvního nástroje je firma Oracle, která jej vyvíjí od roku 2008. Data Modeler je šířen bezplatně a nainstalovat jej můžeme buď samostatně nebo v rámci nástroje SQL Developer, ovšem ten je zaměřen na správu existujících Oracle databázi, takže možnosti modelování jsou oproti samostatné instalaci Data Modeleru mírně limitovány.
 		
 		\paragraph{Popis funkcionality}
-		Data Modeler nabízí tvorbu modelů na dvou úrovních abstrakce, prvním je logický model a~druhým relační (fyzický) model. Výhodou je možnost vygenerování několika oddělených relačních modelů z jediného logického, pro vizualizaci možných schémat před samotným nasazením. V~nabídce je trojice notací pro logický model, implicitně je použita Barkerova notace (viz. kapitola \ref{barker}), která je v oblasti Oracle databází nejpoužívanější, nicméně ji lze přepnout na Bachmanovu (viz. kapitola \ref{bachman}) nebo Information engineering (viz. kapitola \ref{crowsfoot}). Oproti jiným nástrojům tuto možnost volby oceňuji, protože si každý uživatel může notaci nastavit podle svých preferencí. Pro relační model už možnost volby neexistuje a je použita modifikovaná Barkerova notace, označována někdy také jako Oracle CASE notace.
+		Data Modeler nabízí tvorbu modelů na dvou úrovních abstrakce, prvním je logický model a~druhým relační (fyzický) model. Výhodou je možnost vygenerování několika oddělených relačních modelů z jediného logického, pro vizualizaci možných schémat před samotným nasazením. V~nabídce je trojice notací pro logický model, implicitně je použita Barkerova notace (viz kapitola \ref{barker}), která je v oblasti Oracle databází nejpoužívanější, nicméně ji lze přepnout na Bachmanovu (viz kapitola \ref{bachman}) nebo Information engineering (viz kapitola \ref{crowsfoot}). Oproti jiným nástrojům tuto možnost volby oceňuji, protože si každý uživatel může notaci nastavit podle svých preferencí. Pro relační model už možnost volby neexistuje a je použita modifikovaná Barkerova notace, označována někdy také jako Oracle CASE notace.
 		
-		Diagramy je možné exportovat ve formátu PDF, případně ve formě PNG nebo JPEG obrázku. Pro samotný relační model je možností exportu hned několik. Pokud nechceme použít nativní formát Data Modeleru, můžeme exportovat do CSV, v tomto případě vznikne hned několik CSV souborů, rozdělených podle jednotlivých prvků diagramu.  Dalšími možnostmi je XMLA nebo Cube View Metadata, používané v kombinaci s DB2 (viz. výpis \ref{src:xmlOracle}). \\
+		Diagramy je možné exportovat ve formátu PDF, případně ve formě PNG nebo JPEG obrázku. Pro samotný relační model je možností exportu hned několik. Pokud nechceme použít nativní formát Data Modeleru, můžeme exportovat do CSV, v tomto případě vznikne hned několik CSV souborů, rozdělených podle jednotlivých prvků diagramu.  Dalšími možnostmi je XMLA nebo Cube View Metadata, používané v kombinaci s DB2 (viz výpis \ref{src:xmlOracle}). \\
 				
 		%		<xs:element name="Oddeleni" msprop:FriendlyName="Oddeleni" msprop:DbSchemaName="dbo" msprop:DbTableName="Oddeleni" msprop:TableType="Table">
 		\begin{lstlisting}[language=xml,label=src:xmlOracle,caption=Příklad části exportu do XMLA]
@@ -454,7 +454,7 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		Další nástroj je vyvíjen od roku 2006 firmou Quest Software, jedná se o komerční produkt určený pro operační systém Microsoft Windows. Toad podporuje více než 10 různých SŘBD v několika verzích, mezi nimi např. Oracle Database, Microsoft SQL Server nebo PostgreSQL.
 		
 		\paragraph{Popis funkcionality}
-		Toad umožňuje vytvořit 3 typy modelů: fyzický, logický a univerzální. Nejpoužívanější je fyzický model, který je cílen na konkrétní SŘBD, další možností je logický model, ten se ovšem doporučuje jen v případě využití dědičnosti. Posledním typem je univerzální model, který umožňuje tvorbu diagramu bez návaznosti na konkrétní SŘBD, případně pokud určený SŘBD není mezi podporovanými. Notace jsou tentokrát v nabídce pouze dvě, implicitně nastavený Information Engineering (viz. kapitola \ref{crowsfoot}) a volitelná IDEF1X (viz. kapitola \ref{idef1x}).
+		Toad umožňuje vytvořit 3 typy modelů: fyzický, logický a univerzální. Nejpoužívanější je fyzický model, který je cílen na konkrétní SŘBD, další možností je logický model, ten se ovšem doporučuje jen v případě využití dědičnosti. Posledním typem je univerzální model, který umožňuje tvorbu diagramu bez návaznosti na konkrétní SŘBD, případně pokud určený SŘBD není mezi podporovanými. Notace jsou tentokrát v nabídce pouze dvě, implicitně nastavený Information Engineering (viz kapitola \ref{crowsfoot}) a volitelná IDEF1X (viz kapitola \ref{idef1x}).
 		
 		Export je možné provést do CSV, podle mého názoru je export řešen lépe než v Data Modeleru, protože CSV soubor je exportován pouze jeden. Další možnosti je export do Excelu, který prvky rozděluje do samostatných sešitů. Poslední možností je export ve formě obrázku. Tato volba nabízí mnoho nastavení od velikosti plátna nebo rozdělení na stránky pro tisk po kompresi a barevnou hloubku.
 		
@@ -523,7 +523,7 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		Dalším testovaným nástrojem je komerční produkt od firmy Visual Paradigm International, zastřešuje ji Hong Kong Institute of Vocational Education, který je určen primárně pro tvorbu UML diagramů. Nástroj samozřejmě podporuje i modelování relačních databází formou ER diagramu. K dispozici je několik typů placených licencí, rozdělených podle nabízených možností a také community edice, která je určena pro nekomerční projekty. Nevýhodou community edice je absence veškerých pokročilých funkcí pro práci s relační databázi, jako je např. reverzní generování diagramů.
 		
 		\paragraph{Popis funkcionality}
-		Visual Paradigm podporuje tvorbu logických modelů bez nutnosti specifikovat SŘBD, ten je nutné uvést až při generování skriptu a nástroj podporuje více než deset různých systémů. Diagram používá Crow's foot notaci (viz. kapitola \ref{crowsfoot}), bohužel je jediná podporovaná a nelze ji přepnout jako v případě jiných nástrojů. Možná nastavení pro vygenerovaní relačního schématu zachycuje obrázek \ref{fig:editVP}.
+		Visual Paradigm podporuje tvorbu logických modelů bez nutnosti specifikovat SŘBD, ten je nutné uvést až při generování skriptu a nástroj podporuje více než deset různých systémů. Diagram používá Crow's foot notaci (viz kapitola \ref{crowsfoot}), bohužel je jediná podporovaná a nelze ji přepnout jako v případě jiných nástrojů. Možná nastavení pro vygenerovaní relačního schématu zachycuje obrázek \ref{fig:editVP}.
 		
 		\begin{figure}[H]
 			\centering
@@ -550,7 +550,7 @@ V dnešní době je využití CASE nástrojů v mnoha fázích softwarového pro
 		StarUML je poměrně nový nástroj, první verze byla vydaná roku 2014. Nástroj následuje trend desktopových aplikací vytvořených pomocí webových technologií. Tyto aplikace využívají pro svůj běh NodeJS, což umožňuje nasazení bez ohledu na platformu. Jedná se o komerční nástroj, pro testování jsem použil zkušební verzi, licence pro studenty není zdarma, lze ji ale pořídit se slevou.
 		
 		\paragraph{Popis funkcionality}
-		Nástroj podporuje pouze logický model, který používá Crow's foot notaci (viz. kapitola \ref{crowsfoot}), jiné typy notací bohužel v nabídce nejsou. Model je vytvářen univerzálně, je možné  použití pro různé SŘBD. 
+		Nástroj podporuje pouze logický model, který používá Crow's foot notaci (viz kapitola \ref{crowsfoot}), jiné typy notací bohužel v nabídce nejsou. Model je vytvářen univerzálně, je možné  použití pro různé SŘBD. 
 		
 		Zde se dostáváme k největší výhodě nástroje, kterou je modularita. Použití webových technologií umožňuje velmi snadnou tvorbu doplňků, ty lze instalovat z oficiálního repozitáře, po instalaci dokonce nebyl nutný ani restart aplikace a nové možnosti byly dostupné ihned. Právě doplněk je nutný i pro generování DDL skriptu, protože samotná aplikace tuto možnost neobsahuje. Zmíněný doplněk v současné době podporuje MySQL a Oracle Database, zdrojové kódy jsou dostupné na serveru GitHub, což přináší možnost rozšířit funkcionalitu o další SŘBD. Konfiguraci doplňku pro generování DDL skriptu zachycuje obrázek \ref{fig:editStar}.
 		
@@ -854,7 +854,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Přidávání již existujících tabulek v databázi je možné dvěma způsoby: automaticky nebo metodou drag and drop. Drag and drop umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde možnost zvolit pozici tabulky na plátně automaticky. Implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna bez vzájemného překrývání. 
 		
 	\subsubsection{Sestavení a příprava grafu}
-	Algoritmus pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy (viz. kapitola \ref{secCreateGraph}). Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující jen čísla.
+	Algoritmus pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy (viz kapitola \ref{secCreateGraph}). Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující jen čísla.
 	
 	\begin{algorithm}[!h]
 		\SetKwInOut{Input}{Input}
@@ -974,7 +974,7 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 		
 		
 	\subsection{Struktura datové vrstvy}
-	Strukturu datové vrstvy popisuje diagram na obrázku \ref{fig:classDiagSync}. Jádrem datové vrstvy jsou třídy \texttt{MsSqlMapper} a \texttt{OracleMapper}. Tyto třídy realizují sestavení DML příkazů pro úpravu schématu, stejně tak jsou zodpovědné za přístup k datům systémového katalogu. Připojení k databázi realizují třídy \texttt{OracleDatabase} a \texttt{MsSqlDatabase}, tyto třídy nabízejí jednotné rozhraní (viz. kapitola~\ref{secSupertype}). 
+	Strukturu datové vrstvy popisuje diagram na obrázku \ref{fig:classDiagSync}. Jádrem datové vrstvy jsou třídy \texttt{MsSqlMapper} a \texttt{OracleMapper}. Tyto třídy realizují sestavení DML příkazů pro úpravu schématu, stejně tak jsou zodpovědné za přístup k datům systémového katalogu. Připojení k databázi realizují třídy \texttt{OracleDatabase} a \texttt{MsSqlDatabase}, tyto třídy nabízejí jednotné rozhraní (viz kapitola~\ref{secSupertype}). 
 	
 	\begin{figure}[H]
 		\centering
@@ -983,9 +983,9 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 		\label{fig:classDiagSync}
 	\end{figure}
 	
-	V nástroji se obvykle nepřistupuje k mapperům přímo, ale kvůli nutnosti přípravy dat před některými operacemi v závislosti na SŘBD, se kterým aktuálně pracujeme, je přístup zapouzdřen pomocí návrhového vzoru Strategy (viz. kapitola \ref{secStrategy}). Strategie představuje primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie, kontext je definován typem aktuální relace. Struktura se samostatnými strategiemi pro jednotlivé mappery je zvolena z důvodu nutného předzpracování dat v případě některých operací. Pokud by k tomuto jevu nedocházelo, bylo by možné namísto strategie použít vzor Factory a s data mappery pracovat přímo. 
+	V nástroji se obvykle nepřistupuje k mapperům přímo, ale kvůli nutnosti přípravy dat před některými operacemi v závislosti na SŘBD, se kterým aktuálně pracujeme, je přístup zapouzdřen pomocí návrhového vzoru Strategy (viz kapitola \ref{secStrategy}). Strategie představuje primární rozhraní přístupu k data mapperům pro provedení změn v relačním schématu. Každému mapperu odpovídá samostatná strategie, kontext je definován typem aktuální relace. Struktura se samostatnými strategiemi pro jednotlivé mappery je zvolena z důvodu nutného předzpracování dat v případě některých operací. Pokud by k tomuto jevu nedocházelo, bylo by možné namísto strategie použít vzor Factory a s data mappery pracovat přímo. 
 	
-	Datová vrstva je využívaná v doménové logice prostřednictvím třídy \texttt{DatabaseUpdater}. \texttt{DatabaseUpdater} pracuje se strategiemi pomocí třídy \texttt{DatabaseContext}. Nejprve je nutné strategii zvolit pomocí metody \texttt{SetStrategy} ve třídě \texttt{DatabaseContext}, poté může následovat volání metod, které jsou strategiemi vykonávány (viz. kapitola \ref{secDbUpdate}). Informace o relaci uchovává třída \texttt{SessionProvider}, která je třídou \texttt{DatabaseUpdater} využívána. Toto uspořádání tříd pro provádění změn v relačním schématu eliminuje nutnost rozhodovacích bloků při každém volání metody data mapperu, stejně tak nabízí snadný způsob rozšíření nástroje o nové SŘBD. Stačí pouze přidat nový data mapper, který implementuje požadované rozhraní a vytvořit pro něj novou strategii.
+	Datová vrstva je využívaná v doménové logice prostřednictvím třídy \texttt{DatabaseUpdater}. \texttt{DatabaseUpdater} pracuje se strategiemi pomocí třídy \texttt{DatabaseContext}. Nejprve je nutné strategii zvolit pomocí metody \texttt{SetStrategy} ve třídě \texttt{DatabaseContext}, poté může následovat volání metod, které jsou strategiemi vykonávány (viz kapitola \ref{secDbUpdate}). Informace o relaci uchovává třída \texttt{SessionProvider}, která je třídou \texttt{DatabaseUpdater} využívána. Toto uspořádání tříd pro provádění změn v relačním schématu eliminuje nutnost rozhodovacích bloků při každém volání metody data mapperu, stejně tak nabízí snadný způsob rozšíření nástroje o nové SŘBD. Stačí pouze přidat nový data mapper, který implementuje požadované rozhraní a vytvořit pro něj novou strategii.
 	
 		\subsubsection{Použité návrhové vzory}
 		V této kapitole je popsána funkce návrhových vzorů, které jsou pro funkcionalitu datové vrstvy zásadní. První dva z nich jsou využity v datové vrstvě, další jsou použity pro propojení datové vrstvy s doménovou logikou. U všech vzorů je také uveden konkrétní účel jeho použití v nástroji.
@@ -1003,7 +1003,7 @@ Grafický editor nabízí mnoho operací pro úpravu relačního schématu skrze
 			Návrhový vzor singleton je vhodné použít v situaci, kdy potřebujeme ke stejné instanci objektu přistupovat z více míst aplikace. V nástroji je tento vzor využíván pro uchovávání a zprostředkování informací o aktuální relaci. 
 	
 	\subsection{Sestavení aktuální relace}
-	Informace nutné pro připojení k databázi se částečně liší pro různé SŘBD. Pro vytvoření relace je nutné zkonstruovat řetězec pro připojení na základě přihlašovacích údajů. Za tuto činnost je zodpovědná třída \texttt{SessionProvider}. Kromě údajů potřebných k úspěšné autentifikaci je zde uveden také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD. Stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI (viz. obrázek \ref{fig:screenAuthGui}), nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí (viz. obrázek \ref{fig:screenAuthConnStr}). V tomto případě je možné zadat řetězec vlastní a třída \texttt{SessionProvider} s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
+	Informace nutné pro připojení k databázi se částečně liší pro různé SŘBD. Pro vytvoření relace je nutné zkonstruovat řetězec pro připojení na základě přihlašovacích údajů. Za tuto činnost je zodpovědná třída \texttt{SessionProvider}. Kromě údajů potřebných k úspěšné autentifikaci je zde uveden také SŘBD, ke kterému jsme v aktuální relaci připojeni. Tato informace je zásadní pro konstrukci řetězce s přihlašovacími údaji k serveru, protože ty se liší pro každý SŘBD. Stejně tak se liší i třídy pro jeho sestavení z uvedených informací. Standardně jsou přihlašovacími údaje zadávány pomocí GUI (viz obrázek \ref{fig:screenAuthGui}), nicméně může dojít k situaci, kdy potřebujeme využít parametry, které GUI nenabízí (viz obrázek \ref{fig:screenAuthConnStr}). V tomto případě je možné zadat řetězec vlastní a třída \texttt{SessionProvider} s informacemi o relaci zprostředkovává tento řetězec pro připojení, aniž by jej bylo nutné sestavovat, jako je tomu v předchozím případě.
 	
 	\begin{figure}[!h]
 		\centering
