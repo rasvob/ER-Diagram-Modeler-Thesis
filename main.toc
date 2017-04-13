@@ -16,81 +16,81 @@
 \contentsline {subsection}{\numberline {2.5}Rozd\IeC {\'\i }ly notac\IeC {\'\i }}{15}{subsection.2.5}
 \contentsline {subsubsection}{\numberline {2.5.1}Bin\IeC {\'a}rn\IeC {\'\i } a n-\IeC {\'a}rn\IeC {\'\i } modely}{15}{subsubsection.2.5.1}
 \contentsline {subsubsection}{\numberline {2.5.2}Kardinalita a povinnost}{16}{subsubsection.2.5.2}
-\contentsline {subsection}{\numberline {2.6}Chenova notace}{17}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.6}Chenova notace}{16}{subsection.2.6}
 \contentsline {subsubsection}{\numberline {2.6.1}Entitn\IeC {\'\i } typ}{17}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Vztah}{18}{subsubsection.2.6.2}
-\contentsline {subsubsection}{\numberline {2.6.3}Atribut}{19}{subsubsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.2}Vztah}{17}{subsubsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.3}Atribut}{18}{subsubsection.2.6.3}
 \contentsline {subsection}{\numberline {2.7}\IeC {\v C}asto pou\IeC {\v z}\IeC {\'\i }van\IeC {\'e} notace}{19}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Bachmanova notace}{20}{subsubsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.2}Crow's foot notace}{20}{subsubsection.2.7.2}
-\contentsline {subsubsection}{\numberline {2.7.3}Barkerova notace}{21}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Min-Max notace}{22}{subsubsection.2.7.4}
-\contentsline {subsubsection}{\numberline {2.7.5}IDEF1X notace}{22}{subsubsection.2.7.5}
-\contentsline {subsection}{\numberline {2.8}Nev\IeC {\'y}hody ER diagram\IeC {\r u}}{23}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Notace pou\IeC {\v z}it\IeC {\'a} ve vyv\IeC {\'\i }jen\IeC {\'e}m n\IeC {\'a}stroji}{23}{subsection.2.9}
+\contentsline {subsubsection}{\numberline {2.7.1}Bachmanova notace}{19}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Crow's foot notace}{19}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Barkerova notace}{20}{subsubsection.2.7.3}
+\contentsline {subsubsection}{\numberline {2.7.4}Min-Max notace}{21}{subsubsection.2.7.4}
+\contentsline {subsubsection}{\numberline {2.7.5}IDEF1X notace}{21}{subsubsection.2.7.5}
+\contentsline {subsection}{\numberline {2.8}Nev\IeC {\'y}hody ER diagram\IeC {\r u}}{22}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Notace pou\IeC {\v z}it\IeC {\'a} ve vyv\IeC {\'\i }jen\IeC {\'e}m n\IeC {\'a}stroji}{22}{subsection.2.9}
 \contentsline {subsection}{\numberline {2.10}Shrnut\IeC {\'\i }}{23}{subsection.2.10}
-\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{25}{section.3}
-\contentsline {subsection}{\numberline {3.1}V\IeC {\'y}hody a nev\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{25}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{25}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer Data Modeler}{26}{subsubsection.3.2.1}
-\contentsline {paragraph}{\numberline {3.2.1.1}Popis funkcionality}{26}{paragraph.3.2.1.1}
-\contentsline {paragraph}{\numberline {3.2.1.2}Popis grafick\IeC {\'e}ho editoru}{27}{paragraph.3.2.1.2}
-\contentsline {paragraph}{\numberline {3.2.1.3}Nev\IeC {\'y}hody}{28}{paragraph.3.2.1.3}
-\contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{28}{subsubsection.3.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.1}Popis funkcionality}{28}{paragraph.3.2.2.1}
-\contentsline {paragraph}{\numberline {3.2.2.2}Popis grafick\IeC {\'e}ho editoru}{29}{paragraph.3.2.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.3}Nev\IeC {\'y}hody}{30}{paragraph.3.2.2.3}
-\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{30}{subsubsection.3.2.3}
-\contentsline {paragraph}{\numberline {3.2.3.1}Popis funkcionality}{31}{paragraph.3.2.3.1}
-\contentsline {paragraph}{\numberline {3.2.3.2}Popis grafick\IeC {\'e}ho editoru}{32}{paragraph.3.2.3.2}
-\contentsline {paragraph}{\numberline {3.2.3.3}Nev\IeC {\'y}hody}{32}{paragraph.3.2.3.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{32}{subsubsection.3.2.4}
-\contentsline {paragraph}{\numberline {3.2.4.1}Popis funkcionality}{32}{paragraph.3.2.4.1}
-\contentsline {paragraph}{\numberline {3.2.4.2}Popis grafick\IeC {\'e}ho editoru}{34}{paragraph.3.2.4.2}
-\contentsline {paragraph}{\numberline {3.2.4.3}Nev\IeC {\'y}hody}{34}{paragraph.3.2.4.3}
-\contentsline {subsubsection}{\numberline {3.2.5}StarUML 2}{34}{subsubsection.3.2.5}
-\contentsline {paragraph}{\numberline {3.2.5.1}Popis funkcionality}{34}{paragraph.3.2.5.1}
-\contentsline {paragraph}{\numberline {3.2.5.2}Popis grafick\IeC {\'e}ho editoru}{35}{paragraph.3.2.5.2}
-\contentsline {paragraph}{\numberline {3.2.5.3}Nev\IeC {\'y}hody}{35}{paragraph.3.2.5.3}
-\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{36}{subsection.3.3}
-\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{38}{section.4}
-\contentsline {subsection}{\numberline {4.1}Architektura aplikace}{38}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Kl\IeC {\'\i }\IeC {\v c}ov\IeC {\'e} \IeC {\v c}\IeC {\'a}sti grafick\IeC {\'e}ho editoru}{39}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Prov\IeC {\'a}z\IeC {\'a}n\IeC {\'\i } editoru s daty}{39}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Vizualizace tabulek}{40}{subsubsection.4.2.2}
-\contentsline {paragraph}{\numberline {4.2.2.1}Komunikace komponent grafick\IeC {\'e}ho editoru s viewmodely}{40}{paragraph.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.3}Vizualizace vztah\IeC {\r u}}{42}{subsubsection.4.2.3}
-\contentsline {paragraph}{\numberline {4.2.3.1}Reprezentace vztah\IeC {\r u} pomoc\IeC {\'\i } lomen\IeC {\'y}ch \IeC {\v c}ar}{42}{paragraph.4.2.3.1}
-\contentsline {paragraph}{\numberline {4.2.3.2}Interakce s lomen\IeC {\'y}mi \IeC {\v c}\IeC {\'a}rami}{42}{paragraph.4.2.3.2}
-\contentsline {subsection}{\numberline {4.3}Vyhled\IeC {\'a}n\IeC {\'\i } trasy po p\IeC {\v r}id\IeC {\'a}n\IeC {\'\i } vztahu}{43}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Sestaven\IeC {\'\i } grafu}{43}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Vyhled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } cesty v grafu}{44}{subsubsection.4.3.2}
-\contentsline {paragraph}{\numberline {4.3.2.1}Prohled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } grafu pr\IeC {\r u}chodem do \IeC {\v s}\IeC {\'\i }\IeC {\v r}ky}{44}{paragraph.4.3.2.1}
-\contentsline {paragraph}{\numberline {4.3.2.2}Prohled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } grafu algoritmem A*}{45}{paragraph.4.3.2.2}
-\contentsline {subsection}{\numberline {4.4}Automatick\IeC {\'e} rozvr\IeC {\v z}en\IeC {\'\i } tabulek}{46}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Sestaven\IeC {\'\i } a p\IeC {\v r}\IeC {\'\i }prava grafu}{47}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Nalezen\IeC {\'\i } voln\IeC {\'e} pozice}{47}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Export diagram\IeC {\r u}}{48}{subsection.4.5}
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace datov\IeC {\'e} vrstvy}{49}{section.5}
-\contentsline {subsection}{\numberline {5.1}Zdroj informac\IeC {\'\i } o rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matu}{49}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Syst\IeC {\'e}mov\IeC {\'y} katalog Microsoft SQL Server}{49}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Syst\IeC {\'e}mov\IeC {\'y} katalog Oracle Database}{50}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Struktura datov\IeC {\'e} vrstvy}{50}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Pou\IeC {\v z}it\IeC {\'e} n\IeC {\'a}vrhov\IeC {\'e} vzory}{52}{subsubsection.5.2.1}
-\contentsline {paragraph}{\numberline {5.2.1.1}Data Mapper}{52}{paragraph.5.2.1.1}
-\contentsline {paragraph}{\numberline {5.2.1.2}Layer Supertype}{52}{paragraph.5.2.1.2}
-\contentsline {paragraph}{\numberline {5.2.1.3}Strategy}{52}{paragraph.5.2.1.3}
-\contentsline {paragraph}{\numberline {5.2.1.4}Singleton}{53}{paragraph.5.2.1.4}
-\contentsline {subsection}{\numberline {5.3}Sestaven\IeC {\'\i } aktu\IeC {\'a}ln\IeC {\'\i } relace}{53}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Synchronizace s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{53}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Probl\IeC {\'e}m odlo\IeC {\v z}en\IeC {\'e} aktualizace}{54}{subsubsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.2}Aktualizace sch\IeC {\'e}matu}{54}{subsubsection.5.4.2}
-\contentsline {subsection}{\numberline {5.5}Serializace diagram\IeC {\r u}}{56}{subsection.5.5}
-\contentsline {subsubsection}{\numberline {5.5.1}Ulo\IeC {\v z}en\IeC {\'\i } diagramu}{56}{subsubsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.2}Na\IeC {\v c}ten\IeC {\'\i } diagramu}{57}{subsubsection.5.5.2}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{58}{section.6}
-\contentsline {section}{Literatura}{59}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{59}{section.6}
-\contentsline {section}{\numberline {A}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{60}{appendix.A}
-\contentsline {section}{\numberline {B}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{61}{appendix.B}
-\contentsline {section}{\numberline {C}Testovan\IeC {\'e} CASE n\IeC {\'a}stroje a S\IeC {\v R}BD zm\IeC {\'\i }n\IeC {\v e}n\IeC {\'e} v textu}{62}{appendix.C}
+\contentsline {section}{\numberline {3}Popis a srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{section.3}
+\contentsline {subsection}{\numberline {3.1}V\IeC {\'y}hody a nev\IeC {\'y}hody CASE n\IeC {\'a}stroj\IeC {\r u} pro modelov\IeC {\'a}n\IeC {\'\i } rela\IeC {\v c}n\IeC {\'\i }ch datab\IeC {\'a}z\IeC {\'\i }}{24}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Srovn\IeC {\'a}n\IeC {\'\i } st\IeC {\'a}vaj\IeC {\'\i }c\IeC {\'\i }ch n\IeC {\'a}stroj\IeC {\r u}}{24}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Oracle SQL Developer Data Modeler}{25}{subsubsection.3.2.1}
+\contentsline {paragraph}{\numberline {3.2.1.1}Popis funkcionality}{25}{paragraph.3.2.1.1}
+\contentsline {paragraph}{\numberline {3.2.1.2}Popis grafick\IeC {\'e}ho editoru}{26}{paragraph.3.2.1.2}
+\contentsline {paragraph}{\numberline {3.2.1.3}Nev\IeC {\'y}hody}{27}{paragraph.3.2.1.3}
+\contentsline {subsubsection}{\numberline {3.2.2}Toad Data Modeler}{27}{subsubsection.3.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.1}Popis funkcionality}{27}{paragraph.3.2.2.1}
+\contentsline {paragraph}{\numberline {3.2.2.2}Popis grafick\IeC {\'e}ho editoru}{28}{paragraph.3.2.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.3}Nev\IeC {\'y}hody}{29}{paragraph.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3}SQL Server Management Studio}{29}{subsubsection.3.2.3}
+\contentsline {paragraph}{\numberline {3.2.3.1}Popis funkcionality}{30}{paragraph.3.2.3.1}
+\contentsline {paragraph}{\numberline {3.2.3.2}Popis grafick\IeC {\'e}ho editoru}{31}{paragraph.3.2.3.2}
+\contentsline {paragraph}{\numberline {3.2.3.3}Nev\IeC {\'y}hody}{31}{paragraph.3.2.3.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Visual Paradigm}{31}{subsubsection.3.2.4}
+\contentsline {paragraph}{\numberline {3.2.4.1}Popis funkcionality}{31}{paragraph.3.2.4.1}
+\contentsline {paragraph}{\numberline {3.2.4.2}Popis grafick\IeC {\'e}ho editoru}{33}{paragraph.3.2.4.2}
+\contentsline {paragraph}{\numberline {3.2.4.3}Nev\IeC {\'y}hody}{33}{paragraph.3.2.4.3}
+\contentsline {subsubsection}{\numberline {3.2.5}StarUML 2}{33}{subsubsection.3.2.5}
+\contentsline {paragraph}{\numberline {3.2.5.1}Popis funkcionality}{33}{paragraph.3.2.5.1}
+\contentsline {paragraph}{\numberline {3.2.5.2}Popis grafick\IeC {\'e}ho editoru}{34}{paragraph.3.2.5.2}
+\contentsline {paragraph}{\numberline {3.2.5.3}Nev\IeC {\'y}hody}{34}{paragraph.3.2.5.3}
+\contentsline {subsection}{\numberline {3.3}Shrnut\IeC {\'\i }}{35}{subsection.3.3}
+\contentsline {section}{\numberline {4}N\IeC {\'a}vrh a implementace grafick\IeC {\'e}ho editoru ER diagram\IeC {\r u}}{37}{section.4}
+\contentsline {subsection}{\numberline {4.1}Architektura aplikace}{37}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Kl\IeC {\'\i }\IeC {\v c}ov\IeC {\'e} \IeC {\v c}\IeC {\'a}sti grafick\IeC {\'e}ho editoru}{38}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Prov\IeC {\'a}z\IeC {\'a}n\IeC {\'\i } editoru s daty}{38}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Vizualizace tabulek}{39}{subsubsection.4.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.1}Komunikace komponent grafick\IeC {\'e}ho editoru s viewmodely}{39}{paragraph.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.3}Vizualizace vztah\IeC {\r u}}{41}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.1}Reprezentace vztah\IeC {\r u} pomoc\IeC {\'\i } lomen\IeC {\'y}ch \IeC {\v c}ar}{41}{paragraph.4.2.3.1}
+\contentsline {paragraph}{\numberline {4.2.3.2}Interakce s lomen\IeC {\'y}mi \IeC {\v c}\IeC {\'a}rami}{41}{paragraph.4.2.3.2}
+\contentsline {subsection}{\numberline {4.3}Vyhled\IeC {\'a}n\IeC {\'\i } trasy po p\IeC {\v r}id\IeC {\'a}n\IeC {\'\i } vztahu}{42}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Sestaven\IeC {\'\i } grafu}{42}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Vyhled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } cesty v grafu}{43}{subsubsection.4.3.2}
+\contentsline {paragraph}{\numberline {4.3.2.1}Prohled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } grafu pr\IeC {\r u}chodem do \IeC {\v s}\IeC {\'\i }\IeC {\v r}ky}{43}{paragraph.4.3.2.1}
+\contentsline {paragraph}{\numberline {4.3.2.2}Prohled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } grafu algoritmem A*}{44}{paragraph.4.3.2.2}
+\contentsline {subsection}{\numberline {4.4}Automatick\IeC {\'e} rozvr\IeC {\v z}en\IeC {\'\i } tabulek}{45}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Sestaven\IeC {\'\i } a p\IeC {\v r}\IeC {\'\i }prava grafu}{46}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Nalezen\IeC {\'\i } voln\IeC {\'e} pozice}{46}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Export diagram\IeC {\r u}}{47}{subsection.4.5}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh a implementace datov\IeC {\'e} vrstvy}{48}{section.5}
+\contentsline {subsection}{\numberline {5.1}Zdroj informac\IeC {\'\i } o rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matu}{48}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Syst\IeC {\'e}mov\IeC {\'y} katalog Microsoft SQL Server}{48}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Syst\IeC {\'e}mov\IeC {\'y} katalog Oracle Database}{49}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Struktura datov\IeC {\'e} vrstvy}{49}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Pou\IeC {\v z}it\IeC {\'e} n\IeC {\'a}vrhov\IeC {\'e} vzory}{51}{subsubsection.5.2.1}
+\contentsline {paragraph}{\numberline {5.2.1.1}Data Mapper}{51}{paragraph.5.2.1.1}
+\contentsline {paragraph}{\numberline {5.2.1.2}Layer Supertype}{51}{paragraph.5.2.1.2}
+\contentsline {paragraph}{\numberline {5.2.1.3}Strategy}{51}{paragraph.5.2.1.3}
+\contentsline {paragraph}{\numberline {5.2.1.4}Singleton}{52}{paragraph.5.2.1.4}
+\contentsline {subsection}{\numberline {5.3}Sestaven\IeC {\'\i } aktu\IeC {\'a}ln\IeC {\'\i } relace}{52}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Synchronizace s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{52}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Probl\IeC {\'e}m odlo\IeC {\v z}en\IeC {\'e} aktualizace}{53}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}Aktualizace sch\IeC {\'e}matu}{53}{subsubsection.5.4.2}
+\contentsline {subsection}{\numberline {5.5}Serializace diagram\IeC {\r u}}{55}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Ulo\IeC {\v z}en\IeC {\'\i } diagramu}{55}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Na\IeC {\v c}ten\IeC {\'\i } diagramu}{56}{subsubsection.5.5.2}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{57}{section.6}
+\contentsline {section}{Literatura}{58}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{58}{section.6}
+\contentsline {section}{\numberline {A}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{59}{appendix.A}
+\contentsline {section}{\numberline {B}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{60}{appendix.B}
+\contentsline {section}{\numberline {C}Testovan\IeC {\'e} CASE n\IeC {\'a}stroje a S\IeC {\v R}BD zm\IeC {\'\i }n\IeC {\v e}n\IeC {\'e} v textu}{61}{appendix.C}
