@@ -2019,7 +2019,7 @@ File: Figures/EditorToad.png Graphic file (type png)
 Package pdftex.def Info: Figures/EditorToad.png used on input line 495.
 (pdftex.def)             Requested size: 455.24411pt x 32.6298pt.
  [29 <./Figures/EditorToad.png>]
-<Figures/EditorSSMS.png, id=552, 517.18219pt x 447.17062pt>
+<Figures/EditorSSMS.png, id=553, 517.18219pt x 447.17062pt>
 File: Figures/EditorSSMS.png Graphic file (type png)
 
 <use Figures/EditorSSMS.png>
@@ -2272,7 +2272,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1886879 bytes).
+Output written on main.pdf (61 pages, 1870405 bytes).
 PDF statistics:
  1091 PDF objects out of 1200 (max. 8388607)
  328 named destinations out of 1000 (max. 500000)
