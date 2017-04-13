@@ -76,21 +76,16 @@
 \contentsline {subsubsection}{\numberline {5.1.1}Syst\IeC {\'e}mov\IeC {\'y} katalog Microsoft SQL Server}{48}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Syst\IeC {\'e}mov\IeC {\'y} katalog Oracle Database}{49}{subsubsection.5.1.2}
 \contentsline {subsection}{\numberline {5.2}Struktura datov\IeC {\'e} vrstvy}{49}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Pou\IeC {\v z}it\IeC {\'e} n\IeC {\'a}vrhov\IeC {\'e} vzory}{51}{subsubsection.5.2.1}
-\contentsline {paragraph}{\numberline {5.2.1.1}Data Mapper}{51}{paragraph.5.2.1.1}
-\contentsline {paragraph}{\numberline {5.2.1.2}Layer Supertype}{51}{paragraph.5.2.1.2}
-\contentsline {paragraph}{\numberline {5.2.1.3}Strategy}{51}{paragraph.5.2.1.3}
-\contentsline {paragraph}{\numberline {5.2.1.4}Singleton}{52}{paragraph.5.2.1.4}
-\contentsline {subsection}{\numberline {5.3}Sestaven\IeC {\'\i } aktu\IeC {\'a}ln\IeC {\'\i } relace}{52}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Synchronizace s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{52}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Probl\IeC {\'e}m odlo\IeC {\v z}en\IeC {\'e} aktualizace}{53}{subsubsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.2}Aktualizace sch\IeC {\'e}matu}{53}{subsubsection.5.4.2}
-\contentsline {subsection}{\numberline {5.5}Serializace diagram\IeC {\r u}}{55}{subsection.5.5}
-\contentsline {subsubsection}{\numberline {5.5.1}Ulo\IeC {\v z}en\IeC {\'\i } diagramu}{55}{subsubsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.2}Na\IeC {\v c}ten\IeC {\'\i } diagramu}{56}{subsubsection.5.5.2}
-\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{57}{section.6}
-\contentsline {section}{Literatura}{58}{section.6}
-\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{58}{section.6}
-\contentsline {section}{\numberline {A}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{59}{appendix.A}
-\contentsline {section}{\numberline {B}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{60}{appendix.B}
-\contentsline {section}{\numberline {C}Testovan\IeC {\'e} CASE n\IeC {\'a}stroje a S\IeC {\v R}BD zm\IeC {\'\i }n\IeC {\v e}n\IeC {\'e} v textu}{61}{appendix.C}
+\contentsline {subsection}{\numberline {5.3}Sestaven\IeC {\'\i } aktu\IeC {\'a}ln\IeC {\'\i } relace}{51}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Synchronizace s rela\IeC {\v c}n\IeC {\'\i }m sch\IeC {\'e}matem}{51}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Probl\IeC {\'e}m odlo\IeC {\v z}en\IeC {\'e} aktualizace}{52}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}Aktualizace sch\IeC {\'e}matu}{52}{subsubsection.5.4.2}
+\contentsline {subsection}{\numberline {5.5}Serializace diagram\IeC {\r u}}{54}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Ulo\IeC {\v z}en\IeC {\'\i } diagramu}{54}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Na\IeC {\v c}ten\IeC {\'\i } diagramu}{55}{subsubsection.5.5.2}
+\contentsline {section}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{56}{section.6}
+\contentsline {section}{Literatura}{57}{section.6}
+\contentsline {section}{P\IeC {\v r}\IeC {\'\i }lohy}{57}{section.6}
+\contentsline {section}{\numberline {A}Struktura p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho optick\IeC {\'e}ho m\IeC {\'e}dia}{58}{appendix.A}
+\contentsline {section}{\numberline {B}Pou\IeC {\v z}it\IeC {\'e} knihovny t\IeC {\v r}et\IeC {\'\i }ch stran}{59}{appendix.B}
+\contentsline {section}{\numberline {C}Testovan\IeC {\'e} CASE n\IeC {\'a}stroje a S\IeC {\v R}BD zm\IeC {\'\i }n\IeC {\v e}n\IeC {\'e} v textu}{60}{appendix.C}
