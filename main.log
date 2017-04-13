@@ -2236,8 +2236,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1182.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1182.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 182761F40E0D534D0407B4DB534FA980;5840.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 182761F40E0D534D0407B4DB534FA980;5840
+(rerunfilecheck)             After:  3CA7898F42424DD9BBAA2F4DA991D7B7;5837.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1182.
  )
 (\end occurred inside a group at level 1)
@@ -2268,7 +2275,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1834937 bytes).
+Output written on main.pdf (61 pages, 1864500 bytes).
 PDF statistics:
  1084 PDF objects out of 1200 (max. 8388607)
  327 named destinations out of 1000 (max. 500000)

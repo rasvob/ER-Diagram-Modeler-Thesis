@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.2}Vyu\IeC {\v z}it\IeC {\'\i } ER diagramu}{14}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Kategorie model\IeC {\r u}}{14}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}V\IeC {\'y}voj notac\IeC {\'\i }}{15}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Vlastnost\IeC {\'\i } notac\IeC {\'\i }}{15}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Vlastnosti notac\IeC {\'\i }}{15}{subsection.2.5}
 \contentsline {subsubsection}{\numberline {2.5.1}Bin\IeC {\'a}rn\IeC {\'\i } a \textit {n}-\IeC {\'a}rn\IeC {\'\i } modely}{15}{subsubsection.2.5.1}
 \contentsline {subsubsection}{\numberline {2.5.2}Kardinalita a povinnost}{16}{subsubsection.2.5.2}
 \contentsline {subsection}{\numberline {2.6}Chenova notace}{16}{subsection.2.6}
