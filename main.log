@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 23:05
 entering extended mode
 **./main.tex
 (main.tex
@@ -2135,14 +2135,14 @@ ple-men-tu-jící roz-hraní \T1/lmtt/m/n/10.95 IDatabaseStrategy\T1/lmr/m/n/10.95
  []
 
 [50 <./Figures/EditorSync.png>]
-<Figures/ScreenConnect.png, id=826, 243.91125pt x 412.54124pt>
+<Figures/ScreenConnect.png, id=827, 243.91125pt x 412.54124pt>
 File: Figures/ScreenConnect.png Graphic file (type png)
 
 <use Figures/ScreenConnect.png>
 Package pdftex.def Info: Figures/ScreenConnect.png used on input line 1020.
 (pdftex.def)             Requested size: 91.04742pt x 153.99126pt.
 
-<Figures/ScreenConnectConnString.png, id=827, 903.375pt x 209.28188pt>
+<Figures/ScreenConnectConnString.png, id=828, 903.375pt x 209.28188pt>
 File: Figures/ScreenConnectConnString.png Graphic file (type png)
 
 <use Figures/ScreenConnectConnString.png>
@@ -2150,7 +2150,7 @@ Package pdftex.def Info: Figures/ScreenConnectConnString.png used on input line
  1026.
 (pdftex.def)             Requested size: 318.66948pt x 73.82455pt.
  [51 <./Figures/ScreenConnect.png> <./Figures/ScreenConnectConnString.png>]
-<Figures/SequenceRemoveFk.png, id=838, 599.99156pt x 597.73312pt>
+<Figures/SequenceRemoveFk.png, id=839, 599.99156pt x 597.73312pt>
 File: Figures/SequenceRemoveFk.png Graphic file (type png)
 
 <use Figures/SequenceRemoveFk.png>
@@ -2262,7 +2262,7 @@ Here is how much of TeX's memory you used:
  21790 multiletter control sequences out of 15000+200000
  62209 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,51p,1163b,4690s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,51p,1168b,4690s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
 rogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvip
@@ -2279,9 +2279,9 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (60 pages, 1894884 bytes).
+Output written on main.pdf (60 pages, 1886988 bytes).
 PDF statistics:
- 1080 PDF objects out of 1200 (max. 8388607)
+ 1081 PDF objects out of 1200 (max. 8388607)
  322 named destinations out of 1000 (max. 500000)
  499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
