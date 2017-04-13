@@ -368,7 +368,14 @@ V kontextu relačních databází jsou ER diagramy nejběžnějším způsobem v
 	ER diagramy jsou určeny primárně pro vytváření modelů relačních struktur. Pokud pracujeme s nestrukturovanými daty, které není jednoduše možné reprezentovat relacemi, není ER diagram vhodným vizualizačním nástrojem. Toto omezení platí i pro částečně strukturovaná data, jako např. XML nebo JSON. Navzdory tomu, že jsme schopni rozlišit jednotlivé entitní typy, může dojít k situaci, kdy se entity téhož typu liší svými atributy. 
 	
 	\subsection{Notace použitá ve vyvíjeném nástroji}
-	Nástroj je určen pro návrh a správu relačních schémat v rámci již fyzicky existujících databází. Pro tuto činnost je používán výhradně fyzický model, protože je nutné pracovat s konkrétními datovými typy daného SŘBD a integritními omezeními v podobě primárních a cizích klíčů. Z~tohoto důvodu byla zvolena Oracle CASE notace, která vychází z Barkerovy notace. Z důvodu práce na nejnižší úrovni abstrakce je tato notace modifikována. Kardinalitu i povinnost vyjadřuje notace graficky. Styl look-here pro povinnost a look-across pro kardinalitu je z původní notace zachován. Vztahy jsou podporovány pouze unární a binární, modelování podtypů umožněno není.
+	Nástroj je určen pro návrh a správu relačních schémat v rámci již fyzicky existujících databází. Pro tuto činnost je používán výhradně fyzický model, protože je nutné pracovat s konkrétními datovými typy daného SŘBD a integritními omezeními v podobě primárních a cizích klíčů. Z~tohoto důvodu byla zvolena Oracle CASE notace, která vychází z Barkerovy notace. Z důvodu práce na nejnižší úrovni abstrakce je tato notace modifikována. Kardinalitu i povinnost vyjadřuje notace graficky. Styl look-here pro povinnost a look-across pro kardinalitu je z původní notace zachován. Vztahy jsou podporovány pouze unární a binární, modelování podtypů umožněno není. Ukázku vidíme na obrázku \ref{fig:notationERDModeler}.
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.75\textwidth]{Figures/ScreenNotationEx}
+		\caption{Příklad notace použité ve vyvíjeném nástroji}
+		\label{fig:notationERDModeler}
+	\end{figure}
 	
 	\subsection{Shrnutí}
 	Každá notace má své klady i zápory. Nelze tedy říci, že je některá notace je lepší než jiná. Volba notace by měla vycházet z potřeb pro tvorbu konkrétního modelu. Největší rozdíl mezi notacemi představuje možnost modelování ternárních vztahů, případně i vztahů s vyšší aritou. Proto je nutné zvážit zda sémantické možnosti binárních notací jsou pro vytvářený model dostatečné. 
