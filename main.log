@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  13 APR 2017 21:05
 entering extended mode
 **./main.tex
 (main.tex
@@ -2236,8 +2236,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1182.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1182.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DE259E44385ED86288184C0BE6A6DFAC;5837.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DE259E44385ED86288184C0BE6A6DFAC;5837
+(rerunfilecheck)             After:  182761F40E0D534D0407B4DB534FA980;5840.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1182.
  )
 (\end occurred inside a group at level 1)
@@ -2268,7 +2275,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
 /fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb
 >
-Output written on main.pdf (61 pages, 1844753 bytes).
+Output written on main.pdf (61 pages, 1847392 bytes).
 PDF statistics:
  1079 PDF objects out of 1200 (max. 8388607)
  327 named destinations out of 1000 (max. 500000)
