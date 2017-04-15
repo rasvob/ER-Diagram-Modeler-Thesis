@@ -800,47 +800,47 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\label{eq:manhattan}
 	\end{equation}
 	
-	Uzly jsou uchovány v prioritní frontě \cite{queue}, priorita je určena hodnotou vypočtenou pomocí metody Manhattan \ref{eq:manhattan}. Možností implementace prioritní fronty je celá řada, pro tento účel bylo nejvhodnější použít binární haldu, pro co nejlepší výkon algoritmu. Jedná se o stromovou strukturu, kde prvek s nejvyšší prioritou nalezneme v kořeni stromu. Open-source knihovny bohužel obvykle neimplementují operaci pro aktualizaci priority, která vyvolá nutnost úpravy stromové struktury. V nástroji bylo tedy nutné tuto strukturu pro správnou funkci A* algoritmu implementovat také. 
+	Uzly jsou uchovány v prioritní frontě \cite{queue}, priorita je určena hodnotou vypočtenou pomocí metody Manhattan (viz vztah \ref{eq:manhattan}). Možností implementace prioritní fronty je celá řada, pro tento účel bylo nejvhodnější použít binární haldu, pro co nejlepší výkon algoritmu. Jedná se o stromovou strukturu, kde prvek s nejvyšší prioritou nalezneme v kořeni stromu. Otevřené knihovny bohužel obvykle neimplementují operaci pro aktualizaci priority, která vyvolá nutnost úpravy stromové struktury. V nástroji bylo tedy nutné tuto strukturu pro správnou funkci A* algoritmu implementovat také. 
 	
 	\begin{algorithm}[!h]
-		\SetKwInOut{Input}{Input}
-		\SetKwInOut{Output}{Output}
+		\SetKwInOut{Input}{Vstup}
+		\SetKwInOut{Output}{Výstup}
 		
-		\SetKwData{Closed}{closed}
-		\SetKwData{Open}{open}
-		\SetKwData{Current}{current}
-		\SetKwData{Result}{Result}
-		\SetKwData{N}{N}
+		\SetKwData{Closed}{uzavřené\_uzly}
+		\SetKwData{Open}{otevřené\_uzly}
+		\SetKwData{Current}{aktuální\_uzel}
+		\SetKwData{Result}{výsledek}
+		\SetKwData{N}{U}
 		
-		\SetKwFunction{BacktrackNodes}{BacktrackNodes}
-		\SetKwFunction{Add}{Add}
-		\SetKwFunction{Enqueue}{Enqueue}
-		\SetKwFunction{Dequeue}{Dequeue}
-		\SetKwFunction{Update}{UpdatePriority}
+		\SetKwFunction{BacktrackNodes}{VystopovatCestu}
+		\SetKwFunction{Add}{Přidat}
+		\SetKwFunction{Enqueue}{ZařaditPoložku}
+		\SetKwFunction{Dequeue}{VybratPoložku}
+		\SetKwFunction{Update}{AktualizovatPrioritu}
 		\SetKwFunction{Manhattan}{Manhattan}
 		
-		\Input{Graph $G$, Start vertex $S$, End vertex $E$}
-		\Output{Path as a vertex collection}
+		\Input{Graf $G$, Počáteční vrchol $S$, Cílový vrchol $E$}
+		\Output{Cesta ve formě kolekce uzlů}
 		
-		\Closed $\leftarrow$ empty set\;
-		\Open $\leftarrow$ empty priority queue\;
+		\Closed $\leftarrow$ prázdná množina\;
+		\Open $\leftarrow$ prázdná prioritní fronta\;
 		\Open.\Enqueue{$S$}\;
-		\While{\Open is not empty}{
+		\While{\Open obsahuje prvky}{
 			\Current $\leftarrow$ \Open.\Dequeue{}\;
 			\Closed.\Add{\Current}\;
 			\If{\Current == $E$}{
 				\Result $\leftarrow$ \BacktrackNodes{\Current}\;
 			}
 			
-			\ForEach{node \N that is adjacent to \Current}{
-				\If{\N is in \Closed or \N is obstacle}{
+			\ForEach{uzel \N který je sousední s \Current}{
+				\If{\N je obsažen v \Closed or \N je překážka}{
 					\texttt{\textbf{continue\;}}
 				}
 				
-				\N.Parent $\leftarrow$ \Current\;
+				\N.Rodič $\leftarrow$ \Current\;
 				\N.Manhattan $\leftarrow$ \Manhattan{\N, $E$}\;
 				
-				\If{\N is not in \Open}{
+				\If{\N není obsažen v \Open}{
 					\Open.\Enqueue{\N}\;
 					\texttt{\textbf{continue\;}}
 				}
