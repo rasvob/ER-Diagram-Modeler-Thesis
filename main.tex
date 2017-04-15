@@ -659,7 +659,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\end{figure}
 	
 	\subsection{Klíčové části grafického editoru} \label{secKeyPartsEditor}
-	Na obrázku \ref{fig:editorBlock} vidíme blokové schéma zachycující vztahy mezi třídami grafického editoru. Schéma rozlišuje dvě vrstvy grafického editoru: prezentační a doménovou. 
+	Na obrázku \ref{fig:editorBlock} vidíme blokové schéma zachycující strukturu grafického editoru. Schéma rozlišuje dvě vrstvy: prezentační a doménovou. Třída \texttt{DesignerCanvas} představuje plátno pro vykreslení tabulek, popisků a vztahů (třídy \texttt{TableContent, LabelContent} a \texttt{Connector} společně s \texttt{ConnectionLine} pro vztahy formou křivek). Každý z objektů plátna má vlastní viewmodel, který zprostředkovává komunikaci prezentační vrstvy s modely
 	
 	\begin{figure}[!h]
 		\centering
