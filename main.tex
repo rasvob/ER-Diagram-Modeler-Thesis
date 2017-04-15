@@ -856,35 +856,34 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	Algoritmus \ref{alg:astar} demonstruje princip A*. Ten spočívá v použití prioritní fronty pro ještě nezpracované uzly a množiny pro uzly zpracované. Algoritmus v každém kroku vezme z fronty nezpracovaných uzlů uzel s nejvyšší prioritou. Pokud je zpracovávaný uzel cílový, prohledávání končí. V opačném případě je uzel vložen do množiny zpracovaných uzlů, pro sousední uzly je určena priorita, ukazatel na rodiče je nastaven na aktuální uzel a tyto uzly jsou vloženy do množiny nezpracovaných uzlů. Po nalezení cíle je nutné následovat ukazatele na rodiče každého uzlu pro rekonstrukci nalezené cesty. 
 	
 	\subsection{Automatické rozvržení tabulek} \label{secTablePos}
-	Přidávání již existujících tabulek v databázi je možné dvěma způsoby: automaticky nebo metodou drag and drop. Drag and drop umožňuje exaktně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde možnost zvolit pozici tabulky na plátně automaticky. Implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna bez vzájemného překrývání. 
+	Přidávání již existujících tabulek v databázi je možné dvěma způsoby: automaticky nebo metodou drag and drop. Drag and drop umožňuje přesně určit pozici přidané tabulky v diagramu. Ovšem pokud je nutné přidat větší množství tabulek, stává se tento způsob poněkud nepraktickým. Z toho důvodu je zde možnost zvolit pozici tabulky na plátně automaticky. Implementace využívá grafové reprezentace, stejně jako výpočet trasy. Tabulky se rozmísťují kolem středu plátna bez vzájemného překrývání. 
 		
 	\subsubsection{Sestavení a příprava grafu}
 	Algoritmus pro rozvržení tabulek na plátno, aniž by došlo k jejich překrytí, využívá opět reprezentaci plátna pomocí mřížky, stejně jako tomu je u vyhledávání trasy (viz kapitola \ref{secCreateGraph}). Převod na graf ovšem není pro správnou funkci vysloveně nutný, celý postup by bylo možné realizovat pomocí matice obsahující jen čísla.
 	
 	\begin{algorithm}[!h]
-		\SetKwInOut{Input}{Input}
-		\SetKwInOut{Output}{Output}
+		\SetKwInOut{Input}{Vstup}
+		\SetKwInOut{Output}{Výstup}
 		
-		\SetKwData{Counter}{counter}
-		\SetKwData{Current}{current}
+		\SetKwData{Counter}{čítač}
+		\SetKwData{Current}{aktuální\_prvek}
 		\SetKwData{Grid}{G}
 				
-		\Input{Grid $G$, Width of grid $W$, Height of grid $H$}
-		\Output{Preprocessed grid $G$ for free rectangle search}
+		\Input{Mřížka $G$, Šířka mřížky $W$, Výška mřížky $H$}
+		\Output{Předzpracovaná mřížka $G$ pro vyhledávání volných obdélníků}
+		\BlankLine
 		
 		\For{$i \leftarrow 0$ \KwTo $W-1$}{
 			\Counter $\leftarrow$ 1\;
 			\For{$j \leftarrow H-1$ \KwTo 0}{
 				\Current $\leftarrow \Grid\left[ i, j \right]$\;
-				\If{\Current is obstacle}{
+				\If{\Current je překážkou}{
 					\Counter $\leftarrow$ 1\;
 					\texttt{\textbf{continue\;}}
 				}
-				\Current.Metric $\leftarrow$ \Counter\;
+				\Current.Metrika $\leftarrow$ \Counter\;
 				\Counter $\leftarrow \Counter+1$\;
-				$j \leftarrow j-1$\;
 			}
-			$i \leftarrow i+1$\;
 		}
 		
 		\caption{Příprava mřížky pro vyhledávání}
