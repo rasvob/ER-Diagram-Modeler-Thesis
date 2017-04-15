@@ -793,7 +793,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\end{algorithm}
 	
 	\paragraph{Prohledávání grafu algoritmem A*}
-	Druhým implementovaným algoritmem je A* \cite{aStar}, používaný k nalezení nejkratší cesty v grafu. Tento algoritmus kombinuje výhody hladového BFS a Djikstrova algoritmu \cite{aStar}. Priorita prohledávání uzlů je určena na základě heuristiky, která slouží k odhadu vzdálenosti z aktuálního uzlu k cíli. Metod jak tuto hodnotu určit je několik, její volba závisí na reprezentaci prohledávaného prostoru a možných směrech. Pro mřížku se 4 směry pohybu je nejvhodnější metoda Manhattan \ref{eq:manhattan}. Metoda Manhattan odhaduje vzdálenost z aktuálního uzlu k cíli jako součet absolutních hodnot vertikálního a horizontálního rozdílu bodů.
+	Druhým implementovaným algoritmem je A* \cite{aStar}, používaný k nalezení nejkratší cesty v grafu. Tento algoritmus kombinuje výhody hladového BFS a Djikstrova algoritmu \cite{aStar}. Priorita prohledávání uzlů je určena na základě heuristiky, která slouží k odhadu vzdálenosti z aktuálního uzlu k cíli. Metod jak tuto hodnotu určit je několik, její volba závisí na reprezentaci prohledávaného prostoru a možných směrech. Pro mřížku se 4-mi směry pohybu je nejvhodnější metoda Manhattan (viz vztah \ref{eq:manhattan}). Metoda Manhattan odhaduje vzdálenost z aktuálního uzlu k cíli jako součet absolutních hodnot vertikálního a horizontálního rozdílu bodů.
 	
 	\begin{equation}
 		H = \mid aktualni.x - cilovy.x \mid + \mid aktualni.y - cilovy.y \mid
