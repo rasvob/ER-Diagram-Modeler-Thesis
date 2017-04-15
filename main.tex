@@ -774,7 +774,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\Closed $\leftarrow$ prázdná množina\;
 		\Open $\leftarrow$ prázdná fronta\;
 		\Open.\Enqueue{$S$}\;
-		\While{\Open is not empty}{
+		\While{\Open obsahuje prvky}{
 			\Current $\leftarrow$ \Open.\Dequeue{}\;
 			\Closed.\Add{\Current}\;
 			\If{\Current == $E$}{
