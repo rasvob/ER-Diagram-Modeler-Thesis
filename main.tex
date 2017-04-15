@@ -659,6 +659,14 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	\end{figure}
 	
 	\subsection{Klíčové části grafického editoru} \label{secKeyPartsEditor}
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.75\textwidth]{Figures/EditorBlock}
+		\caption{Blokové schéma komponent grafického editoru}
+		\label{fig:editorBlock}
+	\end{figure}
+	
 	Grafický editor je stejně jako ostatní části aplikace navrhnut s ohledem na výše zmíněný návrhový vzor MVVM. Viewmodely ve WPF aplikacích slouží pro uchovávání dat pro jednotlivé komponenty GUI v podobě jaká vyhovuje prezentační vrstvě. Provázaní viewmodelů s prezentační vrstvou je řešeno principem, který se obecně označuje jako data-binding. Standardně se realizuje toto provázání v XAML kódu, který určuje strukturu uživatelského rozhraní aplikace. Ukázku data-bindingu pro textové pole určující přesnost datového typu vidíme na výpisu kódu~\ref{src:xamlDataBinding}. Grafický editor je z pohledu data-bindingu specifickou komponentou, zejména co se týká povahy prováděných operací, provázaní dat s prezentační vrstvou bylo tedy nutné implementovat alternativním způsobem. 
 		
 	\begin{lstlisting}[language=xml,label=src:xamlDataBinding,caption=Příklad data-bindingu v XAML pro textové pole]
@@ -671,12 +679,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 	</TextBox>
 	\end{lstlisting}
 		
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=0.75\textwidth]{Figures/EditorBlock}
-		\caption{Blokové schéma komponent grafického editoru}
-		\label{fig:editorBlock}
-	\end{figure}
+	
 		
 		\subsubsection{Provázání editoru s daty}
 		Dle MVVM obsahuje viewmodel grafického editoru trojici kolekcí pro uložení viewmodelů tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním částem aplikace. Pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno. Není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru. Tato implementace umožňuje pracovat s grafickým editorem na úrovni viewmodelu, stejným způsobem jako s komponentami využívajícími standardní způsob data-bindingu ve WPF aplikacích. 
