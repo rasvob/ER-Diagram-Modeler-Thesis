@@ -760,7 +760,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\SetKwData{Open}{otevřené\_uzly}
 		\SetKwData{Current}{aktuální\_uzel}
 		\SetKwData{Result}{výsledek}
-		\SetKwData{N}{N}
+		\SetKwData{N}{U}
 		
 		\SetKwFunction{BacktrackNodes}{VystopovatCestu}
 		\SetKwFunction{Add}{Přidat}
@@ -781,7 +781,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 				\Result $\leftarrow$ \BacktrackNodes{\Current}\;
 			}
 		
-			\ForEach{node \N that is adjacent to \Current}{
+			\ForEach{uzel \N který je sousední s \Current}{
 				\If{\N is not in \Closed}{
 					\N.Parent $\leftarrow$ \Current\;
 					\Open.\Enqueue{\N}\;
