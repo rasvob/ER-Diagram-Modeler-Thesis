@@ -2156,7 +2156,7 @@ File: Figures/SequenceRemoveFkHiRes.png Graphic file (type png)
 <use Figures/SequenceRemoveFkHiRes.png>
 Package pdftex.def Info: Figures/SequenceRemoveFkHiRes.png used on input line 1
 055.
-(pdftex.def)             Requested size: 318.66948pt x 326.45132pt.
+(pdftex.def)             Requested size: 409.71692pt x 419.73105pt.
  [52] [53 <./Figures/SequenceRemoveFkHiRes.png>] <Figures/SerializeTableMsSql.p
 ng, id=849, 395.22656pt x 190.46156pt>
 File: Figures/SerializeTableMsSql.png Graphic file (type png)
@@ -2275,11 +2275,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1200.
 Here is how much of TeX's memory you used:
  18953 strings out of 493333
  269147 string characters out of 3139195
- 424767 words of memory out of 3000000
+ 420767 words of memory out of 3000000
  21802 multiletter control sequences out of 15000+200000
  62209 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,51p,1345b,4860s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,51p,1345b,6176s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
 rogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvip
@@ -2296,7 +2296,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (60 pages, 1884938 bytes).
+Output written on main.pdf (60 pages, 1906501 bytes).
 PDF statistics:
  1086 PDF objects out of 1200 (max. 8388607)
  321 named destinations out of 1000 (max. 500000)
