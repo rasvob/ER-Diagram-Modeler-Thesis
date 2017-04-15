@@ -57,13 +57,12 @@
 \contentsline {subsection}{\numberline {4.1}Architektura aplikace}{37}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Kl\IeC {\'\i }\IeC {\v c}ov\IeC {\'e} \IeC {\v c}\IeC {\'a}sti grafick\IeC {\'e}ho editoru}{38}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}Vizualizace tabulek}{39}{subsubsection.4.2.1}
-\contentsline {paragraph}{\numberline {4.2.1.1}Komunikace komponent grafick\IeC {\'e}ho editoru s viewmodely}{39}{paragraph.4.2.1.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Vizualizace vztah\IeC {\r u}}{41}{subsubsection.4.2.2}
 \contentsline {paragraph}{\numberline {4.2.2.1}Reprezentace vztah\IeC {\r u} pomoc\IeC {\'\i } lomen\IeC {\'y}ch \IeC {\v c}ar}{41}{paragraph.4.2.2.1}
 \contentsline {paragraph}{\numberline {4.2.2.2}Interakce s lomen\IeC {\'y}mi \IeC {\v c}\IeC {\'a}rami}{41}{paragraph.4.2.2.2}
 \contentsline {subsubsection}{\numberline {4.2.3}Prov\IeC {\'a}z\IeC {\'a}n\IeC {\'\i } editoru s daty}{42}{subsubsection.4.2.3}
 \contentsline {subsection}{\numberline {4.3}Vyhled\IeC {\'a}n\IeC {\'\i } trasy po p\IeC {\v r}id\IeC {\'a}n\IeC {\'\i } vztahu}{43}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Sestaven\IeC {\'\i } grafu}{44}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1}Sestaven\IeC {\'\i } grafu}{43}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Vyhled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } cesty v grafu}{44}{subsubsection.4.3.2}
 \contentsline {paragraph}{\numberline {4.3.2.1}Prohled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } grafu pr\IeC {\r u}chodem do \IeC {\v s}\IeC {\'\i }\IeC {\v r}ky}{44}{paragraph.4.3.2.1}
 \contentsline {paragraph}{\numberline {4.3.2.2}Prohled\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } grafu algoritmem A*}{45}{paragraph.4.3.2.2}
