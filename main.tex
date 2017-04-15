@@ -716,7 +716,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\label{fig:screenPolyline}
 		\end{figure}
 		
-		Závislosti mezi třídami pro vizualizaci vztahů popisuje třídní diagram \ref{fig:classDiagMovePolyline}. Viewmodel pro vztah (\texttt{ConnectionInfoViewModel}) obsahuje kolekci lomových bodů čáry, společně s kolekcí čar, které tvoří jednotlivé segmenty lomené čáry.  Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. 
+		Závislosti mezi třídami pro vizualizaci vztahů popisuje třídní diagram \ref{fig:classDiagMovePolyline}. Viewmodel pro vztah (\texttt{ConnectionInfoViewModel}) obsahuje kolekci lomových bodů čáry (\texttt{ConnectionPoint}), společně s kolekcí čar (\texttt{ConnectionLine}), které tvoří jednotlivé segmenty lomené čáry.  Editor reaguje na události vyvolané při práci s kolekcí čar tak, aby byla zajištěna integrita dat viewmodelu s objekty na plátně. 
 		
 		\begin{figure}[!h]
 			\centering
@@ -725,7 +725,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			\label{fig:classDiagMovePolyline}
 		\end{figure}
 		
-		Všechny segmenty lomené čáry reagují na interakci pomocí myši. Pro přenos informací o~provedených změnách do viewmodelu je využit návrhový vzor Pozorovatel, který využívá pro tuto činnost události. Viewmodel vztahu je informován o průběhu interakce, tím je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry včetně ukončujících symbolů v závislosti na pohybu určitého segmentu. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance nebo změna orientace ukončujících symbolů na základě orientace krajních segmentů čáry.
+		Všechny segmenty lomené čáry reagují na interakci pomocí myši. Pro přenos informací o~provedených změnách do viewmodelu (\texttt{ConnectionInfoViewModel}) je využit návrhový vzor Pozorovatel, který využívá pro tuto činnost události. Viewmodel vztahu je informován o průběhu interakce, tím je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry (\texttt{ConnectionLine}) včetně ukončujících symbolů (\texttt{Connector}) v závislosti na pohybu určitého segmentu. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance nebo změna orientace ukončujících symbolů na základě orientace krajních segmentů čáry.
 		
 		\subsubsection{Provázání editoru s daty}
 		Dle MVVM obsahuje viewmodel grafického editoru trojici kolekcí pro uložení viewmodelů tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním částem aplikace. Pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno. Není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru. 
