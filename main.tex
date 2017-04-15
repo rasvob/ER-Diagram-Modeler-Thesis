@@ -782,7 +782,7 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 			}
 		
 			\ForEach{uzel \N který je sousední s \Current}{
-				\If{\N is not in \Closed}{
+				\If{\N není obsažen v \Closed}{
 					\N.Parent $\leftarrow$ \Current\;
 					\Open.\Enqueue{\N}\;
 				}
