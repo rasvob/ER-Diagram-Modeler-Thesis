@@ -682,20 +682,10 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		
 	
 		
-		\subsubsection{Provázání editoru s daty}
-		Dle MVVM obsahuje viewmodel grafického editoru trojici kolekcí pro uložení viewmodelů tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním částem aplikace. Pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno. Není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru. Tato implementace umožňuje pracovat s grafickým editorem na úrovni viewmodelu, stejným způsobem jako s komponentami využívajícími standardní způsob data-bindingu ve WPF aplikacích. 
 		
-		Pro ilustraci je proces odstranění tabulky z plátna zachycen sekvenčním diagramem na obrázku \ref{fig:sequenceRemoveTable}. Třída \texttt{DiagramFacade} slouží k zapouzdření operací nad viewmodely, její metody jsou volány z po úspěšném provedení akce uživatelem. Odstranění viewmodelu tabulky z kolekce ve třídě \texttt{DatabaseModelDesignerViewModel} vyvolá událost, na tu reaguje prezentační vrstva odstraněním příslušných objektů z plátna (třída \texttt{DesignerCanvas}).
-		
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=1\textwidth]{Figures/SeqRemoveTableHiRes}
-			\caption{Sekvenční diagram - odstranění tabulky z plátna}
-			\label{fig:sequenceRemoveTable}
-		\end{figure}
 		
 		\subsubsection{Vizualizace  tabulek}
-		Implementace změny rozměrů a pozice tabulky na plátně je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové displaye. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. Tuto závislost lze řešit právě použitím již zmíněné komponenty \texttt{Thumb} v kombinaci s XAML šablonou.
+		Implementace změny rozměrů a pozice tabulky na plátně je úzce spjatá s použitím WPF komponenty \texttt{Thumb}, která je nejčastěji využívaná v aplikacích určených pro dotykové obrazovky. Na první pohled se jeví jako nejsnazší řešení explicitní zachytávaní událostí vyvolaných po stisku tlačítka a tahu myši s následným výpočtem rozdílu mezi aktuálním a počátečním bodem. Problémem této implementace je obtížná generalizace tohoto řešení, protože zde vzniká závislost na implementaci komponenty pro grafické znázornění tabulky. Tuto závislost lze řešit právě použitím již zmíněné komponenty \texttt{Thumb} v kombinaci s XAML šablonou.
 		
 		\paragraph{Komunikace komponent grafického editoru s viewmodely}
 		Pro zprostředkování komunikace mezi šablonou a viewmodelem tabulky slouží třída \texttt{TableContent}. Strukturu této části aplikace zachycuje třídní diagram na obrázku \ref{fig:classDiagResize}, ten je značně zjednodušený oproti implementaci, obsahuje jen položky důležité pro tuto kapitolu. Třída \texttt{TableContent} obsahuje referenci na viewmodel tabulky. Po interakci s \texttt{Thumb} objekty tedy zajistí aktualizaci patřičných hodnot v jeho vlastnostech. Třída \texttt{TableContent} slouží také k propagaci události pro přidání atributu, odstranění tabulky z databáze a mnohé další, tak aby komponenta pro grafické znázornění tabulky obsahovala co nejméně doménové logiky. 
@@ -743,6 +733,18 @@ Grafický editor představuje jádro celého CASE nástroje, protože většina 
 		\end{figure}
 		
 		Všechny segmenty lomené čáry reagují na interakci pomocí myši. Pro přenos informací o~provedených změnách do viewmodelu je využit návrhový vzor Pozorovatel, který využívá pro tuto činnost události. Viewmodel vztahu je informován o průběhu interakce, tím je tedy možné provádět aktualizaci pozice přilehlých segmentů lomené čáry včetně ukončujících symbolů v závislosti na pohybu určitého segmentu. Po ukončení interakce je opět vyvolána událost, která spustí post-processing, jehož součástí je např. spojení stejně orientovaných segmentů čáry lišících se pozicí v rámci tolerance nebo změna orientace ukončujících symbolů na základě orientace krajních segmentů čáry.
+		
+		\subsubsection{Provázání editoru s daty}
+		Dle MVVM obsahuje viewmodel grafického editoru trojici kolekcí pro uložení viewmodelů tabulek, vztahů a popisků, tedy objektů, které se vyskytují na plátně. Kolekce po přidání nebo odebraní objektu vyvolají událost, na kterou patřičným způsobem reaguje komponenta editoru. Viewmodel tedy vystavuje rozhraní grafického editoru ostatním částem aplikace. Pro přidání nové tabulky stačí jen vložit její viewmodel, s nastavenými hodnotami, do kolekce tabulek a editor se sám postará o přidání objektu na plátno. Není tedy nutná přímá interakce jiné komponenty s prezentační vrstvou grafického editoru. 
+		
+		Pro ilustraci je proces odstranění tabulky z plátna zachycen sekvenčním diagramem na obrázku \ref{fig:sequenceRemoveTable}. Třída \texttt{DiagramFacade} slouží k zapouzdření operací nad viewmodely, její metody jsou volány z po úspěšném provedení akce uživatelem. Odstranění viewmodelu tabulky z kolekce ve třídě \texttt{DatabaseModelDesignerViewModel} vyvolá událost, na tu reaguje prezentační vrstva odstraněním příslušných objektů z plátna (třída \texttt{DesignerCanvas}).
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/SeqRemoveTableHiRes}
+			\caption{Sekvenční diagram - odstranění tabulky z plátna}
+			\label{fig:sequenceRemoveTable}
+		\end{figure}
 		
 	\subsection{Vyhledání trasy po přidání vztahu} \label{secAStar}
 	Po přidání nového vztahu mezi tabulkami je nutné tento vztah vykreslit na plátno. Tento krok byl v první fázi vývoje nástroje implementován metodou, která nejdříve zjistila vzájemnou polohu obou tabulek a následně vztah vykreslila jako spojnici předefinovaných lomových bodů. Ukázku této situace vidíme na obrázku \ref{fig:screenLinesOverlay}. Tento způsob se neosvědčil když tabulka figurovala v několika vztazích, protože často docházelo k překrývaní čar. Největším problémem tohoto řešení byl fakt, že nejsou zohledněny další tabulky na plátně a dochází ke křížení vztahů s tabulkami, které se vyskytují v předdefinované trase. Z toho důvodu je diagram transformován na graf a problém je řešen jako vyhledávání cesty v grafu.
