@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 APR 2017 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 APR 2017 20:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -2059,12 +2059,12 @@ Package pdftex.def Info: Figures/EditorMvvm.png used on input line 656.
  [37
 
  <./Figures/Mvvm.png>]
-<Figures/EditorBlock.png, id=628, 429.85594pt x 356.83313pt>
+<Figures/EditorBlock.png, id=628, 434.37282pt x 360.59718pt>
 File: Figures/EditorBlock.png Graphic file (type png)
 
 <use Figures/EditorBlock.png>
 Package pdftex.def Info: Figures/EditorBlock.png used on input line 679.
-(pdftex.def)             Requested size: 341.43307pt x 283.43596pt.
+(pdftex.def)             Requested size: 341.43307pt x 283.46007pt.
  [38 <./Figures/EditorMvvm.png>]
 <Figures/SeqRemoveTableHiRes.png, id=643, 697.8572pt x 320.69812pt>
 File: Figures/SeqRemoveTableHiRes.png Graphic file (type png)
@@ -2310,7 +2310,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1955123 bytes).
+Output written on main.pdf (61 pages, 1897348 bytes).
 PDF statistics:
  1095 PDF objects out of 1200 (max. 8388607)
  323 named destinations out of 1000 (max. 500000)
