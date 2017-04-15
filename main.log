@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 APR 2017 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 APR 2017 20:51
 entering extended mode
 **./main.tex
 (main.tex
@@ -2079,7 +2079,7 @@ File: Figures/EditorTabulky2.png Graphic file (type png)
 Package pdftex.def Info: Figures/EditorTabulky2.png used on input line 688.
 (pdftex.def)             Requested size: 386.96027pt x 255.165pt.
  [39] [40 <./Figures/EditorTabulky2.png>]
-<Figures/ScreenPolyline.png, id=662, 918.43124pt x 492.33937pt>
+<Figures/ScreenPolyline.png, id=663, 918.43124pt x 492.33937pt>
 File: Figures/ScreenPolyline.png Graphic file (type png)
 
 <use Figures/ScreenPolyline.png>
@@ -2096,15 +2096,15 @@ Package pdftex.def Info: Figures/EditorVztahy.png used on input line 723.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41 <./Figures/ScreenPolyline.png>]
-<Figures/SeqRemoveTableHiRes.png, id=673, 697.8572pt x 320.69812pt>
+[41 <./Figures/ScreenPolyline.png>] [42 <./Figures/EditorVztahy.png>]
+<Figures/SeqRemoveTableHiRes.png, id=679, 697.8572pt x 320.69812pt>
 File: Figures/SeqRemoveTableHiRes.png Graphic file (type png)
 
 <use Figures/SeqRemoveTableHiRes.png>
 Package pdftex.def Info: Figures/SeqRemoveTableHiRes.png used on input line 737
 .
 (pdftex.def)             Requested size: 455.24411pt x 209.2049pt.
- [42 <./Figures/EditorVztahy.png>]
+
 <Figures/ScreenLineOverSelf.png, id=681, 716.6775pt x 280.79906pt>
 File: Figures/ScreenLineOverSelf.png Graphic file (type png)
 
@@ -2305,7 +2305,7 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1943837 bytes).
+Output written on main.pdf (61 pages, 1929337 bytes).
 PDF statistics:
  1093 PDF objects out of 1200 (max. 8388607)
  320 named destinations out of 1000 (max. 500000)
