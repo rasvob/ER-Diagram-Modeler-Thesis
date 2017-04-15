@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 APR 2017 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  15 APR 2017 19:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -2150,14 +2150,15 @@ Package pdftex.def Info: Figures/ScreenConnectConnString.png used on input line
  1022.
 (pdftex.def)             Requested size: 318.66948pt x 73.82455pt.
  [51 <./Figures/ScreenConnect.png> <./Figures/ScreenConnectConnString.png>]
-<Figures/SequenceRemoveFk.png, id=837, 599.99156pt x 597.73312pt>
-File: Figures/SequenceRemoveFk.png Graphic file (type png)
+<Figures/SequenceRemoveFkHiRes.png, id=837, 709.14937pt x 726.46407pt>
+File: Figures/SequenceRemoveFkHiRes.png Graphic file (type png)
 
-<use Figures/SequenceRemoveFk.png>
-Package pdftex.def Info: Figures/SequenceRemoveFk.png used on input line 1055.
-(pdftex.def)             Requested size: 409.71692pt x 408.18607pt.
- [52] [53 <./Figures/SequenceRemoveFk.png>]
-<Figures/SerializeTableMsSql.png, id=850, 395.22656pt x 190.46156pt>
+<use Figures/SequenceRemoveFkHiRes.png>
+Package pdftex.def Info: Figures/SequenceRemoveFkHiRes.png used on input line 1
+055.
+(pdftex.def)             Requested size: 409.71692pt x 419.73105pt.
+ [52] [53 <./Figures/SequenceRemoveFkHiRes.png>] <Figures/SerializeTableMsSql.p
+ng, id=849, 395.22656pt x 190.46156pt>
 File: Figures/SerializeTableMsSql.png Graphic file (type png)
 
 <use Figures/SerializeTableMsSql.png>
@@ -2165,7 +2166,7 @@ Package pdftex.def Info: Figures/SerializeTableMsSql.png used on input line 107
 1.
 (pdftex.def)             Requested size: 182.09486pt x 87.75287pt.
 
-<Figures/SerializeTableOracle.png, id=851, 395.22656pt x 190.46156pt>
+<Figures/SerializeTableOracle.png, id=850, 395.22656pt x 190.46156pt>
 File: Figures/SerializeTableOracle.png Graphic file (type png)
 
 <use Figures/SerializeTableOracle.png>
@@ -2273,7 +2274,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1200.
 ### bottom level 
 Here is how much of TeX's memory you used:
  18953 strings out of 493333
- 269122 string characters out of 3139195
+ 269147 string characters out of 3139195
  420767 words of memory out of 3000000
  21802 multiletter control sequences out of 15000+200000
  62209 words of font info for 51 fonts, out of 3000000 for 9000
@@ -2295,9 +2296,9 @@ Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (60 pages, 1989765 bytes).
+Output written on main.pdf (60 pages, 1875331 bytes).
 PDF statistics:
- 1087 PDF objects out of 1200 (max. 8388607)
+ 1086 PDF objects out of 1200 (max. 8388607)
  321 named destinations out of 1000 (max. 500000)
  509 words of extra memory for PDF output out of 10000 (max. 10000000)
 
