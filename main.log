@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  18 APR 2017 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.8)  18 APR 2017 15:41
 entering extended mode
 **./main.tex
 (main.tex
@@ -2203,6 +2203,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1143--1144
 diomagazine . com / Articles / 2012 / 11 / 01 /
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
+
+ []
+
 [58
 
 ] [59
@@ -2210,83 +2215,83 @@ diomagazine . com / Articles / 2012 / 11 / 01 /
 ] [60
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1182
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1187
 [][]$\T1/lmtt/m/n/10.95 http : / / www . oracle . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1182
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1187
 \T1/lmtt/m/n/10.95 technetwork / developer-[]tools /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1182
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1187
 \T1/lmtt/m/n/10.95 datamodeler / overview / index .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1183
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
 [][]$\T1/lmtt/m/n/10.95 https : / / www . quest . com /
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 1184--1184
+Underfull \hbox (badness 5802) in paragraph at lines 1189--1189
 []\T1/lmr/m/n/10.95 SQL Ser-ver Ma-nage-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1184
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1189
 [][]$\T1/lmtt/m/n/10.95 https : / / www . microsoft . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1185--1185
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
 [][]$\T1/lmtt/m/n/10.95 https : / / www . visual-[]paradigm .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1199--1199
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1204
 [][]$\T1/lmtt/m/n/10.95 https : / / www . oracle . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1200--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1205
 [][]$\T1/lmtt/m/n/10.95 https : / / www . microsoft . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1201--1201
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1206
 [][]$\T1/lmtt/m/n/10.95 https : / / www . ibm . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1201--1201
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1206
 \T1/lmtt/m/n/10.95 analytics / us / en / technology /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1208.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1213.
 [61
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1208.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1213.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1213.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1213.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E45FC05892665E627F2D7FBDCCA8C69D;6048.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1213.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18959 strings out of 493333
- 269274 string characters out of 3139195
+ 18961 strings out of 493333
+ 269298 string characters out of 3139195
  420698 words of memory out of 3000000
- 21808 multiletter control sequences out of 15000+200000
- 62209 words of font info for 51 fonts, out of 3000000 for 9000
+ 21809 multiletter control sequences out of 15000+200000
+ 65224 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,51p,1345b,6161s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
@@ -2298,16 +2303,17 @@ les/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (61 pages, 1932285 bytes).
+TeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (61 pages, 1947473 bytes).
 PDF statistics:
- 1097 PDF objects out of 1200 (max. 8388607)
+ 1102 PDF objects out of 1200 (max. 8388607)
  320 named destinations out of 1000 (max. 500000)
  522 words of extra memory for PDF output out of 10000 (max. 10000000)
 
