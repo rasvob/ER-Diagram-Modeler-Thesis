@@ -31,9 +31,9 @@
 %% original source files, as listed above, are part of the
 %% same distribution. (The sources need not necessarily be
 %% in the same archive or directory.)
-\def\fileversion{4.02}
-\def\filedate{2017/04/12}
-\def\docdate{12. dubna 2017}
+\def\fileversion{4.01}
+\def\filedate{2017/03/07}
+\def\docdate{7. března 2017}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{diploma}[\filedate\space \fileversion\space diploma LaTeX document class]
 \RequirePackage{ifthen}
@@ -83,7 +83,7 @@
 \newtoks\Dipl@Acronyms
 \Dipl@Acronyms={}
 \newtoks\Dipl@DefaultSourceCodeLanguage
-\Dipl@DefaultSourceCodeLanguage={java}
+\Dipl@DefaultSourceCodeLanguage={csharp}
 \newboolean{Dipl@IsPublicPart}
 \setboolean{Dipl@IsPublicPart}{true}
 \newboolean{Dipl@AuthorIsMale}
@@ -536,7 +536,6 @@ captionpos=b
 \def\lstlistlistingname{Seznam výpisů zdrojového kódu}
 \def\lstlistingname{Výpis}
 }{}
-\renewcommand{\lstlistoflistings}{\begingroup\tocfile{\lstlistlistingname}{lol}\endgroup}
 \Dipl@SetDefaultLanguage
 }
 \endinput
